@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
-@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
+/*@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
 @import url(//huscdn.ibase.com.vn/hus/css/animate.css);
 @import url(//huscdn.ibase.com.vn/hus/css/owl.carousel.css);
-@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);
+@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);*/
 
 * {
     margin: 0;
@@ -40,7 +40,7 @@ p {
 a {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    text-decoration: none;
+    text-decoration: none !important;
     outline: none;
     font-size: 14px;
     font-weight: 400;
@@ -53,7 +53,7 @@ a {
         font-family: "Roboto", sans-serif;
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
-        text-decoration: none;
+        text-decoration: none !important;
         outline: none;
         font-size: 14px;
         font-weight: 400;
@@ -507,13 +507,13 @@ img {
         width: 100%;
     }
 
-        .header-area .topheadernav .navtop ul {
-            float: right;
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            padding-top: 3px;
-        }
+    .header-area .topheadernav .navtop ul {
+        float: right;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding-top: 3px;
+    }
 
 #navabartop ul.dropdown-menu {
     margin-top: 20px !important;
@@ -840,13 +840,14 @@ img {
     .homesukien .sukiencontent .pdr-10 {padding:0px;}
 }
 
+
 .dropdown-menu {
-    border: solid 1px #6094e8;
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    border: solid 1px #6094e8 !important;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15) !important;
     padding: 0px;
     margin: 0px;
     border-radius: 0px;
-    min-width: 320px;
+    min-width: 300px !important;
     margin-top: 0px !important;
     top: 37px;
 }
@@ -1220,7 +1221,7 @@ img {
 
 .main-content-wrapper2 {
     margin-top: 10px;
-    background: url('/hus/img/blog-img/bgmain2.png');
+    background: url('http://www.hus.vnu.edu.vn/hus/img/blog-img/bgmain2.png');
 }
 
     .main-content-wrapper2 .container {
@@ -1958,7 +1959,7 @@ img {
         color: #fff;
         font-weight: 700;
         float: left !important;
-        background: url(/hus/img/blog-img/homethongbaoitem.png) left no-repeat;
+        background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homethongbaoitem.png) left no-repeat;
     }
 
         .single-blog-post.post-style-tb .media .object .day {
@@ -2614,7 +2615,7 @@ img {
 .world-latest-articles .title .block-title {
     height: 29px;
     /* line-height: 32px; */
-    background: url(/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5;
+    background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5;
     color: #fff;
     float: left;
     padding: 0 30px;
@@ -2909,7 +2910,7 @@ img {
     color: #fff;
     font-weight: 700;
     float: left !important;
-    background: url(/static/hus/img/core-img/tbttbg.png) left no-repeat;
+    background: url(http://www.hus.vnu.edu.vn/static/hus/img/core-img/tbttbg.png) left no-repeat;
 }
 
     .buhlist-article .media .object .day {
@@ -4616,7 +4617,7 @@ textarea:focus ~ .highlight {
         }
 
         .footer-area .social i {
-            margin: 0px 5px;
+            margin: 0px 2px;
             font-size: 14px;
             background: #0399e5;
             height: 22px;
@@ -4724,5 +4725,3 @@ textarea:focus ~ .highlight {
             font-size: 14px;
             color: #959595;
         }
-
-/*# sourceMappingURL=style.css.map */
