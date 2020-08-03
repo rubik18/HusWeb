@@ -1,3 +1,16 @@
+<?php 
+// kết nối
+  require'db/connect.php';
+// Chuỗi kết nối
+  $id = (int)$_GET['id'];
+  $sql = "SELECT * FROM category, new WHERE new.id= {$id} AND new.id_category = category.id";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+  $row = mysqli_fetch_array($result);
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,37 +83,31 @@
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="" method = "post">
+                <form role="form" action="update.php?id= <?php echo $row['id'] ?>" method = "post">
                   <!-- Tit -->
                   <div class="form-group">
                     <label>Title</label>
-                    <input type="text" class="form-control" placeholder="Enter ...">
+                    <input type="text" name = "title" class="form-control" value="<?php echo $row['title'] ?>">
                   </div>
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" style="width: 100%;">
-                      <option selected="selected">Tin tức</option>
+                    <select class="form-control select2" name="type" style="width: 100%;">
+                      <option selected="selected"><?php echo $row['name'] ?></option>
+                      <option>Tin tức</option>
                       <option>Sự kiện</option>
                       <option>Thôngbáo</option>
                     </select>
                   </div>
-                  <!-- Nội dung -->
-                  <div class="form-group">
-                      <label for="exampleInputFile">Img</label>
-                      <div class="input-group">
-                        <div class="custom-file">
-                          <input type="file" class="custom-file-input" id="exampleInputFile">
-                          <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                        </div>
-                        <div class="input-group-append">
-                          <span class="input-group-text" id="">Upload</span>
-                        </div>
+                  <!-- mô tả -->
+                   <div class="form-group">
+                        <label>Mô tả</label>
+                        <input type="text" class="form-control" placeholder="Enter ...">
                       </div>
-                  </div>
+                  <!-- Nội dung -->
                   <label for="exampleInputFile">Nội dung</label>
-                  <textarea class="textarea" placeholder="Place some text here"
-                            style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                  <textarea class="textarea" name = "content"placeholder="Place some text here"
+                            style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"><?php echo $row['content'] ?></textarea>
                   <!-- Submit -->
                   <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>

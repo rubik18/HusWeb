@@ -1,3 +1,14 @@
+<?php 
+// kết nối
+  require'db/connect.php';
+// Chuỗi kết nối
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 2";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,30 +67,32 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
+                <h3 class="card-title">Sự kiện</h3>
               </div>
               <!-- /.card-header -->
-              <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
+                <div class="card-body">
+                  <table id="example1" class="table table-bordered table-striped">
                   <thead>
                   <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
+                    <th>Stt</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Description</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
+                    <?php 
+                      if (mysqli_num_rows($result) > 0){
+                        while ($row = mysqli_fetch_assoc($result)) {
+                          $i = 1;
+                    ?>
                     <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td> 1</td>
-                    <td>X</td>
+                    <td><?php echo $i ?></td>
+                    <?php $i++; ?>
+                    <td><?php echo $row['title'] ?></td>
+                    <td><?php echo $row['name'] ?></td>
+                    <td><?php echo $row['description'] ?></td>
                     <td class="project-actions text-right">
                           <a class="btn btn-primary btn-sm" href="#">
                               <i class="fas fa-folder">
@@ -98,18 +111,21 @@
                           </a>
                     </td>
                   </tr>
+                  <?php 
+                      }
+                    }
+                  ?>
                   </tbody>
                   <tfoot>
                   <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
+                    <th>Stt</th>
+                    <th>Title</th>
+                    <th>Type</th>
+                    <th>Description</th>
                     <th>Action</th>
                   </tr>
                   </tfoot>
-                </table>
+                  </table>
               </div>
               <!-- /.card-body -->
             </div>

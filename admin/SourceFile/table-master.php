@@ -67,7 +67,7 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
+                <h3 class="card-title">DataBase</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -88,18 +88,17 @@
                           $i = 1;
                     ?>
                     <tr>
-                    <td><?php echo $i ?></td>
-                    <?php $i++; ?>
-                    <td><?php echo $row['title'] ?></td>
-                    <td><?php echo $row['name'] ?></td>
-                    <td><?php echo $row['description'] ?></td>
-                    <td class="project-actions text-right">
+                      <td><?php echo $i ?></td>
+                      <td><?php echo $row['title'] ?></td>
+                      <td><?php echo $row['name'] ?></td>
+                      <td><?php echo $row['description'] ?></td>
+                      <td class="project-actions text-right">
                           <a class="btn btn-primary btn-sm" href="#">
                               <i class="fas fa-folder">
                               </i>
                               View
                           </a>
-                          <a class="btn btn-secondary btn-sm" href="updateFile.php">
+                          <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
@@ -109,9 +108,9 @@
                               </i>
                               Delete
                           </a>
-                    </td>
-                  </tr>
-                  <?php 
+                      </td>
+                    </tr>
+                  <?php  
                       }
                     }
                   ?>
