@@ -13,10 +13,11 @@
   $title = $_POST['title'];
   $type = $_POST['type'];
   $content = $_POST['content'];
+  $description= $_POST['description'];
   if(!empty($_POST)) {
 		var_dump($_POST);
-		$sql1 = "UPDATE `new`,`category` SET `title`='$title',`name`='$type',`content`='$content',`Birth`='$birth',`Password`='$password'WHERE `Id` = {$id}";
+		$sql1 = "UPDATE `new`,`category` SET `title`='$title',`name`='$type',`content`='$content',`description`='$description'WHERE new.id= {$id} AND new.id_category = category.id";
 		mysqli_query($conn,$sql1) or die("Sửa dữ liệu thất bại !");
-		header("Location:select.php");
+		header("Location:table-master.php");
 	}
  ?>

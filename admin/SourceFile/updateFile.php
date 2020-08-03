@@ -102,7 +102,7 @@
                   <!-- mô tả -->
                    <div class="form-group">
                         <label>Mô tả</label>
-                        <input type="text" class="form-control" placeholder="Enter ...">
+                        <input type="text" name="description" class="form-control" value="<?php echo $row['description'] ?>">
                       </div>
                   <!-- Nội dung -->
                   <label for="exampleInputFile">Nội dung</label>
