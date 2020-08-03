@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 3";
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 3 ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -99,7 +99,7 @@
                               </i>
                               View
                           </a>
-                          <a class="btn btn-secondary btn-sm" href="updateFile.php">
+                          <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit

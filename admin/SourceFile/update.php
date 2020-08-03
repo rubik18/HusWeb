@@ -11,12 +11,19 @@
   }
   $row = mysqli_fetch_array($result);
   $title = $_POST['title'];
-  $type = $_POST['type'];
   $content = $_POST['content'];
   $description= $_POST['description'];
+  if($_POST['type'] == "Tin tức"){
+      $id_category = 1;
+  }
+  elseif ($_POST['type'] == "Sự kiện") {
+      $id_category = 2;
+  }else{
+    $id_category = 3;
+  };
   if(!empty($_POST)) {
 		var_dump($_POST);
-		$sql1 = "UPDATE `new`,`category` SET `title`='$title',`name`='$type',`content`='$content',`description`='$description'WHERE new.id= {$id} AND new.id_category = category.id";
+		$sql1 = "UPDATE `new`,`category` SET `title`='$title',`id_category`='$id_category',`content`='$content',`description`='$description'WHERE new.id= {$id} AND new.id_category = category.id";
 		mysqli_query($conn,$sql1) or die("Sửa dữ liệu thất bại !");
 		header("Location:table-master.php");
 	}

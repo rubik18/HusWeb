@@ -99,7 +99,7 @@
                               </i>
                               View
                           </a>
-                          <a class="btn btn-secondary btn-sm" href="updateFile.php">
+                          <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
