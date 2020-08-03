@@ -100,10 +100,10 @@
                     </select>
                   </div>
                   <!-- mô tả -->
-                   <div class="form-group">
-                        <label>Mô tả</label>
-                        <input type="text" name="description" class="form-control" value="<?php echo $row['description'] ?>">
-                      </div>
+                  <div class="form-group">
+                    <label>Mô tả</label>
+                    <textarea class="form-control" rows="3" name="description"><?php echo $row['description'] ?></textarea>
+                    </div>
                   <!-- Nội dung -->
                   <label for="exampleInputFile">Nội dung</label>
                   <textarea class="textarea" name = "content"placeholder="Place some text here"

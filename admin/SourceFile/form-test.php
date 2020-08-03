@@ -1,3 +1,9 @@
+<?php 
+// kết nối
+  require'db/connect.php';
+  $conn->set_charset("utf8");
+// Chuỗi kết nối
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,36 +76,29 @@
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="" method = "post">
+                <form role="form" action="add.php" method = "post">
                   <!-- Tit -->
                   <div class="form-group">
                     <label>Title</label>
-                    <input type="text" class="form-control" placeholder="Enter ...">
+                    <input type="text" name = "title" class="form-control" placeholder="Enter ...">
                   </div>
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" style="width: 100%;">
+                    <select class="form-control select2" name = "type" style="width: 100%;">
                       <option selected="selected">Tin tức</option>
                       <option>Sự kiện</option>
                       <option>Thôngbáo</option>
                     </select>
                   </div>
                   <!-- Nội dung -->
+                 <!-- mô tả -->
                   <div class="form-group">
-                      <label for="exampleInputFile">Img</label>
-                      <div class="input-group">
-                        <div class="custom-file">
-                          <input type="file" class="custom-file-input" id="exampleInputFile">
-                          <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                        </div>
-                        <div class="input-group-append">
-                          <span class="input-group-text" id="">Upload</span>
-                        </div>
-                      </div>
+                    <label>Mô tả</label>
+                    <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
                   </div>
                   <label for="exampleInputFile">Nội dung</label>
-                  <textarea class="textarea" placeholder="Place some text here"
+                  <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                   <!-- Submit -->
                   <div class="card-footer">

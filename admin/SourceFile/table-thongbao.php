@@ -84,8 +84,9 @@
                   <tbody>
                     <?php 
                       if (mysqli_num_rows($result) > 0){
+                        $i = 1;
                         while ($row = mysqli_fetch_assoc($result)) {
-                          $i = 1;
+                          
                     ?>
                     <tr>
                     <td><?php echo $i ?></td>
@@ -112,6 +113,7 @@
                     </td>
                   </tr>
                   <?php 
+                      $i++;
                       }
                     }
                   ?>
