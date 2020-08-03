@@ -1,0 +1,488 @@
+
+ .main-content-wrapper {
+    margin-top: 0!important;
+    padding-top: 20px;
+}
+.main-content-wrapper .container {
+    background: #fff !important;
+    padding: 15px 10px 0px 10px;
+    border-radius: 10px;
+}
+.breakcrum a {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+.main-content-wrapper .magazine-item {
+    /* padding: 0px 30px 0px 0px !important; */
+    border: solid 1px #f5f5f5;
+}
+.main-content-wrapper .magazine-item .magazine-item-media {
+    position: relative;
+    overflow: hidden;
+}
+a.item:hover {
+	/*text-decoration: none !important;*/
+	color: #0056b3 !important;
+    text-decoration: none !important;
+}
+a.content:hover {
+	color: #111111;
+    text-decoration: none !important;
+}
+a.item{
+	color: #838a92;
+}
+a.content{
+	color: #111111;
+}
+.main-content-wrapper .magazine-item .article-title h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: clip;
+    max-height: 86px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.main-content-wrapper .article-aside {
+    color: #999999;
+    font-size: 13px;
+    margin-bottom: 24px;
+    min-height: 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.main-content-wrapper .magazine-item .magazine-item-ct {
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 15px;
+    max-height: 135px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.pd-10 {
+    padding: 10px !important;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+
+.jquery-accordion-menu {
+    background: #fff;
+    color: #323232;
+    transition: all 0.3s;
+    border: solid 1px #e7e7e7;
+    border-radius: 10px;
+}
+.pdr-0{
+	padding-right: 0 !important;
+}
+/*table right CSS*/
+.jquery-accordion-menu, .jquery-accordion-menu * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 0;
+}
+
+.jquery-accordion-menu {
+     background: #fff;
+    color: #323232;
+    transition: all 0.3s;
+    border: solid 1px #e7e7e7;
+    border-radius: 10px;
+}
+
+    .jquery-accordion-menu .jquery-accordion-menu-footer, .jquery-accordion-menu .jquery-accordion-menu-header {
+         color: #323232;
+        padding: 10px 10px 11px 10px;
+        margin: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 20px;
+        border-bottom: solid 1px #cc202c;
+    }
+
+    .jquery-accordion-menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .jquery-accordion-menu ul li {
+            width: 100%;
+            display: block;
+            float: left;
+            position: relative;
+            border-left: solid 1px #e7e7e7;
+            border-right: solid 1px #e7e7e7;
+        }
+        .jquery-accordion-menu ul li.active ul {
+           display:block;
+        }
+            .jquery-accordion-menu ul li a {
+               
+                width: 100%;
+                padding: 10px 40px 10px 10px;
+                float: left;
+                text-decoration: none;
+                color: #323232;
+                font-size: 14px;
+                background: #ffffff;
+                white-space: inherit;
+                position: relative;
+                overflow: hidden;
+                -o-transition: color .2s linear,background .2s linear;
+                -moz-transition: color .2s linear,background .2s linear;
+                -webkit-transition: color .2s linear,background .2s linear;
+                transition: color .2s linear,background .2s linear;
+            }
+
+        .jquery-accordion-menu > ul > li.active > a, .jquery-accordion-menu ul > li > ul.submenu > li.active > a {
+            
+            color: #017dc5;
+            background: #f6f7f9;
+            border-left: solid 3px #017dc5;
+            font-weight: 600;
+            padding-left: 27px;
+        }
+
+
+
+.jquery-accordion-menu > ul > li > a:hover, 
+.jquery-accordion-menu > ul > li > ul > li > a:hover,
+.jquery-accordion-menu > ul > li > ul > li > ul > li > a:hover {
+    color: #017dc5 !important;
+    font-weight: 600!important;
+    border-left: none;
+    direction: none !important;
+}
+
+    .jquery-accordion-menu > ul > li > a {
+        border-bottom: 1px dashed #dddddd;
+    }
+
+    .jquery-accordion-menu ul li a i {
+        width: 34px;
+        float: left;
+        line-height: 18px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .jquery-accordion-menu .submenu-indicator {
+        float: right;
+        right: 22px;
+        position: absolute;
+        line-height: 19px;
+        font-size: 20px;
+        -o-transition: transform .3s linear;
+        -moz-transition: transform .3s linear;
+        -webkit-transition: transform .3s linear;
+        -ms-transition: transform .3s linear;
+    }
+
+    .jquery-accordion-menu ul ul.submenu .submenu-indicator {
+        line-height: 16px;
+    }
+
+    .jquery-accordion-menu .submenu-indicator-minus > .submenu-indicator {
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .jquery-accordion-menu ul ul.submenu, .jquery-accordion-menu ul ul.submenu li ul.submenu {
+        width: 100%;
+        display: none;
+        position: static;
+    }
+
+        .jquery-accordion-menu ul ul.submenu li {
+            clear: both;
+            width: 100%;
+            border-left: 0px;
+            border-right: 0px;
+        }
+
+            .jquery-accordion-menu ul ul.submenu li a {
+                width: 100%;
+                float: left;
+                font-size: 14px;
+                background: #ffffff;
+                border-top: none;
+                position: relative;
+                -o-transition: border .2s linear;
+                -moz-transition: border .2s linear;
+                -webkit-transition: border .2s linear;
+                transition: border .2s linear;
+            }
+
+            .jquery-accordion-menu ul ul.submenu li:hover > a {
+                border-left-color: #414956;
+            }
+
+        .jquery-accordion-menu ul ul.submenu > li > a {
+            padding-left: 30px;
+        }
+
+        .jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > a {
+            padding-left: 45px;
+        }
+
+        .jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > ul.submenu > li > a {
+            padding-left: 60px;
+        }
+
+        .jquery-accordion-menu ul li .jquery-accordion-menu-label, .jquery-accordion-menu ul ul.submenu li .jquery-accordion-menu-label {
+            min-width: 20px;
+            padding: 1px 2px 1px 1px;
+            position: absolute;
+            right: 18px;
+            top: 14px;
+            font-size: 11px;
+            font-weight: 800;
+            color: #555;
+            text-align: center;
+            line-height: 18px;
+            background: #f0f0f0;
+            border-radius: 100%;
+        }
+
+        .jquery-accordion-menu ul ul.submenu li .jquery-accordion-menu-label {
+            top: 12px;
+        }
+/*-------------------------*/
+.ink {
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.3);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
+.animate-ink {
+    -webkit-animation: ripple .5s linear;
+    -moz-animation: ripple .5s linear;
+    -ms-animation: ripple .5s linear;
+    -o-animation: ripple .5s linear;
+    animation: ripple .5s linear;
+}
+
+@-webkit-keyframes ripple {
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+    }
+}
+
+@-moz-keyframes ripple {
+    100% {
+        opacity: 0;
+        -moz-transform: scale(2.5);
+    }
+}
+
+@-o-keyframes ripple {
+    100% {
+        opacity: 0;
+        -o-transform: scale(2.5);
+    }
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+/*--------------CSS thanh chuyen trang-------------------------*/
+
+.list-page {
+    margin-top: 20px;
+}
+
+    .list-page ul li {
+        display: inline;
+        margin-right: 5px;
+    }
+
+        .list-page ul li a {
+            padding: 2px 6px;
+            /* background: #A74325; */
+            color: #434343;
+            border: solid 1px #f1f1f1;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            border: 1px solid;
+            border-color: #9e9e9e;
+            display: block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+        }
+
+            .list-page ul li a.pagelast {
+                width: 100px;
+                border-radius: 5px;
+            }
+
+            .list-page ul li a:hover {
+                cursor: default;
+                background: #b8b8b9;
+                color: #fff;
+                font-weight: 600;
+                text-decoration: none !important;
+            }
+
+            .list-page ul li a.active {
+                cursor: default;
+                background: #007dc5;
+                color: #fff;
+                font-weight: 600;
+            }
+            /*-------------------------*/
+
+            /*-------------------------*/
+
+            /*CSS tinmoinhat*/
+.main-content-wrapper .magazine-item .magazine-item-media .item-image + .category-name {
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    margin: 0;
+    border: 
+}
+.main-content-wrapper .magazine-item .magazine-item-media .category-name a {
+    background: #fff;
+    border: 1px solid #666666;
+    color: #333333;
+    display: inline-block;
+    font-family: "Roboto Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 3px 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.main-content-wrapper .magazine-item .magazine-item-media .category-name a:hover{
+	color: #fff!important;
+    text-decoration: none !important;
+    background-color: #007bff ;
+    /*-webkit-text-decoration-skip: objects;*/
+}
+/*CSS____________ sukien________*/
+.main-content-wrapper .magazine-item .published .sukiendadienraz {
+    color: red !important;
+}
+#list_events  ul li a.active {
+    cursor: default !important;
+    background: #BA8526!important;
+}
+#list_events  ul li a {
+    padding: 2px 6px!important;
+    background: #A74325!important;
+    color: white!important;
+}
+/*CSS______thong bao___________*/
+.single-blog-post {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.single-blog-post.post-style-tb .media .object {
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    color: #fff;
+    font-weight: 700;
+    float: left !important;
+    background: url(/hus/img/blog-img/homethongbaoitem.png) left no-repeat;
+}
+.indexthongbao .media .object {
+    height: 60px !important;
+    width: 60px !important;
+    background: #017dc5 !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet div {
+    display: block;
+}
+#detailpage .media {
+    padding: 0px 5px 10px 5px;
+    border-bottom: dashed 1px #ececec;
+    margin-bottom: 10px;
+}
+.single-blog-content, .single-blog-content p {
+    padding: 0px;
+    color: #212529;
+}
+.single-blog-post.post-style-tb .media .object .day {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.indexthongbao .media .object .day {
+    font-size: 20px !important;
+}
+.indexthongbao .media .object .date {
+    font-size: 14px !important;
+    text-align: center !important;
+}
+#detailpage .media .body {
+    float: left !important;
+    width: calc(100% - 40px);
+    line-height: 10px;
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+}
+.single-blog-post.post-style-tb .media .body {
+    float: left !important;
+    width: calc(100% - 40px);
+    text-align: justify;
+    line-height: 10px;
+    padding: 0px 0px 0px 10px;
+}
+.single-blog-post.post-style-tb .media .body h3 a  {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px !important;
+    margin: 0px;
+    padding: 0px;
+    color: #000000!important;
+}
+.single-blog-post.post-style-tb .media .body p a {
+    padding: 0px;
+    font-size: 13px;
+    color: #8d8d8d !important;
+}
+/*-----------CSS Tien si danh du--------------*/
+table tr td {
+    border: 1px solid #c3c3c3;
+    padding: 8px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
