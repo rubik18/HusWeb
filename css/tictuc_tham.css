@@ -480,9 +480,11 @@ user agent stylesheet div {
     color: #8d8d8d !important;
 }
 /*-----------CSS Tien si danh du--------------*/
-table tr td {
+ table tr td {
     border: 1px solid #c3c3c3;
     padding: 8px !important;
     line-height: 1.42857143;
     vertical-align: top;
 }
+
+
