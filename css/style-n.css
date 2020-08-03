@@ -850,6 +850,8 @@ img {
     min-width: 300px !important;
     margin-top: 0px !important;
     top: 37px;
+    border-radius: 0 !important;
+
 }
 
     .dropdown-menu .dropdown-submenu a {
@@ -1167,6 +1169,12 @@ img {
 .navigation .post-title a {
     color: #ffffff;
     font-weight: 700;
+}
+h2.post-title {
+    font-size: 30px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #ececec;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
