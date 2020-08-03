@@ -86,11 +86,9 @@
                       if (mysqli_num_rows($result) > 0){
                         $i = 1;
                         while ($row = mysqli_fetch_assoc($result)) {
-                          
                     ?>
                     <tr>
                     <td><?php echo $i ?></td>
-                    <?php $i++; ?>
                     <td><?php echo $row['title'] ?></td>
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['description'] ?></td>
