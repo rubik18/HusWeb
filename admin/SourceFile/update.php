@@ -3,7 +3,7 @@
   require'db/connect.php';
 // Chuỗi kết nối
   $id = (int)$_GET['id'];
-  $sql = "SELECT * FROM category, new WHERE new.id= {$id} AND new.id_category = category.id AND new.delete_at = NULL";
+  $sql = "SELECT * FROM category, new WHERE new.id= {$id} AND new.id_category = category.id ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {

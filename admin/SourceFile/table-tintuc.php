@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 1 ";
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 1 AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {

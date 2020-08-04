@@ -1,3 +1,4 @@
+
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
@@ -5,10 +6,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="home.php" class="nav-link">Home</a>
+        <a href="/DAPM/php-intership-team/admin/SourceFile/home.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="contacts.php" class="nav-link">Contact</a>
+        <a href="/DAPM/php-intership-team/admin/SourceFile/contacts.php" class="nav-link">Contact</a>
       </li>
     </ul>
 
@@ -31,3 +32,4 @@
       <!-- Notifications Dropdown Menu -->
     </ul>
   </nav>
+ 
