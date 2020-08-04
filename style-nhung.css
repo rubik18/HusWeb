@@ -12,8 +12,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    background: #f6f7f9;
+    font-size: 14px !important;
+    background: #f6f7f9 !important;
 }
 
 .Roboto-fonts {
@@ -27,8 +27,8 @@ h4,
 h5,
 h6 {
     color: #000000;
-    font-weight: 500;
-    line-height: 1.3;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
 }
 
 p {
@@ -46,7 +46,11 @@ a {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     /* color: #fff;*/
-    color: #8d8d8d;
+    color: #8d8d8d ;
+
+}
+.item{
+    color: #8d8d8d ;
 }
 
     a:hover, a:focus {
@@ -387,6 +391,8 @@ img {
 	.main-content-wrapper .row {
 		margin-right: -10px;
     margin-left: -10px;
+    margin-top: 20px !important;
+    background: #f6f7f9 !important;
 	}
 	.main-content-wrapper2 .row {
 		margin-right: 0px;
@@ -1167,10 +1173,6 @@ img {
 .navigation .post-title a {
     color: #ffffff;
     font-weight: 700;
-    font-size: 30px !important;
-    margin-bottom: 5px !important;
-    padding-bottom: 5px !important;
-    border-top: solid 1px #ececec !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -1215,6 +1217,7 @@ img {
 .main-content-wrapper {
     margin-top: 20px;
     background: #f6f7f9;
+    color: #f6f7f9;
 }
 
     .main-content-wrapper .container {
@@ -1431,6 +1434,7 @@ img {
 .khoapbcn h1 {
     color: #434343;
     font-size: 1.2rem;
+    
 }
 
 .bannerfixright {
