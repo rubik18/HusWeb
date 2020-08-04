@@ -103,7 +103,7 @@
                   <div class="form-group">
                     <label>Mô tả</label>
                     <textarea class="form-control" rows="3" name="description"><?php echo $row['description'] ?></textarea>
-                    </div>
+                  </div>
                   <!-- Nội dung -->
                   <label for="exampleInputFile">Nội dung</label>
                   <textarea class="textarea" name = "content"placeholder="Place some text here"

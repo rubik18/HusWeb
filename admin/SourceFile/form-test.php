@@ -86,9 +86,9 @@
                   <div class="form-group">
                     <label>Type</label>
                     <select class="form-control select2" name = "type" style="width: 100%;">
-                      <option selected="selected">Tin tức</option>
-                      <option>Sự kiện</option>
-                      <option>Thôngbáo</option>
+                      <option selected="selected" value = "1">Tin tức</option>
+                      <option value= "2">Sự kiện</option>
+                      <option value= "3">Thôngbáo</option>
                     </select>
                   </div>
                   <!-- Nội dung -->

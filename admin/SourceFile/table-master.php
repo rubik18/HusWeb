@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id";
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -103,7 +103,7 @@
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="#">
+                          <a class="btn btn-danger btn-sm" href="delete.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-trash">
                               </i>
                               Delete
