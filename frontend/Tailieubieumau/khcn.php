@@ -9,244 +9,26 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-           <script type="text/javascript" language="javascript" src="E:\Git\php-intership-team\js\dropdown.js"></script> 
+           <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script> 
 	       
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!----input CSS ---------->
-	<link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\themify-icons-n.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\font-awesome-n.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\style-n.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\swipebox-n.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\owl-n.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\tictuc_tham.css">
-    <link rel="stylesheet" type="text/css" href="E:\Git\php-intership-team\css\canbo_tham.css">
+	<link rel="stylesheet" type="text/css" href="../../css/themify-icons-n.css">
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome-n.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style-n.css">
+    <link rel="stylesheet" type="text/css" href="../../css/swipebox-n.css">
+    <link rel="stylesheet" type="text/css" href="../../css/owl-n.css">
+    <link rel="stylesheet" type="text/css" href="../../css/tictuc_tham.css">
+    <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
+
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
 </head>
 <body>
 
-<!-- start header -->
-<header class="header-area">
-        <div class="topheadernav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="navtop ml-auto">
-                            <nav class="navbar navbar-expand-lg">
-
-                                <a href="javascript:void(0);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabartop" aria-controls="navabartop" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></a>
-
-                                <div class="collapse navbar-collapse" id="navabartop">
-                                    <ul class="navbar-nav">
-                                        <li class=""><a href="" target="_blank"><div style="background:red;color:#fff;padding: 2px 5px;font-weight:bold;">Tuyển sinh</div></a></li>
-                                        <li class=""><a href="" target="_blank">Website 60 năm</a></li>
-                                        <li class=""><a href="" target="_blank">Cựu sinh viên</a></li>
-                                        <li class=""><a href="" target="_self">Ba công khai</a></li>
-                                        <li class=""><a href="" target="_self">Đảm bảo chất lượng</a></li>
-                                        <li class=""><a href="" target="_blank">English</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12 col-lg-9">
-                            <a class="navbar-brand" href="/">
-                                <img src="http://hus.vnu.edu.vn/static//hus/img/core-img/logo.png" alt="ĐHQGHN"></a>
-                        </div>
-                        <div class="col-12 col-lg-3 huyhieu" style="padding: 0px; text-align: right">
-                            <img src="http://hus.vnu.edu.vn/static//hus/img/core-img/logomodal.png" alt="ĐHQGHN">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-11">
-                        <nav class="navbar navbar-expand-lg">
-
-                            <a href="" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></a>
-
-                            <div class="collapse navbar-collapse" id="worldNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active"><a href="/" class="nav-link" target="_self">&nbsp;<i class="fa fa-home"></i>&nbsp;</a></li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true" >Giới thiệu </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class=" dropdown-item " href="">Lịch sử phát triển</a></li>
-                                            <li><a class=" dropdown-item " href="">Sứ mạng &amp; Tầm nhìn</a></li>
-                                            <li><a class="True dropdown-item " href="">Chiến lược phát triển</a></li>
-                                            <li class="dropdown-submenu"><a href="" class="True dropdown-item" data-toggle="dropdown">Cơ cấu tổ chức</a>
-                                                <ul class="dropdown-menu"><li><a class=" dropdown-item" href="">Sơ đồ tổ chức</a></li>
-                                                    <li><a class=" dropdown-item" href="">Ban giám hiệu</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đảng - Đoàn thể</a></li>
-                                                    <li><a class=" dropdown-item" href="">Phòng ban chức năng</a></li>
-                                                    <li><a class=" dropdown-item" href="">Khoa trực thuộc</a></li>
-                                                    <li><a class=" dropdown-item" href="">THPT Chuyên KHTN</a></li>
-                                                    <li><a class=" dropdown-item" href="">Trung tâm nghiên cứu</a></li>
-                                                    <li><a class="True dropdown-item" href="">Dự án và công ty</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="" class="True dropdown-item" data-toggle="dropdown">Đội ngũ cán bộ</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Hội đồng khoa học đào tạo</a></li>
-                                                    <li><a class=" dropdown-item" href="">Danh hiệu nhà giáo</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đội ngũ giáo sư, phó giáo sư</a></li>
-                                                    <li><a class=" dropdown-item" href="">Nhóm nghiên cứu mạnh</a></li>
-                                                    <li><a class=" dropdown-item" href="">Danh sách cán bộ</a></li>
-                                                    <li><a class="True dropdown-item" href="">Cựu giáo chức</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="True dropdown-item " href="">Các khuôn viên</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Tin tức </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class=" dropdown-item " href="">Tin mới nhất</a></li>
-                                            <li><a class=" dropdown-item " href="">Sự kiện</a></li>
-                                            <li><a class=" dropdown-item " href="">Thông báo</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Đào tạo </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="True dropdown-item " href="">Giới thiệu</a></li>
-                                            <li class="dropdown-submenu"><a href="" class="True dropdown-item" data-toggle="dropdown">Bậc đại học</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Địa chất</a></li>
-                                                    <li><a class=" dropdown-item" href="">Địa lý, Quản lý đất đai và GISc</a></li>
-                                                    <li><a class=" dropdown-item" href="">Khí tượng, Khoa học và Công nghệ biển, Tài nguyên và Môi trường nước</a></li>
-                                                    <li><a class=" dropdown-item" href="">Hóa học và Công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Quản lý Tài nguyên Môi trường, Địa chất Ứng dụng</a></li>
-                                                    <li><a class=" dropdown-item" href="">Sinh học và Công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Toán, Toán ứng dụng và Tin học</a></li>
-                                                    <li><a class=" dropdown-item" href="">Vật lí và Công nghệ</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="" class="True dropdown-item" data-toggle="dropdown">Sau đại học</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Toán - Cơ - Tin học</a></li>
-                                                    <li><a class=" dropdown-item" href="">Vật lý và Công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Hóa học và Công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Sinh học và Công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Khoa học Trái đất - Tài nguyên &amp; Môi trường</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="True dropdown-item " href="">Trung học phổ thông</a></li>
-                                            <li><a class=" dropdown-item " href="">Tuyển sinh</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Khoa học - công nghệ </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="True dropdown-item " href="">Giới thiệu</a></li>
-                                            <li class="dropdown-submenu"><a href="" class=" dropdown-item" data-toggle="dropdown">Hội nghị khoa học</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Trong nước</a></li>
-                                                    <li><a class=" dropdown-item" href="">Quốc tế</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="True dropdown-item " href="">Đề tài dự án</a></li>
-                                            <li><a class=" dropdown-item " href="">Phòng thí nghiệm</a></li>
-                                            <li><a class=" dropdown-item " href="">Nhóm nghiên cứu</a></li>
-                                            <li><a class="True dropdown-item " href="">Giải thưởng KH-CN</a></li>
-                                            <li class="dropdown-submenu"><a href="" class=" dropdown-item" data-toggle="dropdown">Công bố khoa học</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Bài báo ISI/SCOPUS</a></li>
-                                                    <li><a class=" dropdown-item" href="">Bài báo Quốc tế khác</a></li>
-                                                    <li><a class=" dropdown-item" href="">Bài báo Trong nước</a></li>
-                                                    <li><a class=" dropdown-item" href="">Báo cáo Hội nghị khoa học quốc tế</a></li>
-                                                    <li><a class=" dropdown-item" href="">Báo cáo Hội nghị khoa học trong nước</a></li><li><a class=" dropdown-item" href="">Sách chuyên khảo</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đăng ký Sở hữu trí tuệ</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class=" dropdown-item " href="">Danh mục thiết bị chính</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Hợp tác quốc tế </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="True dropdown-item " href="">Giới thiệu</a></li>
-                                            <li><a class="True dropdown-item " href="">Đối tác quốc tế</a></li>
-                                            <li><a class="True dropdown-item " href="">Chương trình hợp tác</a></li>
-                                            <li><a class="True dropdown-item " href="">Thỏa thuận hợp tác</a></li>
-                                            <li><a class=" dropdown-item " href="">Tiến sĩ danh dự</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Học sinh - sinh viên </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="True dropdown-item " href="">Giới thiệu chung</a></li>
-                                            <li><a class=" dropdown-item " href="">Học bổng - Giải thưởng</a></li>
-                                            <li class="dropdown-submenu"><a href="" class="True dropdown-item" data-toggle="dropdown">Hỗ trợ sinh viên</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Đoàn - Hội</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đời sống</a></li>
-                                                    <li><a class=" dropdown-item" href="">Các câu lạc bộ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Vay vốn</a></li>
-                                                    <li><a class=" dropdown-item" href="">Tư vấn hỗ trợ việc làm</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="True dropdown-item " href="">Nghiên cứu khoa học</a></li>
-                                            <li><a class="True dropdown-item " href="">Gương mặt sinh viên tiêu biểu</a></li>
-                                            <li><a class=" dropdown-item " href="">Cựu sinh viên</a></li>
-                                            <li><a class=" dropdown-item " href="">Việc làm</a></li>
-                                            <li><a class=" dropdown-item " href="">Khảo sát sinh viên tốt nghiệp</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown  underline"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-delay="0" data-close-others="true">Tài liệu - Biểu mẫu </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li class="dropdown-submenu"><a href="" class=" dropdown-item" data-toggle="dropdown">Quy định - quy chế </a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Cán bộ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Học sinh - sinh viên</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đào tạo</a></li>
-                                                    <li><a class=" dropdown-item" href="">Khoa học - công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Hợp tác Quốc tế</a></li>
-                                                    <li><a class=" dropdown-item" href="">Kế hoạch - Tài chính</a></li>
-                                                    <li><a class=" dropdown-item" href="">Văn Bản pháp quy về xây dựng</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="" class=" dropdown-item" data-toggle="dropdown">Biểu mẫu</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Cán bộ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Học sinh - sinh viên</a></li>
-                                                    <li><a class=" dropdown-item" href="">Đào tạo</a></li>
-                                                    <li><a class=" dropdown-item" href="">Khoa học - công nghệ</a></li>
-                                                    <li><a class=" dropdown-item" href="">Hợp tác Quốc tế</a></li>
-                                                    <li><a class=" dropdown-item" href="">Kế hoạch - Tài chính</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="" class=" dropdown-item" data-toggle="dropdown">Nhận diện thương hiệu</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class=" dropdown-item" href="">Quy định</a></li>
-                                                    <li><a class=" dropdown-item" href="">Tệp và Hình ảnh</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="col-1" style="padding: 0px; text-align: right">
-                        <div class="search">
-                            <input class="search_box" type="checkbox" id="search_box">
-                            <label class="icon-search" for="search_box" onclick=""></label>
-                            <div class="search_form">
-                                <input type="text" id="seach-box" class="search_tb" name="s" value="Nhập thông tin tìm kiếm">
-                                <a href="" type="submit" class="search_btn" value="search" onclick="">Tìm kiếm</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</header>
-<!-- end header -->
+<!---------start header------------>
+        <?php include "../header.html" ?>
+        <!---end header------->
 <div class="main-content-wrapper">
 	<div class="container">
 		<!-- thanh gioi thieu -->
@@ -256,10 +38,10 @@
 					<ol class="breadcrumb">
 						
 						<li class="breadcrumb-item active" aria-current="page">
-                            <a href="tailieubieumau.html" class="item">Tài liệu - Biểu mẫu</a></li>&nbsp;
+                            <a href="tailieubieumau.php" class="item">Tài liệu - Biểu mẫu</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
-                            <a href="quydinhquyche.html" class="item ">Quy định - Quy chế</a></li>&nbsp;
+                            <a href="quydinhquyche.php" class="item ">Quy định - Quy chế</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
                             <a href="#" class="item ">Khoa học công nghệ</a></li>
@@ -564,7 +346,7 @@
 												<div class="jquery-accordion-menu-header" style="font-weight: bold;">Tài liệu - Biểu mẫu</div>
     												<ul class="">
                                                         <li class="trum li-me">
-                                                            <script type="text/javascript" language="javascript" src="E:\Git\php-intership-team\js\dropdown.js"></script>
+                                                            <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
                                                             <a href="#510" class="submenu">
                                                                 <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
                                                                 <span class="submenu-indicator spn" >+</span>
@@ -572,9 +354,9 @@
                                                             <div class="content ">
                                                                 <ul class="submenu" style="display: block;" id="510">
                                                                     <li class="  ">
-                                                                        <a href="canbo.html">Cán bộ</a></li>
+                                                                        <a href="canbo.php">Cán bộ</a></li>
                                                                     <li class="active" >
-                                                                        <a href="hssv.html" >Học sinh, sinh viên</a></li>
+                                                                        <a href="hssv.php" >Học sinh, sinh viên</a></li>
                                                                     <li class="">
                                                                         <a href="#">Đào tạo</a></li>
                                                                     <li class="li-me">
@@ -584,7 +366,7 @@
                                                                             font-weight: 600;
                                                                             padding-left: 27px;">Khoa học công nghệ</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="hoptacquocte.html">Hợp tác quốc tế</a></li>
+                                                                        <a href="hoptacquocte.php">Hợp tác quốc tế</a></li>
                                                                     <li class="li-me">
                                                                         <a href="#">Kế hoạch - Tài chính</a></li>
                                                                     <li class="li-me">
@@ -595,7 +377,7 @@
                                                         </li>
                                                         
     													<li class="trum">
-                                                            <script type="text/javascript" language="javascript" src="E:\Git\php-intership-team\js\dropdown.js"></script>
+                                                            <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
                                                             <a href="#510" class="">
                                                                 <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
                                                                 <span class="submenu-indicator spn" >+</span>
@@ -620,9 +402,9 @@
                                                             </div>
                                                         </li>
                                                         <!--  -->
-                                                        <script type="text/javascript" language="javascript" src="E:\Git\php-intership-team\js\dropdown.js"></script>
+                                                        <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
     													<li class="trum">
-                                                            <script type="text/javascript" language="javascript" src="E:\Git\php-intership-team\js\dropdown.js"></script>
+                                                            <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
                                                             <a href="#5510" class="">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -158.5px;left: 143.344px;"></span> Nhận diện thương hiệu
                                                                 <span class="submenu-indicator spn" >+</span>
@@ -663,61 +445,8 @@
 		<!-- end nội dung -->
 	</div>
 </div>
-<!--start footer -->
-<footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-3">
-                    <div class="footer-single-widget">
-                        <a href="javascript:void(0);">
-                            <img style="padding-bottom: 20px;" src="http://hus.vnu.edu.vn/static//HUS/img/core-img/logofooter.png"></a>
-                        <a href="" target="_blank" title="Bản đồ chỉ đường">
-                            <img src="http://hus.vnu.edu.vn/static//HUS/img/core-img/iconmap.png" alt="Bản đồ chỉ đường"></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 section-padding-0">
-                    <h3>TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN</h3>
-                    <p><strong>ĐỊA CHỈ</strong>: 334 Nguyễn Trãi - Thanh Xuân - Hà Nội</p>
-                    <p><strong>Điện thoại</strong>: (84) 0243-8584615 / 8581419</p>
-                    <p><strong>Fax</strong>: (84) 0243-8523061</p>
-                    <p><strong>Email</strong>: hus@vnu.edu.vn - admin@hus.edu.vn</p>
-                </div>
-                <div class="col-12 col-md-3">
-                    <h3>THÔNG TIN HỮU ÍCH</h3>
-                    <div class="footer-single-widget">
-                        <ul class="footer-menu d-flex justify-content-between">
-                            <li><a href="" target="_blank">Website VNU</a></li>
-                            <li><a href="">Tài liệu biểu mẫu</a></li>
-                            <li><a href="" target="_blank">Thư điện tử VNU</a></li>
-                            <li><a href="" target="_blank">Tài nguyên số</a></li>
-                            <li><a href="" target="_blank">Thư điện tử HUS</a></li>
-                            <li><a href="">Liên kết Website</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-2 pd-0">
-                    <h3>Mạng xã hội</h3>
-                    <p class="social">
-                        <a href="" target="_blank"><i class="fab fa-facebook-f"></i>Fanpage Trường ĐHKHTN</a>
-                    </p>
-                    <p class="social">
-                       <a href="" target="_blank"> <i class="fab fa-facebook-f"></i> Fanpage Tư vấn tuyển sinh</a>
-                    </p>
-
-                </div>
-            </div>
-        </div>
-        <div class="copywrite">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 co-md-10">
-                        <p>Bản quyền © 2020 Trường ĐHKHTN-ĐHQGHN</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-</footer>
-<!-- end footer -->
+<!---start footer----->
+        <?php include "../footer.html" ?>
+        <!----end footer------->
 </body>
 </html>
