@@ -13,5 +13,4 @@ $conn->set_charset("utf8");
 		mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 		header("Location:table-master.php");
 	}
-
  ?>

@@ -76,10 +76,12 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/DAPM/php-intership-team/admin/SourceFile/table-sukien.php" class="nav-link">
+                  <a href="/DAPM/php-intership-team/admin/SourceFile/tag/form-tag.php" class="nav-link">
                   <i class="nav-icon fas fa-plus-circle"></i>
-                  <p>Thêm Tag</p>
-                </a>
+                  <p>
+                  Thêm Tag
+                  </p>
+                  </a>
               </li>
             </ul>
           </li>
