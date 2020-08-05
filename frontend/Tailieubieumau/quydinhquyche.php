@@ -131,19 +131,19 @@
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="510">
                                                                     <li class="active li-me">
-                                                                        <a href="canbo.php">Cán bộ</a></li>
+                                                                        <a href="Quydinhquyche/canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="hssv.php">Học sinh, sinh viên</a></li>
+                                                                        <a href="Quydinhquyche/hssv.php">Học sinh, sinh viên</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Đào tạo</a></li>
+                                                                        <a href="Quydinhquyche/q_daotao.php">Đào tạo</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="khcn.php">Khoa học công nghệ</a></li>
+                                                                        <a href="Quydinhquyche/khcn.php">Khoa học công nghệ</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="hoptacquocte.php">Hợp tác quốc tế</a></li>
+                                                                        <a href="Quydinhquyche/hoptacquocte.php">Hợp tác quốc tế</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Kế hoạch - Tài chính</a></li>
+                                                                        <a href="Quydinhquyche/q_kehoachtaichinh.php">Kế hoạch - Tài chính</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Văn Bản pháp quy về xây dựng</a></li>
+                                                                        <a href="Quydinhquyche/q_vbphapquy.php">Văn Bản pháp quy về xây dựng</a></li>
 
                                                                 </ul>
                                                             </div>
@@ -158,17 +158,17 @@
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="510">
                                                                     <li class="active li-me">
-                                                                        <a href="#">Cán bộ</a></li>
+                                                                        <a href="Bieumau/b_canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Học sinh, sinh viên</a></li>
+                                                                        <a href="Bieumau/b_hssv.php">Học sinh, sinh viên</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Đào tạo</a></li>
+                                                                        <a href="Bieumau/b_daotao.php">Đào tạo</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Khoa học công nghệ</a></li>
+                                                                        <a href="Bieumau/b_khcn.php">Khoa học công nghệ</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Hợp tác quốc tế</a></li>
+                                                                        <a href="Bieumau/b_htqt.php">Hợp tác quốc tế</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Kế hoạch - Tài chính</a></li>
+                                                                        <a href="Bieumau/b_kehoachtc.php">Kế hoạch - Tài chính</a></li>
                                                                     
 
                                                                 </ul>
@@ -185,9 +185,9 @@
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="5510">
                                                                     <li class="active li-me">
-                                                                        <a href="#">Quy định</a></li>
+                                                                        <a href="Thuonghieu/quydinh.php">Quy định</a></li>
                                                                     <li class="li-me">
-                                                                        <a href="#">Tệp và hình ảnh</a></li>
+                                                                        <a href="Thuonghieu/tepvaha.php">Tệp và hình ảnh</a></li>
                                                                 </ul>
                                                             </div>
                                                         </li>

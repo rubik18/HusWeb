@@ -39,7 +39,7 @@
 	                            <a href="hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="" class="item ">Chương trình hợp tác</a></li>&nbsp;
+	                            <a href="chuongtrinhhoptac.php" class="item ">Chương trình hợp tác</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
 	                            <a href="" class="item ">Trao đổi & học bổng</a></li>
