@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Phòng Khoa học - Công nghệ</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng ban chức năng</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng Khoa học-Công nghệ</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Khoa học-Công nghệ-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,44 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Phòng Khoa học-Công nghệ</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12670_HtmlModule_lblContent" class="Normal">
+														<div style="text-align: justify;"><span style="font-size: 13px;">Phòng Khoa học - Công nghệ là đơn vị tham mưu, giúp việc cho Hiệu trưởng Trường ĐHKHTN trong công tác khoa học công nghệ và quản lý thiết bị khoa học. Các nhiệm vụ chính bao gồm:</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">- Xây dựng các văn bản hướng dẫn về hoạt động KH&amp;CN ở Trường ĐHKHTN, xây dựng kế hoạch hoạt động KH&amp;CN.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">- Quản lý các đề tài nghiên cứu, dự án, hợp đồng dịch vụ khoa học và công nghệ.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">- Quản lý hoạt động của phòng thí nghiệm, trung tâm nghiên cứu, các nhóm nghiên cứu mạnh.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">- Quản lý và hỗ trợ các hoạt động về sở hữu trí tuệ, khởi nghiệp, hoạt động nghiên cứu khoa học của người học.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">- Đầu mối trong xây dựng các dự án đầu tư trang thiết bị, tổ chức mua sắm thiết bị, vật tư, hóa chất và kiểm tra, đánh giá hiệu quả sử dụng thiết bị.&nbsp;</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;"><br>
+														</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Với những thành tích đã đạt được, Phòng Khoa học - Công nghệ đã được nhận nhiều danh hiệu thi đua, khen thưởng trong những năm gần đây: Bằng khen của Giám đốc ĐHQGHN (các năm 2013, 2016 và 2018), Bằng khen của Bộ trưởng Bộ Giáo dục và Đào tạo (các năm 2016 và 2019).&nbsp;</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Hiện tại Phòng Khoa học - Công nghệ có 07 cán bộ, bao gồm Trưởng phòng, Phó trưởng phòng và 05 chuyên viên. Tất cả cán bộ của Phòng đều có trình độ Thạc sĩ và Tiến sĩ.&nbsp;</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;"><br>
+														</span></div>
+														<div style="text-align: justify;"><strong><span style="font-size: 13px;">Thông tin về Lãnh đạo Phòng:</span></strong></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;"><br>
+														</span></div>
+														<div style="text-align: justify;"><strong><span style="font-size: 13px;">1. Trưởng Phòng: PGS.TS. Trần Quốc Bình</span></strong></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Điện thoại: 024.38588579</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">E-mail: tranquocbinh@hus.edu.vn</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Phòng làm việc: Phòng 306F, tầng 3, nhà T1.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Mảng công tác phụ trách chính: Kế hoạch KH&amp;CN; Các đề tài, dự án, hợp đồng về KH&amp;CN; Hoạt động sở hữu trí tuệ; Hội nghị, hội thảo khoa học.</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;"><br>
+														</span></div>
+														<div style="text-align: justify;"><strong><span style="font-size: 13px;">2. Phó Trưởng Phòng: TS. Đinh Nho Thái</span></strong></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Điện thoại: 024.38588579</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">E-mail: dinhnhothai@vnu.edu.vn</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Phòng làm việc: Phòng 306E, tầng 3, nhà T1</span></div>
+														<div style="text-align: justify;"><span style="font-size: 13px;">Mảng công tác phụ trách chính: Đầu tư và khai thác và sử dụng thiết bị nghiên cứu khoa học; Hoạt động của các phòng thí nghiệm, trung tâm nghiên cứu và nhóm nghiên cứu mạnh; An toàn trong nghiên cứu; Nghiên cứu khoa học sinh viên; Hoạt động khởi nghiệp.</span></div>
+														<div><span style="font-size: 13px;"><br>
+														</span></div>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Phòng ban chức năng -Phòng Khoa học-Công nghệ-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +103,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -99,7 +127,7 @@
                                                                     <li class=" li-me"><a href="#">Phòng chính trị và Công tác sinh viên</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Đào tạo</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Hành chính - Đối ngoại</a></li>
-                                                                    <li class="li-me"><a href="#">Phòng Khoa học - Công nghệ</a></li>
+                                                                    <li class="active li-me"><a href="#">Phòng Khoa học - Công nghệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Quản trị - Bảo vệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Sau đại học</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Tổ chức Cán bộ</a></li>
@@ -190,6 +218,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

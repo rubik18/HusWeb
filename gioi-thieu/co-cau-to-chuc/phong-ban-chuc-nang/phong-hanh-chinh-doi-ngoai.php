@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Phòng Hành chính - Đối ngoại</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng ban chức năng</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng Hành chính-Đối ngoại </a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Hành chính-Đối ngoại-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,28 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Phòng Hành chính - Đối ngoại</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12669_HtmlModule_lblContent" class="Normal">
+														<p style="text-align: justify;"><span>Phòng Hành chính – Đối ngoại là một đơn vị trực thuộc khối phòng ban, có chức năng tham mưu, giúp việc cho Hiệu trưởng về công tác quản lý hành chính và hợp tác quốc tế của Trường.&nbsp;</span><span style="text-align: justify;">Phòng hiện có 16 viên chức, trong đó có 1 Trưởng phòng (là cán bộ
+														giảng dạy kiêm nhiệm), 1 Phó trưởng phòng, 13 chuyên viên chính thức thuộc
+														phòng và 01 đồng chí là cán bộ chuyên trách Văn phòng Công đoàn Trường. Theo mảng
+														công tác, bộ phận đối ngoại có 04 chuyên viên, bộ phận hành chính có 04 chuyên
+														viên và bộ phận tổ xe là 05 chuyên viên.</span></p>
+														<p style="text-align: justify;">Các cán bộ của phòng là những người có kinh nghiệm trong công hành chính và hợp tác quốc tế, luôn sẵn sàng hỗ trợ cán bộ và sinh viên giải quyết các vấn đề mà Phòng phụ trách. Phòng HC-ĐN hiện có 4 phòng làm việc là: 218, 219,319 và 306B Nhà T1, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội.</p>
+														<p style="text-align: justify;"><span>Điện thoại: 84 4-38581419 (Trưởng phòng);</span></p>
+														<p style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;: 84 4-38584615 (bộ phận Hành chính);</span></p>
+														<p style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;: 84 4-35587677 (bộ phận Đối ngoại);</span></p>
+														<p style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;: 84 4-38262353 (bộ phận quản lý hội trường 19 Lê Thánh Tông);</span></p>
+														<p style="text-align: justify;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 84 4-35586183 (bộ phận tổ xe);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+														<p style="text-align: justify;"><span>Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 844-38583061</span></p>
+														<p style="text-align: justify;"><span>Email:&nbsp;<a href="mailto:hus@hus.edu.vn">hcdn@hus.edu.vn</a>.</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Phòng ban chức năng -Phòng Hành chính-Đối ngoại-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +87,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -98,13 +110,13 @@
                                                                 <ul class="submenu" style="display: block;" id="5439">
                                                                     <li class=" li-me"><a href="#">Phòng chính trị và Công tác sinh viên</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Đào tạo</a></li>
-                                                                    <li class="li-me"><a href="#">Phòng Hành chính - Đối ngoại</a></li>
+                                                                    <li class="active li-me"><a href="#">Phòng Hành chính - Đối ngoại</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Khoa học - Công nghệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Quản trị - Bảo vệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Sau đại học</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Tổ chức Cán bộ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
-                                                                    <li class="li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
+                                                                    <li class=" li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
                                                                     <li class="li-me"><a href="#">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
                                                                 </ul>
                                                             </li>
@@ -190,6 +202,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

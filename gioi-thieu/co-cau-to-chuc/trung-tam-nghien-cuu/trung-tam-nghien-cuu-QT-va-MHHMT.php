@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm nghiên cứu</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,56 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12737_HtmlModule_lblContent" class="Normal">
+														<div>
+														<p><span><strong><span>Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</span></strong></span></p>
+														<p><span><strong><span>Research Centre&nbsp;</span></strong><strong><span>for&nbsp;</span></strong><strong><span>Environmental Monitering and Modeling (CEMM)</span></strong></span></p>
+														<p><span>Địa chỉ: Nhà chuyên đề, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:cemm@vnu.edu.vn">cemm@vnu.edu.vn</a></span></p>
+														<p><span>ĐT: 043.8587285</span></p>
+														<p><span>Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường (CEMM) trực thuộc Trường Đại học Khoa học Tự nhiên được thành lập ngày 24 tháng 12 năm 2003 theo quyết định số 970/TCCB của Giám đốc Đại học Quốc gia Hà Nội.</span></p>
+														<p><span>Tổ chức và hoạt động theo quyết định số 106/TCCB ngày 13/01/2004 của Hiệu trưởng trường Đại học Khoa học Tự nhiên về việc Ban hành Qui định về điều lệ tổ chức và hoạt động của Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường.</span></p>
+														<p><span>Trung tâm là đơn vị có tư cách pháp nhân, hạch toán độc lập và tài khoản tại ngân hàng. Phạm vi hoạt động của Trung tâm rộng khắp tại các nước trong khu vực và trên toàn lãnh thổ Việt Nam.</span></p>
+														<p><span><strong>Tầm nhìn:</strong></span></p>
+														<p><span>- Trở thành đơn vị đào tạo nòng cốt và chuyên sâu theo hướng nghiên cứu ứng dụng GIS và mô hình hóa môi trường</span></p>
+														<p><span>- Duy trì và phát triển thành đơn vị nghiên cứu mạnh trong lĩnh vực nghiên cứu ứng dụng GIS và mô hình hóa môi trường đáp ứng yêu cầu của trường Đại học nghiên cứu hàng đầu tại Việt Nam.</span></p>
+														</div>
+														<p><span><strong>Chức năng và nhiệm vụ:</strong></span></p>
+														<p><span>- Nghiên cứu, triển khai các dự án, đề tài thuộc lĩnh vực Quan trắc và Mô hình hóa môi trường phục vụ cho công tác kiểm soát, quản lý, đánh giá hiện trạng, đánh giá tác động, quy hoạch và dự báo ô nhiễm môi trường.</span></p>
+														<p><span>- Tổ chức điều tra khảo sát, phân tích, xử lý số liệu, ứng dụng các công cụ viễn thám, GIS và tin học để xây dựng cơ sở dữ liệu môi trường phục vụ cho nghiên cứu, giảng dạy trong lĩnh vực môi trường.</span></p>
+														<p><span>- Thực hiện các nhiệm vụ đào tạo, tư vấn và chuyển giao công nghệ trong lĩnh vực Quan trắc và Mô hình hóa môi trường.</span></p>
+														<p><span><strong>Ban Lãnh đạo qua các giai đoạn:</strong></span></p>
+														<p><span>+ Giai đoạn: 2003 – 2008: &nbsp; Giám đốc: &nbsp; &nbsp; &nbsp; &nbsp; GS.TS. Phạm Ngọc Hồ</span></p>
+														<div>
+														<p><span>+ Giai đoạn: 2009 – 2010: &nbsp; Giám đốc: &nbsp; &nbsp; &nbsp; &nbsp; GS.TS. Phạm Ngọc Hồ</span></p>
+														<p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phó Giám đốc: &nbsp;ThS.Dương Ngọc Bách</span></p>
+														<p><span>+ Giai đoạn: 2010 – 2015: &nbsp; &nbsp; Giám đốc: &nbsp; &nbsp; &nbsp; &nbsp; PGS.TS. Hoàng Xuân Cơ</span></p>
+														<div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phó Giám đốc: &nbsp;ThS. Dương Ngọc Bách</span></div>
+														<div>
+														<p><span>+ Giai đoạn: 2015 – nay: &nbsp; &nbsp; Giám đốc: &nbsp; &nbsp; &nbsp; &nbsp; PGS.TSKH. Nguyễn Xuân Hải</span></p>
+														<div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Phó Giám đốc: &nbsp;ThS. Dương Ngọc Bách</span></div>
+														</div>
+														</div>
+														<div><span>- Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường với tổng số cán bộ cơ hữu 10 cán bộ (2GS, 1PGS, 1TS, 3 ThS, 5CN) trong đó 1 biên chế&nbsp;;&nbsp; 1 hợp đồng cấp trường có bảo hiểm; 1 hợp đồng cấp trường; 2 hợp đồng cấp trường có bảo hiểm (Trung tâm trả lương) và 5 hợp đồng không đóng bảo hiểm với Trung tâm. Hơn 30 cán bộ kiêm nhiệm có trình độ từ đại học trở lên.</span></div>
+														<p><span><strong>Lĩnh vực hoạt động:</strong></span></p>
+														<p><span><em><strong><span>&nbsp;Hoạt động khoa học công nghệ:</span></strong></em></span></p>
+														<p><span>- Tiến hành các nghiên cứu cơ bản và ứng dụng trong lĩnh vực môi trường. &nbsp;</span></p>
+														<p><span>- &nbsp;Nghiên cứu, triển khai các dự án, đề tài trong nước và quốc tế thuộc lĩnh vực quan trắc và mô hình hóa môi trường phục vụ cho công tác kiểm soát, quản lý, đánh giá hiện trạng, đánh giá tác động, quy hoạch và dự báo ô nhiễm môi trường.</span></p>
+														<p><span>- Điều tra, khảo sát và thiết kế các trạm, mạng lưới điểm quan trắc môi trường; phân tích, xử lý số liệu, ứng dụng các công cụ viễn thám, GIS và tin học để xây dựng cơ sở dữ liệu và thành lập các bản đồ hiện trạng và quy hoạch môi trường.</span></p>
+														<p><span>- Cải tiến, xây dựng và chuyển giao các phần mềm mô hình hóa môi trường và các phần mềm chuyên dụng khác phục vụ cho công tác dự báo, qui hoạch và&nbsp; quản lý môi trường.</span></p>
+														<p><span>- Thực hiện chức năng tư vấn và chuyển giao công nghệ trong lĩnh vực quan trắc và mô hình hóa môi trường.</span></p>
+														<p><span><em><strong>Hoạt động đào tạo:</strong></em></span></p>
+														<p><span>- Là đơn vị trực thuộc Khoa môi trường trong lĩnh vực đào tạo chuyên ngành Mô hình hóa môi trường (Hệ cử nhân, Cao học &amp; Tiến sĩ)</span></p>
+														<p><span>- Liên kết với các tổ chức quốc tế xây dựng các dự án đào tạo sau đại học (thạc sỹ và tiến sĩ) về lĩnh vực GIS, viễn thám và mô hình hóa môi trường theo chương trình đào tạo tín chỉ.</span></p>
+														<p><span>- Mở các lớp đào tạo ngắn hạn cho các cán bộ quản lý thuộc tỉnh thành trong việc ứng dụng công cụ GIS và mô hình hóa toán học phục vụ công tác kiểm soát, quản lý môi trường và phát triển bền vững.</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +115,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -91,7 +131,7 @@
                                                                     <li class="li-me"><a href="">Đảng ủy</a></li>
                                                                     <li class=" li-me"><a href="">Đoàn Thanh niên</a></li>
                                                                     <li class="li-me"><a href="#">Hội sinh viên</a></li>
-                                                                    <li class="li-me"><a href="#">Công đoàn</a></li>
+                                                                    <li class="active li-me"><a href="#">Công đoàn</a></li>
                                                                 </ul></div>
                                                             </li>
                                                             <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a>
@@ -190,6 +230,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

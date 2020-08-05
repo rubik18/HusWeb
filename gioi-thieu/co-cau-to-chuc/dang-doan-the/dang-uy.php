@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Đảng ủy</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Đảng - Đoàn thể</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Đảng ủy</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức - đảng_đoànthể - đảng ủy -->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,176 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Đảng ủy</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr15974_HtmlModule_lblContent" class="Normal">
+                                            			<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;"><span style="font-weight: bolder;">Các Ban của Đảng uỷ hiện nay</span></p>
+                                            			<ol style="margin-top: 10px; margin-right: 30px; margin-left: 30px; padding-left: 0px; color: #212529; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban Thường vụ</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Uỷ ban Kiểm tra</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban Bảo vệ Chính trị nội bộ</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban Chuyên môn</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban Tổ chức</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban Tuyên giáo</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Ban cơ sở vật chất</p>
+														    </li>
+														</ol>
+														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;"><span style="font-weight: bolder;">Các Chi bộ</span></p>
+														<ol style="margin-top: 10px; margin-right: 30px; margin-left: 30px; padding-left: 0px; color: #212529; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khối phòng ban I</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khối phòng ban II</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khối phòng ban III</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Toán – Cơ – Tin học</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Vật lý</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Hoá học</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Sinh học</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Địa lý</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Địa chất</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Khí tượng – Thuỷ văn – Hải dương học</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ Khoa Môi trường</p>
+														    </li>
+														    <li style="list-style: decimal;">
+														    <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em;">Chi bộ trường THPT Chuyên KHTN</p>
+														    </li>
+														</ol>
+														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;"><span style="font-weight: bolder;">Danh sách Bí thư Đảng ủy qua các thời kỳ</span></p>
+														<table align="center" border="1" cellpadding="5" cellspacing="1" style="padding: 5px; max-width: 100%; width: 726px; color: #212529; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">
+														    <thead>
+														        <tr>
+														            <th scope="col" style="padding: 0px; text-align: inherit;">STT</th>
+														            <th scope="col" style="padding: 0px; text-align: inherit;">HỌ VÀ TÊN</th>
+														            <th scope="col" style="padding: 0px; text-align: inherit;">NHIỆM KỲ</th>
+														            <th scope="col" style="padding: 0px; text-align: inherit;">TÊN TRƯỜNG</th>
+														        </tr>
+														    </thead>
+														    <tbody>
+														        <tr>
+														            <td style="padding: 0px;">1</td>
+														            <td style="padding: 0px;">Lê Hoàng Linh</td>
+														            <td style="padding: 0px;">1956 - 1966</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">2</td>
+														            <td style="padding: 0px;">Trịnh Thuận</td>
+														            <td style="padding: 0px;">1966 - 1970</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">3</td>
+														            <td style="padding: 0px;">Nguyễn Anh Tuấn</td>
+														            <td style="padding: 0px;">1970 - 1974</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">4</td>
+														            <td style="padding: 0px;">Nguyễn Đình Tứ</td>
+														            <td style="padding: 0px;">1974 - 1977</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">5</td>
+														            <td style="padding: 0px;">Nguyễn Duy Quý</td>
+														            <td style="padding: 0px;">1977 - 1985</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">6</td>
+														            <td style="padding: 0px;">Hồ Đức Dực</td>
+														            <td style="padding: 0px;">1986 - 1988</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">7</td>
+														            <td style="padding: 0px;">Lê Quang Thiêm</td>
+														            <td style="padding: 0px;">1988 - 1990</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">8</td>
+														            <td style="padding: 0px;">Võ Đức Tôn</td>
+														            <td style="padding: 0px;">1990 - 1992</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">9</td>
+														            <td style="padding: 0px;">Phùng Hữu Phú</td>
+														            <td style="padding: 0px;">1992 - 1996</td>
+														            <td style="padding: 0px;">Trường ĐH Tổng hợp Hà Nội</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">10</td>
+														            <td style="padding: 0px;">Nguyễn Văn Mậu</td>
+														            <td style="padding: 0px;">1996 - 1998</td>
+														            <td style="padding: 0px;">Trường ĐHKHTN</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">11</td>
+														            <td style="padding: 0px;">Nguyễn Trọng Uyển</td>
+														            <td style="padding: 0px;">1998 - 2001</td>
+														            <td style="padding: 0px;">Trường ĐHKHTN</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">12</td>
+														            <td style="padding: 0px;">Nguyễn Văn Mậu</td>
+														            <td style="padding: 0px;">2001 - 2008</td>
+														            <td style="padding: 0px;">Trường ĐHKHTN</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">13</td>
+														            <td style="padding: 0px;">Bùi Duy Cam</td>
+														            <td style="padding: 0px;">2008 - 2013</td>
+														            <td style="padding: 0px;">Trường ĐHKHTN</td>
+														        </tr>
+														        <tr>
+														            <td style="padding: 0px;">14</td>
+														            <td style="padding: 0px;">Nguyễn Văn Nội</td>
+														            <td style="padding: 0px;">2014 - đến nay</td>
+														            <td style="padding: 0px;">Trường ĐHKHTN</td>
+														        </tr>
+														    </tbody>
+														</table>
+														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">&nbsp;</p>
+                                            		</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức -đảng_đoànthể - đảng ủy -->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +235,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -88,7 +248,7 @@
                                                             <li class="trum"><a href="#">Đảng - Đoàn thể<button class="submenu-indicator btn btn" type="button"><span>+</span></button></a>
                                                                 
                                                                 <div class="content1 d-none"><ul class="submenu" style="display: block;">
-                                                                    <li class="li-me"><a href="">Đảng ủy</a></li>
+                                                                    <li class="active li-me"><a href="">Đảng ủy</a></li>
                                                                     <li class=" li-me"><a href="">Đoàn Thanh niên</a></li>
                                                                     <li class="li-me"><a href="#">Hội sinh viên</a></li>
                                                                     <li class="li-me"><a href="#">Công đoàn</a></li>
@@ -190,6 +350,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

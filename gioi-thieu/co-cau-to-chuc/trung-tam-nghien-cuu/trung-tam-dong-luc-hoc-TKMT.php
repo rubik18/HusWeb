@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Trung tâm Động lực học Thủy khí Môi trường</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm nghiên cứu</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm Động lực học Thủy Khí Môi trường</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Trung tâm Động lực học Thủy Khí Môi trường-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,34 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Trung tâm Động lực học Thủy Khí Môi trường</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12738_HtmlModule_lblContent" class="Normal">
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><strong>1. GIỚI THIỆU</strong></span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">Trung tâm Động lực và Môi trường biển (Marine Dynamics and Environment Center -&nbsp;<strong>MDEC</strong>) được thành lập theo Quyết định số 1265/TCCB ngày 13 tháng 09 năm 1999 do Giám đốc Đại học Quốc gia Hà Nội ký quyết định. Sau đó, để tập hợp rộng rãi các nhà giáo, các nhà khoa học làm việc không chỉ trong các lĩnh vực khoa học biển mà còn trong nhiều lĩnh vực Động lực học có liên quan đặc biệt trong môi trường chất chảy (fluid) trong Đại học Quốc gia Hà Nội, Trung tâm Động lực và Môi trường biển đã được đổi tên, nâng cấp và mở rộng chức năng hoạt động thành&nbsp;<strong>Trung tâm Động lực học thủy khí Môi trường (CEFD)</strong>&nbsp;theo quyết định số 4034/QĐ-TCCB ngày 27/11/2009 của Giám đốc ĐHQG Hà Nội.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">Trung tâm Động lực học Thủy khí Môi trường (CEFD) đã xây dựng một thương hiệu vững mạnh tại Việt Nam và trong khu vực trong các lĩnh vực động lực học thủy khí môi trường, mô hình thủy động lực học, khí tượng thủy văn, công trình cửa sông, ven biển, các lĩnh vực về tài nguyên nước liên quan đến việc phòng, chống giảm nhẹ thiên tai và biến đổi khí hậu thông qua việc thực hiện nhiều dự án. CEFD đã tích cực tham gia vào các dự án được tài trợ bởi các tổ chức quốc tế và chính phủ (WB, DANIDA, UNDP, Bộ NN &amp; PTNT, GFDRR, Bộ TN &amp; MT, và Uỷ ban nhân dân cấp tỉnh).</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">CEFD cung cấp một dịch vụ xuyên suốt toàn dự án bao gồm các nghiên cứu khả thi, phân tích tài chính kế toán, đánh giá tác động môi trường, thiết kế chi tiết và thiết kế cuối cùng,&nbsp; lên kế hoạch tổng thể, hỗ trợ việc mua sắm và vận hành, hoạt động giám sát, xây dựng năng lực. CEFD cũng có mối quan hệ chặt chẽ với Khoa Thủy văn, Khí tượng và Hải dương học, Trường Đại học Khoa học Tự nhiên - một trong những tổ chức giáo dục và nghiên cứu hàng đầu trong lĩnh vực khí tượng thủy văn ở Việt Nam, do đó Trung tâm có thể dễ dàng huy động các chuyên gia cao cấp về nhiệm vụ cũng như để thảo luận và tham khảo ý kiến ​​các nhóm nhà khoa học hàng đầu về các vấn đề quan tâm.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">CEFD có lợi thế vượt trội trong việc sử dụng các công nghệ tiên tiến để tối ưu hóa quản lý tài nguyên nước và cơ sở hạ tầng trong sông và vùng ven biển như phần mềm (Mike11, 21 FM), Delft3D, SMS POM, ROMS, ECOMSED,... mô hình dự báo thời tiết và khí hậu như WRF, RAMS, RegCM, vv, tin nhắn SMS,... Cùng với việc thực hiện các dự án tư vấn, với hệ thống thiết bị được trang bị, CEFD đã tiến hành một số cuộc khảo sát kỹ thuật đặc biệt là ở vùng ven biển, nơi thiếu dữ liệu địa hình mà không đáp ứng các yêu cầu của mô hình thủy động lực học có độ phân giải cao. Các thông số thủy động lực học cũng được đo lường như sóng, thủy triều, dòng xả sông, trầm tích,... phục vụ cho việc sử dụng các điều kiện biên, và hiệu chỉnh các mô hình</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><strong>Trung tâm CEFD</strong>&nbsp;thực hiện các dịch vụ tư vấn thông qua đội ngũ cán bộ tư vấn và các cộng tác viên, dưới sự điều hành của Ban giám đốc (có 01 Phó giám đốc quản lý các hoạt động dịch vụ tư vấn) và các cán bộ hỗ trợ về thủ tục tài chính, hành chính.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">Đội ngũ cán bộ chính nhiệm, cán bộ tư vấn và các cộng tác viên của Trung tâm CEFD trong thời điểm hiện tại gồm có 66 người (danh sách kèm theo), bao gồm:&nbsp;</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-<span style="white-space: pre;">	</span>03 Giáo sư, 17 Phó giáo sư</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-<span style="white-space: pre;">	</span>12 Tiến sỹ và 5 Nghiên cứu sinh</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-<span style="white-space: pre;">	</span>15 Thạc sỹ và nhiều chuyên gia khác</span></p>
+														<div style="text-align: justify;"><strong><span style="font-family: Tahoma;">2. CƠ CẤU TỔ CHỨC</span></strong><br>
+														</div>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5147/cocautochuc.jpg"></span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><br>
+														</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><br>
+														</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><br>
+														</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Trung tâm Động lực học Thủy Khí Môi trường-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +93,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -91,7 +109,7 @@
                                                                     <li class="li-me"><a href="">Đảng ủy</a></li>
                                                                     <li class=" li-me"><a href="">Đoàn Thanh niên</a></li>
                                                                     <li class="li-me"><a href="#">Hội sinh viên</a></li>
-                                                                    <li class="li-me"><a href="#">Công đoàn</a></li>
+                                                                    <li class="active li-me"><a href="#">Công đoàn</a></li>
                                                                 </ul></div>
                                                             </li>
                                                             <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a>
@@ -190,6 +208,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

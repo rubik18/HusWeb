@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm nghiên cứu</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm nghiên cứu Công nghệ Môi trường và Phát triển bền vững</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Khoa Trực thuộc- Trung tâm nghiên cứu Công nghệ Môi trường và Phát triển bền vững-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,38 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Trung tâm nghiên cứu Công nghệ Môi trường và Phát triển bền vững</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12735_HtmlModule_lblContent" class="Normal">
+														<p style="text-align: justify;"><strong><span style="font-family: Tahoma;">Tầm nhìn:</span></strong></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">Trung tâm Nghiên cứu công nghệ Môi trường và Phát triển Bền vững (Trung tâm CETASD) sẽ trở thành một trong những đơn vị hàng đầu ở Việt Nam về nghiên cứu và đào tạo sau đại học trong lĩnh vực Khoa học và Công nghệ Môi trường</span></p>
+														<p style="text-align: justify;"><strong><span style="font-family: Tahoma;">Chức năng – nhiệm vụ:</span></strong></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tổ chức thực hiện, làm đầu mối cho các nghiên cứu liên ngành về Khoa học – Công nghệ Môi trường;</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hỗ trợ cho công tác đào tạo của Trường Đại học Khoa học Tự nhiên, quản lý và tổ chức thực hiện một số chương trình đào tạo sau phối hợp quốc tế ở bậc sau đại học;</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thực hiện hợp tác quốc tế đặc biệt các hợp tác có tính liên ngành cao;</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thực hiện các dịch vụ khoa học kỹ thuật.</span></p>
+														<p style="text-align: justify;"><strong><span style="font-family: Tahoma;">Các định hướng ưu tiên về khoa học công nghệ:</span></strong></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em>Phân tích, quan trắc môi trường, đánh giá chất lượng nông sản, thực phẩm, dược phẩm</em></strong></span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phát triển quy trình phân tích các chất ô nhiễm hữu cơ (đặc biệt là những chất ô nhiễm hữu cơ bền vững như thuốc trừ sâu cơ clo, PCBs, Dioxin/Furan, các chất gây rối loạn nội tiết: PAHs, Bisphenol A, DEHP, dư lượng kháng sinh...) trong đối tượng môi trường (đất-trầm tích, nước, không khí, mẫu sinh học). Áp dụng các quy trình đã phát triển vào nhiệm vụ quan trắc môi trường, đánh giá sự tồn tại, vận chuyển, chuyển hóa của các chất ô nhiễm hữu cơ trong môi trường và rủi ro tác động tới con người và động thực vật.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Đánh giá hiện trạng ô nhiễm asen trong nước giếng khoan tại đồng bằng sông Hồng; Tìm hiểu cơ chế giải phóng asen trong nước ngầm; Đánh giá sự tích lũy asen trong cơ thể người dân sống tại khu vực ô nhiễm asen; Đánh giá hiệu quả lọc asen của bể lọc cát và một số vật liệu lọc.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em>Thiết kế, chế tạo các công cụ đo phục vụ mục tiêu quan trắc môi trường, kiểm tra vệ sinh an toàn thực phẩm và phân tích lâm sàng</em></strong></span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thiết kế, chế tạo các hệ thiết bị phân tích trên nguyên lý điện di mao quản. Phát triển các quy trình phân tích sử dụng thiết bị đã chế tạo. Ứng dụng thực tế trong quan trắc đánh giá ô nhiễm môi trường, thực phẩm</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phát triển sensor điện hóa và hóa sinh. Ứng dụng&nbsp;phục vụ phân tích quan trắc môi trường, thực phẩm, lâm sàng (ví dụ sensor đo amoni, nitrat, nitrit, chì, cadmi, dopamin…)</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em>Nghiên cứu và triển khai công nghệ</em></strong></span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Năng lượng, hoá chất và vật liệu từ các nguồn tái tạo, tập trung vào sinh khối: Hoá chất, vật liệu từ nước thải công nghiệp giấy và công nghệ xử lí môi trường tương ứng; Hoá chất, vật liệu từ sinh khối (tập trung sinh khối xellulô - phế thải nông, lâm nghiệp); Công nghệ xử lí nước thải tận thu năng lượng, N, P.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Các công nghệ xử lí môi trường phù hợp: Các công nghệ xử lí các chất hữu cơ bền; Các công nghệ xử lí N, P; Công nghệ xử lí nước thải chi phí vận hành thấp; Công nghệ xử lí – tái sử dụng nước thải.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hóa chất, vật liệu từ nước thải công nghệ giấy: Công nghệ tách dịch đen thành 3 dòng Lignin – Đường – Vô cơ; Các sản phẩm từ Lignin; Công nghệ xử lí nước thải giấy theo hướng tận thu chất thải.</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hoàn thành và thương mại hoá công nghệ: Máy xử lí nước cấp xử lí Fe, Mn, As, N dạng modul tiền chế; Máy xử lí nước thải bằng công nghệ lọc sinh học tổ hợp tiền chế; Công nghệ MBR xử lí và tái sử dụng nước thải</span></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><strong>CƠ CẤU TỔ CHỨC</strong></span></p>
+														<p style="text-align: center;"><img alt="" src="http://www.hus.vnu.edu.vn/portals/0/_UPLOAD/tt_cnmt_ptbv_sodotochuc1.jpg"></p>
+														<p style="text-align: justify;"><span style="font-family: Tahoma;"><br>
+														</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Trung tâm nghiên cứu Công nghệ Môi trường và Phát triển bền vững-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +97,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -91,7 +113,7 @@
                                                                     <li class="li-me"><a href="">Đảng ủy</a></li>
                                                                     <li class=" li-me"><a href="">Đoàn Thanh niên</a></li>
                                                                     <li class="li-me"><a href="#">Hội sinh viên</a></li>
-                                                                    <li class="li-me"><a href="#">Công đoàn</a></li>
+                                                                    <li class="active li-me"><a href="#">Công đoàn</a></li>
                                                                 </ul></div>
                                                             </li>
                                                             <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a>
@@ -190,6 +212,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

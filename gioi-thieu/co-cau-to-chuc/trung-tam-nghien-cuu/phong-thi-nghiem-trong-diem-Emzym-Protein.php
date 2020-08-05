@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Phòng thí nghiệm trọng điểm Enzym Protein</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Trung tâm nghiên cứu</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng thí nghiệm trọng điểm Emzym Protein</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Phòng thí nghiệm trọng điểm Emzym Protein-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,46 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Phòng thí nghiệm trọng điểm Emzym Protein</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12734_HtmlModule_lblContent" class="Normal">
+														<p style="text-align: left;"><strong>PHÒNG THÍ NGHIỆM TRỌNG ĐIỂM CÔNG NGHỆ ENZYM VÀ PROTEIN</strong></p>
+														<p>Địa chỉ: Nhà T8, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
+														<p>Điện thoại: (84-24) 35575497 Fax: (84-24) 35575498</p>
+														<p>E-mail: klepthus08@gmail.com/ klept@vnu.edu.vn</p>
+														<p>Website: klept.com.vn</p>
+														<p>Phòng Thí nghiệm trọng điểm Công nghệ Enzym và Protein (PTNTĐCNEP) là một trung tâm nghiên cứu ở Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội, được Nhà nước đầu tư trang bị các máy móc, thiết bị hiện đại để nghiên cứu và phát triển công nghệ enzyme và protein hiện đại.</p>
+														<p>Bên cạnh chức năng nghiên cứu, PTNTĐCNEP kết hợp chặt chẽ với các đơn vị trong Trường và trong Đại học Quốc gia Hà Nội thực hiện các chương trình đào tạo cán bộ trình độ đại học, sau đại học, các thực tập sinh về lĩnh vực sinh học và công nghệ sinh học.</p>
+														<p>Hiện tại PTNTĐCNEP có 23 thành viên với 6 phòng trực thuộc:</p>
+														<p><strong>- Phòng Hành chính-Tổng hợp</strong></p>
+														<p><strong>- Phòng Enzyme học và phân tích hoạt tính sinh học</strong></p>
+														<p><strong>- Phòng Genomic</strong></p>
+														<p><strong>- Phòng Proteomic và sinh học cấu trúc</strong></p>
+														<p><strong>- Phòng Protein tái tổ hợp</strong></p>
+														<p><strong>- Phòng Sinh học nano và ứng dụng</strong></p>
+														<p>Các đề tài/chương trình nghiên cứu hiện tại của PTNTĐCNEP tập trung vào i) điều tra, nghiên cứu các protein, enzyme có tiềm năng ứng dụng trong phát triển thuốc và y học, ii) phát hiện, nhận dạng các protein ở người và một số sinh vật trong điều kiện bình thường và bệnh lý (ung thư máu, ung thư gan, ung thư đại trực tràng) hay stress (axit, oxy hóa), iii) phát triển và ứng dụng các kỹ thuật, kit và biosensor để phát hiện và chẩn đoán một số bệnh và/hay một số tác nhân gây bệnh ở người, iv) sản xuất một số enzyme và protein có nhiều ứng dụng trong nghiên cứu sinh học phân tử và y học, v) phát triển các loại sản phẩm probiotic và prebiotic để hỗ trợ điều trị và phòng một số bệnh đường tiêu hóa, tăng cường sức khỏe cho người và phòng bệnh virus đốm trắng ở tôm và vi) phát triển các hệ thống chuyển gen/biểu hiện gen hiệu suất cao ở nấm sợi và nấm dược liệu phục vụ sản xuất enzyme/protein có giá trị kinh tế.</p>
+														<p>PTNTĐCNEP là nơi có thể cung cấp các dịch vụ đào tạo chất lượng cao về các kỹ thuật PCR, RT-PCR, xác định trình tự gen, nhân dòng và biểu hiện gen, tách, tinh sạch, định tính và định lượng axit nucleic, protein, enzyme và nhiều hợp chất có hoạt tính sinh học khác.</p>
+														<p><strong>CÁC ĐỐI TÁC HỢP TÁC:&nbsp;</strong></p>
+														<ul>
+														    <li>Đối tác trong nước: Bệnh viện Nhi Trung ương, Bệnh viện bệnh nhiệt đới Trung ương, Viện Dinh dưỡng Quốc gia, Viện nuôi trồng thủy sản I và II, Viện nghiên cứu hệ gen, Viện Công nghệ Sinh học Viện Hàn lâm Khoa học Việt Nam, Viện Công nghiệp thực phẩm, Viện Vi Sinh vật và Công nghệ Sinh học và Khoa Y Dược Đại học Quốc Gia Hà Nội, Viện Công nghiệp Thực phẩm và Công nghệ Sinh học Đại học Bách Khoa Hà Nội, Công ty cổ phần ANABIO R&amp;D…</li>
+														    <li>Đối tác quốc tế: Đại học Hoàng gia Holloway London Anh Quốc, Viện Khoa học và Công nghệ tiên tiến Hàn Quốc, Đại hoc Kitakuyshu Nhật Bản, Đại học Wonkwang Hàn Quốc.</li>
+														</ul>
+														<p><strong>CÁC CỘNG TÁC VIÊN</strong></p>
+														<ul>
+														    <li>Prof. Yeon-Soo Seo &amp; Prof. Ji- Joon Song (Korea Advanced Institute of Science and Technology, Korea)</li>
+														    <li>Prof. Kazuo Sakurai (Kitakyushu University, Japan)</li>
+														    <li>Prof. Simon Cutting (Royal Holloway University of London, UK)</li>
+														    <li>Assoc. Prof. Giovanni Delogu (Catholic University of the Sacred Heart, Italy)</li>
+														    <li>Prof. Hyun Park (Wonkwang University, Korea)</li>
+														    <li>Dr. Le Van Hung (Protein Science Consulting Company, USA)</li>
+														    <li>Dr. Nguyễn Hòa Anh (Công ty cổ phần ANABIO R&amp;D, Việt Nam)</li>
+														</ul>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Phòng thí nghiệm trọng điểm Emzym Protein-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +105,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -91,7 +121,7 @@
                                                                     <li class="li-me"><a href="">Đảng ủy</a></li>
                                                                     <li class=" li-me"><a href="">Đoàn Thanh niên</a></li>
                                                                     <li class="li-me"><a href="#">Hội sinh viên</a></li>
-                                                                    <li class="li-me"><a href="#">Công đoàn</a></li>
+                                                                    <li class="active li-me"><a href="#">Công đoàn</a></li>
                                                                 </ul></div>
                                                             </li>
                                                             <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a>
@@ -123,7 +153,7 @@
                                                             <li class="li-me"><a href="#">THPT chuyên KHTN</a> </li>
                                                             <li class="li-me"><a href="#"> Trung tâm nghiên cứu<span class="submenu-indicator">+</span></a>
                                                                 <ul class="submenu" style="display: block;" id="5439">
-                                                                    <li class="li-me"><a href="#">Phòng thí nghiệm trọng điểm Enzym Protein</a> </li>
+                                                                    <li class="active li-me"><a href="#">Phòng thí nghiệm trọng điểm Enzym Protein</a> </li>
                                                                     <li class="li-me"><a href="#">Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</a></li>
                                                                     <li class="li-me"><a href="#">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a></li>
                                                                     <li class="li-me"><a href="#">Trung tâm Động lực học Thủy Khí Môi trường</a></li>
@@ -190,6 +220,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

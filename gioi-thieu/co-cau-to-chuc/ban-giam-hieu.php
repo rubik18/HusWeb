@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Ban giám hiệu</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,10 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Ban giám hiệu</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +28,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức - ban giám hiệu -->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +38,49 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Ban giám hiệu</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <table align="center" border="1" class="Table" style="background:white;border-collapse:collapse;border:1px solid #cccccc;width:90%;" width="90%">
+                                            	<thead>
+                                            		<tr>
+                                            			<td>
+                                            				<p style="text-align: center;"><strong>&nbsp; Ảnh</strong></p>
+                                            			</td>
+                                            			<td>
+															<p style="text-align: center;"><strong>&nbsp; Họ và tên</strong></p>
+														</td>
+														<td>
+															<p style="text-align: center;"><strong>&nbsp; Chức danh/Chức vụ</strong></p>
+														</td>
+                                            		</tr>
+                                            	</thead>
+                                            	<tbody>
+                                            		<tr>
+														<td style="border-bottom:1px solid #4f81bd; padding:0in 7px 0in 7px; background-color:white; border-top:1px solid #4f81bd; border-right:1px solid #4f81bd; border-left:1px solid #4f81bd" valign="top">
+														<p style="text-align:center"><a class="newsslidephoto" href="#" rel="newsdetailslidephoto" title="Ban giám hiệu"><img alt="Ban giám hiệu" height="142" src="http://www.hus.vnu.edu.vn/DATA/IMAGES/2020/06/vhlinh_office2.jpg" width="150"></a></p>
+														</td>
+														<td style="text-align: center;">PGS. TSKH. Vũ Hoàng Linh</td>
+														<td>
+														<p style="text-align: center;">Hiệu trưởng</p>
+														</td>
+													</tr>
+													<tr>
+														<td style="border-bottom:1px solid #4f81bd; padding:0in 7px 0in 7px; background-color:white; border-top:1px solid #4f81bd; border-right:1px solid #4f81bd; border-left:1px solid #4f81bd" valign="top">
+														<p style="text-align:center"><a class="newsslidephoto" href="#" rel="newsdetailslidephoto" title="Ban giám hiệu"><img alt="Ban giám hiệu" height="142" src="http://www.hus.vnu.edu.vn/DATA/IMAGES/2020/06/ngac_an_bang.jpg" width="150"></a></p>
+														</td>
+														<td style="text-align: center;">PGS. TS. Ngạc An Bang</td>
+														<td style="text-align: center;">Phó Hiệu trưởng</td>
+													</tr>
+													<tr>
+														<td style="border-bottom:1px solid #4f81bd; padding:0in 7px 0in 7px; background-color:white; border-top:1px solid #4f81bd; border-right:1px solid #4f81bd; border-left:1px solid #4f81bd" valign="top">
+														<p style="text-align:center"><a class="newsslidephoto" href="#" rel="newsdetailslidephoto" title="Ban giám hiệu"><img alt="Ban giám hiệu" height="142" src="http://www.hus.vnu.edu.vn/DATA/IMAGES/2020/06/gs.ts-le-thanh-son.jpg" width="150"></a></p>
+														</td>
+														<td style="text-align: center;">GS. TS. Lê Thanh Sơn</td>
+														<td style="text-align: center;">Phó Hiệu trưởng</td>
+													</tr>
+                                            	</tbody>
+                                            </table>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức - ban giám hiệu -->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,15 +105,15 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
-                                                            <li class="li-me"><a href="">Ban giám hiệu</a></li>
+                                                            <li class="active li-me"><a href="">Ban giám hiệu</a></li>
                                                             
                                                             <li class="trum"><a href="#">Đảng - Đoàn thể<button class="submenu-indicator btn btn" type="button"><span>+</span></button></a>
                                                                 
@@ -190,6 +220,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>

@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Khoa Hóa học</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Khoa Hóa học</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Khoa Hóa học-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,34 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Khoa Hóa học</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr11055_HtmlModule_lblContent" class="Normal">
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-family: tahoma, geneva, sans-serif; font-size: 12px; line-height: 1.538em;">Khoa Hoá học được thành lập năm 1956, là một trong những khoa được thành lập đầu tiên của Trường Đại học Tổng hợp Hà Nội. Trong hơn 50 năm qua, Khoa Hoá học luôn là một trong những cơ sở đào tạo và nghiên cứu khoa học đầu ngành về lĩnh vực Hoá học của đất nước.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Khoa có 6 Bộ môn: Hoá học Vô cơ; Hoá học Hữu cơ; Hoá học Phân tích; Hoá Lý và Hoá Lý thuyết; Công nghệ Hoá học; Hoá học Dầu mỏ; Phòng thí nghiệm Hoá dược; Phòng thí nghiệm Hoá học Môi trường; Trung tâm Hoá dầu và Trung tâm Ứng dụng Tin học trong Hoá học.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">100% sinh viên khoa Hoá học được tham gia nghiên cứu khoa học. 100% sinh viên tốt nghiệp có việc làm, trong đó trên 95% làm đúng chuyên ngành được đào tạo. Hầu hết sinh viên làm việc trong các công ty liên doanh, các xí nghiệp sản xuất và viện nghiên cứu ở các thành phố lớn; số ít sinh viên làm việc trong các trường đại học, cao đẳng và ở các địa phương.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Hiện tại Khoa có 4 hướng nghiên cứu tập trung ưu tiên:</strong></span></p>
+														<ul style="margin-top: 1em; margin-bottom: 1em; padding-left: 2em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff;">
+														    <li style="text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Hoá học và công nghệ vật liệu mới (vật liệu kích thước nano và polime nanocomposit);</span></li>
+														    <li style="text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Hoá dược và các hợp chất có hoạt tính sinh học;</span></li>
+														    <li style="text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Hoá học và công nghệ môi trường, phân tích lượng vết và siêu vết;</span></li>
+														    <li style="text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Hoá học và công nghệ năng lượng mới.</span></li>
+														</ul>
+														<h1 style="font-size: 2em; line-height: 1.3em; margin-top: 0px; margin-bottom: 0.5em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Ngành Hoá học</strong></span></h1>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Mục tiêu đào tạo:</strong>&nbsp;Trang bị cho sinh viên kiến thức đại cương về khoa học xã hội, khoa học tự nhiên; những kiến thức cơ bản về hoá học; được tiếp cận, thực hành trên những trang thiết bị, máy móc hiện đại phục vụ nghiên cứu khoa học và nâng cao kỹ năng thực hành; những kiến thức cơ sở của ngành và chuyên ngành, hình thành và phát triển tư duy nghiên cứu và làm việc độc lập, có khả năng ứng dụng hoá học vào giải quyết các bài toán thực tế trong các lĩnh vực khoa học, công nghệ, kinh tế, xã hội.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Triển vọng nghề nghiệp:</strong>&nbsp;Sinh viên tốt nghiệp có đủ khả năng đảm nhận các công việc phù hợp với chuyên môn tại bất kỳ nơi nào ở trong và ngoài nước; giảng dạy tại các trường đại học, cao đẳng, THPT, làm việc tại các viện nghiên cứu, các cơ quan quản lý, các cơ sở sản xuất và kinh doanh có sử dụng kiến thức hoá học, hoặc có thể được đào tạo thạc sĩ, tiến sĩ ở trong và ngoài nước.</span></p>
+														<h1 style="font-size: 2em; line-height: 1.3em; margin-top: 0px; margin-bottom: 0.5em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Ngành Công nghệ kỹ thuật Hoá học</strong></span></h1>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Mục tiêu đào tạo:</strong>&nbsp;Trang bị cho sinh viên những kiến thức đại cương về khoa học tự nhiên, khoa học xã hội, kiến thức cơ bản về hoá học và kiến thức chuyên sâu về công nghệ các quá trình hóa học, tiếp cận những trang thiết bị, máy móc hiện đại phục vụ nghiên cứu khoa học và công nghệ. Có khả năng ứng dụng công nghệ giải quyết các bài toán thực tế trong các lĩnh vực khoa học, kinh tế, xã hội, môi trường.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Triển vọng nghề nghiệp:</strong>&nbsp;Sinh viên sau khi tốt nghiệp có đủ khả năng làm việc tại các viện nghiên cứu, các cơ quan quản lý, các cơ sở sản xuất và kinh doanh, các công ty liên doanh có sử dụng kiến thức công nghệ hoá học và hoá học; giảng dạy tại các trường đại học, cao đẳng, THPT, hoặc được đào tạo tiếp thạc sĩ, tiến sĩ ở trong và ngoài nước.</span></p>
+														<h1 style="font-size: 2em; line-height: 1.3em; margin-top: 0px; margin-bottom: 0.5em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Ngành Hóa dược</strong></span></h1>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Mục tiêu đào tạo:</strong>&nbsp;Trang bị cho sinh viên những kiến thức cơ bản về hóa học và các kiến thức cơ sở của ngành (gồm Hóa dược đại cương, Hóa học các hợp chất thiên nhiên, dược liệu, tổng hợp Hóa dược, quan hệ giữa cấu trúc và hoạt tính của tiền chất làm thuốc, thiết kế và chế tạo tiền chất làm thuốc, công nghiệp sản xuất và bào chế thuốc, cơ chế các quá trình vận động và chuyển hóa thuốc) và các kiến thức chuyên sâu thuộc các chuyên ngành lựa chọn. Điểm nổi bật của chương trình là sử dụng rộng rãi các phương pháp công nghệ tiên tiến, trong đó có công nghệ tin học để mô hình hóa, tối ưu hóa các quá trình sàng lọc, khảo sát, thiết kế, chế tạo và định hướng ứng dụng các tiền chất làm thuốc.</span></p>
+														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;"><strong>Triển vọng nghề nghiệp:</strong>&nbsp;Sau khi tốt nghiệp sinh viên có thể giảng dạy Hóa dược trong các trường đại học và cao đẳng; làm việc trong các viện, trung tâm, công ty, nhà máy, xí nghiệp sản xuất dược phẩm; chuyên viên tư vấn, lập kế hoạch, soạn thảo chính sách ngành Hóa dược; làm công tác quản lý trong các công ty sản xuất và kinh doanh dược phẩm; các doanh nhân trong lĩnh vực sản xuất dược phẩm... Sinh viên có cơ hội được học tiếp các chương trình đào tạo sau đại học về Hóa dược.</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Khoa Hóa học-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +93,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -112,7 +130,7 @@
                                                                 <ul class="submenu" style="display: block;" id="5439">
                                                                     <li class="li-me"><a href="#">Khoa Toán - Cơ - Tin học</a></li>
                                                                     <li class="li-me"><a href="#">Khoa Vật lý</a></li>
-                                                                    <li class="li-me"><a href="#">Khoa Hóa học</a></li>
+                                                                    <li class="active li-me"><a href="#">Khoa Hóa học</a></li>
                                                                     <li class="li-me"><a href="#">Khoa Sinh học</a></li>
                                                                     <li class="li-me"><a href="#">Khoa Địa lý</a></li>
                                                                     <li class="li-me"><a href="#">Khoa Địa chất</a></li>
@@ -190,6 +208,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

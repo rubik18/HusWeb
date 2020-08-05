@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Phòng Đào tạo</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng ban chức năng</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng Đào tạo</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Đào tạo-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,75 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Phòng Đào tạo</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12684_HtmlModule_lblContent" class="Normal">
+														<p><span><strong>1. Phó&nbsp;</strong><strong>Trưởng phòng (Phụ trách phòng)</strong>: TS. Trương Thanh Tú</span></p>
+														<p><span>Phụ trách chung và trực tiếp phụ trách các nội dung công việc: Kế hoạch đào tạo, chương trình đào tạo, tuyển sinh; giáo trình-học liệu, cấp phát và quản lý văn bằng, trực tiếp theo dõi và tổ chức và quản lý đào tạo đại học hệ chính quy, các chương trình đào tạo thuộc NVCL.</span></p>
+														<p><span>Điện thoại: 04.38583795</span></p>
+														<p><span>Email:&nbsp;</span><span style="color: #72afd2;">ttruong@hus.edu.vn; tutt@vnu.edu.vn&nbsp;</span></p>
+														<p><span>Phòng làm việc: Phòng 407, tầng 4, nhà T1.</span></p>
+														<p><span><strong>2.&nbsp;</strong><strong>Phó Trưởng Phòng</strong>: ThS. Trần Tùng</span></p>
+														<p><span>Trực tiếp theo dõi tổ chức và quản lý đào tạo đại học hệ vừa làm vừa học, liên kết đào tạo trong nước, Trường THPT Chuyên, cơ sở vật chất phục vụ cho tổ chức giảng dạy và học tập.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:tungt@vnu.edu.vn">tungt@vnu.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: Phòng 410, tầng 4, nhà T1.</span></p>
+														<p><span><strong>3.&nbsp;</strong><strong>Chuyên viên</strong>: ThS.&nbsp;Nguyễn Tuấn Khanh</span></p>
+														<p><span>Theo dõi chương trình đào tạo, đề cương bài giảng, giáo trình, tài liệu , bài giảng điện tử.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;nt<a href="mailto:khanhnt@vnu.edu.vn">khanh@vnu.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 409, tầng 4, nhà T1.&nbsp;</span></p>
+														<p><span><strong>4.&nbsp;</strong><strong>Chuyên viên</strong>: CN. Đỗ Thị Thúy Hoa</span></p>
+														<p><span>Theo dõi, quản lý các CTĐT bằng kép, kế hoạch giảng dạy cho các đơn vị đào tạo trong Đại học Quốc gia Hà Nội, tiếp nhận ý kiến sinh viên, văn thư lưu trữ.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:hoadtdhkhtn@yahoo.com.vn">hoadtdhkhtn@yahoo.com.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 410, tầng 4, nhà T1.&nbsp;</span></p>
+														<p><span><strong>5.&nbsp;</strong><strong>Chuyên viên:</strong>&nbsp;ThS. Hoàng Đức Hùng</span></p>
+														<p><span>Theo dõi triển khai xây dựng chương trình đào tạo, kế hoạch đào tạo, kế hoạch năm học, tổ chức xây dựng thời khóa biểu, tổ chức đăng ký học, lịch thi, giờ giảng dạy.</span></p>
+														<p><span>Điện thoại: 04.35579076</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:hunghd@vnu.edu.vn">hunghd@vnu.edu.vn</a>,&nbsp;<a href="mailto:hoangduchung@hus.edu.vn">hoangduchung@hus.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 411, tầng 4, nhà T1.&nbsp;</span></p>
+														<p><span><strong>6.&nbsp;</strong><strong>Chuyên viên:</strong>&nbsp;ThS. Nguyễn Thị Lan Hương</span></p>
+														<p><span>Theo dõi các lớp môn học, thu nhận kết quả học tập, phối hợp trong việc quản lý kết quả học tập, xét học vụ, xét tốt nghiệp.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:lanhuongkhtn@gmail.com">lanhuongkhtn@gmail.com</a></span></p>
+														<p><span>Phòng làm việc: phòng 409, tầng 4, nhà T1.</span></p>
+														<p><span><strong>7.&nbsp;</strong><strong>Chuyên viên:</strong>&nbsp;CN. Trần Long</span></p>
+														<p><span>Theo dõi kế hoạch đào tạo, kế hoạch năm học, tổ chức xây dựng thời khóa biểu, tổ chức đăng ký học, lịch thi, giờ giảng dạy.</span></p>
+														<p><span>Điện thoại: 04.35579076</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:tranlong@hus.edu.vn">tranlong@hus.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 411, tầng 4, nhà T1.&nbsp;</span></p>
+														<p><span><strong>8.</strong>&nbsp;<strong>Chuyên viên:</strong>&nbsp;ThS. Phạm Hải Minh</span></p>
+														<p><span>Theo dõi, tổ chức, quản lý đào tạo các chương trình đào tạo tài năng, chất lượng cao, tiên tiến, đạt chuẩn quốc tế và liên kết đào tạo trong nước và nước ngoài, theo dõi sinh viên nước ngoài.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:phamhaiminh2001@yahoo.com">phamhaiminh2001@yahoo.com</a>,&nbsp;<a href="mailto:phamhaiminh@hus.edu.vn">phamhaiminh@hus.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: Phòng 410, tầng 4, nhà T1.</span></p>
+														<p><span><strong>9.</strong>&nbsp;<strong>Chuyên viên:</strong>&nbsp;ThS. Nguyễn Thu Phương</span></p>
+														<p><span>Theo dõi, quản lý bậc đào tạo đại học hệ vừa làm vừa học, quản lý kết quả học tập, xét tốt nghiệp, liên kết đào tạo trong nước, Trường THPT Chuyên.</span></p>
+														<p><span>Điện thoại: 04.35579076</span></p>
+														<p><span>Email:&nbsp;<a href="http://mail.vnu.edu.vn/webmail/src/compose.php?send_to=phuongnt_dt%40vnu.edu.vn">phuongnt_dt@vnu.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 411, tầng 4, nhà T1.</span></p>
+														<p><span><strong>10.</strong>&nbsp;<strong>Chuyên viên</strong>: CN. Nguyễn Thế Quân</span></p>
+														<p><span>Theo dõi, triển khai kế hoạch năm học, xây dựng thời khóa biểu, tổ chức đăng ký học, xây dựng lịch thi học kỳ, giờ giảng dạy,....</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:nguyenthequan@hus.edu.vn">nguyenthequan@hus.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 409, tầng 4, nhà T1.</span></p>
+														<p><span><strong>11.&nbsp;</strong><strong>Chuyên viên:</strong>&nbsp;ThS. Trần Thị Thu Thủy</span></p>
+														<p><span>Thu nhận kết quả học tập, quản lý kết quả học tập, xét học vụ, xét tốt nghiệp các chương trình đào tạo đại học hệ chính quy, bằng kép.</span></p>
+														<p><span>Điện thoại: 04.38585279</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:thuykttv@gmail.com">thuykttv@gmail.com</a></span></p>
+														<p><span>Phòng làm việc: phòng 409, tầng 4, nhà T1.</span></p>
+														<p><span><strong>12.&nbsp;</strong><strong>Chuyên viên:</strong>&nbsp;CN. Nguyễn Thị Thùy Trang</span></p>
+														<p><span>Theo dõi và quản lý việc tổ chức đào tạo các chương trình đào tạo tài năng, chất lượng cao, trực văn phòng Ban điều hành hệ CNKHTN.</span></p>
+														<p><span>Điện thoại: 04.38587425</span></p>
+														<p><span>Email:&nbsp;<a href="mailto:ntttrang@vnu.edu.vn">ntttrang@vnu.edu.vn</a></span></p>
+														<p><span>Phòng làm việc: phòng 408A, tầng 4, nhà T1.</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Phòng ban chức năng -Phòng Đào tạo-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +134,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -97,14 +156,14 @@
                                                             <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a>
                                                                 <ul class="submenu" style="display: block;" id="5439">
                                                                     <li class=" li-me"><a href="#">Phòng chính trị và Công tác sinh viên</a></li>
-                                                                    <li class="li-me"><a href="#">Phòng Đào tạo</a></li>
+                                                                    <li class="active li-me"><a href="#">Phòng Đào tạo</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Hành chính - Đối ngoại</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Khoa học - Công nghệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Quản trị - Bảo vệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Sau đại học</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Tổ chức Cán bộ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
-                                                                    <li class="li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
+                                                                    <li class=" li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
                                                                     <li class="li-me"><a href="#">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
                                                                 </ul>
                                                             </li>
@@ -190,6 +249,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>

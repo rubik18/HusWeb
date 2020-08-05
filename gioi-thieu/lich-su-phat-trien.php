@@ -3,6 +3,8 @@
 <!-- start header -->
 <?php include "../header.html" ?>
 <!-- end header -->
+<!-- Scroll Up -->
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
  <!DOCTYPE html>
  <html>
  <head>

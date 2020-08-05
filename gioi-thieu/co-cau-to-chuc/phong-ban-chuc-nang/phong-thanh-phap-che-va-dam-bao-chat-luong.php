@@ -1,9 +1,10 @@
-<title>Sứ mạng - Tầm nhìn</title>
+<title>Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</title>
 <!-- start header -->
-<?php include "../header.html" ?>
+<?php include "../../../header.html" ?>
 <!-- end header -->
 <!-- Scroll Up -->
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -15,7 +16,13 @@
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng ban chức năng</a>
+                        &nbsp;
+                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <a href="#" class="item">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a>
                     </ol>
                 </div>
             </div>
@@ -24,7 +31,7 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Thanh tra Pháp chế và Đảm bảo chất lượng-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
@@ -34,23 +41,49 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1>Sứ mạng và Tầm nhìn</h1>
+                                            <h1>Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.1. Sứ mạng</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trường ĐHKHTN&nbsp;là trường đại học nghiên cứu, có sứ mạng đào tạo nguồn nhân lực chất lượng cao, bồi dưỡng nhân tài, nghiên cứu sáng tạo và chuyển giao tri thức thuộc lĩnh vực khoa học và công nghệ, góp phần xây dựng, phát triển và bảo vệ đất nước.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.2. Tầm nhìn</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Trở thành trường đại học nghiên cứu tiên tiến ở&nbsp;châu Á vào năm 2035.</span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.3. Giá trị cốt lõi</strong></span></span></p>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;">Truyền thống hơn 60 năm xây dựng và phát triển đã hình thành nên bản sắc văn hóa và triết lý phát triển của Trường ĐHKHTN với một hệ giá trị cốt lõi sau đây:</span></span></p>
-                                            <ul>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Chất lượng xuất sắc;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Đổi mới và sáng tạo;&nbsp;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Trách nhiệm xã hội cao;</em></strong></span></span></li>
-                                                <li style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong><em>Hợp tác và thân thiện;</em></strong></span></span></li>
-                                            </ul>
-                                            <p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>1.4. Khẩu hiệu hành động</strong></span></span></p>
-                                            <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
+                                            <div id="dnn_ctr15974_ContentPane">
+                                            	<div id="dnn_ctr15974_ModuleContent">
+                                            		<div id="dnn_ctr12675_HtmlModule_lblContent" class="Normal">
+														<p><span>Phòng Thanh tra và Đảm bảo chất lượng trực thuộc Trường Đại học Khoa học Tự nhiên được thành lập ngày 08/4/2009 theo Quyết định số 93/QĐ-TCCB. Ngày 30 tháng 7 năm 2014, Phòng được đổi tên thành&nbsp;<strong>Phòng Thanh tra, Pháp chế và Đảm bảo chất lượng</strong>. Các chức năng, nhiệm vụ của Phòng (theo Quy định 1967/QĐ-TCCB) bao gồm:</span></p>
+														<ul>
+														    <li><span><strong>Chức năng:</strong></span></li>
+														</ul>
+														<p><span>Tham mưu, giúp việc cho Hiệu trưởng về công tác Thanh tra, Pháp chế và Đảm bảo chất lượng; tổ chức thực hiện công tác thanh tra, kiểm định chất lượng.</span></p>
+														<ul>
+														    <li><span><strong>Nhiệm vụ:</strong></span></li>
+														</ul>
+														<p><span><strong><em>Công tác Thanh tra, Pháp chế:</em></strong></span></p>
+														<p><span>- Xây dựng các văn bản quản lý về công tác Thanh tra và lập kế hoạch thanh tra.</span></p>
+														<p><span>- Tổ chức thực hiện kế hoạch thanh tra đã được Hiệu trưởng phê duyệt.</span></p>
+														<p><span>- Chuẩn bị nhân sự và trình Hiệu trưởng quyết định thành lập các đoàn, tổ thanh tra để kiểm tra, xác minh, kiến nghị biện pháp xử lý các vấn đề thuộc thẩm quyền quản lý của Hiệu trường.</span></p>
+														<p><span>- Thẩm tra, xác minh và kiến nghị với Hiệu trưởng biện pháp giải quyết các vấn đề liên quan đến việc giải quyết khiếu nại, tố cáo theo phân cấp quản lý.</span></p>
+														<p><span>kiểm định chất lượng và đảm bảo chất lượng toàn diện các hoạt động của Trường</span></p>
+														<p><span>- Tổ chức các đợt thanh tra thường xuyên và đột xuất theo chỉ đạo của Hiệu trưởng.</span></p>
+														<p><span>- Là đầu mối giải quyết đơn thư khiếu nại, tố cáo của cán bộ viên chức và học sinh, sinh viên, học viên sau đại học.</span></p>
+														<p><span>- Phối hợp với các phòng ban chức năng theo dõi, kiểm tra, giám sát việc thực hiện nhiệm vụ và kế hoạch hàng năm của Trường và các kết luận chỉ đạo của Ban Giám hiệu.</span></p>
+														<p><span>- Nghiên cứu, đề xuất những vấn đề cần sửa đổi, bổ sung hoặc ban hành các quy định mới về công tác thanh tra, công tác tiếp cán bộ viên chức và học sinh sinh viên, học viên sau đại học phù hợp với yêu cầu của công tác quản lý, điều hành trong Nhà trường.</span></p>
+														<p><span>- Thường trực tiếp cán bộ viên chức và học sinh sinh viên, là đầu mối phối hợp với các đơn vị liên quan chuẩn bị kế hoạch, nội dung, tài liệu và các điều kiện khác phục vụ công tác này.</span></p>
+														<p><span>- Là đầu mối giải quyết đơn thư khiếu nại, tố cáo của cán bộ viên chức và học sinh, sinh viên, học viên sau đại học.</span></p>
+														<p><span><strong><em>Công tác Đảm bảo chất lượng:</em></strong></span></p>
+														<p><span>- Xây dựng các văn bản quản lý thuộc công tác đảm bảo chất lượng.</span></p>
+														<p><span>- Thực hiện chức năng điều phối hoạt động chung về kiểm định chất lượng; tổ chức thực hiện nhiệm vụ thường trực Hội đồng kiểm định chất lượng của Trường.</span></p>
+														<p><span>- Tổ chức thực hiện công tác kiểm định chất lượng trong toàn Trường theo kế hoạch; hướng dẫn, kiểm tra, giảm sát việc thực hiện công tác kiểm định tại các đơn vị.</span></p>
+														<p><span>- Là đầu mối để thu thập, xử lý thông tin và tổ chức viết báo cáo kiểm định chất lượng các lĩnh vực hoạt động của Trường.</span></p>
+														<p><span>- Là đầu mối tổng hợp số liẹu báo cáo thống kê 6 tháng và hàng năm của Trường.</span></p>
+														<p><span>- Tổ chức kiểm tra, đánh giá việc thực hiện nội dung chương trình, quy trình giảng dạy và chất lượng giảng dạy của giảng viên.</span></p>
+														<p><span>- Xây dựng và tổ chức kiểm tra đánh giá quy trình và phương pháp đảm bảo chất lượng đào tạo, thi, kiểm tra đánh giá kết quả học tập của học sinh sinh viên, học viên sau đại học.</span></p>
+														<p><span>- Là đầu mối tổ chức xây dựng hệ thống văn bản và đánh giá việc triển khai áp dụng hệ thống quản lý theo tiêu chuẩn quốc tế.</span></p>
+														<p><span><strong><em>Các công tác khác:</em></strong></span></p>
+														<p><span>- Phối hợp với các Phòng Ban chức năng theo dõi, kiểm tra, giám sát việc thực hiện nhiệm vụ và kế hoạch hàng năm của Trường và các kết luận chỉ đạo của Ban Giám hiệu.</span></p>
+														<p><span>- Phối hợp với các Phòng Ban chức năng có liên quan thực hiện các kết luận thanh tra, kiểm định chất lượng.</span></p>
+														<p><span>- Xây dựng văn hóa chất lượng.</span></p>
+														<p><span>- Phối hợp với các đơn vị thực hiện các nhiệm vụ khác do Hiệu trưởng giao.</span></p>
+													</div>
+                                            	</div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -59,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung - cơ cấu tổ chức-Phòng ban chức năng -Phòng Thanh tra Pháp chế và Đảm bảo chất lượng-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -75,11 +108,11 @@
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
+                                                     <li class="li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
@@ -103,8 +136,8 @@
                                                                     <li class="li-me"><a href="#">Phòng Quản trị - Bảo vệ</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Sau đại học</a></li>
                                                                     <li class="li-me"><a href="#">Phòng Tổ chức Cán bộ</a></li>
-                                                                    <li class="li-me"><a href="#">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
-                                                                    <li class="li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
+                                                                    <li class="active li-me"><a href="#">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
+                                                                    <li class=" li-me"><a href="#">Ban quản lý các dự án xây dựng</a></li>
                                                                     <li class="li-me"><a href="#">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
                                                                 </ul>
                                                             </li>
@@ -190,6 +223,13 @@
 
     </div>
 </div>
+<!-- end body -->
 <!--start footer -->
-<?php include "../footer.html" ?>
+<?php include "../../../footer.html" ?>
 <!-- end footer -->
+ <link rel="stylesheet" type="text/css" href="../../../themify-icons-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../font-awesome-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../style-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../swipebox-nhung.css">
+    <link rel="stylesheet" type="text/css" href="../../../owl-nhung.css">
+      <script type="text/javascript" language="JavaScript" src="../../../dropdown.js"></script>
