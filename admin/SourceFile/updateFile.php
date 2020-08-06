@@ -93,10 +93,10 @@
                   <div class="form-group">
                     <label>Type</label>
                     <select class="form-control select2" name="type" style="width: 100%;">
-                      <option selected="selected"><?php echo $row['name'] ?></option>
-                      <option>Tin tức</option>
-                      <option>Sự kiện</option>
-                      <option>Thôngbáo</option>
+                      <option selected="selected" value="<?php echo $row['id_category'] ?>"><?php echo $row['name'] ?></option>
+                      <option value="1">Tin tức</option>
+                      <option value="2">Sự kiện</option>
+                      <option value="3">Thôngbáo</option>
                     </select>
                   </div>
                   <!-- mô tả -->
