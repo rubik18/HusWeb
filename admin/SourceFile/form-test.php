@@ -3,6 +3,11 @@
   require'db/connect.php';
   $conn->set_charset("utf8");
 // Chuỗi kết nối
+  $sql = "SELECT * FROM tag WHERE tag.deleted_at is NULL";
+   $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
  ?>
 <!DOCTYPE html>
 <html>
@@ -93,7 +98,21 @@
                   </div>
                   <!-- Nội dung -->
                   <!-- tag -->
-                  
+                  <div class="form-group">
+                    <div><label>Tag</label></div>
+                    <?php 
+                      if (mysqli_num_rows($result) > 0){
+                        while ($row = mysqli_fetch_assoc($result)) {                    
+                    ?>
+                      <div class="form-check"  style="display: inline-block;">
+                        <input class="form-check-input" name ="tag[]" type="checkbox" value = <?php echo $row['id']?>>
+                        <label class="form-check-label" ><?php echo $row['tag'] ?></label>
+                      </div>
+                    <?php  
+                        }
+                      }
+                    ?>
+                  </div>
                  <!-- mô tả -->
                   <div class="form-group">
                     <label>Mô tả</label>

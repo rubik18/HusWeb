@@ -83,7 +83,7 @@
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="update.php?id= <?php echo $row['id'] ?>" method = "post">
+                <form role="form" action="update-tag.php?id= <?php echo $row['id'] ?>" method = "post">
                   <!-- Tag -->
                   <div class="form-group">
                     <label>Tag</label>
@@ -92,7 +92,7 @@
                   <!-- name -->
                   <div class="form-group">
                     <label>Name</label>
-                    <input type="text" name = "tag" class="form-control" value="<?php echo $row['name'] ?>">
+                    <input type="text" name = "name" class="form-control" value="<?php echo $row['name'] ?>">
                   </div>
                   <!-- Submit -->
                   <div class="card-footer">
