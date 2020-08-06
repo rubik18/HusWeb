@@ -486,4 +486,23 @@ user agent stylesheet div {
     line-height: 1.42857143;
     vertical-align: top;
 }
-
+/*------------CSS nd-Su kien -----------*/
+.transition {
+        background: #151515 none repeat scroll 0 0;
+        color: #fff; 
+        display: inline-block;
+        text-decoration: none;
+        font-size: 13px;
+    }
+.hvr-float {
+        /*backface-visibility: hidden;*/
+        display: inline-block;
+       /* transform: translateZ(0px);
+        transition-duration: 0.9s;*/
+        transition-property: transform;
+        /*transition-timing-function: ease-out;*/
+        vertical-align: middle;
+    }
+    .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+        transform: translateY(-6px);
+    }

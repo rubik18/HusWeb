@@ -34,7 +34,7 @@
 					<div class="row" >
 						<div class="col-12">
 							  <nav><ol class="breadcrumb" style="padding-top: 0 !important">
-                                <li class="breadcrumb-item active" aria-current="page"><a href="tintuc_tham.php" class="item ">Tin tức</a></li>&nbsp;
+                                <li class="breadcrumb-item active" aria-current="page"><a href="tintuc.php" class="item ">Tin tức</a></li>&nbsp;
                                 <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                                 <li class="breadcrumb-item active" aria-current="page"><a href="" class="item ">Đào tạo Tuyển sinh</a></li>
                               </ol></nav>

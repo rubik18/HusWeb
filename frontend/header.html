@@ -20,7 +20,8 @@
 
 </head>
 <body id="Body"> -->
-    
+    <script type=”text/javascript” src=”https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js”>
+</script>
     <header class="header-area">
         <div class="topheadernav">
             <div class="container">
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="menu">
+        <div class="menu sticky">
             <div class="container">
                 <div class="row">
                     <div class="col-11">
@@ -98,7 +99,7 @@
                                             <li><a class="True dropdown-item " href="">Các khuôn viên</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Tin tức </a>
+                                    <li class="nav-item dropdown"><a href="/php-intership-team/frontend/Tintuc/tintuc.php" class="nav-link dropdown-toggle" data-hover="dropdown">Tin tức </a>
                                         <ul class="dropdown-menu">
                                             <li><a class=" dropdown-item " href="">Tin mới nhất</a></li>
                                             <li><a class=" dropdown-item " href="">Sự kiện</a></li>
@@ -237,6 +238,20 @@
             </div>
         </div>
     </header>
+    </script>
+    
+    <script type="text/javascript">
+        $(document.ready(function(){
+            var aboveHeight = $('header').outerHeight();
+            $(window).scroll(function(){
+                if ($(window).scrollTop() > aboveHeight ) {
+                    $('sticky').addClass('fixed').css('top'.'0').next().css('padding-top','60px');
+                }else{
+                    $('sticky').removeClass('fixed').next().css('padding-top','0');
+                };
+            });
+        });
+    </script>
     <script type="text/javascript">
     $(document).ready(function () {
         $(".nav-item").hover(
