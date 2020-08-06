@@ -47,11 +47,11 @@
                                             <div id="dnn_ctr15974_ContentPane">
                                             	<div id="dnn_ctr15974_ModuleContent">
                                             		<div id="dnn_ctr10938_HtmlModule_lblContent" class="Normal">
-														<table border="0" cellpadding="1" cellspacing="1">
+														<table border="1" cellpadding="1" cellspacing="1">
 														    <tbody>
 														        <tr style="display: table-row; vertical-align: inherit;border-color: inherit;">
-														            <td><a href="/sites/default/files/u5123/logo_Khoa_VatLi.png" tabindex="0"><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/logo_Khoa_VatLi.png" width="177" height="100"></a></td>
-														            <td>
+														            <td><a href="/sites/default/files/u5123/logo_Khoa_VatLi.png" tabindex="0"><img alt="" style="padding-bottom: 7px; padding-left: 7px; padding-top: 7px ;" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/logo_Khoa_VatLi.png" width="177" height="100"></a></td>
+														            <td style="padding-left: 7px">
 														            <p><span><strong>Giới thiệu sơ lượ</strong></span><span><strong>c v</strong></span><span><strong>ề Khoa Vật lý</strong></span></p>
 														            <div><span>Liên hệ: PGS.TS. Ngạc An Bang, Trưởng Khoa</span></div>
 														            <div><span>Điện thoại: +84.4.35583980, email:&nbsp;<a href="mailto:ngacanbang@hus.edu.vn" tabindex="0">ngacanbang@hus.edu.vn</a></span></div>
@@ -69,12 +69,12 @@
 														<p style="text-align: justify;"><span style="font-family: Tahoma, sans-serif;">Với mục tiêu đào tạo chuyên môn là cung cấp cho sinh viên Đại học và Sau đại học các kiến thức nền tảng và nâng cao về Vật lý, trợ giúp sinh viên phát triển các kỹ năng thực nghiệm và tư duy khoa học, hệ thống cơ sở vật chất phục vụ đào tạo đóng một vai trò rất quan trọng. Ngoài hệ thống thư viên chung của trường, Khoa có một thư viên riêng bao gồm một số lượng lớn sách từ các giáo trình Vật lý Đại cương cho đến các sách chuyên khảo về các chủ đề nghiên cứu trong Vật lý hiện đại và các tạp chí khoa học chuyên ngành. Khoa cung cấp cho sinh viên một hệ thống các phòng thí nghiệm Vật lý đại cương, các phòng thí nghiệm Vật lý chứng minh, Vật lý hiện đại và chuyên ngành như phòng thí nghiệm Vật lý hạt nhân, phòng thí nghiệm Điện tử. Khoa cũng có các phòng thực hành máy tính phục vụ giảng dạy các môn cơ sở như các Ngôn ngữ lập trình cho đến các môn nâng cao về Vật lý tính toán như Mô phỏng Vật lý trên máy tính, Tính toán song song, hiệu năng cao trên CPU và GPU. Hệ thống giảng đường, phòng học chuẩn được trang bị các thiết bị phục vụ giảng dạy hiện đại, tất cả nằm trong một khuôn viên khang trang, thân thiện.</span></p>
 														<p style="text-align: justify;"><span style="font-family: Tahoma, sans-serif;">Song hành với nhiệm vụ giảng dạy Vật lý ở tất cả các trình độ đào tạo là nhiệm vụ nghiên cứu Khoa học nhằm thúc đẩy hiểu biết của nhân loại trong lĩnh vực Vật lý học và ứng dụng kiến thức Vật lý học cơ bản vào Công nghệ và Công nghiệp. Để thực hiện nhiệm vụ này, Khoa được đầu tư một hệ thống thiết bị hiện đại phục vụ nghiên cứu Vật lý chuyên sâu. Trong số các thiết bị này đặc biệt phải kể đến Máy gia tốc tĩnh điện Pelletron&nbsp;<span lang="it-IT" style="color: #000000;">5SDH-2</span><span lang="it-IT" style="color: #000000;">&nbsp;đặt tại Bộ môn Vật lý Hạt nhân và Kính hiển vi điện tử quét đặt tại Trung tâm Khoa học Vật liệu.</span></span></p>
 														<p style="text-align: justify;">&nbsp;</p>
-														<table border="0" cellpadding="1" cellspacing="1" width="1025" height="304">
+														<table border="1" cellpadding="1" cellspacing="1" width="1025" height="304">
 														    <tbody>
 														        <tr>
-														            <td><a href="/sites/default/files/u5123/May%20gia%20toc.jpg" tabindex="0"><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/May%20gia%20toc.jpg" width="292" height="190"></a></td>
+														            <td><img style="padding-left: 7px; padding-right: 7px;" alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/May%20gia%20toc.jpg" width="292" height="190"></td>
 														            <td>&nbsp;</td>
-														            <td><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Kinh%20hien%20vi.jpg" width="321" height="190"></td>
+														            <td><img alt="" style="padding-right: 7px; padding-left: 7px;" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Kinh%20hien%20vi.jpg" width="321" height="190"></td>
 														        </tr>
 														        <tr>
 														            <td>
@@ -100,24 +100,24 @@
 														<p style="text-align: justify;"><span lang="pt-BR" style="font-family: Tahoma, sans-serif;"><strong>Nghiên cứu Khoa học và Hợp tác quốc tế</strong></span></p>
 														<p style="text-align: justify;"><span lang="pt-BR" style="font-family: Tahoma, sans-serif;">Công tác nghiên cứu Khoa học trong Khoa được tổ chức theo các đơn vị và nhóm đơn vị trực thuộc Khoa. Các hướng nghiên cứu trải rộng trong hầu hết các lĩnh vực của Vật lý như: Vật lý Chất rắn và Khoa học Vật liệu, Lý thuyết trường và Hạt cơ bản, Vật lý chuyển pha, Vật lý laser, Vật lý Hạt nhân, Vật lý Địa cầu... Ngoài 2 hướng nghiên cứu truyền thống của Vật lý là nghiên cứu lý thuyết và nghiên cứu thực nghiệm, trong khoảng hơn 10 năm trở lại đây việc sử dụng máy tính/ siêu máy tính nghiên cứu các quá trình Vật lý được chú trọng phát triển ở trong Khoa. Khoa cũng có nhiều nhóm nghiên cứu liên kết với các nhà Khoa học trong và ngoài nước.</span></p>
 														<p><span lang="pt-BR" style="font-family: Tahoma, sans-serif;">Trong hai năm 2012, 2013, các cán bộ làm việc tại Khoa đã công bố tổng cộng 320 bài báo khoa học (có 164 bài đăng trong các tạp chí được liệt kê trong danh sách ISI). Trong hai năm 2013, 2014 các thầy cô đã và đang thực hiện 10 đề tài cấp nhà nước, 16 đề tài cấp Đại học Quốc gia Hà Nội, 21 đề tài cơ sở cấp trường Đại học Khoa học Tự nhiên.</span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-														<table border="0" cellpadding="1" cellspacing="1" width="1025" height="304">
+														<table border="1" cellpadding="1" cellspacing="1" width="1025" height="304">
 														    <tbody>
 														        <tr>
-														            <td><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Hoi_Thao.jpg" width="292" height="185"></td>
+														            <td><img style="padding-left: 7px" alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Hoi_Thao.jpg" width="302" height="185"></td>
 														            <td>&nbsp;</td>
-														            <td><img alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Graduation.jpg" width="309" height="187"></td>
+														            <td><img alt="" style="padding-left: 7px" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Graduation.jpg" width="319" height="187"></td>
 														        </tr>
 														        <tr>
 														            <td>
-														            <p><em><span>Các thầy cô Khoa Vật lý dự hội thảo Khoa học</span></em></p>
+														            <div><em><span>Các thầy cô Khoa Vật lý dự hội thảo Khoa học</span></em></div>
 														            </td>
 														            <td>
-														            <pre></pre>
+														            <div></div>
 														            </td>
 														            <td>
-														            <pre><em><span>Sinh viên tốt nghiệp Khoa Vật lý </span></em>
-														</pre>
-														            <pre><em><span>chụp ảnh tại Văn Miếu Quốc Tử Giám</span></em></pre>
+														            <div><em><span>Sinh viên tốt nghiệp Khoa Vật lý </span></em>
+																	</div>
+														            <div><em><span>chụp ảnh tại Văn Miếu Quốc Tử Giám</span></em></div>
 														            </td>
 														        </tr>
 														    </tbody>
