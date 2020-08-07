@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Tin tức</title>
 	<meta charset="utf-8">
@@ -541,5 +541,6 @@
         <?php include "../footer.html" ?>
         <!----end footer------->
     </div>
+    
 </body>
 </html>
