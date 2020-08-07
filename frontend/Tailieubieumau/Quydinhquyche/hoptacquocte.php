@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+<div id="detailpage">
 <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
@@ -1019,7 +1019,7 @@
 <!---start footer----->
         <?php include "../../footer.html" ?>
         <!----end footer------->
+    </div>
 </body>
-<!-- Scroll Up -->
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
 </html>
