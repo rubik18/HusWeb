@@ -1,3 +1,10 @@
+<?php 
+// Kết nối
+require'db/connect.php';
+$conn->set_charset("utf8");
+//chuỗi kết nối
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,9 +61,19 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- Tin tức -->
+            <?php 
+              $sql = "SELECT COUNT(id) FROM new WHERE new.id_category = 1 AND  new.deleted_at is NULL ";
+              $result = mysqli_query($conn, $sql);
+              $row = mysqli_fetch_row($result);
+              // $sql1 ="SELECT count(id) FROM category, new WHERE new.id_category = category.id AND category.parent_id = 1  AND new.deleted_at is NULL";
+              // $result1 = mysqli_query($conn, $sql1);
+              // $row1 = mysqli_fetch_row($result1);
+              // $count = $row[0] + $row1[0];
+              // var_dump($count);die();
+            ?>
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>150</h3>
+                <h3><?php echo $row[0];  ?></h3>
 
                 <p>Tin tức</p>
               </div>
@@ -70,10 +87,15 @@
           </div>
           <!-- ./col -->
           <div class="col-lg-3 col-6">
+            <?php 
+              $sql = "SELECT COUNT(id) FROM new WHERE new.id_category = 2 AND  new.deleted_at is NULL ";
+              $result = mysqli_query($conn, $sql);
+              $row = mysqli_fetch_row($result);
+            ?>
             <!-- sự kiện -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
+                <h3><?php echo $row[0]; ?></h3>
 
                 <p>Sự kiện</p>
               </div>
@@ -88,9 +110,14 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- Thông báo -->
+            <?php 
+              $sql = "SELECT COUNT(id) FROM new WHERE new.id_category = 3 AND  new.deleted_at is NULL ";
+              $result = mysqli_query($conn, $sql);
+              $row = mysqli_fetch_row($result);
+            ?>
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3><?php echo $row[0]; ?></h3>
 
                 <p>Thông báo</p>
               </div>
@@ -107,7 +134,7 @@
             <!-- small card -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>65</h3>
+                <h3>5</h3>
 
                 <p>Contact</p>
               </div>

@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 1 AND new.deleted_at is NULL";
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.parent_id = 1  AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -93,11 +93,11 @@
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['description'] ?></td>
                     <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="#">
+                          <!-- <a class="btn btn-primary btn-sm" href="#">
                               <i class="fas fa-folder">
                               </i>
                               View
-                          </a>
+                          </a> -->
                           <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>

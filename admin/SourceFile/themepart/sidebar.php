@@ -93,14 +93,14 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="/DAPM/php-intership-team/admin/SourceFile/updateFile.php" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>
                 Update bài viết
               </p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-header">SETTING</li>
           <li class="nav-item">
             <a href="/DAPM/php-intership-team/admin/SourceFile/recover-password.php" class="nav-link">

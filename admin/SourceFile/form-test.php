@@ -8,6 +8,11 @@
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
+  $sql1 = "SELECT * FROM category WHERE category.deleted_at is NULL";
+  $result1 = mysqli_query($conn, $sql1);
+  if (!$result1) {
+    die('error'. mysqli_error($conn));
+  }
  ?>
 <!DOCTYPE html>
 <html>
@@ -28,6 +33,10 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  
+  
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -91,12 +100,29 @@
                   <div class="form-group">
                     <label>Type</label>
                     <select class="form-control select2" name = "type" style="width: 100%;">
-                      <option selected="selected" value = "1">Tin tức</option>
-                      <option value= "2">Sự kiện</option>
-                      <option value= "3">Thôngbáo</option>
+                      <?php 
+                      if (mysqli_num_rows($result1) > 0){
+                        while ($row1 = mysqli_fetch_assoc($result1)) {                 
+                      ?>
+                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
+                      <?php  
+                        }
+                      }
+                       ?>
                     </select>
                   </div>
                   <!-- Nội dung -->
+                  <!-- Date and time range -->
+                <div class="form-group">
+                  <label>Date and time range:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="far fa-clock"></i></span>
+                    </div>
+                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime">
+                  </div>
+                  <!-- /.input group -->
+                </div>
                   <!-- tag -->
                   <div class="form-group">
                     <div><label>Tag</label></div>
@@ -156,11 +182,41 @@
 <script src="dist/js/demo.js"></script>
 <!-- Summernote -->
 <script src="plugins/summernote/summernote-bs4.min.js"></script>
+
+<!-- Select2 -->
+<script src="plugins/select2/js/select2.full.min.js"></script>
+<!-- Bootstrap4 Duallistbox -->
+<script src="plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Bootstrap Switch -->
+<script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+
+
 <script>
   $(function () {
     // Summernote
     $('.textarea').summernote()
   })
+ //Date range picker with time picker
+    $('#reservationtime').daterangepicker({
+      timePicker: true,
+      timePickerIncrement: 30,
+      locale: {
+        format: 'MM/DD/YYYY hh:mm A'
+      }
+    })
 </script>
 </body>
 </html>
