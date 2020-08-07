@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Đảng và các đoàn thể</title>
 	<meta charset="utf-8">

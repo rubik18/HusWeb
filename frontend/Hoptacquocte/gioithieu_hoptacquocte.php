@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Giới thiệu</title>
 	<meta charset="utf-8">
@@ -99,13 +99,13 @@
                                                             <div class="content d-none" >
                                                                 <ul class="submenu" style="display: block; " id="510">
                                                                    <li class=" li-me">
-	                                                                        <a href="ctht_traodoihocbong.php">Trao đổi và hoạc bổng</a></li>
+	                                                                        <a href="chuongtrinhhoptac/traodoihocbong.php">Trao đổi và hoạc bổng</a></li>
 	                                                                    <li class="li-me">
-	                                                                        <a href="ctht_duanhoptac.php">Các dự án hợp tác</a></li>
+	                                                                        <a href="chuongtrinhhoptac/duanhoptac.php">Các dự án hợp tác</a></li>
 	                                                                    <li class="li-me">
-	                                                                        <a href="ctht_daotaolienket.php">Đào tạo liên kết</a></li>
+	                                                                        <a href="chuongtrinhhoptac/daotaolienket.php">Đào tạo liên kết</a></li>
 	                                                                    <li class="li-me">
-	                                                                        <a href="ctdt_erasmus.php">Erasmus+</a></li>
+	                                                                        <a href="chuongtrinhhoptac/erasmus.php">Erasmus+</a></li>
                                                                     
 
                                                                 </ul>

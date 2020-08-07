@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
     <title>Tệp và hình ảnh</title>
     <meta charset="utf-8">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Kế hoạch - Tài chính</title>
 	<meta charset="utf-8">

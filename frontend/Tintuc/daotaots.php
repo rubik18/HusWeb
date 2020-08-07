@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Đào tạo Tuyển sinh </title>
 	<meta charset="utf-8">

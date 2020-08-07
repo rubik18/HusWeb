@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth;">
 <head>
 	<title>Các dự án hợp tác</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../../css/themify-icons-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/font-awesome-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/style-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/swipebox-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/owl-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/tictuc_tham.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/themify-icons-n.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/font-awesome-n.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/style-n.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/swipebox-n.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/owl-n.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/tictuc_tham.css">
     
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -17,7 +17,7 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
   	<link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
-  	<script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
+  	<script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
   	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -25,7 +25,7 @@
 <body>
 
     <!---------start header------------>
-    <?php include "../header.html" ?>
+    <?php include "../../header.html" ?>
     <!---end header------->
 
 	<div class="main-content-wrapper">
@@ -36,10 +36,10 @@
 					<div class="col-12">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item active" aria-current="page">
-	                            <a href="hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
+	                            <a href="../hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="chuongtrinhhoptac.php" class="item ">Chương trình hợp tác</a></li>&nbsp;
+	                            <a href="../chuongtrinhhoptac.php" class="item ">Chương trình hợp tác</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
 	                            <a href="" class="item ">Các dự án hợp tác</a></li>
@@ -114,13 +114,13 @@
 												<div class="jquery-accordion-menu">
 													<div class="jquery-accordion-menu-header" style="font-weight: bold;">Hợp tác quốc tế</div>
 	    												<ul class="">
-	                                                        <li class=" li-me "><a href="gioithieu_hoptacquocte.php">Giới thiệu</a></li>
-	    													<li class=" li-me"><a href="doitacquocte.php">Đối tác quốc tế</a></li>
+	                                                        <li class=" li-me "><a href="../gioithieu_hoptacquocte.php">Giới thiệu</a></li>
+	    													<li class=" li-me"><a href="../doitacquocte.php">Đối tác quốc tế</a></li>
 	    													
-	                                                        <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
+	                                                        <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
 	                                                        <!--start submenu--->
 	                                                        <li class="trum ">
-	                                                            <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
+	                                                            <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
 	                                                            <a href="#510" class="submenu">
 	                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
 	                                                                <span class="submenu-indicator spn" >+</span>
@@ -128,7 +128,7 @@
 	                                                            <div class="content " >
 	                                                                <ul class="submenu" style="display: block; " id="510">
 	                                                                    <li class=" li-me ">
-	                                                                        <a href="ctht_traodoihocbong.php" >Trao đổi và hoạc bổng</a></li>
+	                                                                        <a href="traodoihocbong.php" >Trao đổi và hoạc bổng</a></li>
 	                                                                    <li class="li-me " >
 	                                                                        <a href="" style="color: #017dc5;
                                                                             background: #f6f7f9;
@@ -136,17 +136,17 @@
                                                                             font-weight: 600;
                                                                             padding-left: 27px;">Các dự án hợp tác</a></li>
 	                                                                    <li class="li-me">
-	                                                                        <a href="ctht_daotaolienket.php">Đào tạo liên kết</a></li>
+	                                                                        <a href="daotaolienket.php">Đào tạo liên kết</a></li>
 	                                                                    <li class="li-me">
-	                                                                        <a href="ctdt_erasmus.php">Erasmus+</a></li>
+	                                                                        <a href="erasmus.php">Erasmus+</a></li>
 	                                                                    
 
 	                                                                </ul>
 	                                                            </div>
 	                                                        </li>
 	                                                        <!----end submenu------>
-	    													<li class="li-me"><a href="thoathuanhoptac.php">Thỏa thuận hợp tác</a></li>
-	    													<li class="li-me"><a href="tiensidanhdu.php">Tiến sĩ danh dự</a></li>
+	    													<li class="li-me"><a href="../thoathuanhoptac.php">Thỏa thuận hợp tác</a></li>
+	    													<li class="li-me"><a href="../tiensidanhdu.php">Tiến sĩ danh dự</a></li>
 													    </ul>
 												     </div>
 											</div>
@@ -175,7 +175,7 @@
 	</div>
 	
     <!---start footer----->
-    <?php include "../footer.html" ?>
+    <?php include "../../footer.html" ?>
     <!----end footer------->
 </body>
 </html>
