@@ -18,13 +18,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    
+
 </head>
 <body id="Body">
     <!---start header----->
     <?php include "../header.html" ?>
     <!----end header------->
+
+    <!-- Scroll Up -->
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa-angle-up" 
+        style="display: inline-block;
+               font: 14px/1 FontAwesome;
+               font-size: inherit;" aria-hidden="true"></i></a>
 
     <div class="main-content-wrapper">
         <div class="container">
@@ -32,7 +37,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">                           
-                            <li><a href="" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>
+                            <li><a href="" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="" class="item" style="color: grey;">Giới thiệu chung</a></li>
                         </ol>
                     </div>
                 </div>
@@ -187,7 +192,7 @@
                                 <div id="jquery-accordion-menu" class="jquery-accordion-menu">
                                     <div class="jquery-accordion-menu-header">Học sinh - Sinh viên </div>
                                     <ul>
-                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/gioi-thieu-chung.php">Giới thiệu chung</a></li>
+                                        <li class="active"><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/gioi-thieu-chung.php">Giới thiệu chung</a></li>
                                         <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-bong-giai-thuong.php">Học bổng, giải thưởng</a></li>
                                         <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien.php" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -161.5px; left: 149.344px;"></span>Hỗ trợ sinh viên<span class="submenu-indicator">+</span></a>
                                             <ul class="submenu" id="5496">

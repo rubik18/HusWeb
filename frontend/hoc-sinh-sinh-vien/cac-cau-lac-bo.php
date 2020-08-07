@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="vi-VN">
+<html class="no-js" lang="vi-VN" style="scroll-behavior: smooth;">
 <head id="Head">
     <title>VNU - Hanoi University of Science</title>
     <meta charset="utf-8">
@@ -480,22 +480,22 @@
                                 <div id="jquery-accordion-menu" class="jquery-accordion-menu">
                                     <div class="jquery-accordion-menu-header">Học sinh - Sinh viên </div>
                                     <ul>
-                                        <li class=""><a href="">Giới thiệu chung</a></li>
-                                        <li class=""><a href="">Học bổng, giải thưởng</a></li>
-                                        <li class=""><a href="" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -161.5px; left: 149.344px;"></span>Hỗ trợ sinh viên<span class="submenu-indicator">+</span></a>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/gioi-thieu-chung.php">Giới thiệu chung</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-bong-giai-thuong.php">Học bổng, giải thưởng</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien.php" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -161.5px; left: 149.344px;"></span>Hỗ trợ sinh viên<span class="submenu-indicator">+</span></a>
                                             <ul style="display: block;" class="submenu" id="5496">
-                                                <li class=""><a href="">Đoàn - Hội</a></li>
-                                                <li class=""><a href="">Đời sống</a></li>
-                                                <li class="active"><a href="">Các câu lạc bộ</a></li>
-                                                <li class=""><a href="">Vay vốn</a></li>
-                                                <li class=""><a href="">Tư vấn, hỗ trợ việc làm</a></li>
+                                                <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/doan-hoi.php">Đoàn - Hội</a></li>
+                                                <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/doi-song.php">Đời sống</a></li>
+                                                <li class="active"><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/cac-cau-lac-bo.php">Các câu lạc bộ</a></li>
+                                                <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/vay-von.php">Vay vốn</a></li>
+                                                <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/tu-van-ho-tro-viec-lam.php">Tư vấn, hỗ trợ việc làm</a></li>
                                             </ul>
                                         </li>
-                                        <li class=""><a href="">Nghiên cứu khoa học</a></li>
-                                        <li class=""><a href="">Gương mặt sinh viên tiêu biểu</a></li>
-                                        <li class=""><a href="">Cựu sinh viên</a></li>
-                                        <li class=""><a href="">Việc làm</a></li>
-                                        <li class=""><a href="">Khảo sát sinh viên tốt nghiệp</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/nghien-cuu-khoa-hoc.php">Nghiên cứu khoa học</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/guong-mat-sinh-vien-tieu-bieu.php">Gương mặt sinh viên tiêu biểu</a></li>
+                                        <li class=""><a href="http://alumni.hus.vnu.edu.vn/">Cựu sinh viên</a></li>
+                                        <li class=""><a href="http://vieclam.hus.vnu.edu.vn/">Việc làm</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/khao-sat-sinh-vien-tot-nghiep.php">Khảo sát sinh viên tốt nghiệp</a></li>
                                     </ul>
                                     <div class="jquery-accordion-menu-footer"></div>
                                 </div>
