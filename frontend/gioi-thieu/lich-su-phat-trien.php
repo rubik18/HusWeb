@@ -174,23 +174,23 @@
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
-                                                    <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
-                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
-                                                    <li class="li-me"><a href="">Chiến lược phát triển</a></li>
+                                                    <li class="active li-me"><a href="/gitlab/frontend/gioi-thieu/lich-su-phat-trien.php">Lịch sử phát triển</a></li>
+                                                     <li class=" li-me"><a href="/gitlab/frontend/gioi-thieu/su-mang-tam-nhin.php">Sứ mạng - Tầm nhìn</a></li>
+                                                    <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/chien-luoc-phat-trien.php">Chiến lược phát triển</a></li>
                                                     <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
-                                                            <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
-                                                            <li class="li-me"><a href="">Ban giám hiệu</a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
 
                                                             
-                                                            <li class="trum"><a href="#">Đảng - Đoàn thể<span class="submenu-indicator">+</span></a></li>
-                                                            <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a></li>
-                                                            <li class="li-me"><a href="#">Khoa trực thuộc <span class="submenu-indicator">+</span></a></li>
-                                                            <li class="li-me"><a href="#"> Trung tâm nghiên cứu<span class="submenu-indicator">+</span></a></li>
-                                                            <li class="li-me"><a href="#"> Dự án và Công ty<span class="submenu-indicator">+</span></a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php">Đảng - Đoàn thể<span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php">Phòng ban chức năng <span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php">Khoa trực thuộc <span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php"> Trung tâm nghiên cứu<span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php"> Dự án và Công ty<span class="submenu-indicator">+</span></a></li>
                                                         </ul>
                                                         </div>
                                                     </li>
@@ -198,16 +198,16 @@
                                                         <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ Cán bộ<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
-                                                            <li class=""><a href="#">Hội đồng Khoa học Đào tạo</a></li>
-                                                            <li class=""><a href="#">Danh hiệu nhà giáo<span class="submenu-indicator">+</span></a></li>
-                                                            <li class=""><a href="#">Đội ngũ giáo sư, phó giáo sư<span class="submenu-indicator">+</span></a></li>
-                                                            <li class=""><a href="#">Nhóm nghiên cứu mạnh</a></li>
-                                                            <li class=""><a href="#">Danh sách cán bộ</a></li>
-                                                            <li class=""><a href="#">Cựu giáo chức</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/hoi-dong-khoa-hoc-dao-tao.php">Hội đồng Khoa học Đào tạo</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-can-bo.php">Danh hiệu nhà giáo<span class="submenu-indicator">+</span></a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-can-bo.php">Đội ngũ giáo sư, phó giáo sư<span class="submenu-indicator">+</span></a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/nhom-nghien-cuu-manh.php">Nhóm nghiên cứu mạnh</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/danh-sach-can-bo.php">Danh sách cán bộ</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/gioi-thieu/doi-ngu-can-bo/cuu-giao-chuc.php">Cựu giáo chức</a></li>
                                                         </ul>
                                                         </div>
                                                     </li>
-                                                    <li class=""><a href="#">Các khuôn viên</a></li>
+                                                    <li class=""><a href="/gitlab/frontend/gioi-thieu/cac-khuon-vien.php">Các khuôn viên</a></li>
                                                 </ul>
                                             </div>
                                         </div>

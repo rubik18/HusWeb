@@ -121,38 +121,39 @@
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">KHOA HỌC - CÔNG NGHỆ </div>
                                                 <ul class="right-me">
-                                                    <li class="li-me"><a href="#">Giới thiệu chung</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
+                                                    <li class="li-me"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/gioi-thieu-chung.php">Giới thiệu chung</a></li>
+                                                    <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
-                                                    	   <!-- <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script> -->
+                                                           <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none">
-                                                        	<ul class="submenu" style="display: block;" >
-	                                                            <li class="active"><a href="#">Hội nghị khoa học trong nước</a></li>
-	                                                            <li class=""><a href="#">Hội nghị khoa học quốc tế</a></li>
-                                                        	</ul>
-                                                    	</div>
+                                                            <ul class="submenu" style="display: block;" id="5510">
+                                                                <li class="active"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-trong-nuoc.php">Hội nghị khoa học trong nước</a></li>
+                                                                <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-quoc-te.php">Hội nghị khoa học quốc tế</a></li>
+                                                            </ul>
+                                                        </div>
                                                     </li>
-                                                    <li class="li-me"><a href="#">Đề tài, dự án NCKH</a></li>
-                                                    <li class="li-me"><a href="#">Phòng thí nghiệm</a></li>
-                                                    <li class="li-me"><a href="#">Nhóm nghiên cứu</a></li>
-                                                    <li class="li-me"><a href="#">Giải thưởng KH-CN</a></li>
+                                                    <li class="li-me"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/de-tai-du-an-CNKH.php">Đề tài, dự án NCKH</a></li>
+                                                    <li class=" li-me"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/phong-thi-nghiem.php">Phòng thí nghiệm</a></li>
+                                                    <li class="li-me"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/nhom-nghien-cuu.php">Nhóm nghiên cứu</a></li>
+                                                    <li class="li-me"><a href="/gitlab/frontend/khoa-hoc-cong-nghe/giai-thuong-KH-CN.php">Giải thưởng KH-CN</a></li>
                                                     <li class="li-me trum">
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Công bố khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
-                                                            <li class=""><a href="#">Bài báo ISI/SCOPLUS</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-ISI-SCOPLUS.php">Bài báo ISI/SCOPLUS</a></li>
                                                             
                                                             
-                                                            <li class=""><a href="#">Bài báo quốc tế khác</a></li>
-                                                            <li class=""><a href="#">Bài báo trong nước</a></li>
-                                                            <li class=""><a href="#">Báo cáo Hội nghị khoa học quốc tế</a></li>
-                                                            <li class=""><a href="#">Báo cáo Hội nghị khoa học trong nư</a></li>
-                                                            <li class=""><a href="#">Sách chuyên khảo</a></li>
-                                                            <li class=""><a href="#">Đăng ký sở hữu trí tuệ</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-quoc-te-khac.php">Bài báo quốc tế khác</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-trong-nuoc.php">Bài báo trong nước</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te.php">Báo cáo Hội nghị khoa học quốc tế</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-trong-nuoc.php">Báo cáo Hội nghị khoa học trong nước</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/sach-chuyen-khao.php">Sách chuyên khảo</a></li>
+                                                            <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/dang-ky-so-huu-tri-tue.php">Đăng ký sở hữu trí tuệ</a></li>
                                                         </ul>
-                                                    	</div>
+                                                        </div>
                                                     </li>
-                                                    <li class=""><a href="#">Danh mục thiết bị khoa học chính</a></li>
+                                                    <li class=""><a href="/gitlab/frontend/khoa-hoc-cong-nghe/danh-muc-thiet-bi-khoa-hoc-chinh.php">Danh mục thiết bị khoa học chính</a></li>
                                                 </ul>
                                             </div>
                                         </div>
