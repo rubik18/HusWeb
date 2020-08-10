@@ -79,12 +79,13 @@
                                         <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
+                                                <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">KHOA HỌC - CÔNG NGHỆ </div>
                                                 <ul class="right-me">
                                                     <li class="active li-me"><a href="#">Giới thiệu chung</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
-                                                    	   <script type="text/javascript" language="JavaScript" src="../dropdown.js"></script>
+                                                    	   <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none">
                                                         	<ul class="submenu" style="display: block;" id="5510">
@@ -98,6 +99,7 @@
                                                     <li class="li-me"><a href="#">Nhóm nghiên cứu</a></li>
                                                     <li class="li-me"><a href="#">Giải thưởng KH-CN</a></li>
                                                     <li class="li-me trum">
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Công bố khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
                                                             <li class=""><a href="#">Bài báo ISI/SCOPLUS</a></li>

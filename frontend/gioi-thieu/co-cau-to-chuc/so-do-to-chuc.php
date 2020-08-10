@@ -61,7 +61,7 @@
                 </div>
                 <!-- end nội dung - cơ cấu tổ chức - sơ đồ tổ chức -->
                 <!-- start thanh bên phải -->
-                 <div class="col-12 col-lg-4" >
+                <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
                             <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
@@ -72,13 +72,14 @@
                                         <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
+                                                
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Cơ cấu tổ chức</div>
                                                 <ul class="right-me">
                                                     <li class=" li-me"><a href="">Sơ đồ tổ chức</a></li>
                                                      <li class="li-me"><a href="">Ban giám hiệun</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Đảng - Đoàn thể<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
@@ -90,7 +91,7 @@
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Phòng ban chức năng <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
@@ -108,7 +109,7 @@
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Khoa trực thuộc <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
@@ -124,7 +125,7 @@
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="../../dropdown.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Trung tâm nghiên cứu <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">

@@ -163,61 +163,51 @@
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
-                        <div class="">
-                            <div class="">
-                                
-                                <div class="">
+                        <div class="dnn_RightTopPane">
+                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
+                                <a name="11038"></a>
+                                <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
-                                    <div class="">
+                                    <div class="dnn_ctr11038_ModuleContent">
                                         <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
-                                                    <li class="active li-me"><a href="gitlab/gioi-thieu/lich-su-phat-trien.php">Lịch sử phát triển</a></li>
-                                                     <li class="li-me"><a href="/gitlab/gioi-thieu/su-mang-tam-nhin.php">Sứ mạng - Tầm nhìn</a></li>
+                                                    <li class=" li-me"><a href="">Lịch sử phát triển</a></li>
+                                                     <li class="active li-me"><a href="">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="">Chiến lược phát triển</a></li>
-                                                     <script type="text/javascript" language="JavaScript" src="../../js/dropdown.js"></script>
+                                                    <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
-                                                         <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class=" ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span class="">+</span></button></a>
-                                                        <div class="content d-none">
-                                                            <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
-                                                                <li class="li-me"><a href="/gitlab/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
-                                                                
-                                                                <li class="" ><a href="#">Đảng - Đoàn thể<span class="submenu-indicator">+</span></a></li>
-                                                                <li class="li-me"><a href="#">Phòng ban chức năng<span class="submenu-indicator">+</span> </a></li>
-                                                                <li class="li-me"><a href="">Khoa trực thuộc <span class="submenu-indicator">+</span></a></li>
-                                                                <li class="li-me"><a href=""> Trung tâm nghiên cứu<span class="submenu-indicator">+</span></a></li>
-                                                                <li class="li-me"><a href="#"> Dự án và Công ty<span class="submenu-indicator">+</span></a></li>
-                                                            </ul>
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <div class="content d-none"><ul class="submenu" style="display: block;">
+                                                            <li class="li-me"><a href="">Sơ đồ tổ chức</a></li>
+                                                            <li class="li-me"><a href="">Ban giám hiệu</a></li>
+
+                                                            
+                                                            <li class="trum"><a href="#">Đảng - Đoàn thể<span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="#">Phòng ban chức năng <span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="#">Khoa trực thuộc <span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="#"> Trung tâm nghiên cứu<span class="submenu-indicator">+</span></a></li>
+                                                            <li class="li-me"><a href="#"> Dự án và Công ty<span class="submenu-indicator">+</span></a></li>
+                                                        </ul>
                                                         </div>
                                                     </li>
                                                     <li class="li-me trum">
-
+                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ Cán bộ<button  class="submenu-indicator btn" type="button">+</button></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
                                                             <li class=""><a href="#">Hội đồng Khoa học Đào tạo</a></li>
-                                                            <li class=""><a href="#">Danh hiệu nhà giáo<span class="submenu-indicator">+</span></a>
-                                                                <ul class="submenu" style="display: block;" id="5513">
-                                                                    <li class=""><a href="#">Nhà giáo Nhân dân</a></li>
-                                                                    <li class=""><a href="#">Nhà giáo Ưu tú</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class=""><a href="#">Đội ngũ giáo sư, phó giáo sư<span class="submenu-indicator">+</span></a>
-                                                                <ul class="submenu" style="display: block" id="5516">
-                                                                    <li class=""><a href="#">Giáo sư</a></li>
-                                                                    <li class=""><a href="#">Phó giáo sư</a></li>
-                                                                </ul>
-                                                            </li>
+                                                            <li class=""><a href="#">Danh hiệu nhà giáo<span class="submenu-indicator">+</span></a></li>
+                                                            <li class=""><a href="#">Đội ngũ giáo sư, phó giáo sư<span class="submenu-indicator">+</span></a></li>
                                                             <li class=""><a href="#">Nhóm nghiên cứu mạnh</a></li>
                                                             <li class=""><a href="#">Danh sách cán bộ</a></li>
                                                             <li class=""><a href="#">Cựu giáo chức</a></li>
                                                         </ul>
                                                         </div>
                                                     </li>
-                                                    <li class=""><a href="/gitlab/gioi-thieu/cac-khuon-vien.php">Các khuôn viên</a></li>
+                                                    <li class=""><a href="#">Các khuôn viên</a></li>
                                                 </ul>
                                             </div>
                                         </div>
