@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
 <head>
 	<title>Khoa học công nghệ</title>
@@ -23,10 +23,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div id="detailpage">
+<div id="detailpage"> -->
 <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
+        <title>Khoa học công nghệ</title>
+        <link rel="stylesheet" type="text/css" href="../../../css/canbo_tham.css">
+        <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
 <div class="main-content-wrapper">
 	<div class="container">
 		<!-- thanh gioi thieu -->
@@ -443,6 +446,6 @@
 <!---start footer----->
         <?php include "../../footer.html" ?>
         <!----end footer------->
-    </div>
+    <!-- </div>
 </body>
-</html>
+</html> -->

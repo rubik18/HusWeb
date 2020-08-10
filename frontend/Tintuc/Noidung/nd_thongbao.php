@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
 <head>
 	<title>....Data.....</title>
@@ -25,10 +25,11 @@
 </head>
 <body>
 
-	<div id="detailpage">
+	<div id="detailpage"> -->
         <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
+        <title>....Data.....</title>
         <!--************Start Body**************---------------->
 	   <!---*******Start Body*************------->
         <div class="main-content-wrapper">
@@ -302,26 +303,7 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    ; (function ($) {
-        $('.newsslidephoto').swipebox();
-    })(jQuery);
-    function share_zing() { var u = location.href; window.open("http://link.apps.zing.vn/share?u=" + encodeURIComponent(u)); }
-    function share_linkhay() { var u = location.href; window.open("http://linkhay.com/submit?url=" + encodeURIComponent(u)); }
-    function share_twitter() { var u = location.href; t = document.title; window.open("http://twitter.com/home?status=" + encodeURIComponent(u)); }
-    function share_facebook() { var u = location.href; t = document.title; window.open("http://www.facebook.com/share.php?u=" + encodeURIComponent(u) + "&t=" + encodeURIComponent(t)); }
-    function share_google() { var u = location.href; t = document.title; window.open("http://www.google.com/bookmarks/mark?op=edit&bkmk=" + encodeURIComponent(u) + "&title=" + t + "&annotation=" + t); }
-    var addthis_config = { "data_track_addressbar": true };</script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".divcomment").hide();
-        $(".showcomment").show();
-        $('.showcomment').click(function () {
-            $(".divcomment").slideToggle();
-        });
-    });
 
-</script>
 <style>
     .divcomment {
         padding: 20px;
@@ -347,10 +329,10 @@
         <!---start footer----->
         <?php include "../../footer.html" ?>
         <!----end footer------->
-    </div>
+    <!-- </div>
 
 
 
 
 </body>
-</html>
+</html> -->

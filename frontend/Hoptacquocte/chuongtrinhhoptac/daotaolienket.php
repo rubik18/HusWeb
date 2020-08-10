@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
 <head>
 	<title>Đào tạo liên kết</title>
@@ -23,11 +23,13 @@
 
 </head>
 <body>
-<div id="detailpage">
+<div id="detailpage"> -->
     <!---------start header------------>
     <?php include "../../header.html" ?>
     <!---end header------->
-
+    <title>Đào tạo liên kết</title>
+    <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
+    
 	<div class="main-content-wrapper">
 		<div class="container">
 			<!-- thanh gioi thieu -->
@@ -246,6 +248,6 @@
     <!---start footer----->
     <?php include "../../footer.html" ?>
     <!----end footer------->
-</div>
+<!-- </div>
 </body>
-</html>
+</html> -->

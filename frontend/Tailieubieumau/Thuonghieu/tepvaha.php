@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
 <head>
     <title>Tệp và hình ảnh</title>
@@ -24,9 +24,12 @@
 </head>
 <body>
 <div id="detailpage">
-<!---------start header------------>
+ --><!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
+        <title>Tệp và hình ảnh</title>
+        <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../../css/canbo_tham.css">
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -193,6 +196,6 @@
 <!---start footer----->
         <?php include "../../footer.html" ?>
         <!----end footer------->
-    </div>
+    <!-- </div>
 </body>
-</html>
+</html> -->
