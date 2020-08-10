@@ -1,9 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
-/*@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
-@import url(//huscdn.ibase.com.vn/hus/css/animate.css);
-@import url(//huscdn.ibase.com.vn/hus/css/owl.carousel.css);
-@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);*/
 
 * {
     margin: 0;
@@ -143,6 +138,10 @@ a {
         animation: world 1800ms linear infinite;
     }
 
+/*@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
+@import url(//huscdn.ibase.com.vn/hus/css/animate.css);
+@import url(//huscdn.ibase.com.vn/hus/css/owl.carousel.css);
+@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);*/
 @-webkit-keyframes world {
     0% {
         -webkit-transform: rotate(0deg);

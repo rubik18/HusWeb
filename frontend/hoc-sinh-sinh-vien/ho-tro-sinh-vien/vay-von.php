@@ -46,7 +46,7 @@
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/doan-hoi.php">Đoàn - Hội</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/doi-song.php">Đời sống</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/cac-cau-lac-bo.php">Các câu lạc bộ</a></li>
-                                                <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/vay-von.php">Vay vốn</a></li>
+                                                <li class="active"><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/vay-von.php">Vay vốn</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/tu-van-ho-tro-viec-lam.php">Tư vấn hỗ trợ việc làm</a></li>
                                             </ul>
                                         </li>

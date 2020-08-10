@@ -56,7 +56,7 @@
                                         <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-bong-giai-thuong.php">Học bổng, giải thưởng</a></li>
                                         <li class=""><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien.php" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -161.5px; left: 149.344px;"></span>Hỗ trợ sinh viên<span class="submenu-indicator">+</span></a>
                                             <ul style="display: block;" class="submenu" id="5496">
-                                                <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/doan-hoi.php">Đoàn - Hội</a></li>
+                                                <li class="active"><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/doan-hoi.php">Đoàn - Hội</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/doi-song.php">Đời sống</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/cac-cau-lac-bo.php">Các câu lạc bộ</a></li>
                                                 <li><a class=" dropdown-item" href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/vay-von.php">Vay vốn</a></li>
