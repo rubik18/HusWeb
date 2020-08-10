@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/DAPM/php-intership-team/admin/SourceFile/home.php" class="brand-link">
-      <img src="/DAPM/php-intership-team/admin/SourceFile/dist/img/AdminLTELogo.png"
+    <a href="/php-intership-team/admin/SourceFile/home.php" class="brand-link">
+      <img src="/php-intership-team/admin/SourceFile/dist/img/AdminLTELogo.png"
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
