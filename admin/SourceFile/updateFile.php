@@ -122,6 +122,27 @@
                       <input type="text" class="form-control float-right" name="date_time" id="reservationtime">  
                     </div>
                   </div>
+                  <!-- tag -->
+                  <div class="form-group">
+                    <div><label>Tag</label></div>
+                    <?php 
+                     $sql2 = "SELECT * FROM tag,new,news_tag WHERE new.id = news_tag.news_id and tag.id = news_tag.tags_id AND tag.deleted_at is NULL AND new.deleted_at is NULL";
+                     $result2 = mysqli_query($conn, $sql2); 
+                      if (!$result2) {
+                        die('error'. mysqli_error($conn));
+                      }
+                      if (mysqli_num_rows($result2) > 0){
+                        while ($row2 = mysqli_fetch_assoc($result2)) {                    
+                    ?>
+                      <div class="form-check"  style="display: inline-block;">
+                        <input class="form-check-input" name ="tag[]" type="checkbox" value = <?php echo $row2['id']?>>
+                        <label class="form-check-label" ><?php echo $row2['tag'] ?></label>
+                      </div>
+                    <?php  
+                        }
+                      }
+                    ?>
+                  </div>
                   <!-- mô tả -->
                   <div class="form-group">
                     <label>Mô tả</label>
