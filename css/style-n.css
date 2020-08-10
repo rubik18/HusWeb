@@ -365,7 +365,16 @@ img {
     line-height: 46px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    visibility: hidden; 
+    opacity: 0;
 }
+<<<<<<< HEAD
+
+#scrollUp.active{
+    bottom: 50px;
+    visibility: visible; 
+    opacity: 1;
+=======
 #scrollUp.active {
     bottom: 50px;
     visibility: visible;
@@ -393,6 +402,7 @@ opacity: 0;
 bottom: 50px;
 visibility: visible;
 opacity: 1;
+>>>>>>> tham3107
 }
     #scrollUp:hover {
         background-color: #0000ff;
@@ -810,7 +820,7 @@ opacity: 1;
     }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("https://www.clipartmax.com/png/middle/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png");
     cursor: pointer;
 }
 
@@ -879,6 +889,8 @@ opacity: 1;
     min-width: 300px !important;
     margin-top: 0px !important;
     top: 37px;
+    border-radius: 0 !important;
+
 }
 
     .dropdown-menu .dropdown-submenu a {
@@ -922,8 +934,8 @@ opacity: 1;
 }
 
 .true.dropdown-item {
-    border-bottom: solid 1px #e5e5e5;
-}
+/*    border-bottom: solid 1px #e5e5e5;
+*/}
 
 .dropdown-submenu > .dropdown-menu {
     /*top: 0;
@@ -948,7 +960,7 @@ opacity: 1;
 .dropdown-submenu.show > .dropdown-menu {
     display: block;
     position: relative !important;
-    border: none;
+    border: none !important;
 }
 
     .dropdown-submenu.show > .dropdown-menu a.dropdown-item {
@@ -1196,6 +1208,12 @@ opacity: 1;
 .navigation .post-title a {
     color: #ffffff;
     font-weight: 700;
+}
+h2.post-title {
+    font-size: 30px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #ececec;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -2618,7 +2636,7 @@ opacity: 1;
 .world-latest-articles .titlethongbao {
     height: 29px;
     line-height: 29px;
-    background: url(/hus/img/blog-img/homethongbao.png) no-repeat left bottom #017dc5;
+    background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homethongbao.png) no-repeat left bottom #017dc5;
     margin-bottom: 10px;
     border-radius: 5px 5px 0px 0px;
 }
@@ -4754,3 +4772,5 @@ textarea:focus ~ .highlight {
             font-size: 14px;
             color: #959595;
         }
+
+
