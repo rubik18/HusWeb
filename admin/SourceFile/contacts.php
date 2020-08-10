@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="./plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="./dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -20,11 +20,11 @@
 <!-- Site wrapper -->
 <div class="wrapper">
   <!-- Navbar -->
-  <?php include './themepart/top-menu.php' ?>
+  <?php include 'themepart/top-menu.php'  ?>
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
- <?php include './themepart/sidebar.php' ?>
+ <?php include 'themepart/sidebar.php' ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">

@@ -1,3 +1,19 @@
+<?php 
+// kết nối
+  require'db/connect.php';
+  $conn->set_charset("utf8");
+// Chuỗi kết nối
+  $sql = "SELECT * FROM tag WHERE tag.deleted_at is NULL";
+   $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+  $sql1 = "SELECT * FROM category WHERE category.deleted_at is NULL";
+  $result1 = mysqli_query($conn, $sql1);
+  if (!$result1) {
+    die('error'. mysqli_error($conn));
+  }
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +33,10 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  
+  
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -70,36 +90,62 @@
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="" method = "post">
+                <form role="form" action="add.php" method = "post">
                   <!-- Tit -->
                   <div class="form-group">
                     <label>Title</label>
-                    <input type="text" class="form-control" placeholder="Enter ...">
+                    <input type="text" name = "title" class="form-control" placeholder="Enter ...">
                   </div>
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" style="width: 100%;">
-                      <option selected="selected">Tin tức</option>
-                      <option>Sự kiện</option>
-                      <option>Thôngbáo</option>
+                    <select class="form-control select2" name = "type" style="width: 100%;">
+                      <?php 
+                      if (mysqli_num_rows($result1) > 0){
+                        while ($row1 = mysqli_fetch_assoc($result1)) {                 
+                      ?>
+                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
+                      <?php  
+                        }
+                      }
+                       ?>
                     </select>
                   </div>
                   <!-- Nội dung -->
+                  <!-- Date and time range -->
+                <div class="form-group">
+                  <label>Date and time range:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="far fa-clock"></i></span>
+                    </div>
+                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime">
+                  </div>
+                  <!-- /.input group -->
+                </div>
+                  <!-- tag -->
                   <div class="form-group">
-                      <label for="exampleInputFile">Img</label>
-                      <div class="input-group">
-                        <div class="custom-file">
-                          <input type="file" class="custom-file-input" id="exampleInputFile">
-                          <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                        </div>
-                        <div class="input-group-append">
-                          <span class="input-group-text" id="">Upload</span>
-                        </div>
+                    <div><label>Tag</label></div>
+                    <?php 
+                      if (mysqli_num_rows($result) > 0){
+                        while ($row = mysqli_fetch_assoc($result)) {                    
+                    ?>
+                      <div class="form-check"  style="display: inline-block;">
+                        <input class="form-check-input" name ="tag[]" type="checkbox" value = <?php echo $row['id']?>>
+                        <label class="form-check-label" ><?php echo $row['tag'] ?></label>
                       </div>
+                    <?php  
+                        }
+                      }
+                    ?>
+                  </div>
+                 <!-- mô tả -->
+                  <div class="form-group">
+                    <label>Mô tả</label>
+                    <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
                   </div>
                   <label for="exampleInputFile">Nội dung</label>
-                  <textarea class="textarea" placeholder="Place some text here"
+                  <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                   <!-- Submit -->
                   <div class="card-footer">
@@ -136,11 +182,41 @@
 <script src="dist/js/demo.js"></script>
 <!-- Summernote -->
 <script src="plugins/summernote/summernote-bs4.min.js"></script>
+
+<!-- Select2 -->
+<script src="plugins/select2/js/select2.full.min.js"></script>
+<!-- Bootstrap4 Duallistbox -->
+<script src="plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+<!-- InputMask -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
+<!-- date-range-picker -->
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Bootstrap Switch -->
+<script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+
+
 <script>
   $(function () {
     // Summernote
     $('.textarea').summernote()
   })
+ //Date range picker with time picker
+    $('#reservationtime').daterangepicker({
+      timePicker: true,
+      timePickerIncrement: 30,
+      locale: {
+        format: 'MM/DD/YYYY hh:mm A'
+      }
+    })
 </script>
 </body>
 </html>

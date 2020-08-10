@@ -1,7 +1,7 @@
- <aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="home.php" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png"
+    <a href="/DAPM/php-intership-team/admin/SourceFile/home.php" class="brand-link">
+      <img src="/DAPM/php-intership-team/admin/SourceFile/dist/img/AdminLTELogo.png"
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
@@ -13,7 +13,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="myimg/ava-TNR.png" class="img-circle elevation-2" alt="User Image">
+          <img src="/DAPM/php-intership-team/admin/SourceFile/myimg/ava-TNR.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Admin</a>
@@ -26,7 +26,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview">
-            <a href="table-master.php" class="nav-link">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
                 DataBase
@@ -35,56 +35,81 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="table-master.php" class="nav-link">
+                <a href="/DAPM/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataBase</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="table-tintuc.php" class="nav-link">
+                <a href="/DAPM/php-intership-team/admin/SourceFile/table-tintuc.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tin tức</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="table-sukien.php" class="nav-link">
+                <a href="/DAPM/php-intership-team/admin/SourceFile/table-sukien.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Sự kiện</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="table-thongbao.php" class="nav-link">
+                <a href="/DAPM/php-intership-team/admin/SourceFile/table-thongbao.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Thông báo</p>
                 </a>
               </li>
             </ul>
           </li>
+          <li class="nav-item has-treeview">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Tag
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/DAPM/php-intership-team/admin/SourceFile/tag/table-tag.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>TagTable</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="/DAPM/php-intership-team/admin/SourceFile/tag/form-tag.php" class="nav-link">
+                  <i class="nav-icon fas fa-plus-circle"></i>
+                  <p>
+                  Thêm Tag
+                  </p>
+                  </a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item">
-            <a href="form-test.php" class="nav-link">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
               <i class="nav-icon fas fa-plus-circle"></i>
               <p>
                 Thêm bài viết
               </p>
             </a>
           </li>
-          <li class="nav-item">
-            <a href="updateFile.php" class="nav-link">
+          <!-- <li class="nav-item">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/updateFile.php" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>
                 Update bài viết
               </p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-header">SETTING</li>
           <li class="nav-item">
-            <a href="recover-password.php" class="nav-link">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
               <p>Change Password</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="login.php" class="nav-link">
+            <a href="/DAPM/php-intership-team/admin/SourceFile/login/login.php" class="nav-link">
               <i class="fas fa-sign-out-alt nav-icon"></i>
               <p>Logout</p>
             </a>

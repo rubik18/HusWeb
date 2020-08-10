@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 2";
+  $sql = "SELECT * FROM category, new WHERE new.id_category = category.id AND category.id = 2 AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -84,22 +84,21 @@
                   <tbody>
                     <?php 
                       if (mysqli_num_rows($result) > 0){
+                        $i = 1;
                         while ($row = mysqli_fetch_assoc($result)) {
-                          $i = 1;
                     ?>
                     <tr>
                     <td><?php echo $i ?></td>
-                    <?php $i++; ?>
                     <td><?php echo $row['title'] ?></td>
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['description'] ?></td>
                     <td class="project-actions text-right">
-                          <a class="btn btn-primary btn-sm" href="#">
+                          <!-- <a class="btn btn-primary btn-sm" href="#">
                               <i class="fas fa-folder">
                               </i>
                               View
-                          </a>
-                          <a class="btn btn-secondary btn-sm" href="updateFile.php">
+                          </a> -->
+                          <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
@@ -112,6 +111,7 @@
                     </td>
                   </tr>
                   <?php 
+                    $i++;
                       }
                     }
                   ?>
