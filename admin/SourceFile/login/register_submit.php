@@ -15,4 +15,9 @@ if ( isset($_POST['submit']) && $username !='' && $fullname !='' && $password !=
 else{
   header("Location:register.php");
 }
+
+
+
+
+
  ?>
