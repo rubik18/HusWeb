@@ -26,6 +26,7 @@
         
         <!---------start header------------>
         <?php include "../header.html" ?>
+        
         <!---end header------->
         <title>Tin tức</title>
 		<div class="main-content-wrapper" >
