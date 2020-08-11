@@ -38,13 +38,23 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
+<<<<<<< HEAD
+=======
+      <div class="input-group mb-3">
+           <img src="/php-intership-team/admin/SourceFile/myimg/HusLogoFront.png" style="width:100%">
+      </div>
+>>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
       <p class="login-box-msg">Sign in to start your session</p>
         <div class="input-group mb-3">
            <a type="button" href="/php-intership-team/admin/SourceFile/login/login.php" class="btn btn-block btn-primary btn-flat" style="color: white">Login</a>
         </div>
+<<<<<<< HEAD
         <div class="input-group mb-3">
           <a type="button" href ="/php-intership-team/admin/SourceFile/login/register.php"class="btn btn-block btn-primary btn-flat" style="color: white">Register</a>
         </div>
+=======
+        
+>>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
       <!-- /.social-auth-links -->
     </div>
     <!-- /.login-card-body -->

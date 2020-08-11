@@ -1,0 +1,41 @@
+.khung {
+    padding: 0px;
+    float: none;
+    display: inline-block !important;
+    margin: 0px;
+    display: inline;
+    width: auto;
+    zoom: 1;
+    margin: 8px 3px;
+    border: 0px;
+}
+
+.khung1 {
+padding: 10px 20px !important;
+    display: block;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    color: #3b3b3b;
+    margin-right: 8px;
+    line-height: 1.42857143;
+    position: relative;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin: 0px;
+   
+}
+
+
+.item1 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 5px;
+    color: #8d8d8d;
+}
+
+.li-me {
+    list-style-type: disc;
+    display: list-item;
+    padding: 0px 30px 10px 30px;
+}
