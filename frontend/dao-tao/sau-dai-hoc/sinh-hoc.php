@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
      <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
+     <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
 </head>
 <body id="Body">
 
