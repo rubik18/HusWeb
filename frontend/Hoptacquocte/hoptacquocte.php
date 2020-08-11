@@ -37,7 +37,7 @@
 			<div class="row">
 				<div class="col-12">
 					<ol class="breadcrumb">
-						<a href="" class="item">Hợp tác quốc tế</a>
+						<a href="" class="item" style="color: inherit;">Hợp tác quốc tế</a>
 						
 					</ol>
 				</div>
@@ -94,9 +94,9 @@
                                                         <!--start submenu--->
                                                         <li class="trum">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#510" class="submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none" >
                                                                 <ul class="submenu" style="display: block; " id="510">

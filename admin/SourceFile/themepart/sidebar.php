@@ -1,3 +1,16 @@
+<?php 
+  
+  if (!isset($_SESSION['user'])) {
+  header("Location:login/login.php");
+}
+  $name = $_SESSION['user'];
+  require 'db/connect.php';
+  $conn->set_charset("utf8");
+  $sql =  "SELECT * FROM user WHERE user_name = '$name'";
+  $result = mysqli_query($conn,$sql);
+  $row = mysqli_fetch_assoc($result);
+   // var_dump($row);die(); 
+ ?>
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/php-intership-team/admin/SourceFile/home.php" class="brand-link">
@@ -13,10 +26,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="/php-intership-team/admin/SourceFile/myimg/ava-TNR.png" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php echo $row['avatar'] ?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Admin</a>
+          <a href="#" class="d-block"><?php echo $row['user_name'] ?></a>
         </div>
       </div>
 
@@ -109,7 +122,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/login/login.php" class="nav-link">
+            <a href="/php-intership-team/admin/SourceFile/login/logout.php" class="nav-link">
               <i class="fas fa-sign-out-alt nav-icon"></i>
               <p>Logout</p>
             </a>

@@ -96,12 +96,12 @@
     												<ul class="">
                                                         <li class="trum ">
                                                             <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#30" class="submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="510">
+                                                                <ul class="submenu" style="display: block;" id="30">
                                                                     <li class="  active">
                                                                         <a href="../Quydinhquyche/canbo.php" >Cán bộ</a></li>
                                                                     <li class="">
@@ -123,12 +123,12 @@
                                                         
     													<li class="trum">
                                                             <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#31" class="submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none ">
-                                                                <ul class="submenu" style="display: block;" id="510">
+                                                                <ul class="submenu" style="display: block;" id="31">
                                                                     <li class="active li-me">
                                                                         <a href="../Bieumau/b_canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
@@ -150,12 +150,12 @@
                                                         <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
     													<li class="trum">
                                                             <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
-                                                            <a href="#5510" class="">
+                                                            <a href="#32" class="submenu spn">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -158.5px;left: 143.344px;"></span> Nhận diện thương hiệu
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content ">
-                                                                <ul class="submenu" style="display: block;" id="5510">
+                                                                <ul class="submenu" style="display: block;" id="32">
                                                                     <li class="active li-me">
                                                                         <a href="" style="color: #017dc5;
                                                                             background: #f6f7f9;

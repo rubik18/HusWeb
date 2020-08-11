@@ -51,3 +51,7 @@ table {
     ol li {list-style-type:decimal;
            padding:5px 10px;
     }
+
+    .single-blog-content .post-content p {
+    text-align: left !important;
+}

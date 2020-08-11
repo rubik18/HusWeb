@@ -9,7 +9,6 @@
     die('error'. mysqli_error($conn));
   }
  ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +38,6 @@
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
-
       <form action="login_submit.php" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" name="user_name" placeholder="Username">
@@ -57,6 +55,25 @@
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- incorrect password or username -->
+        <?php 
+          if (@$_GET['Invalid'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger"><?php echo $_GET['Invalid'] ?></div>
+        </div>
+        <?php      
+          }
+        ?>
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">

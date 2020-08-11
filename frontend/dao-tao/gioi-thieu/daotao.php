@@ -5,6 +5,7 @@
     <title>Đào tạo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
+    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
     
 </head>
 
@@ -15,6 +16,7 @@
     ?>
     <!-- hết header -->
     <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+
    <div class="main-content-wrapper">
         <div class="container">
             <div class="breakcrum mb-30">
@@ -374,6 +376,7 @@
 
                                                         <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
                                                         <li class="trum">
+
                                                             <a href="#510" class="submenu">
                                                                 <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Bậc đại học
                                                                 <span class="submenu-indicator spn" >+</span>
@@ -421,7 +424,7 @@
 
                                                          <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
                                                         <li class="trum">
-                                                            <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+                                                        
                                                             <a href="#510" class="submenu">
                                                                 <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Sau đại học
                                                                 <span class="submenu-indicator spn" >+</span>
