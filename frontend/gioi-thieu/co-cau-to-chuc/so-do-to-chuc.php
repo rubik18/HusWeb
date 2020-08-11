@@ -75,7 +75,11 @@
                                                 
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Cơ cấu tổ chức</div>
                                                 <ul class="right-me">
-                                                    <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
+                                                    <li class="active li-me"><a style="color: #017dc5;
+                                                                            background: #f6f7f9;
+                                                                            border-left: solid 3px #017dc5;
+                                                                            font-weight: 600;
+                                                                            padding-left: 27px;"href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
                                                      <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">

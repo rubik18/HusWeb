@@ -18,10 +18,7 @@
                 <div class="col-12">
                     <ol class="breadcrumb">
                         <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
-                        &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        &nbsp;
-                        <a href="/php-intership-team/frontend/gioi-thieu/lich-su-phat-trien.php" class="item">Lịch sử phát triển</a>
+                        
                     </ol>
                 </div>
             </div>
