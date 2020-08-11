@@ -42,9 +42,7 @@
         <div class="input-group mb-3">
            <a type="button" href="/DAPM/php-intership-team/admin/SourceFile/login/login.php" class="btn btn-block btn-primary btn-flat" style="color: white">Login</a>
         </div>
-        <div class="input-group mb-3">
-          <a type="button" href ="/DAPM/php-intership-team/admin/SourceFile/login/register.php"class="btn btn-block btn-primary btn-flat" style="color: white">Register</a>
-        </div>
+        
       <!-- /.social-auth-links -->
     </div>
     <!-- /.login-card-body -->
