@@ -147,68 +147,68 @@
                                                 
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Cơ cấu tổ chức</div>
                                                 <ul class="right-me">
-                                                    <li class=" li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
-                                                     <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
-                                                    <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                    <li class=" li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
+                                                     <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
+                                                    <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Đảng - Đoàn thể<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-uy.php">Đảng ủy</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/doan-thanh-nien.php">Đoàn Thanh niên</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/hoi-sinh-vien.php">Hội sinh viên</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/cong-doan.php">Công đoàn</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-uy.php">Đảng ủy</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/doan-thanh-nien.php">Đoàn Thanh niên</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/hoi-sinh-vien.php">Hội sinh viên</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/cong-doan.php">Công đoàn</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Phòng ban chức năng <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-chinh-tri-va-cong-tac-sinh-vien.php">Phòng chính trị và Công tác sinh viên</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-dao-tao.php">Phòng Đào tạo</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-hanh-chinh-doi-ngoai.php">Phòng Hành chính - Đối ngoại</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-khoa-hoc-cong-nghe.php">Phòng Khoa học - Công nghệ</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-quan-tri-bao-ve.php">Phòng Quản trị - Bảo vệ</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-sau-dai-hoc.php">Phòng Sau đại học</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-to-chuc-can-bo.php">Phòng Tổ chức Cán bộ</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ke-hoach-tai-chinh.php">Phòng kế hoạch - Tài chính</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-thanh-phap-che-va-dam-bao-chat-luong.php">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/ban-quan-ly-cac-du-an-xay-dung.php">Ban quản lý các dự án xây dựng</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/trung-tam-cong-nghe-thong-tin-va-truyen-thong.php">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-chinh-tri-va-cong-tac-sinh-vien.php">Phòng chính trị và Công tác sinh viên</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-dao-tao.php">Phòng Đào tạo</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-hanh-chinh-doi-ngoai.php">Phòng Hành chính - Đối ngoại</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-khoa-hoc-cong-nghe.php">Phòng Khoa học - Công nghệ</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-quan-tri-bao-ve.php">Phòng Quản trị - Bảo vệ</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-sau-dai-hoc.php">Phòng Sau đại học</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-to-chuc-can-bo.php">Phòng Tổ chức Cán bộ</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ke-hoach-tai-chinh.php">Phòng kế hoạch - Tài chính</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-thanh-phap-che-va-dam-bao-chat-luong.php">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/ban-quan-ly-cac-du-an-xay-dung.php">Ban quản lý các dự án xây dựng</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/trung-tam-cong-nghe-thong-tin-va-truyen-thong.php">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Khoa trực thuộc <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-toan-co-tin-hoc.php">Khoa Toán - Cơ - Tin học</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-vat-ly.php">Khoa Vật lý</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-hoa-hoc.php">Khoa Hóa học</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-sinh-hoc.php">Khoa Sinh học</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/hoa-dia-ly.php">Khoa Địa lý</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-dia-chat.php">Khoa Địa chất</a></li>
-                                                                <li class="active li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-moi-truong.php">Khoa Môi trường</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-khi-tuong-thuy-van-va-hai-duong-hoc.php">Khoa Khí tượng thủy văn và Hải dương học</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-toan-co-tin-hoc.php">Khoa Toán - Cơ - Tin học</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-vat-ly.php">Khoa Vật lý</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-hoa-hoc.php">Khoa Hóa học</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-sinh-hoc.php">Khoa Sinh học</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/hoa-dia-ly.php">Khoa Địa lý</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-dia-chat.php">Khoa Địa chất</a></li>
+                                                                <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-moi-truong.php">Khoa Môi trường</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-khi-tuong-thuy-van-va-hai-duong-hoc.php">Khoa Khí tượng thủy văn và Hải dương học</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                     <li class="trum">
-                                                        <script type="text/javascript" language="JavaScript" src="/gitlab/js/dropdown-nhung.js"></script>
+                                                        <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Trung tâm nghiên cứu <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/phong-thi-nghiem-trong-diem-Emzym-Protein.php">Phòng thí nghiệm trọng điểm Enzym Protein</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-CNMT-va-PTBV.php">Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-QT-va-MHHMT.php">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-dong-luc-hoc-TKMT.php">Trung tâm Động lực học Thủy Khí Môi trường</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-bien-dao.php">Trung tâm Nghiên cứu Biển, Đảo</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nano-va-nang-luong.php">Trung tâm Nano và Năng lượng</a></li>
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-PT-va-UDKHPT.php">Trung tâm Nghiên cứu phát triển và Ứng dụng khoa học phân tích</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/phong-thi-nghiem-trong-diem-Emzym-Protein.php">Phòng thí nghiệm trọng điểm Enzym Protein</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-CNMT-va-PTBV.php">Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-QT-va-MHHMT.php">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-dong-luc-hoc-TKMT.php">Trung tâm Động lực học Thủy Khí Môi trường</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-bien-dao.php">Trung tâm Nghiên cứu Biển, Đảo</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nano-va-nang-luong.php">Trung tâm Nano và Năng lượng</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-PT-va-UDKHPT.php">Trung tâm Nghiên cứu phát triển và Ứng dụng khoa học phân tích</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -217,7 +217,7 @@
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Dự án và Công ty <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
-                                                                <li class="li-me"><a href="/gitlab/frontend/gioi-thieu/co-cau-to-chuc/du-an-va-cong-ty/cong-ty-trach-nhiem-huu-han.php">Công ty Trách nhiệm hữu hạn (TNHH) Khoa học Tự nhiên</a></li>
+                                                                <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/du-an-va-cong-ty/cong-ty-trach-nhiem-huu-han.php">Công ty Trách nhiệm hữu hạn (TNHH) Khoa học Tự nhiên</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
