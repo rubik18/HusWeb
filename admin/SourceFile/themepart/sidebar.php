@@ -109,7 +109,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/login/login.php" class="nav-link">
+            <a href="/php-intership-team/admin/SourceFile/login/logout.php" class="nav-link">
               <i class="fas fa-sign-out-alt nav-icon"></i>
               <p>Logout</p>
             </a>

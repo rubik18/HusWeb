@@ -3,8 +3,12 @@
 require'db/connect.php';
 $conn->set_charset("utf8");
 //chuỗi kết nối
+session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+  header("Location:login/login.php");
+}
  ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +17,6 @@ $conn->set_charset("utf8");
   <title>AdminLTE 3 | DataTables</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
