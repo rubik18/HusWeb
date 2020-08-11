@@ -29,6 +29,7 @@
         
         <!---end header------->
         <title>Tin tức</title>
+        <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
 		<div class="main-content-wrapper" >
 			<div class="container" >
                  <!--------start thanh muc luc------------------->

@@ -28,7 +28,6 @@
     <!---end header------->
     <title>Chương trình hợp tác</title>
     <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-    
 	<div class="main-content-wrapper">
 		<div class="container">
 			<!-- thanh gioi thieu -->
@@ -37,10 +36,10 @@
 					<div class="col-12">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item active" aria-current="page">
-	                            <a href="hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
+	                            <a href="hoptacquocte.php" class="item" style="color: gray">Hợp tác quốc tế</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="" class="item ">Chương trình hợp tác</a></li>
+	                            <a href="" class="item" style="color: gray">Chương trình hợp tác</a></li>
 						</ol>
 					</div>
 				</div>
@@ -120,9 +119,9 @@
 	                                                        <!--start submenu--->
 	                                                        <li class="trum active">
 	                                                            <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-	                                                            <a href="#510" class="submenu">
-	                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-	                                                                <span class="submenu-indicator spn" >+</span>
+	                                                            <a href="#510" class="submenu spn">
+	                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
+	                                                                <span class="submenu-indicator " >+</span>
 	                                                            </a>
 	                                                            <div class="content d-none" >
 	                                                                <ul class="submenu" style="display: block; " id="510">
