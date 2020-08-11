@@ -1,3 +1,11 @@
+<?php 
+session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+  header("Location:login/login.php");
+}
+
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
