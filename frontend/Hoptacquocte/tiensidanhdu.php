@@ -37,10 +37,10 @@
 				<div class="col-12">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item active" aria-current="page">
-                            <a href="hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
+                            <a href="hoptacquocte.php" class="item" style="color: inherit;">Hợp tác quốc tế</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
-                            <a href="#" class="item ">Tiến sĩ danh dự</a></li>
+                            <a href="#" class="item " style="color: inherit;">Tiến sĩ danh dự</a></li>
 					</ol>
 				</div>
 			</div>
@@ -205,9 +205,9 @@
                                                         <!--start submenu--->
                                                         <li class="trum ">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#510" class="submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none" >
                                                                 <ul class="submenu" style="display: block; " id="510">
