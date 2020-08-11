@@ -5,6 +5,7 @@
 	<title>Giới thiệu chung</title>
 	<meta charset="utf-8">
 	 <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
+	 <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
 
 </head>
 
