@@ -34,6 +34,8 @@ $conn->set_charset("utf8");
   	$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`, `content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description', '$content', '$date_time[0]', '$date_time[1]')";
 	mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 	header("Location:table-master.php");
+
+	
   }
  ?>
 
