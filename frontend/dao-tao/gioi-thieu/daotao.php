@@ -5,7 +5,7 @@
     <title>Đào tạo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-
+    
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     include "../../header.html"
     ?>
     <!-- hết header -->
-
+    <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
    <div class="main-content-wrapper">
         <div class="container">
             <div class="breakcrum mb-30">
@@ -368,74 +368,88 @@
                                                     <div class="jquery-accordion-menu-header">Đào tạo </div>
 
                                                     <ul>
-                                                        <li class="active">
+                                                        <li class="">
                                                             <a href="\php-intership-team\frontend\dao-tao\gioi-thieu\gioi-thieu.php">Giới thiệu chung</a>
                                                         </li>
 
-                                                        <li class="">
-                                                            <a href="#5045" class="">Bậc Đại học
-                                                                <span class="submenu-indicator">+</span>
+                                                        <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+                                                        <li class="trum">
+                                                            <a href="#510" class="submenu">
+                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Bậc đại học
+                                                                <span class="submenu-indicator spn" >+</span>
                                                             </a>
+                                                            <div class="content d-none">
+                                                                <ul class="submenu" style="display: block;" id="5045">
+                                                                    <li class="active li-me" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php">Địa chất</a>
+                                                                    </li>
 
-                                                            <ul class="submenu" style="" id="5045">
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php">Địa chất</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-li-quan-li-dat-dai.php">Địa lý, Quản lý đất đai và GISc</a>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-li-quan-li-dat-dai.php">Địa lý, Quản lý đất đai và GISc</a>
-                                                                </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\khi-tuong.php">Khí tượng, Khoa học và Công nghệ biển, Tài nguyên và Môi trường nước</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                         <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\khi-tuong.php">Khí tượng, Khoa học và Công nghệ biển, Tài nguyên và Môi trường nước</a>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\hoa-hoc.php">Hóa học và Công nghệ</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\hoa-hoc.php">Hóa học và Công nghệ</a>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong.php">Quản lý Tài nguyên Môi trường, Địa chất Ứng dụng</a>
-                                                                </li>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\sinh-hoc-va-cong-nghe.php">Sinh học và Công nghệ</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong.php">Quản lý Tài nguyên Môi trường, Địa chất Ứng dụng</a>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\toan-ung-dung.php">Toán, Toán ứng dụng và Tin học</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\sinh-hoc-va-cong-nghe.php">Sinh học và Công nghệ</a>
+                                                                    </li>
 
-                                                                <li class="">
+                                                                    <li class="" style="padding: 0px;"> 
+                                                                      <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\toan-ung-dung.php">Toán, Toán ứng dụng và Tin học</a>
+
+                                                                    </li>
+
+                                                                    <li class="" style="padding: 0px;">
                                                                     <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\vat-li.php">Vật lí và Công nghệ</a>
-                                                                </li>
-                                                            </ul>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
                                                         </li>
 
-                                                        <li class="">
-                                                            <a href="#1608" class="">Sau đại học<span class="submenu-indicator">+</span></a>
-
-                                                            <ul class="submenu" style="" id="1608">
-                                                                <li class="">
+                                                         <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+                                                        <li class="trum">
+                                                            <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+                                                            <a href="#510" class="submenu">
+                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Sau đại học
+                                                                <span class="submenu-indicator spn" >+</span>
+                                                            </a>
+                                                            <div class="content d-none">
+                                                                <ul class="submenu" style="display: block;" id="5045">
+                                                                    <li class="active li-me" style="padding: 0px;">
                                                                     <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\toan-co-tin.php">Toán - Cơ - Tin học</a>
-                                                                </li>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\vat-ly.php">Vật lý &amp; Công nghệ</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\vat-ly.php">Vật lý &amp; Công nghệ</a>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\hoa-hoc.php">Hóa học &amp; Công nghệ</a>
-                                                                </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\sinh-hoc.php">Sinh học &amp; Công nghệ</a>
-                                                                </li>
+                                                                    <li class="" style="padding: 0px;">
+                                                                         <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\hoa-hoc.php">Hóa học &amp; Công nghệ</a>
+                                                                    </li>
 
-                                                                <li class="">
-                                                                    <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\khoa-hoc-trai-dat.php">Khoa học Trái đất - Tài nguyên &amp; Môi trường</a>
-                                                                </li>
-                                                            </ul>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\sinh-hoc.php">Sinh học &amp; Công nghệ</a>
+                                                                    </li>
+
+                                                                    <li class="" style="padding: 0px;">
+                                                                         <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\khoa-hoc-trai-dat.php">Khoa học Trái đất - Tài nguyên &amp; Môi trường</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </li>
 
                                                         <li class="">
