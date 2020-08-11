@@ -2,7 +2,8 @@
 <!-- start header -->
 <?php include "../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- start body -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -127,10 +128,14 @@
                                                     <li class="trum">
                                                            <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
-                                                        <div class="content d-none">
+                                                        <div class="content">
                                                             <ul class="submenu" style="display: block;" id="5510">
                                                                 <li class=""><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-trong-nuoc.php">Hội nghị khoa học trong nước</a></li>
-                                                                <li class="active"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-quoc-te.php">Hội nghị khoa học quốc tế</a></li>
+                                                                <li class="active"><a style="color: #017dc5;
+                                                                            background: #f6f7f9;
+                                                                            border-left: solid 3px #017dc5;
+                                                                            font-weight: 600;
+                                                                            padding-left: 27px;" href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-quoc-te.php">Hội nghị khoa học quốc tế</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>

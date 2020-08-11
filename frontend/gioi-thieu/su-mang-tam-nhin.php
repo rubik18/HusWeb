@@ -3,7 +3,8 @@
 <?php include "../header.html" ?>
 <!-- end header -->
 
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <div class="container">
         <!-- thanh gioi thieu -->
         <div class="breakcrum mb-30">

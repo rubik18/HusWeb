@@ -1,4 +1,4 @@
-<title>Nhà giáo Nhân dân</title>
+<title>Danh hiệu nhà giáo</title>
 <!-- start header -->
 <!-- start header -->
 <?php include "../../../header.html" ?>
@@ -13,17 +13,15 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Đội ngũ cán bộ</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-can-bo.php" class="item">Đội ngũ cán bộ</a>
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Danh hiệu nhà giáo</a>
-                        &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Nhà giáo Nhân dân</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/danh-hieu-nha-giao/danh-hieu-nha-giao.php" class="item">Danh hiệu nhà giáo</a>
+                        
                     </ol>
                 </div>
             </div>
@@ -42,7 +40,7 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1 style="font-size: 30px">Nhà giáo Nhân dân</h1>
+                                            <h1 style="font-size: 30px">Danh hiệu nhà giáo</h1>
                                         </div>
                                         <div class="post-content" style="padding-top: 0">
                                             <div id="dnn_ctr15974_ContentPane">
@@ -252,14 +250,14 @@
                                                                 <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                                 <li class="li-me trum">
                                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                                    <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Danh hiệu nhà giáo<button  class="submenu-indicator btn" type="button">+</button></a>
-                                                                    <div class="content">
-                                                                        <ul class="submenu" style="display: block;" id="5510">
-                                                                            <li class="active"><a style="color: #017dc5;
+                                                                    <a style="color: #017dc5;
                                                                             background: #f6f7f9;
                                                                             border-left: solid 3px #017dc5;
                                                                             font-weight: 600;
-                                                                            padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/danh-hieu-nha-giao/nha-giao-nhan-dan.php">Nhà giáo Nhân dân</a></li>
+                                                                            padding-left: 27px;" href="#5510" class="active"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Danh hiệu nhà giáo<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                                    <div class="content ">
+                                                                        <ul class="submenu" style="display: block;" id="5510">
+                                                                            <li class="active"><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/danh-hieu-nha-giao/nha-giao-nhan-dan.php">Nhà giáo Nhân dân</a></li>
                                                                             <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/danh-hieu-nha-giao/nha-giao-uu-tu.php">Nhà giáo Ưu tú</a> </li>
                                                                         </ul>
                                                                     </div>

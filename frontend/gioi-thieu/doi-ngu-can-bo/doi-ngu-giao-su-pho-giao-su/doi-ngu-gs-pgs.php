@@ -1,4 +1,4 @@
-<title>Phó giáo sư</title>
+<title>Đội ngũ GS, PGS</title>
 <!-- start header -->
 <!-- start header -->
 <?php include "../../../header.html" ?>
@@ -13,17 +13,15 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Đội ngũ cán bộ</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-can-bo.php" class="item">Đội ngũ cán bộ</a>
                         &nbsp;
                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Đội ngũ giáo sư, phó giáo sư</a>
-                        &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phó giáo sư</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/doi-ngu-gs-pgs.php" class="item">Đội ngũ GS, PGS</a>
+                        
                     </ol>
                 </div>
             </div>
@@ -42,10 +40,10 @@
                                     <!-- Start_Module_10672 -->
                                     <div id="dnn_ctr10672_ModuleContent">
                                         <div class="post-meta">
-                                            <h1 style="font-size: 30px">Phó giáo sư</h1>
+                                            <h1 style="font-size: 30px">Đội ngũ GS, PGS</h1>
                                         </div>
-                                        <div class="post-content">
-                                            <div id="dnn_ctr12627_ContentPane"><!-- Start_Module_12627 --><div id="dnn_ctr12627_ModuleContent" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$ctr12627$View$lbtFind%27,%27%27)', event);">
+                                       <div class="post-content">
+                                            <div id="dnn_ctr12625_ContentPane"><!-- Start_Module_12625 --><div id="dnn_ctr12625_ModuleContent" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$ctr12625$View$lbtFind%27,%27%27)', event);">
                                                 
                                             <script type="text/javascript" language="JavaScript" src="/js/NVCorp.js"></script>
 
@@ -76,12 +74,12 @@
                                                 <div class="row">
                                                     <div class="col-12 col-md-7">
                                                         <div class="group">
-                                                            <input name="dnn$ctr12627$View$txthovaten" type="text" id="dnn_ctr12627_View_txthovaten" placeholder="Họ và tên" width="100%" class="form-control">
+                                                            <input name="dnn$ctr12625$View$txthovaten" type="text" id="dnn_ctr12625_View_txthovaten" placeholder="Họ và tên" width="100%" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-3">
                                                         <div class="group">
-                                                            <select name="dnn$ctr12627$View$ddltrangthailamviec" id="dnn_ctr12627_View_ddltrangthailamviec" class="form-control">
+                                                            <select name="dnn$ctr12625$View$ddltrangthailamviec" id="dnn_ctr12625_View_ddltrangthailamviec" class="form-control">
                                                     <option selected="selected" value="0">Đang làm việc</option>
                                                     <option value="1">Nghỉ hưu</option>
 
@@ -89,62 +87,26 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-2">
-                                                        <a id="dnn_ctr12627_View_lbtFind" class="btn world-btn" href="javascript:__doPostBack('dnn$ctr12627$View$lbtFind','')" style="font-weight:bold;"> Tìm</a>
+                                                        <a id="dnn_ctr12625_View_lbtFind" class="btn world-btn" href="javascript:__doPostBack('dnn$ctr12625$View$lbtFind','')" style="font-weight:bold;"> Tìm</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div id="dnn_ctr12627_View_udpContent">
+                                            <div id="dnn_ctr12625_View_udpContent">
                                                     
                                                     <div class="row">
                                                         <div class="col-12 col-md-12">
-                                                            <table class="table table-bordered table-striped dataTable" cellspacing="0" rules="all" border="1" id="dnn_ctr12627_View_drgDataViewer" style="width:100%;border-collapse:collapse;">
+                                                            <table class="table table-bordered table-striped dataTable" cellspacing="0" rules="all" border="1" id="dnn_ctr12625_View_drgDataViewer" style="width:100%;border-collapse:collapse;">
                                                         <tbody><tr style="color:White;background-color:#006699;font-weight:bold;">
                                                             <td align="center">Ảnh</td><td>Họ và tên</td><td>Năm phong</td><td>Chức danh/Chức vụ</td><td>Đơn vị</td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-the-binh-44.html" title="Nguyễn Thế  Bình">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_0" src="/DATA/IMAGES/2020/06/NguyenTheBinh_Quanghocluongtu_khoaVatly.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/mai-trong-nhuan-1854.html" title="Mai Trọng Nhuận">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_0" src="/DATA/IMAGES/2020/06/MaiTrongNhuan_DiaChatMoiTruong_KhoaDiaChat.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-the-binh-44.html" title="Nguyễn Thế  Bình">
-                                                                                PGS. TS.
-                                                                                Nguyễn Thế  Bình</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            Trưởng Bộ Môn<br>
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Vật lý<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/tran-thi-hong-1852.html" title="Trần Thị Hồng">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_1" src="/DATA/IMAGES/2020/06/TranThiHong_BM%20Congnghemoitruong_KhoaMoitruong.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/tran-thi-hong-1852.html" title="Trần Thị Hồng">
-                                                                                PGS. TS.
-                                                                                Trần Thị Hồng</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Môi trường<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/tran-manh-lieu-335.html" title="Trần Mạnh  Liểu">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_2" src="/DATA/IMAGES/2020/06/TranManhLieu_Diakythuat_Phattrienhatang_Diachat.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/tran-manh-lieu-335.html" title="Trần Mạnh  Liểu">
-                                                                                PGS. TSKH.
-                                                                                Trần Mạnh  Liểu</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/mai-trong-nhuan-1854.html" title="Mai Trọng Nhuận">
+                                                                                GS. TS.
+                                                                                Mai Trọng Nhuận</a> 
                                                                         </td><td align="center" style="width:160px;">
                                                                             
                                                                         </td><td align="center" style="width:160px;">
@@ -156,17 +118,17 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-thi-hong-minh-1863.html" title="Nguyễn Thị Hồng Minh">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_3" src="/DATA/IMAGES/2020/07/NguyenThiHongMinh_Tinhoc_KhoaToanCoTinhoc.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-ky-anh-12.html" title="Phạm Kỳ Anh">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_1" src="/DATA/2019/08/dscb/12.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-thi-hong-minh-1863.html" title="Nguyễn Thị Hồng Minh">
-                                                                                PGS. TS.
-                                                                                Nguyễn Thị Hồng Minh</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-ky-anh-12.html" title="Phạm Kỳ Anh">
+                                                                                GS. TSKH.
+                                                                                Phạm Kỳ  Anh</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            
+                                                                            2002
                                                                         </td><td align="center" style="width:160px;">
-                                                                            
+                                                                            Trưởng Bộ Môn<br>
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
@@ -174,35 +136,17 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-quang-huy-291.html" title="Đỗ Quang  Huy">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_4" src="/DATA/2019/08/dscb/291.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-quang-bau-36.html" title="Nguyễn Quang  Báu">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_2" src="/DATA/2019/08/dscb/36.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-quang-huy-291.html" title="Đỗ Quang  Huy">
-                                                                                PGS. TS.
-                                                                                Đỗ Quang  Huy</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2001
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Môi trường<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-quoc-trieu-629.html" title="Phạm Quốc Triệu">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_5" src="/DATA/2019/08/dscb/629.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-quoc-trieu-629.html" title="Phạm Quốc Triệu">
-                                                                                PGS. TS.
-                                                                                Phạm Quốc  Triệu</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-quang-bau-36.html" title="Nguyễn Quang  Báu">
+                                                                                GS. TS.
+                                                                                Nguyễn Quang  Báu</a> 
                                                                         </td><td align="center" style="width:160px;">
                                                                             2002
                                                                         </td><td align="center" style="width:160px;">
-                                                                            
+                                                                            Trưởng Bộ Môn<br>
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
@@ -210,53 +154,17 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/bui-duy-cam-46.html" title="Bùi Duy Cam">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_6" src="/DATA/2019/08/dscb/46.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-viet-hung-261.html" title="Nguyễn Hữu Việt Hưng">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_3" src="/DATA/2019/08/dscb/261.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/bui-duy-cam-46.html" title="Bùi Duy Cam">
-                                                                                PGS. TS.
-                                                                                Bùi Duy  Cam</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-viet-hung-261.html" title="Nguyễn Hữu Việt Hưng">
+                                                                                GS. TSKH.
+                                                                                Nguyễn Hữu Việt  Hưng</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2003
+                                                                            2002
                                                                         </td><td align="center" style="width:160px;">
-                                                                            Giám đốc Trung Tâm<br>
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Phòng Tổ chức Cán bộ<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trinh-ngoc-chau-47.html" title="Trịnh Ngọc Châu">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_7" src="/DATA/2019/08/dscb/47.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trinh-ngoc-chau-47.html" title="Trịnh Ngọc Châu">
-                                                                                PGS. TS.
-                                                                                Trịnh Ngọc  Châu</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2003
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Hóa học<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-trung-tuan-661.html" title="Đỗ Trung Tuấn">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_8" src="/DATA/2019/08/dscb/661.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-trung-tuan-661.html" title="Đỗ Trung Tuấn">
-                                                                                PGS. TS.
-                                                                                Đỗ Trung  Tuấn</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2003
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
+                                                                            Trưởng Bộ Môn<br>
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
@@ -264,15 +172,51 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dang-van-bao-35.html" title="Đặng Văn Bào">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_9" src="/spacer.gif" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-hoang-luong-370.html" title="Nguyễn Hoàng  Lương">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_4" src="/DATA/2019/08/dscb/370.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dang-van-bao-35.html" title="Đặng Văn Bào">
-                                                                                PGS. TS.
-                                                                                Đặng Văn  Bào</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-hoang-luong-370.html" title="Nguyễn Hoàng  Lương">
+                                                                                GS. TSKH.
+                                                                                Nguyễn Hoàng  Lương</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2004
+                                                                            2002
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Trung tâm Nano và Năng lượng<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-hung-viet-700.html" title="Phạm Hùng  Việt">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_5" src="/DATA/IMAGES/2020/07/PhamHungViet_cetasd.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-hung-viet-700.html" title="Phạm Hùng  Việt">
+                                                                                GS. TS.
+                                                                                Phạm Hùng  Việt</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2003
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            Giám đốc Phòng thí nghiệm<br>
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Trung tâm nghiên cứu Công nghệ Môi trường và Phát triển bền Vững<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-cao-huan-241.html" title="Nguyễn Cao  Huần">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_6" src="/DATA/2019/08/dscb/241.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-cao-huan-241.html" title="Nguyễn Cao  Huần">
+                                                                                GS. TS.
+                                                                                Nguyễn Cao  Huần</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2005
                                                                         </td><td align="center" style="width:160px;">
                                                                             Trưởng Bộ Môn<br>
                                                                             
@@ -282,90 +226,143 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trinh-hong-thai-521.html" title="Trịnh Hồng  Thái">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_10" src="/DATA/IMAGES/2020/07/TrinhHongThai_BomonSinhlyhocvaSinhhocnguoi_KhoaSinhhoc.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dinh-van-uu-682.html" title="Đinh Văn Ưu">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_7" src="/spacer.gif" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trinh-hong-thai-521.html" title="Trịnh Hồng  Thái">
-                                                                                PGS. TS.
-                                                                                Trịnh Hồng  Thái</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dinh-van-uu-682.html" title="Đinh Văn Ưu">
+                                                                                GS. TS.
+                                                                                Đinh Văn  Ưu</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2004
+                                                                            2005
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Khí tượng - Thủy văn và Hải dương học<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-du-84.html" title="Nguyễn Hữu Dư">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_8" src="/DATA/2019/08/dscb/84.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-du-84.html" title="Nguyễn Hữu Dư">
+                                                                                GS. TS.
+                                                                                Nguyễn Hữu  Dư</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2006
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            Trưởng Bộ Môn<br>
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Toán - Cơ - Tin học<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dang-hung-thang-525.html" title="Đặng Hùng Thắng">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_9" src="/DATA/2019/08/dscb/525.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/dang-hung-thang-525.html" title="Đặng Hùng Thắng">
+                                                                                GS. TSKH.
+                                                                                Đặng Hùng  Thắng</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2008
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            Trưởng Bộ Môn<br>
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Toán - Cơ - Tin học<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huy-sinh-496.html" title="Nguyễn Huy  Sinh">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_10" src="/DATA/IMAGES/2020/06/NguyenHuySinh_VatlyNhietdothap_Vatly.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huy-sinh-496.html" title="Nguyễn Huy  Sinh">
+                                                                                GS. TS.
+                                                                                Nguyễn Huy  Sinh</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2010
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Vật lý<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-tuan-tai-510.html" title="Lưu Tuấn  Tài">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_11" src="/DATA/2019/08/dscb/510.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-tuan-tai-510.html" title="Lưu Tuấn  Tài">
+                                                                                GS. TS.
+                                                                                Lưu Tuấn  Tài</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2011
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Vật lý<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/ha-huy-bang-33.html" title="Hà Huy Bằng">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_12" src="/DATA/2019/08/dscb/33.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/ha-huy-bang-33.html" title="Hà Huy Bằng">
+                                                                                GS. TS.
+                                                                                Hà Huy  Bằng</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2012
                                                                         </td><td align="center" style="width:160px;">
                                                                             Trưởng phòng Thí nghiệm <br>
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
-                                                                            Khoa Sinh học<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-thi-lan-huong-277.html" title="Lưu Thị Lan Hương">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_11" src="/DATA/2019/08/dscb/277.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-thi-lan-huong-277.html" title="Lưu Thị Lan Hương">
-                                                                                PGS. TS.
-                                                                                Lưu Thị Lan  Hương</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2005
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Trường THPT chuyên KHTN
-                                            <br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/ngo-sy-luong-369.html" title="Ngô Sỹ Lương">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_12" src="/spacer.gif" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/ngo-sy-luong-369.html" title="Ngô Sỹ Lương">
-                                                                                PGS. TS.
-                                                                                Ngô Sỹ  Lương</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2005
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Hóa học<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/vu-duc-minh-398.html" title="Vũ Đức  Minh">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_13" src="/DATA/2019/08/dscb/398.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/vu-duc-minh-398.html" title="Vũ Đức  Minh">
-                                                                                PGS. TS.
-                                                                                Vũ Đức  Minh</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2005
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
                                                                             Khoa Vật lý<br>
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-van-ri-491.html" title="Nguyễn Văn Ri">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_14" src="/DATA/2019/08/dscb/491.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-van-noi-443.html" title="Nguyễn Văn  Nội">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_13" src="/DATA/2019/08/dscb/443.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-van-ri-491.html" title="Nguyễn Văn Ri">
-                                                                                PGS. TS.
-                                                                                Nguyễn Văn  Ri</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-van-noi-443.html" title="Nguyễn Văn  Nội">
+                                                                                GS. TS.
+                                                                                Nguyễn Văn  Nội</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2005
+                                                                            2012
                                                                         </td><td align="center" style="width:160px;">
+                                                                            Giám đốc Phòng thí nghiệm<br>
                                                                             
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Hóa học<br>PTN Trọng điểm Vật liệu tiên tiến ứng dụng trong Phát triển xanh<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-van-boi-45.html" title="Lưu Văn Bôi">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_14" src="/DATA/2019/08/dscb/45.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/luu-van-boi-45.html" title="Lưu Văn Bôi">
+                                                                                GS. TSKH.
+                                                                                Lưu Văn  Bôi</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2013
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            Giám đốc Phòng thí nghiệm<br>
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
@@ -373,69 +370,15 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/le-nhu-thanh-529.html" title="Lê Như Thanh">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_15" src="/DATA/2019/08/dscb/529.jpg" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/phan-tuan-nghia-413.html" title="Phan Tuấn  Nghĩa">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_15" src="/DATA/IMAGES/2020/07/PhanTuanNghia_HoaSinh_SinhHocPhanTu_SinhHoc.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/le-nhu-thanh-529.html" title="Lê Như Thanh">
-                                                                                PGS. TS.
-                                                                                Lê Như  Thanh</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/phan-tuan-nghia-413.html" title="Phan Tuấn  Nghĩa">
+                                                                                GS. TS.
+                                                                                Phan Tuấn  Nghĩa</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2005
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Hóa học<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/le-van-vu-709.html" title="Lê Văn Vũ">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_16" src="/DATA/2019/08/dscb/709.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/le-van-vu-709.html" title="Lê Văn Vũ">
-                                                                                PGS. TS.
-                                                                                Lê Văn  Vũ</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2005
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            Giám đốc Trung Tâm<br>
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Vật lý<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-ngoc-khoi-316.html" title="Nguyễn Ngọc Khôi">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_17" src="/DATA/2019/08/dscb/316.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-ngoc-khoi-316.html" title="Nguyễn Ngọc Khôi">
-                                                                                PGS. TS.
-                                                                                Nguyễn Ngọc  Khôi</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2006
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            
-                                                                            
-
-                                                                        </td><td align="center" style="width:150px;">
-                                                                            Khoa Địa chất<br>
-                                                                        </td>
-                                                        </tr><tr class="TRgrid">
-                                                            <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-nhan-435.html" title="Nguyễn Hữu  Nhân">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_18" src="/DATA/IMAGES/2020/07/NguyenHuuNhan_BomonSinhlyhocvaSinhhocnguoi_KhoaSinhhoc.jpg" style="width:100px;">
-                                                                            </a>
-                                                                        </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-huu-nhan-435.html" title="Nguyễn Hữu  Nhân">
-                                                                                PGS. TS.
-                                                                                Nguyễn Hữu  Nhân</a> 
-                                                                        </td><td align="center" style="width:160px;">
-                                                                            2006
+                                                                            2013
                                                                         </td><td align="center" style="width:160px;">
                                                                             
                                                                             
@@ -445,21 +388,75 @@
                                                                         </td>
                                                         </tr><tr class="TRgrid">
                                                             <td style="width:100px;">
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-duc-thanh-533.html" title="Đỗ Đức Thanh">
-                                                                                <img id="dnn_ctr12627_View_drgDataViewer_imgNews_19" src="/spacer.gif" style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-dinh-thanh-538.html" title="Nguyễn Đình  Thành">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_16" src="/DATA/2019/08/dscb/538.jpg" style="width:100px;">
                                                                             </a>
                                                                         </td><td>
-                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/do-duc-thanh-533.html" title="Đỗ Đức Thanh">
-                                                                                PGS. TS.
-                                                                                Đỗ Đức  Thanh</a> 
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/nguyen-dinh-thanh-538.html" title="Nguyễn Đình  Thành">
+                                                                                GS. TS.
+                                                                                Nguyễn Đình  Thành</a> 
                                                                         </td><td align="center" style="width:160px;">
-                                                                            2006
+                                                                            2013
                                                                         </td><td align="center" style="width:160px;">
                                                                             
                                                                             
 
                                                                         </td><td align="center" style="width:150px;">
-                                                                            Khoa Vật lý<br>
+                                                                            Khoa Hóa học<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trieu-thi-nguyet-426.html" title="Triệu Thị  Nguyệt">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_17" src="/DATA/IMAGES/2020/06/TrieuThiNguyet_HoaVoco_KHH.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/trieu-thi-nguyet-426.html" title="Triệu Thị  Nguyệt">
+                                                                                GS. TS.
+                                                                                Triệu Thị  Nguyệt</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2014
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Hóa học<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/hoang-xuan-co-55.html" title="Hoàng Xuân Cơ">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_18" src="/DATA/2019/08/dscb/55.jpg" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/hoang-xuan-co-55.html" title="Hoàng Xuân Cơ">
+                                                                                GS. TS.
+                                                                                Hoàng Xuân  Cơ</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2015
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Môi trường<br>
+                                                                        </td>
+                                                        </tr><tr class="TRgrid">
+                                                            <td style="width:100px;">
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-chi-vinh-705.html" title="Phạm Chí  Vĩnh">
+                                                                                <img id="dnn_ctr12625_View_drgDataViewer_imgNews_19" src="/spacer.gif" style="width:100px;">
+                                                                            </a>
+                                                                        </td><td>
+                                                                            <a href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/danh-sach-can-bo/pham-chi-vinh-705.html" title="Phạm Chí  Vĩnh">
+                                                                                GS. TS.
+                                                                                Phạm Chí  Vĩnh</a> 
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            2015
+                                                                        </td><td align="center" style="width:160px;">
+                                                                            Trưởng Bộ Môn<br>
+                                                                            
+
+                                                                        </td><td align="center" style="width:150px;">
+                                                                            Khoa Toán - Cơ - Tin học<br>
                                                                         </td>
                                                         </tr>
                                                     </tbody></table>
@@ -471,19 +468,19 @@
                                                     <li>
                                                         </li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnPg1" class="active" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=1">1</a></li>
+                                                        <a id="dnn_ctr12625_View_vbPaging_btnPg1" class="active" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/giao-su.html?page=1">1</a></li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnPg2" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=2">2</a></li>
+                                                        <a id="dnn_ctr12625_View_vbPaging_btnPg2" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/giao-su.html?page=2">2</a></li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnPg3" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=3">3</a></li>
+                                                        </li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnPg4" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=4">4</a></li>
+                                                        </li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnPg5" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=5">5</a></li>
+                                                        </li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btncuoi" class="inactive pagelast" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=6">Trang cuối</a></li>
+                                                        <a id="dnn_ctr12625_View_vbPaging_btncuoi" class="inactive pagelast" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/giao-su.html?page=2">Trang cuối</a></li>
                                                     <li>
-                                                        <a id="dnn_ctr12627_View_vbPaging_btnNext" class="inactive" href="http://hus.vnu.edu.vn/gioi-thieu/can-bo/doi-ngu-gs-pgs/pho-giao-su.html?page=6"><i class="fa fa-angle-double-right"></i></a></li>
+                                                        </li>
                                                 </ul>
                                             </div>
 
@@ -493,7 +490,7 @@
                                                 </div>
 
 
-                                            </div><!-- End_Module_12627 --></div>
+                                            </div><!-- End_Module_12625 --></div>
                                                 </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -531,15 +528,15 @@
                                                                 </li>
                                                                 <li class="li-me trum">
                                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                                    <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ giáo sư, phó giáo sư<button  class="submenu-indicator btn" type="button">+</button></a>
-                                                                    <div class="content ">
-                                                                        <ul class="submenu" style="display: block;" id="5510">
-                                                                            <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/giao-su.php">Giáo sư</a></li>
-                                                                            <li class="active"><a style="color: #017dc5;
+                                                                    <a style="color: #017dc5;
                                                                             background: #f6f7f9;
                                                                             border-left: solid 3px #017dc5;
                                                                             font-weight: 600;
-                                                                            padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/pho-giao-su.php">Phó giáo sư</a> </li>
+                                                                            padding-left: 27px;" href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ giáo sư, phó giáo sư<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                                    <div class="content">
+                                                                        <ul class="submenu" style="display: block;" id="5510">
+                                                                            <li class="active"><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/giao-su.php">Giáo sư</a></li>
+                                                                            <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/pho-giao-su.php">Phó giáo sư</a> </li>
                                                                         </ul>
                                                                     </div>
                                                                 </li>
@@ -577,3 +574,5 @@
 <!--start footer -->
 <?php include "../../../footer.html" ?>
 <!-- end footer -->
+
+

@@ -1,8 +1,9 @@
 <title>Cựu giáo chức</title>
 <!-- start header -->
 <?php include "../../header.html" ?>
-<!-- end header --><!-- Scroll Up -->
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<!-- end header -->
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
