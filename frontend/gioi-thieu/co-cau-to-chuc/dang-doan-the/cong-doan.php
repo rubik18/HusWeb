@@ -797,12 +797,12 @@
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Đảng - Đoàn thể<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
-                                                        <div class="content d-none">
+                                                        <div class="content">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-uy.php">Đảng ủy</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/doan-thanh-nien.php">Đoàn Thanh niên</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/hoi-sinh-vien.php">Hội sinh viên</a></li>
-                                                                <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/cong-doan.php">Công đoàn</a></li>
+                                                                <li class="active li-me"><a style="color: #017dc5;background: #f6f7f9; border-left: solid 3px #017dc5;font-weight: 600; padding-left: 27px;"  href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/cong-doan.php">Công đoàn</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
