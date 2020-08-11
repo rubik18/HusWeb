@@ -133,7 +133,11 @@
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-toan-co-tin-hoc.php">Khoa Toán - Cơ - Tin học</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-vat-ly.php">Khoa Vật lý</a></li>
-                                                                <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-hoa-hoc.php">Khoa Hóa học</a></li>
+                                                                <li class="active li-me"><a style="color: #017dc5;
+                                                                            background: #f6f7f9;
+                                                                            border-left: solid 3px #017dc5;
+                                                                            font-weight: 600;
+                                                                            padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-hoa-hoc.php">Khoa Hóa học</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-sinh-hoc.php">Khoa Sinh học</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/hoa-dia-ly.php">Khoa Địa lý</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-dia-chat.php">Khoa Địa chất</a></li>
