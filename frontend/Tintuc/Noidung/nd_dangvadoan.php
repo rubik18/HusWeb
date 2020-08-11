@@ -27,6 +27,9 @@
         <?php include "../../header.html" ?>
         <!---end header------->
         <title>....Data.....</title>
+        <link rel="stylesheet" type="text/css" href="/php-intership-team/css/tictuc_tham.css">
+        <link rel="stylesheet" type="text/css" href="/php-intership-team/css/canbo_tham.css">
+        
         <div class="main-content-wrapper" >
             <div class="container" >
                  <!--------start thanh muc luc------------------->

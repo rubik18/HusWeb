@@ -38,10 +38,10 @@
 					<ol class="breadcrumb">
 						
 						<li class="breadcrumb-item active" aria-current="page">
-                            <a href="tailieubieumau.php" class="item">Tài liệu - Biểu mẫu</a></li>&nbsp;
+                            <a href="tailieubieumau.php" class="item" style="color: inherit;">Tài liệu - Biểu mẫu</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
-                            <a href="#" class="item ">Quy định - Quy chế</a></li>
+                            <a href="" class="item " style="color: inherit;">Quy định - Quy chế</a></li>
 					</ol>
 				</div>
 			</div>
@@ -57,6 +57,7 @@
                             <div class="DnnModule DnnModule-DNN_HTML DnnModule-10950"><a name="10950"></a>
                                 <div id="dnn_ctr10950_ContentPane"><!-- Start_Module_10950 --><div id="dnn_ctr10950_ModuleContent">
         <div id="dnn_ctr10950_HtmlModule_lblContent" class="Normal">
+            <link rel="stylesheet" type="text/css" href="../../css/style-n.css">
             <table border="0" cellpadding="0" cellspacing="0"  style="background-color: #ffffff; border-right-width: 0px; border-bottom-width: 0px; color: #000000; width: 568px;">
                 <tbody>
                     <tr>
@@ -126,12 +127,12 @@
     												<ul class="">
                                                         <li class="trum active">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#10" class="submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="510">
+                                                                <ul class="submenu" style="display: block;" id="10">
                                                                     <li class="active li-me">
                                                                         <a href="Quydinhquyche/canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
@@ -153,12 +154,12 @@
                                                         
     													<li class="trum">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-                                                            <a href="#510" class="">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                            <a href="#11" class=" submenu spn">
+                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="510">
+                                                                <ul class="submenu" style="display: block;" id="11">
                                                                     <li class="active li-me">
                                                                         <a href="Bieumau/b_canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
@@ -180,12 +181,12 @@
                                                         <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
     													<li class="trum">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-                                                            <a href="#5510" class="">
+                                                            <a href="#12" class="submenu spn">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -158.5px;left: 143.344px;"></span> Nhận diện thương hiệu
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                                <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="5510">
+                                                                <ul class="submenu" style="display: block;" id="12">
                                                                     <li class="active li-me">
                                                                         <a href="Thuonghieu/quydinh.php">Quy định</a></li>
                                                                     <li class="li-me">

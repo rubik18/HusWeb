@@ -1,0 +1,30 @@
+
+
+.li-me {
+    list-style-type: disc;
+    display: list-item;
+    padding: 0px 30px 10px 30px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.item1 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 5px;
+    color: #8d8d8d;
+}
+
+.li-me {
+    list-style-type: disc;
+    display: list-item;
+    padding: 0px 30px 10px 30px;
+}
