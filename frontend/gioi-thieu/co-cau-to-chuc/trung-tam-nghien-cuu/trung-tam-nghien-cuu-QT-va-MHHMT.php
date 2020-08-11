@@ -169,11 +169,11 @@
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Trung tâm nghiên cứu <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
-                                                        <div class="content d-none">
+                                                        <div class="content ">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/phong-thi-nghiem-trong-diem-Emzym-Protein.php">Phòng thí nghiệm trọng điểm Enzym Protein</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-CNMT-va-PTBV.php">Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</a></li>
-                                                                <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-QT-va-MHHMT.php">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a></li>
+                                                                <li class="active li-me"><a style="color: #017dc5;background: #f6f7f9; border-left: solid 3px #017dc5;font-weight: 600; padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-QT-va-MHHMT.php">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-dong-luc-hoc-TKMT.php">Trung tâm Động lực học Thủy Khí Môi trường</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-bien-dao.php">Trung tâm Nghiên cứu Biển, Đảo</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nano-va-nang-luong.php">Trung tâm Nano và Năng lượng</a></li>

@@ -141,7 +141,7 @@
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Phòng ban chức năng <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
-                                                        <div class="content d-none">
+                                                        <div class="content">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-chinh-tri-va-cong-tac-sinh-vien.php">Phòng chính trị và Công tác sinh viên</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-dao-tao.php">Phòng Đào tạo</a></li>
@@ -153,7 +153,7 @@
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ke-hoach-tai-chinh.php">Phòng kế hoạch - Tài chính</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-thanh-phap-che-va-dam-bao-chat-luong.php">Phòng Thanh tra Pháp chế và Đảm bảo chất lượng</a></li>
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/ban-quan-ly-cac-du-an-xay-dung.php">Ban quản lý các dự án xây dựng</a></li>
-                                                                <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/trung-tam-cong-nghe-thong-tin-va-truyen-thong.php">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
+                                                                <li class="active li-me"><a style="color: #017dc5;background: #f6f7f9; border-left: solid 3px #017dc5;font-weight: 600; padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/trung-tam-cong-nghe-thong-tin-va-truyen-thong.php">Trung tâm Công nghệ thông tin và Truyền thông</a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
