@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="" type="image/ico" sizes="16x16">
 </head>
 
 <body id="Body">
@@ -28,11 +28,11 @@
                             
                             <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\saudaihoc.php" class="item1">Sau đại học</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\vat-ly.php" class="item1">Vật lý &amp; Công nghệ</a></li>
 
@@ -117,7 +117,7 @@
                                     <div id="dnn_ctr12652_ContentPane"><!-- Start_Module_12652 -->
                                         <div id="dnn_ctr12652_ModuleContent">
     
-                                            <link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                            <link href="/php-intership-team/css/khoa-style-duc.css" rel="stylesheet">
                                                 <div class="content">
                                                     <div id="jquery-accordion-menu" class="jquery-accordion-menu">
                                                         <div class="jquery-accordion-menu-header">Sau đại học </div>
@@ -177,43 +177,43 @@
                 
                                                     <h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Quang học</h2><div class="resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
                                                     <div class="tieude"><a href="#" class="item1">Quang học</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Quang hoc.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Quang hoc.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>Vật lý chất rắn</h2><div class="resp-tab-content" aria-labelledby="tab_item-1">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý chất rắn</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly chat ran.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly chat ran.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>Vật lý địa cầu</h2><div class="resp-tab-content" aria-labelledby="tab_item-2">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý địa cầu</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly dia cau.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly dia cau.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-3"><span class="resp-arrow"></span>Vật lý lý thuyết và vật lý toán</h2><div class="resp-tab-content" aria-labelledby="tab_item-3">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý lý thuyết và vật lý toán</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly ly thuyet va Vat ly toan.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly ly thuyet va Vat ly toan.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-4"><span class="resp-arrow"></span>Vật lý nguyên tử</h2><div class="resp-tab-content" aria-labelledby="tab_item-4">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý nguyên tử</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly nguyen tu.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly nguyen tu.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-5"><span class="resp-arrow"></span>Vật lý nhiệt</h2><div class="resp-tab-content" aria-labelledby="tab_item-5">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý nhiệt</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly nhiet.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly nhiet.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-6"><span class="resp-arrow"></span>Vật lý vô tuyến và điện tử</h2><div class="resp-tab-content" aria-labelledby="tab_item-6">
                                                     <div class="tieude"><a href="#" class="item1">Vật lý vô tuyến và điện tử</a></div>
-                                                        <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/KCT ThS - Vat ly vo tuyen va dien tu.pdf" width="100%" height="700px"></iframe></p><br>
+                                                        <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\vat-ly\KCT ThS - Vat ly vo tuyen va dien tu.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                 </div>
