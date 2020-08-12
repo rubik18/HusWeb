@@ -27,12 +27,11 @@
         <?php include "../../header.html" ?>
         <!---end header------->
         <title>....Data.....</title>
-<<<<<<< HEAD
-=======
+
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/tictuc_tham.css">
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/canbo_tham.css">
         
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
         <div class="main-content-wrapper" >
             <div class="container" >
                  <!--------start thanh muc luc------------------->

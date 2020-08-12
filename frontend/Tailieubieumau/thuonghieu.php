@@ -28,6 +28,7 @@
         <?php include "../header.html" ?>
         <!---end header------->
         <title>Nhận diện thương hiệu</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
 <div class="main-content-wrapper">
     <div class="container">
@@ -38,17 +39,12 @@
                     <ol class="breadcrumb">
                         
                         <li class="breadcrumb-item active" aria-current="page">
-<<<<<<< HEAD
-                            <a href="tailieubieumau.php" class="item">Tài liệu - Biểu mẫu</a></li>&nbsp;
-                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-                        <li class="breadcrumb-item active" aria-current="page">
-                            <a href="" class="item ">Nhận diện thương hiệu</a></li>
-=======
+
                             <a href="tailieubieumau.php" class="item" style="color: inherit;">Tài liệu - Biểu mẫu</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
                             <a href="" class="item " style="color: inherit;">Nhận diện thương hiệu</a></li>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
                     </ol>
                 </div>
             </div>
@@ -97,15 +93,11 @@
                                                     <ul class="">
                                                         <li class="trum ">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
-                                                                <span class="submenu-indicator spn" >+</span>
-=======
+
                                                             <a href="#510" class="submenu spn">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Quy định - Quy chế
                                                                 <span class="submenu-indicator " >+</span>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="510">
@@ -130,21 +122,14 @@
                                                         
                                                         <li class="trum ">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-                                                            <a href="#510" class="">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
-                                                                <span class="submenu-indicator spn" >+</span>
-                                                            </a>
-                                                            <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="510">
-=======
+
                                                             <a href="#511" class="submenu spn">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span>Biểu mẫu
                                                                 <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="511">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
                                                                     <li class="active li-me">
                                                                         <a href="Bieumau/b_canbo.php">Cán bộ</a></li>
                                                                     <li class="li-me">
@@ -166,21 +151,14 @@
                                                         <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
                                                         <li class="trum active">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-                                                            <a href="#5510" class="">
-                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -158.5px;left: 143.344px;"></span> Nhận diện thương hiệu
-                                                                <span class="submenu-indicator spn" >+</span>
-                                                            </a>
-                                                            <div class="content d-none">
-                                                                <ul class="submenu" style="display: block;" id="5510">
-=======
+
                                                             <a href="#512" class="submenu spn">
                                                                 <span class="ink animate-ink " style="height: 359px; width: 359px;top: -158.5px;left: 143.344px;"></span> Nhận diện thương hiệu
                                                                 <span class="submenu-indicator " >+</span>
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="512">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
                                                                     <li class="active li-me">
                                                                         <a href="Thuonghieu/quydinh.php">Quy định</a></li>
                                                                     <li class="li-me">
