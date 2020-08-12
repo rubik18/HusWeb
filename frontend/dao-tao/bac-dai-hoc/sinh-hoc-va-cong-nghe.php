@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">    
+    <link rel="icon" href="" type="image/ico" sizes="16x16">    
 </head>
 
 
@@ -30,11 +30,11 @@
                             
                             <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\bac-dai-hoc.php" class="item1">Bậc Đại học</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\sinh-hoc-va-cong-nghe.php" class="item1">Sinh học và Công nghệ</a></li>
 
@@ -118,7 +118,7 @@
 									<div id="dnn_ctr12659_ContentPane"><!-- Start_Module_12659 -->
 										<div id="dnn_ctr12659_ModuleContent">
 	
-											<link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+											<link href="/php-intership-team/css/khoa-style-duc.css" rel="stylesheet">
 
 											<div class="content">
     											<div id="jquery-accordion-menu" class="jquery-accordion-menu">
@@ -177,7 +177,7 @@
 
 											                <div class="resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
 																<div class="tieude"><a href="#" class="item1">Chuẩn ngành Sinh học</a></div>
-												                    <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/20/php-intership-team/1. Chuong trinh dao tao chuan nganh Sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
+												                    <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\sinh-hoc\1. Chuong trinh dao tao chuan nganh Sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
 											                </div>
 											            
 											                
@@ -185,7 +185,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-1">
 																<div class="tieude"><a href="#" class="item1">Tài năng ngành Sinh học</a></div>
-											                    	<p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/20/php-intership-team/2. Chuong trinh dao tao Tai nang nganh Sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
+											                    	<p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\sinh-hoc\2. Chuong trinh dao tao Tai nang nganh Sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
 											                </div>
 											            
 											                
@@ -193,7 +193,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-2">
 																<div class="tieude"><a href="#" class="item1">Quốc tế ngành Sinh học</a></div>
-												                    <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/20/php-intership-team/3. Chuong trinh dao tao chuan Quoc te nganh sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
+												                    <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\sinh-hoc\3. Chuong trinh dao tao chuan Quoc te nganh sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
 											                </div>
 											            
 											                
@@ -201,7 +201,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-3">
 																<div class="tieude"><a href="#" class="item1">Công nghệ sinh học</a></div>
-												                    <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/20/php-intership-team/4. Chuong trinh dao tao chuan nganh Cong nghe sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
+												                    <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\sinh-hoc\4. Chuong trinh dao tao chuan nganh Cong nghe sinh hoc.pdf" width="100%" height="700px"></iframe></p><br>
 											                </div>
             
     													</div>

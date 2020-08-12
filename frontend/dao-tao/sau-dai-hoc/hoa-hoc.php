@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="" type="image/ico" sizes="16x16">
 </head>
 <body id="Body">
 
@@ -26,11 +26,11 @@
                             
                             <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\saudaihoc.php" class="item1">Sau đại học</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\hoa-hoc.php" class="item1">Hóa học &amp; Công nghệ</a></li>
 
@@ -116,7 +116,7 @@
                                     <div id="dnn_ctr12652_ContentPane"><!-- Start_Module_12652 -->
                                         <div id="dnn_ctr12652_ModuleContent">
     
-                                            <link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                            <link href="/php-intership-team/css/khoa-style-duc.css" rel="stylesheet">
                                                 <div class="content">
                                                     <div id="jquery-accordion-menu" class="jquery-accordion-menu">
                                                         <div class="jquery-accordion-menu-header">Sau đại học </div>
@@ -176,14 +176,14 @@
 
                                                     <div class="resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
                                                         <div class="tieude"><a href="#" class="item1">Hóa dầu</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/06.KCT thac si_Hoa dau_ 21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\06.KCT thac si_Hoa dau_ 21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>Hóa hữu cơ</h2>
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-1">
                                                         <div class="tieude"><a href="#" class="item1">Hóa hữu cơ</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/02.KCT thac si_Hoa Huu co_21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\02.KCT thac si_Hoa Huu co_21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
@@ -191,7 +191,7 @@
 
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-2">
                                                         <div class="tieude"><a href="#" class="item1">Hóa lý thuyết và hóa lý</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/04.KCT thac si_Hoa ly_121-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\04.KCT thac si_Hoa ly_121-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
@@ -199,7 +199,7 @@
 
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-3">
                                                         <div class="tieude"><a href="#" class="item1">Hóa môi trường</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/07.KCT thac si_Hoa moi truong_21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\07.KCT thac si_Hoa moi truong_21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
@@ -207,7 +207,7 @@
 
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-4">
                                                         <div class="tieude"><a href="#" class="item1">Hóa phân tích</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/03.KCT thac si_Hoa phan tich_ 21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\03.KCT thac si_Hoa phan tich_ 21-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
@@ -215,14 +215,14 @@
 
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-5">
                                                         <div class="tieude"><a href="#" class="item1">Hóa vô cơ</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/01.KCT thac si_Hoa VoCo_21-09-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\01.KCT thac si_Hoa VoCo_21-09-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                     
                                                     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-6"><span class="resp-arrow"></span>Kỹ thuật hóa học</h2>
                                                     <div class="resp-tab-content" aria-labelledby="tab_item-6">
                                                         <div class="tieude"><a href="#" class="item1">Kỹ thuật hóa học</a></div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/05.KCT thac si_KTHH_20-9-15.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\sau-dai-hoc\hoa-hoc\05.KCT thac si_KTHH_20-9-15.pdf" width="100%" height="700px"></iframe></p><br>
                                                     </div>
                                                 
                                                 </div>

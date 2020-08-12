@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="" type="image/ico" sizes="16x16">
 <body>
 
  <?php
@@ -25,7 +25,7 @@
                     <ol class="breadcrumb">
                         <a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">
                         &nbsp;
                         <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\saudaihoc.php" class="item1">Sau đại học</a>
                         
@@ -72,11 +72,11 @@
 				<div class="bordershadown borderorange mb-15 pd-10">
 						<ul class="bannerrighttop">
 							<li style="display: block; padding-bottom: 10px;">
-				                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+				                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\dao-tao\hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
 				            </li>
 
 				            <li style="display: block; padding-bottom: 10px;">
-				                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+				                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\dao-tao\cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
 				            </li>
 						</ul>
 					</div>

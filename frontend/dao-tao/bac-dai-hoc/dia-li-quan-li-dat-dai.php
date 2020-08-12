@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">     
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="" type="image/ico" sizes="16x16">
 
 </head>
 <body id="Body">
@@ -26,11 +26,11 @@
                             
                             <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\bac-dai-hoc.php" class="item1">Bậc Đại học</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-li-quan-li-dat-dai.php" class="item1">Địa lý, Quản lý đất đai và GISc</a></li>
 
@@ -117,7 +117,7 @@
                                     <div id="dnn_ctr12659_ContentPane"><!-- Start_Module_12659 -->
                                 <div id="dnn_ctr12659_ModuleContent">
     
-                                <link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                <link href="\php-intership-team\css\khoa-style-duc.css" rel="stylesheet">
 
                                     <div class="content">
                                         <div id="jquery-accordion-menu" class="jquery-accordion-menu">
@@ -183,7 +183,7 @@
 
                                                             <div class="tieude"><a href="#" class="item1">Quản lí phát triển đô thị và bất động sản</a>
                                                             </div>
-                                                            <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn/DATA/IMAGES/2020/06/nganhqlptdt_bds.pdf" width="100%"></iframe></p>
+                                                            <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\quan-li-dat-dai\nganhqlptdt_bds.pdf" width="100%"></iframe></p>
 
                                                             <p>&nbsp;</p>
 
@@ -196,7 +196,7 @@
                                                             <div class="tieude"><a href="#" class="item1">Địa lý tự nhiên</a>
                                                             </div>
 
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/1. Chuong trinh dao tao chuan nganh Dia ly tu nhien.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\quan-li-dat-dai\1. Chuong trinh dao tao chuan nganh Dia ly tu nhien.pdf" width="100%" height="700px"></iframe></p><br>
                                                         </div>
                 
                     
@@ -205,7 +205,7 @@
                                                         <div class="resp-tab-content" aria-labelledby="tab_item-2">
                                                             <div class="tieude"><a href="#" class="item1">Địa lý tự nhiên chất lượng cao</a>
                                                             </div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/3. Chuong trinh dao tao chat luong cao nganh Dia ly tu nhien.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\quan-li-dat-dai\3. Chuong trinh dao tao chat luong cao nganh Dia ly tu nhien.pdf" width="100%" height="700px"></iframe></p><br>
                                                         </div>
                 
                     
@@ -214,7 +214,7 @@
                                                         <div class="resp-tab-content" aria-labelledby="tab_item-3">
                                                             <div class="tieude"><a href="#" class="item1">Quản lý đất đai</a>
                                                             </div>
-                                                            <p style="text-align: center;"><iframe src="http://hus.vnu.edu.vn/DATA/IMAGES/2019/07/2. Chuong trinh dao tao chuan nganh Quan ly dat dai.pdf" width="100%" height="700px"></iframe></p><br>
+                                                            <p style="text-align: center;"><iframe src="\php-intership-team\img\dao-tao\bac-dai-hoc\quan-li-dat-dai\2. Chuong trinh dao tao chuan nganh Quan ly dat dai.pdf" width="100%" height="700px"></iframe></p><br>
                                                         </div>
                 
                                                     </div>
