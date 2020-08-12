@@ -1,28 +1,4 @@
-<!-- <!DOCTYPE html>
-<html style="scroll-behavior: smooth;">
-<head>
-	<title>Tin tức</title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../../css/themify-icons-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/font-awesome-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/style-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/swipebox-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/owl-n.css">
-    <link rel="stylesheet" type="text/css" href="../../css/tictuc_tham.css">
-    
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  	<link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
-
-  	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<div id="detailpage"> -->
         
         <!---------start header------------>
         <?php include "../header.html" ?>
@@ -293,14 +269,14 @@
                 <!-----------------box-8--------------------->
                 <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
                         <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
+                            <span class="media-mask"></span>
+                                <div class="item-image">
+                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
+                                        <span itemprop="image" itemscope="" itemtype="">
+                                            <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
+                                        </span>
+                                    </a>
+                                </div>
                         </div>
                         <div class="magazine-item-main">
                              <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
@@ -507,29 +483,29 @@
                     <div class="bordershadown borderorange mb-15 pd-10" style="float: left">
                         <ul class="bannerrighttop" style="padding-left: 0">
                 
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Chương trình đào tạo đặc biệt"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/chuongtrinhdaotaotainang.jpg" alt="Chương trình đào tạo đặc biệt" width="245" height="88"></a>
-                        </li>
-                    
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Chương trình đào tạo Tài năng"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/dao-tao-chuan-quocte.jpg" alt="Chương trình đào tạo Tài năng" width="245" height="88"></a>
-                        </li>
-                    
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Chương trình đào tạo Tiên tiến"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/daotaotientien.jpg" alt="Chương trình đào tạo Tiên tiến" width="245" height="88"></a>
-                        </li>
-                    
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Chương trình đào tạo liên kết"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/chuongtrinhdaotaochatluongcao.jpg" alt="Chương trình đào tạo liên kết" width="245" height="88"></a>
-                        </li>
-                    
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/daotaotheothongtubo.jpg" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ" width="245" height="88"></a>
-                        </li>
-                    
-                        <li style="display: block; padding-bottom: 10px;">
-                            <a href="" target="_blank" alt="Học cùng lúc 2 chương trình đào tạo"><img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/hoc2truong.jpg" alt="Học cùng lúc 2 chương trình đào tạo" width="245" height="88"></a>
-                        </li>
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="#" target="_blank" alt="Chương trình đào tạo đặc biệt"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaotainang.jpg" alt="Chương trình đào tạo đặc biệt" width="245" height="88"></a>
+                            </li>
+                        
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="" target="_blank" alt="Chương trình đào tạo Tài năng"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/dao-tao-chuan-quocte.jpg" alt="Chương trình đào tạo Tài năng" width="245" height="88"></a>
+                            </li>
+                        
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="" target="_blank" alt="Chương trình đào tạo Tiên tiến"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotientien.jpg" alt="Chương trình đào tạo Tiên tiến" width="245" height="88"></a>
+                            </li>
+                        
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="" target="_blank" alt="Chương trình đào tạo liên kết"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaochatluongcao.jpg" alt="Chương trình đào tạo liên kết" width="245" height="88"></a>
+                            </li>
+                        
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="" target="_blank" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotheothongtubo.jpg" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ" width="245" height="88"></a>
+                            </li>
+                        
+                            <li style="display: block; padding-bottom: 10px;">
+                                <a href="" target="_blank" alt="Học cùng lúc 2 chương trình đào tạo"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/hoc2truong.jpg" alt="Học cùng lúc 2 chương trình đào tạo" width="245" height="88"></a>
+                            </li>
                         </ul>
                     </div>
 

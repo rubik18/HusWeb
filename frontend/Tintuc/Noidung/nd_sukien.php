@@ -1,28 +1,4 @@
-<!-- <!DOCTYPE html>
-<html style="scroll-behavior: smooth;">
-<head>
-	<title>....Data.....</title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../../../css/themify-icons-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/font-awesome-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/style-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/swipebox-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/owl-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/tictuc_tham.css">
-    
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  	<link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
-
-  	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<div id="detailpage"> -->
         <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
@@ -36,7 +12,7 @@
                     <div class="row">
                         <div class="col-12">
                             <ol class="breadcrumb">
-                                <li><a href="http://hus.vnu.edu.vn/su-kien.html" class="item">Sự kiện</a></li>
+                                <li><a href="/php-intership-team/frontend/Tintuc/sukien.php" class="item">Sự kiện</a></li>
 
                             </ol>
                         </div>
@@ -601,7 +577,7 @@
                 </div>
                 <ul class="bannerrighttop">
                     <li style="display: block; padding-bottom: 10px;">
-                        <a href='/su-kien/ngay-hoi-stem-2019-nguyen-to-bi-an-d22.html' target=_blank alt='Ngày hội STEM'><img class='img-responsive' src='http://hus.vnu.edu.vn/DATA/VIDEO/2019/06/stemp.png' alt='Ngày hội STEM' width='260' height='110'></a>
+                        <a href='http://hus.vnu.edu.vn/su-kien/ngay-hoi-stem-2019-nguyen-to-bi-an-d22.html#.XzONvSj7TIU' target=_blank alt='Ngày hội STEM'><img class='img-responsive' src='/php-intership-team/img/tin-tuc/stemp.png' alt='Ngày hội STEM' width='260' height='110'></a>
                     </li>
                 </ul>
             </div>
