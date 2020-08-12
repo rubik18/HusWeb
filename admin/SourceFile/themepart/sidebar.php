@@ -4,7 +4,6 @@
   header("Location:login/login.php");
 }
   $name = $_SESSION['user'];
-  require 'db/connect.php';
   $conn->set_charset("utf8");
   $s =  "SELECT * FROM user WHERE user_name = '$name'";
   $r = mysqli_query($conn,$s);
@@ -115,6 +114,12 @@
             </a>
           </li> -->
           <li class="nav-header">SETTING</li>
+          <li class="nav-item">
+            <a href="/php-intership-team/admin/SourceFile/login/register.php" class="nav-link">
+              <i class="fas fa-user-circle nav-icon"></i>
+              <p>Tạo admin</p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>

@@ -26,7 +26,7 @@
 
   <div class="card">
     <div class="card-body register-card-body">
-      <p class="login-box-msg">Register a new membership</p>
+      <p class="login-box-msg">Register a new admin</p>
 
       <form action="register_submit.php" method="post">
         <div class="input-group mb-3">
@@ -61,6 +61,13 @@
             </div>
           </div>
         </div>
+        <div class="input-group mb-3">
+          <select class="form-control " name = "type" style="width: 100%;">
+            <option selected="selected" value ="1">1</option>
+            <option selected="selected" value ="2">2</option>
+            <option selected="selected" value ="3">3</option>
+          </select>
+        </div>
         <div class="row">
           <div class="col-8">
           </div>
@@ -71,8 +78,6 @@
           <!-- /.col -->
         </div>
       </form>
-
-      <a href="login.html" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->

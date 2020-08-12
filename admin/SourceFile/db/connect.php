@@ -1,9 +1,9 @@
 <?php 
 // kết nối đến MySQl
 $db = array(
-	'server' => 'localhost',
+	'server' => 'php-intern.cxo36tfgnhhp.ap-southeast-1.rds.amazonaws.com',
 	'username' => 'root',
-	'password' => '',
+	'password' => '12345678',
 	'dbname' => 'adminhus'
 );
 $conn =mysqli_connect( $db['server'],$db['username'], $db['password'] , $db['dbname']);
