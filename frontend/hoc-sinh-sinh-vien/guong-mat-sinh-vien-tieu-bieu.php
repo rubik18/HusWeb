@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">  
-                            <li><a href="" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="" class="item"style="color: grey;">Gương mặt sinh viên tiêu biểu</a></li>
+                            <li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-sinh-sinh-vien.php" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hoc-sinh-sinh-vien/breadcrumb.gif">&nbsp;<li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/guong-mat-sinh-vien-tieu-bieu.php" class="item"style="color: grey;">Gương mặt sinh viên tiêu biểu</a></li>
                         </ol>
                     </div>
                 </div>
@@ -97,10 +97,10 @@
                         <div class="bordershadown borderorange mb-15 pd-10">                           
                             <ul class="bannerrighttop">   
                                 <li style="display: block; padding-bottom: 10px;">
-                                    <a href="" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                    <a href="" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="/php-intership-team/img/hoc-sinh-sinh-vien/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                                 </li>                            
                                 <li style="display: block; padding-bottom: 10px;">
-                                    <a href="" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                    <a href="" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="/php-intership-team/img/hoc-sinh-sinh-vien/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                                 </li>                           
                             </ul>
                         </div>
