@@ -2,7 +2,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -11,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Toán-Cơ-Tin học</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-toan-co-tin-hoc.php" class="item">Khoa Toán-Cơ-Tin học</a>
                     </ol>
                 </div>
             </div>
@@ -33,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Trực thuộc- Khoa Toán-Cơ-Tin học-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Khoa Toán-Cơ-Tin học</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11040_HtmlModule_lblContent" class="Normal">
+                                            <div>
+                                            	<div>
+                                            		<div class="Normal">
                                                         <p style="text-align: justify;">Khoa Toán – Cơ - Tin học - Trường Đại học Tổng hợp Hà Nội, nay thuộc Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội được thành lập từ năm 1956.</p>
                                                         <p style="text-align: justify;">Chức năng, nhiệm vụ của Khoa là nghiên cứu, đào tạo đại học và sau đại học các ngành/chuyên ngành thuộc các lĩnh vực Toán học, Cơ học và Tin học. Ở bậc đại học, Khoa&nbsp; đào tạo các ngành Toán học (hệ chuẩn và hệ cử nhân khoa học tài năng), ngành Toán&nbsp; - Tin, ngành Máy tính và Khoa học thông tin (hệ chuẩn và hệ chất lượng cao), ngành Khoa học dữ liệu. Ở bậc đào tạo Sau đại học, Khoa có 10 chuyên ngành đào tạo thạc sĩ (Toán giải tích, Đại số và lí thuyết số, Hình học – Tô pô, Phương pháp toán sơ cấp, Toán ứng dụng, Lý thuyết xác suất và thống kê toán học, Cơ sở toán học cho tin học, Khoa học dữ liệu, Cơ học vật rắn, Cơ học chất lỏng) và 9 chuyên ngành đào tạo Tiến sĩ (Toán giải tích, Đại số và lí thuyết số, Hình học – Tô pô, Phương trình vi phân và tích phân, Toán ứng dụng, Lý thuyết xác suất và thống kê toán học, Cơ sở toán cho tin học, Cơ học vật rắn, Cơ học chất lỏng). Ngoài ra, Khoa còn phối hợp với Trường Đại học Giáo dục đào tạo sinh viên ngành Sư phạm Toán học trong 3 năm đầu và phụ trách giảng dạy các học phần về toán cho sinh viên toàn Đại học Quốc gia Hà Nội.</p>
                                                         <p style="text-align: justify;">Khoa Toán - Cơ - Tin học được tổ chức thành 7 bộ môn (Giải tích, Đại số - Hình học - Topo, Toán học tính toán và Toán ứng dụng, Xác suất - Thống kê, Phương trình vi phân và hệ động lực, Cơ học, Tin học), 01 phòng thí nghiệm Khoa học dữ liệu và Tổ văn phòng. Đội ngũ cán bộ hiện tại là 86 người, trong đó có 4 giáo sư, 11 phó giáo sư, 3 tiến sĩ khoa học và 54 tiến sĩ. Hàng năm các cán bộ của Khoa công bố khoảng gần 80 bài báo khoa học trong đó có khoảng hơn 60 bài thuộc danh mục ISI/Scopus.</p>
@@ -67,12 +68,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -165,10 +166,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

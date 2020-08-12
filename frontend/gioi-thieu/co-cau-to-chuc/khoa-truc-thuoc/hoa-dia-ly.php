@@ -2,7 +2,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -11,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Địa lý</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/hoa-dia-ly.php" class="item">Khoa Địa lý</a>
                     </ol>
                 </div>
             </div>
@@ -33,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Địa lý-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div>
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Khoa Địa lý</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11061_HtmlModule_lblContent" class="Normal">
+                                            <div>
+                                            	<div>
+                                            		<div class="Normal">
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-family: tahoma, geneva, sans-serif; font-size: 12px;">Khoa Địa lý được thành lập từ năm 1966, là đơn vị đào tạo uy tín nhất ở Việt Nam trong lĩnh vực Địa lý. Ngoài đội ngũ giảng viên cơ hữu là các giáo sư, phó giáo sư đầu ngành, Khoa còn có đội ngũ đông đảo cộng tác viên là các giáo sư, phó giáo sư, tiến sỹ đang công tác tại các viện nghiên cứu thuộc Bộ Khoa học Công nghệ, Bộ Tài nguyên &amp; Môi trường. Một số chuyên ngành của Khoa còn có sự tham gia giảng dạy của nhiều chuyên gia quốc tế đầu ngành, giàu kinh nghiệm đến từ Canada, Nhật, AIT,…</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Các hướng nghiên cứu chính của Khoa hiện nay gồm: 1) Sinh thái cảnh quan và môi trường; 2) Các quá trình bề mặt địa hình và tai biến thiên nhiên; 3) Địa lý nhân văn; 4) Du lịch sinh thái; 5) Địa lý và Môi trường biển; 6) Công nghệ bản đồ, viễn thám và GIS; 8) Quản lý đất đai; 9) Công nghệ địa chính; 10) Kinh tế đất và thị trường bất động sản và 11) Quy hoạch vùng và tổ chức lãnh thổ.</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Ngoài 6 Bộ môn quản lý đào tạo và nghiên cứu khoa học chuyên ngành, Khoa có một hệ thống Trung tâm và Phòng nghiên cứu được trang bị hiện đại, như Trung tâm nghiên cứu ứng dụng Viễn thám và Hệ thông tin Địa lý, Trung tâm nghiên cứu Địa lý – Địa chính và Phát triển vùng, Phòng nghiên cứu tai biến thiên nhiên, Phòng công nghệ địa chính và Hệ thông tin địa lý... Thư viện hiện đại với các tài liệu, bản đồ, ảnh viễn thám, giáo trình, sách tham khảo, tạp chí khoa cập nhật thường xuyên đáp ứng tốt công tác giảng dạy và nghiên cứu khoa học của cán bộ, sinh viên.</span></p>
@@ -78,12 +79,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -176,10 +177,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

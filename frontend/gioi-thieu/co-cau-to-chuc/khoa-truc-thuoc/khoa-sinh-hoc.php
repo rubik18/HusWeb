@@ -2,7 +2,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -11,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Sinh học</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-sinh-hoc.php" class="item">Khoa Sinh học</a>
                     </ol>
                 </div>
             </div>
@@ -33,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Sinh học-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
+                        <div>
+                            <div class="DnnModule ">
                                 <a name="10672"></a>
                                 <div id="dnn_ctr10672_ContentPane">
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div>
                                         <div class="post-meta">
                                             <h1>Khoa Sinh học</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11058_HtmlModule_lblContent" class="Normal">
+                                            <div>
+                                            	<div >
+                                            		<div class="Normal">
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">&nbsp;&nbsp;Thành lập năm 1956, Khoa Sinh học là một trong số các Khoa được thành lập đầu tiên của Trường Đại học Tổng hợp Hà Nội. Qua 59 năm phát triển, Khoa Sinh học đã trở thành một trong các trung tâm hàng đầu cả nước về đào tạo cán bộ từ trình độ đại học đến thạc sĩ, tiến sĩ cũng như về nghiên cứu khoa học thuộc các lĩnh vực khác nhau của ngành Sinh học và Công nghệ Sinh học. Hiện nay Khoa Sinh học có một đội ngũ nhân sự mạnh gồm 72 cán bộ viên chức, trong đó 50% là giáo sư, phó giáo sư và tiến sĩ. Từ chỗ chỉ có 2 bộ môn ban đầu, hiện nay Khoa có 8 Bộ môn, 2 phòng thí nghiệm liên ngành, 1 Trung tâm nghiên cứu Khoa học sự sống, 1 Bảo tàng Sinh vật với bộ sưu tập hơn 100.000 mẫu thực vật và động vật lâu đời nhất, đa dạng nhất và quý hiếm nhất trong cả nước. Khoa còn được Nhà nước đầu tư phòng thí nghiệm trọng điểm Quốc gia về Công nghệ Enzym và Protein. Khoa Sinh học được xã hội đánh giá cao không chỉ về khoa học cơ bản mà còn cả về nghiên cứu ứng dụng và quy trình công nghệ.</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp;Khoa Sinh học đã đạt được nhiều thành tựu về giáo dục và đào tạo trong nhiều năm qua. Hàng năm, Khoa Sinh học cung cấp cho xã hội khoảng 200 cử nhân khoa học sự sống thuộc hai ngành Sinh học và Công nghệ Sinh học hệ chính quy, trong đó có khoảng 15 cử nhân thuộc hệ đào tạo Cử nhân khoa học tài năng, với các hướng chuyên ngành: Thực vật học, Động vật học, Đa dạng sinh học và bảo tồn đa dạng sinh học, Sinh thái học, Sinh học môi trường, Hoá sinh học, Vi sinh vật và công nghệ lên men, Di truyền học và kỹ thuật di truyền, Sinh học Tế bào và nuôi cấy mô tế bào động vật, Sinh lý thực vật và nuôi cấy mô tế bào thực vật, Lý sinh học, Sinh học người, Sinh lý học, Sinh y học. Với quá trình lịch sử lâu dài về đào tạo chất lượng cao, từ năm 2009, Khoa Sinh học đã xây dựng một chương trình đào tạo giảng dạy bằng tiếng Anh dựa theo chương trình đào tạo của Đại học Tufts, Hoa Kỳ. Khoa cũng chú trọng đặc biệt đến giáo dục sau đại học và kết quả là số lượng học viên cao học và nghiên cứu sinh tăng lên hàng năm. Hiện tại, Khoa Sinh học đang đào tạo 7 chuyên ngành Cao học và 13 chuyên ngành Tiến sĩ. Hàng năm có khoảng 80 học viên cao học và 20 nghiên cứu sinh nhập học vào Khoa. &nbsp;</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp;Các hướng nghiên cứu chính tại Khoa Sinh học: Đa dạng sinh học và bảo tồn đa dạng sinh học; Sinh học và sinh thái học các loài sinh vật có giá trị kinh tế và các loài quý hiếm; Sinh thái học và Sinh học môi trường; Sử dụng hợp lý tài nguyên sinh vật và phát triển bền vững; Đánh giá và quan trắc chất lượng môi trường bằng sinh vật chỉ thị; Ứng dụng các biện pháp và chế phẩm sinh học trong việc phòng, chống các bệnh cho cây trồng, vật nuôi và nuôi trồng thuỷ sản; Sinh học phân tử; Công nghệ protein-enzym và tìm kiếm, phát hiện các protein, enzym có nhiều ứng dụng trong Y học, công nghiệp thực phẩm và phát triển công nghệ sinh học; Công nghệ nuôi cấy mô - tế bào thực vật; Công nghệ nuôi cấy mô -&nbsp;tế bào động vật; Công nghệ tế bào gốc động vật; Kỹ thuật di truyền và kỹ nghệ gen; Vi sinh vật học và Công nghệ lên men; Kỹ thuật và quy trình nuôi trồng nấm ăn và nấm dược liệu; Tìm kiếm, thăm dò và tách chiết các chất có hoạt tính sinh học phục vụ Y học và Dược học; Nghiên cứu sản xuất các bộ KIT phục vụ các nghiên cứu sinh học phân tử và một số bộ KIT để phát hiện nhanh, sớm, chính xác một số bệnh hoặc mầm bệnh hiểm nghèo.</span></p>
@@ -73,12 +74,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule">
+                                <a></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -171,10 +172,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

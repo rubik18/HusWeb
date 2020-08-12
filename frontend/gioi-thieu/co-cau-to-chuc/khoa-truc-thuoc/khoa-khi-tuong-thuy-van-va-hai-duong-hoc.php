@@ -1,7 +1,8 @@
 <title>Khoa Khí tượng thủy văn và hải dương học</title>
 <!-- start header -->
 <?php include "../../../header.html" ?>
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -10,17 +11,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Khí tượng Thủy văn và Hải dương học</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-khi-tuong-thuy-van-va-hai-duong-hoc.php" class="item">Khoa Khí tượng Thủy văn và Hải dương học</a>
                     </ol>
                 </div>
             </div>
@@ -32,19 +33,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Khí tượng Thủy văn và Hải dương học-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div>
                                         <div class="post-meta">
                                             <h1>Khoa Khí tượng Thủy văn và Hải dương học</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11304_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div >
+                                            		<div class="Normal">
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-family: tahoma, geneva, sans-serif; font-size: 12px;">Việt Nam cũng như các nước trên thế giới đang phải đối mặt với những vấn đề về thiên tai, biến đổi khí hậu toàn cầu,... ngày càng có chiều hướng nghiêm trọng. Do đó, chiến lược dự báo, phòng chống thiên tai, bão lụt đang được đặt ra ngày càng cấp bách từ quy mô vùng, quốc gia đến toàn thế giới,... Nhận thức được tầm quan trọng của vấn đề này, Biến đổi khí hậu và ứng phó trước tình hình biến đổi khí hậu đã được Chính phủ thông qua và duyệt triển khai với ngân sách lớn nhằm cải tạo điều kiện làm việc và đầu tư nghiên cứu; Chiến lược phát triển Kinh tế biển đã được đề cập trong các Hội nghị Trung ương với gói ngân sách đầu tư nghiên cứu gần 3000 tỷ đồng.</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Ngoài ra, còn có các Chương trình Nước sạch nông thôn và Quy hoạch tài nguyên nước và Kiểm soát môi trường và Năng lượng sạch (Thủy điện, Phong điện,…). Để thực hiện được các mục tiêu chiến lược đó, Khoa học Khí tượng – Thuỷ văn – Hải dương học đã được Đảng và Nhà nước đầu tư rất lớn trong những năm gần đây. ĐHKHTN thuộc ĐHQGHN là trường đại học duy nhất ở Việt Nam đào tạo cử nhân ngành Khí tượng và Hải dương học.</span></p>
 														<p style="margin-top: 1em; margin-bottom: 1em; color: #000000; font-family: Tahoma, Verdana, 'DejaVu Sans', sans-serif; font-size: 13px; background-color: #ffffff; text-align: justify;"><span style="font-size: 12px; font-family: tahoma, geneva, sans-serif;">Hiện nay, ở nước ta mạng lưới hoạt động trong lĩnh vực Khí tượng – Thủy văn đã được mở rộng và triển khai tới tận các tỉnh, thành, do đó nhu cầu nguồn nhân lực cho lĩnh vực này là rất cao (ước tính cần khoảng 400 – 500 cử nhân/năm) so với lượng cử nhân ra trường hằng năm chỉ khoảng 150. Do vậy, trong những năm gần đây, 100% sinh viên theo học ngành này tại ĐHKHTN ra trường đều được các cơ quan đón nhận, có việc làm ngay. Đây thực sự là một cơ hội, một lựa chọn sáng suốt đối với các em học sinh khi lựa chọn ngành học này tại trường.</span></p>
@@ -79,12 +80,12 @@
                <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -177,10 +178,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

@@ -2,8 +2,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-<!-- Scroll Up -->
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Trung tâm nghiên cứu</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu.php" class="item">Trung tâm nghiên cứu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Trung tâm Nano và Năng lượng</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nano-va-nang-luong.php" class="item">Trung tâm Nano và Năng lượng</a>
                     </ol>
                 </div>
             </div>
@@ -34,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Trung tâm Nano và Năng lượng-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Trung tâm Nano và Năng lượng</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr12837_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div >
+                                            		<div  class="Normal">
 														<div style="text-align: justify;"><span style="font-family: Tahoma;">&nbsp; &nbsp; &nbsp;Trung tâm Nano và Năng lượng trực thuộc ĐHQGHN được thành lập theo Quyết định số 3636/QĐ-TCCB ngày 07/12/2011 của Giám đốc ĐHQGHN. Điều lệ Tổ chức và hoạt động của Trung tâm Nano và Năng lượng trực thuộc ĐHQGHN được Giám đốc ĐHQGHN ban hành kèm theo Quyết định số 1368/QĐ-TCCB ngày 25/4/2012. Ngày 31/10/2012 Bộ Khoa học và Công nghệ cấp giấy chứng nhận Đăng ký hoạt động khoa học và công nghệ số A-1060 cho Trung tâm.&nbsp;</span></div>
 														<div style="text-align: justify;"><span style="font-family: Tahoma;">&nbsp; &nbsp; &nbsp;Ngày 24/9/2013 Hiệu trưởng Trường ĐHKHTN ra Quyết định số 4155/QĐ-TCCB về việc thành lập Trung tâm Nano và Năng lượng trực thuộc Trường ĐHKHTN. Điều lệ Tổ chức và hoạt động của Trung tâm Nano và Năng lượng trực thuộc Trường ĐHKHTN được Hiệu trưởng Trường ĐHKHTN ban hành kèm theo Quyết định số 4389/QĐ-TCCB ngày 09/10/2013.</span></div>
 														<div style="text-align: justify;"><span style="font-family: Tahoma;">&nbsp; &nbsp; &nbsp;Ngày 22/10/2013 Giám đốc ĐHQGHN ra Quyết định số 3800/QĐ-ĐHQGHN về việc điều chuyển nguyên trạng chức năng, nhiệm vụ, hoạt động khoa học công nghệ, tài chính, tài sản, trang thiết bị và các nguồn lực khác của Trung tâm Nano và Năng lượng trực thuộc ĐHQGHN sang Trường ĐHKHTN.</span></div>
@@ -106,12 +106,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -205,10 +205,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

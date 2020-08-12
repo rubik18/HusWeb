@@ -2,7 +2,8 @@ s<title>Hội nghị khoa học trong nước</title>
 <!-- start header -->
 <?php include "../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
@@ -12,11 +13,11 @@ s<title>Hội nghị khoa học trong nước</title>
                     <ol class="breadcrumb">
                         <a href="#" class="item">Khoa hoc - Công nghệ</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Hội nghị khoa học</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Hội nghị khoa học trong nước</a>
                         
@@ -126,9 +127,13 @@ s<title>Hội nghị khoa học trong nước</title>
                                                     <li class="trum">
                                                            <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                         <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
-                                                        <div class="content d-none">
+                                                        <div class="content">
                                                             <ul class="submenu" style="display: block;" id="5510">
-                                                                <li class="active"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-trong-nuoc.php">Hội nghị khoa học trong nước</a></li>
+                                                                <li class="active"><a style="color: #017dc5;
+                                                                            background: #f6f7f9;
+                                                                            border-left: solid 3px #017dc5;
+                                                                            font-weight: 600;
+                                                                            padding-left: 27px;" href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-trong-nuoc.php">Hội nghị khoa học trong nước</a></li>
                                                                 <li class=""><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-quoc-te.php">Hội nghị khoa học quốc tế</a></li>
                                                             </ul>
                                                         </div>
@@ -166,10 +171,10 @@ s<title>Hội nghị khoa học trong nước</title>
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

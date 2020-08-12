@@ -2,7 +2,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -11,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Đảng - Đoàn thể</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-doan-the.php" class="item">Đảng - Đoàn thể</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Đoàn thanh niên</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/doan-thanh-nien.php" class="item">Đoàn thanh niên</a>
                     </ol>
                 </div>
             </div>
@@ -34,18 +35,18 @@
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                            <div class="DnnModule">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Đoàn thanh niên</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr15971_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div>
+                                            		<div  class="Normal">
 														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;"><span style="font-weight: bolder;"></span></p>
 														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; text-align: center; background-color: #ffffff;"><span style="font-weight: bolder; font-family: Tahoma; font-size: 13px;">ĐẠI HỌC QUỐC GIA HÀ NỘI</span></p>
 														<p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; text-align: justify; background-color: #ffffff;"><span style="font-family: Tahoma; font-size: 13px;">Trường Đại học Tổng hợp thành lập theo quyết định số 2183/TC của Thủ tướng Chính phủ, ký ngày 04/06/1956 gồm 5 trường: Đại học Tổng hợp, Đại học Y – Dược, Đại học Bách khoa, Đại học Sư phạm, Đại học Nông lâm. Trong giai đoạn đầu Đảng bộ và Đoàn thể của 5 trường đều đặt dưới một sự chỉ đạo chung. Trong năm học đầu tiên, mọi hoạt động của năm trường đại học này vẫn được đặt dưới một sự lãnh đạo chung như trước đó. Chúng ta chưa có Ban chấp hành Đoàn trường mà chỉ có hai Liên chi Đoàn đó là Liên chi đoàn Xã hội (Văn, Sử) và Liên chi Đoàn Tự nhiên (Toán, Lý, Hoá, Sinh). Bí thư LCĐ Xã hội: Hoàng Trọng Phiến, Bí thư LCĐ Tự Nhiên: Hoàng Hữu Như, Đồng chí Hồ Ngọc Ba, Đảng uỷ viên phụ trách công tác thanh niên của Nhà trường được xem như thủ lĩnh Đoàn đầu tiên của Trường Đại học Tổng Hợp Hà Nội.</span></p>
@@ -815,12 +816,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -912,10 +913,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

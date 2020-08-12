@@ -3,8 +3,8 @@
 <!-- start header -->
 <?php include "../../../header.html" ?>
 <!-- end header -->
-<!-- Scroll Up -->
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- start boby -->
 <div class="main-content-wrapper">
     <div class="container">
@@ -15,14 +15,14 @@
                     <ol class="breadcrumb">
                         <a href="#" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Đội ngũ cán bộ</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         <a href="#" class="item">Đội ngũ giáo sư, phó giáo sư</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         <a href="#" class="item">Phó giáo sư</a>
                     </ol>
                 </div>
@@ -532,10 +532,14 @@
                                                                 <li class="li-me trum">
                                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                                     <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ giáo sư, phó giáo sư<button  class="submenu-indicator btn" type="button">+</button></a>
-                                                                    <div class="content d-none">
+                                                                    <div class="content ">
                                                                         <ul class="submenu" style="display: block;" id="5510">
                                                                             <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/giao-su.php">Giáo sư</a></li>
-                                                                            <li class="active"><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/pho-giao-su.php">Phó giáo sư</a> </li>
+                                                                            <li class="active"><a style="color: #017dc5;
+                                                                            background: #f6f7f9;
+                                                                            border-left: solid 3px #017dc5;
+                                                                            font-weight: 600;
+                                                                            padding-left: 27px;" href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/pho-giao-su.php">Phó giáo sư</a> </li>
                                                                         </ul>
                                                                     </div>
                                                                 </li>
@@ -554,10 +558,10 @@
                                 <div class="bordershadown borderorange mb-15 pd-10">
                                     <ul class="bannerrighttop">
                                         <li style="display: block; padding-bottom: 10px;">
-                                            <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                            <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                                         </li>
                                         <li style="display: block; padding-bottom: 10px;">
-                                            <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                            <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                                         </li>
                                     </ul>
                                 </div>
