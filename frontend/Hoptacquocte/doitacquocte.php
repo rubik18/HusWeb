@@ -27,6 +27,7 @@
     <?php include "../header.html" ?>
     <!---end header------->
     <title>Đối tác quốc tế</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
 <div class="main-content-wrapper">
 	<div class="container">
@@ -36,17 +37,10 @@
 				<div class="col-12">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item active" aria-current="page">
-<<<<<<< HEAD
-                            <a href="hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
-                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-                        <li class="breadcrumb-item active" aria-current="page">
-                            <a href="" class="item ">Đối tác quốc tế</a></li>
-=======
                             <a href="hoptacquocte.php" class="item" style="color: gray">Hợp tác quốc tế</a></li>&nbsp;
                         <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
                         <li class="breadcrumb-item active" aria-current="page">
                             <a href="" class="item " style="color: gray">Đối tác quốc tế</a></li>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
 					</ol>
 				</div>
 			</div>
@@ -642,15 +636,10 @@
                                                         <!--start submenu--->
                                                         <li class="trum ">
                                                             <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-                                                                <span class="submenu-indicator spn" >+</span>
-=======
+
                                                             <a href="#510" class="submenu spn">
                                                                 <span class="ink animate-ink" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
                                                                 <span class="submenu-indicator " >+</span>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
                                                             </a>
                                                             <div class="content d-none" >
                                                                 <ul class="submenu" style="display: block; " id="510">

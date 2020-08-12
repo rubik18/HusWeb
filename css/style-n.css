@@ -138,10 +138,7 @@ a {
         animation: world 1800ms linear infinite;
     }
 
-/*@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
-@import url(//huscdn.ibase.com.vn/hus/css/animate.css);
-@import url(//huscdn.ibase.com.vn/hus/css/owl.carousel.css);
-@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);*/
+
 @-webkit-keyframes world {
     0% {
         -webkit-transform: rotate(0deg);
@@ -401,7 +398,6 @@ opacity: 0;
 bottom: 50px;
 visibility: visible;
 opacity: 1;
->>>>>>> tham3107
 }
     #scrollUp:hover {
         background-color: #0000ff;
@@ -819,7 +815,7 @@ opacity: 1;
     }
 
 .navbar-toggler-icon {
-    background-image: url("https://www.clipartmax.com/png/middle/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png");
+    background-image: url("/php-intership-team/img/main/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png");
     cursor: pointer;
 }
 
@@ -1267,7 +1263,7 @@ h2.post-title {
 
 .main-content-wrapper2 {
     margin-top: 10px;
-    background: url('http://www.hus.vnu.edu.vn/hus/img/blog-img/bgmain2.png');
+    background: url('/php-intership-team/img/main/bgmain2.png');
 }
 
     .main-content-wrapper2 .container {
@@ -1293,7 +1289,7 @@ h2.post-title {
         .main-content-doitac .titledt .block-title {
             height: 29px;
             /* line-height: 32px; */
-            background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homedoitac.png) no-repeat left bottom #017dc5;
+            background: url(/php-intership-team/img/main/homedoitac.png) no-repeat left bottom #017dc5;
             color: #fff;
             float: left;
             padding: 0 40px;
@@ -1887,7 +1883,7 @@ h2.post-title {
             }
 
             .single-blog-post.post-style-2.wrap-event .dclock {
-                background: url(http://static.buh.edu.vn/BUH/images/eventbg1.png) center no-repeat #fff;
+                background: url(/php-intership-team/img/main/eventbg1.png) center no-repeat #fff;
                 min-height: 107px;
                 margin: 0 auto;
                 text-align: center;
@@ -2005,7 +2001,7 @@ h2.post-title {
         color: #fff;
         font-weight: 700;
         float: left !important;
-        background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homethongbaoitem.png) left no-repeat;
+        background: url(/php-intership-team/img/main/homethongbaoitem.png) left no-repeat;
     }
 
         .single-blog-post.post-style-tb .media .object .day {
@@ -2172,7 +2168,7 @@ h2.post-title {
     .homesukien .title .block-title {
         height: 29px;
         /* line-height: 32px; */
-        background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homesukien.png) no-repeat left bottom #017dc5;
+        background: url(/php-intership-team/img/main/homesukien.png) no-repeat left bottom #017dc5;
         color: #fff;
         float: left;
         padding: 0 30px;
@@ -2635,7 +2631,7 @@ h2.post-title {
 .world-latest-articles .titlethongbao {
     height: 29px;
     line-height: 29px;
-    background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homethongbao.png) no-repeat left bottom #017dc5;
+    background: url(/php-intership-team/img/main/homethongbao.png) no-repeat left bottom #017dc5;
     margin-bottom: 10px;
     border-radius: 5px 5px 0px 0px;
 }
@@ -2661,7 +2657,7 @@ h2.post-title {
 .world-latest-articles .title .block-title {
     height: 29px;
     /* line-height: 32px; */
-    background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5;
+    background: url(/php-intership-team/img/main/hometintuc.png) no-repeat left bottom #017dc5;
     color: #fff;
     float: left;
     padding: 0 30px;
@@ -2822,7 +2818,7 @@ h2.post-title {
     .world-catagory-area .titlevqh .block-title {
         height: 29px;
         /* line-height: 32px; */
-        background: url(http://www.hus.vnu.edu.vn/hus/img/blog-img/homevongquanhhus.png) no-repeat left bottom #017dc5;
+        background: url(/php-intership-team/img/main/homevongquanhhus.png) no-repeat left bottom #017dc5;
         color: #fff;
         float: left;
         padding: 0 40px;
@@ -2956,7 +2952,7 @@ h2.post-title {
     color: #fff;
     font-weight: 700;
     float: left !important;
-    background: url(http://www.hus.vnu.edu.vn/static/hus/img/core-img/tbttbg.png) left no-repeat;
+    background: url(/php-intership-team/img/main/tbttbg.png) left no-repeat;
 }
 
     .buhlist-article .media .object .day {
@@ -2990,7 +2986,7 @@ h2.post-title {
     }
 
 [class^="icon-"] {
-    background: url("http://static.buh.edu.vn/BUH/images/iconsearch.png") no-repeat scroll 12px 11px #015198;
+    background: url("/php-intership-team/img/main/iconsearch.png") no-repeat scroll 12px 11px #015198;
     color: #fff;
     border-radius: 0px;
     display: inline-block;
@@ -3006,7 +3002,7 @@ h2.post-title {
 }
 
     [class^="icon-"]:hover {
-        background: url("/static/hus/img/core-img/iconsearch.png") no-repeat scroll 12px 11px #5dade2;
+        background: url("/php-intership-team/img/main/iconsearch.png") no-repeat scroll 12px 11px #5dade2;
         text-shadow: 0px 0px 0px #21638F;
         box-shadow: inset 0px 0px 1px #21638F;
         transition: all 0.5s ease;
@@ -4728,6 +4724,10 @@ textarea:focus ~ .highlight {
         }
 }
 
+/*@import url(//huscdn.ibase.com.vn/hus/css/bootstrap.min.css);
+@import url(//huscdn.ibase.com.vn/hus/css/animate.css);
+@import url(//huscdn.ibase.com.vn/hus/css/owl.carousel.css);
+@import url(//huscdn.ibase.com.vn/hus/css/magnific-popup.css);*/
 .footer-area .footer-single-widget h5 {
     font-size: 18px;
     font-family: "Roboto", sans-serif;

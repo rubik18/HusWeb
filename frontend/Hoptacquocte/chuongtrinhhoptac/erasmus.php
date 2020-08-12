@@ -25,13 +25,10 @@
 <body>
 <div id="detailpage"> -->
     <!---------start header------------>
-<<<<<<< HEAD
-=======
-
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
     <?php include "../../header.html" ?>
     <!---end header------->
     <title>Erasmus+</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
     
 	<div class="main-content-wrapper">
@@ -42,15 +39,6 @@
 					<div class="col-12">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item active" aria-current="page">
-<<<<<<< HEAD
-	                            <a href="../hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
-	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="../chuongtrinhhoptac.php" class="item ">Chương trình hợp tác</a></li>&nbsp;
-	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="" class="item ">Erasmus+</a></li>
-=======
 	                            <a href="../hoptacquocte.php" class="item" style="color: inherit;">Hợp tác quốc tế</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
@@ -58,7 +46,6 @@
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
 	                            <a href="" class="item " style="color: inherit;">Erasmus+</a></li>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
 						</ol>
 					</div>
 				</div>
@@ -77,11 +64,6 @@
 						       <h1>Erasmus+</h1>
 						    </div>
     					<!-- Post Content -->
-<<<<<<< HEAD
-						    <div class="post-content">
-
-						        <div><p><strong>Key Action 1: Mobility of Individuals / Đào tạo cá nhân</strong></p></div><table border="1" cellpadding="0" cellspacing="0" width="640"><tbody><tr><td><p>STT</p></td><td><p>Đối tác</p></td><td><p>Quốc gia</p></td></tr><tr><td><p>1</p></td><td><p><a href="http://hus.vnu.edu.vn/vi/phhcdn/58538">University of Valladolid</a></p></td><td><p>Tây Ban Nha</p></td></tr><tr><td><p>2</p></td><td><p>UPV Universitat Politècnica de València</p></td><td><p>Tây Ban Nha</p></td></tr><tr><td><p>3</p></td><td><p>Technische Universität Dresden</p></td><td><p>Đức</p></td></tr><tr><td><p>4</p></td><td><p>Technical University of Munich</p></td><td><p>Đức</p></td></tr><tr><td><p>5</p></td><td><p>Universite de Toulon</p></td><td><p>Pháp</p></td></tr><tr><td><p>6</p></td><td><p>Université Paris 13</p></td><td><p>Pháp</p></td></tr><tr><td><p>7</p></td><td><p>Technical University of Iasi</p></td><td><p>Romani</p></td></tr></tbody></table><p><strong>Key Action 2: Cooperation for innovation and the exchange of good practices / Hợp tác phát triển</strong></p><table border="1" cellpadding="0" cellspacing="0" width="640"><tbody><tr><td><p>STT</p></td><td><p>Đối tác</p></td><td><p>Quốc gia</p></td><td><p>Dự án</p></td></tr><tr><td><p>1</p></td><td><p>University of Natural Resources and Life Sciences, Vienna</p></td><td><p>Áo</p></td><td><p><strong>Quản lý và Tái chế nhựa</strong></p><p><a href="http://hus.vnu.edu.vn/data/sites/default/files/huongdan/SEA-PLASTIC-edu.pdf" target="_blank"><em>Mạng lưới hợp tác Châu Âu – Đông Nam Á nhằm nâng cao khả năng đào tạo trong lĩnh vựcTái chế nhựa tại Lào và Việt Nam, tập trung vào chất lượng, an toàn và hiệu quả.</em></a></p><p><em>South East Asia-Europe Network for building training and education capacities in Plastic Recycling in Laos and Vietnam with emphasis on quality, safety, and resource efficiency</em><em>(SEA-PLASTIC-EDU).</em></p></td></tr><tr><td><p>2</p></td><td><p>Turku University of Applied Sciences</p></td><td><p>Phần Lan</p></td><td><p><a href="http://hus.vnu.edu.vn/vi/phhcdn/58537"><strong>Dự án Liên minh bền vững mạng lưới đô thị ở các thành phố châu Á (SAUNAC)</strong>.</a></p><p>Sustainability Alliance of Urban Networks in Asian Cities (SAUNAC)</p></td></tr><tr><td><p>3</p></td><td><p>Eberswalde University for Sustainable Development</p></td><td><p>Đức</p></td><td><p><strong>Mạng lưới giáo dục Đại học Việt Nam – Châu Âu về Lâm nghiệp bền vững và Kinh tế sinh học - BioEcoN</strong><strong>(BioEcoNet)</strong></p><p>European-Vietnamese Higher Education Network for Sustainable Forest- and Bio-Economy BioEcoN = (BioEcoNet)</p><div></div></td></tr></tbody></table><p>&nbsp;</p>
-=======
 						    <div class="post-content" >
 						    	<link rel="stylesheet" type="text/css" href="../../../css/canbo_tham.css">
 						        <div>
@@ -168,7 +150,7 @@
 						        	</tbody>
 						        </table>
 						        <p>&nbsp;</p>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
 						    </div>
 
 							</div><!-- End_Module_10880 --></div>
@@ -198,15 +180,11 @@
 	                                                        <!--start submenu--->
 	                                                        <li class="trum ">
 	                                                            <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-	                                                            <a href="#510" class="submenu">
-	                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-	                                                                <span class="submenu-indicator spn" >+</span>
-=======
+
 	                                                            <a href="#510" class="submenu spn">
 	                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
 	                                                                <span class="submenu-indicator " >+</span>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
 	                                                            </a>
 	                                                            <div class="content " >
 	                                                                <ul class="submenu" style="display: block; " id="510">

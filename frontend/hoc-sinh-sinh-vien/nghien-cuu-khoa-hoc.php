@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">                           
-                            <li><a href="http://www.hus.vnu.edu.vn/hoc-sinh-sinh-vien.html" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn//images/breadcrumb.gif">&nbsp;<li><a href="http://www.hus.vnu.edu.vn/hoc-sinh-sinh-vien/nghien-cuu-khoa-hoc.html" class="item"style="color: grey;">Nghiên cứu khoa học</a></li>
+                            <li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-sinh-sinh-vien.php" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn//images/breadcrumb.gif">&nbsp;<li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/nghien-cuu-khoa-hoc.php" class="item"style="color: grey;">Nghiên cứu khoa học</a></li>
                         </ol>
                     </div>
                 </div>

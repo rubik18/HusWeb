@@ -28,6 +28,7 @@
     <?php include "../../header.html" ?>
     <!---end header------->
     <title>Đào tạo liên kết</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
     
 	<div class="main-content-wrapper">
@@ -38,15 +39,7 @@
 					<div class="col-12">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item active" aria-current="page">
-<<<<<<< HEAD
-	                            <a href="../hoptacquocte.php" class="item">Hợp tác quốc tế</a></li>&nbsp;
-	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="../chuongtrinhhoptac.php" class="item ">Chương trình hợp tác</a></li>&nbsp;
-	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
-	                        <li class="breadcrumb-item active" aria-current="page">
-	                            <a href="" class="item ">Đào tạo liên kết</a></li>
-=======
+
 	                            <a href="../hoptacquocte.php" class="item" style="color: inherit;">Hợp tác quốc tế</a></li>&nbsp;
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
@@ -54,7 +47,7 @@
 	                        <img src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
 	                        <li class="breadcrumb-item active" aria-current="page">
 	                            <a href="" class="item " style="color: inherit;">Đào tạo liên kết</a></li>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
 						</ol>
 					</div>
 				</div>
@@ -79,10 +72,9 @@
 						        	<span style="font-size:14px;">
 						        		<span style="font-family:Tahoma,Geneva,sans-serif;">Nhà trường hiện có sáu chương trình đào tạo đặc biệt dành cho sinh viên đại học: ba chương trình tiên tiến, được tài trợ bởi Bộ Giáo dục và Đào tạo và ba chương trình khác được tài trợ bởi Đại học Quốc gia Hà Nội. Mục đích của các chương trình này là thiết lập và phát triển các khóa học, các khoa và các trường đại học đạt tiêu chuẩn khu vực và quốc tế. Chương trình giảng dạy của tất cả sáu chương trình được nhập khẩu từ các Trường đại học uy tín nhất thế giới và các môn chuyên ngành hoàn toàn được giảng dạy bằng tiếng Anh. Ngoài ra, Nhà trường đang xây dựng chương trình tiên tiến ngành Kỹ thuật Hạt nhân. Hy vọng chương trình này sẽ có khóa sinh viên đầu tiên trong năm học 2014-2015.</span>
 						        	</span></p>
-<<<<<<< HEAD
-=======
+
 						        <link rel="stylesheet" type="text/css" href="../../../css/canbo_tham.css">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
 								<table border="1" cellpadding="0" cellspacing="0">
 									<tbody>
 										<tr>
@@ -206,15 +198,11 @@
 	                                                        <!--start submenu--->
 	                                                        <li class="trum ">
 	                                                            <script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
-<<<<<<< HEAD
-	                                                            <a href="#510" class="submenu">
-	                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
-	                                                                <span class="submenu-indicator spn" >+</span>
-=======
+
 	                                                            <a href="#510" class="submenu spn">
 	                                                                <span class="ink animate-ink " style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Chương trình hợp tác
 	                                                                <span class="submenu-indicator " >+</span>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
+
 	                                                            </a>
 	                                                            <div class="content " >
 	                                                                <ul class="submenu" style="display: block; " id="510">

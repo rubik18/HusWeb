@@ -11,7 +11,7 @@
                     <div class="col-12">
                         <ol class="breadcrumb">
                             
-                            <li><a href="" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn//images/breadcrumb.gif">&nbsp;<li><a href="l" class="item" style="color: grey;">Hỗ trợ sinh viên</a></li>&nbsp;<img alt="*" src="http://www.hus.vnu.edu.vn//images/breadcrumb.gif">&nbsp;<li><a href="" class="item" style="color: grey;">Các câu lạc bộ</a></li>
+                            <li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/hoc-sinh-sinh-vien.php" class="item" style="color: grey;">Học sinh - Sinh viên</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hoc-sinh-sinh-vien/breadcrumb.gif">&nbsp;<li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien.php" class="item" style="color: grey;">Hỗ trợ sinh viên</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hoc-sinh-sinh-vien/breadcrumb.gif">&nbsp;<li><a href="/php-intership-team/frontend/hoc-sinh-sinh-vien/ho-tro-sinh-vien/cac-cau-lac-bo.php" class="item" style="color: grey;">Các câu lạc bộ</a></li>
 
                         </ol>
                     </div>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/swipebox-n.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/owl-n.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/menu.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="/php-intership-team/img/main/favicon.ico" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -65,11 +65,11 @@
                     <div class="row">
                         <div class="col-12 col-lg-9">
                             <a class="navbar-brand" href="/php-intership-team/frontend/main/index.php">
-                                <img src="http://hus.vnu.edu.vn/static//hus/img/core-img/logo.png" alt="ĐHQGHN">
+                                <img src="/php-intership-team/img/main/logo.png" alt="ĐHQGHN">
                             </a>
                         </div>
                         <div class="col-12 col-lg-3 huyhieu" style="padding: 0px; text-align: right">
-                            <img src="http://hus.vnu.edu.vn/static//hus/img/core-img/logomodal.png" alt="ĐHQGHN">
+                            <img src="/php-intership-team/img/main/logomodal.png" alt="ĐHQGHN">
                         </div>
                     </div>
                 </div>
@@ -79,9 +79,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-11">
-                        <nav class="navbar navbar-expand-lg                               ">
+                        <nav class="navbar navbar-expand-lg">
 
-                            <a href="/php-intership-team/frontend/main/index.php" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" style="background-image: url(../navbar-toggler-icon.png);"></span></a>
+                            <a href="/php-intership-team/frontend/main/index.php" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" style="background-image: url(/php-intership-team/img/main/navbar-toggler-icon.png);"></span></a>
 
                             <div class="collapse navbar-collapse" id="worldNav">
                                 <ul class="navbar-nav">
@@ -246,10 +246,10 @@
                     <div class="col-1" style="padding: 0px; text-align: right">
                         <div class="search">
                             <input class="search_box" type="checkbox" id="search_box">
-                            <label class="icon-search" for="search_box" onclick=""></label>
+                            <label class="icon-search" for="search_box" onclick="OnClickButton();"></label>
                             <div class="search_form">
-                                <input type="text" id="seach-box" class="search_tb" name="s" value="Nhập thông tin tìm kiếm">
-                                <a href="" type="submit" class="search_btn" value="search" onclick="">Tìm kiếm</a>
+                                <input type="text" id="seach-box" class="search_tb" name="s" value="Nhập thông tin tìm kiếm" onkeypress="return checkKeypressSearchTop(event)" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                                <a href="javascript:void(0);" type="submit" class="search_btn" value="search" onclick="doSearchSite(); return false;">Tìm kiếm</a>
                             </div>
                         </div>
                     </div>
@@ -279,6 +279,38 @@
           }
         );
     });
+    </script>
+    <script type="text/javascript" language="javascript">
+        function doSearchSite() {
+            var str = '';
+            str = document.getElementById('seach-box').value;
+            var str2 = str.replace('Nhập thông tin tìm kiếm', "");
+            if (str2.toString() != '') {
+                window.open('/php-intership-team/frontend/tim-kiem/g.php?q=' + encodeURI(str2), "_self");
+            }
+            else {
+                alert('Bạn hãy nhập từ khóa cần tìm');
+            }
+        }
+        function checkKeypressSearchTop(e) {
+            var kC = (window.event) ? event.keyCode : e.keyCode;  // MSIE : Firefox
+            if (kC == 13) {
+                doSearchSite();   // if ENTER then ignore
+                return false;
+            }
+        }
+        function OnBlur(sender, msg) {
+            if (sender && sender.value == "") {
+                sender.value = msg;
+            }
+        }
+
+        function Onfocus(sender) {
+            sender.value = "";
+        }
+        function OnClickButton() {
+            document.getElementById("seach-box").focus();
+        }
     </script>
 </body>
 </html>

@@ -11,15 +11,15 @@
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active"><a href="">
-                        <img class="d-block w-100" src="http://hus.vnu.edu.vn/DATA/VIDEO/2020/07/tra-cuu-diem-thi-thpt-2020-web-hus.jpg?width=2000&height=400&mode=crop&anchor=middle" alt="First slide"></a>
+                        <img class="d-block w-100" src="/php-intership-team/img/main/tra-cuu-diem-thi-thpt-2020-web-hus.jpg" alt="First slide"></a>
                     </div>
                 
                     <div class="carousel-item"><a href="">
-                        <img class="d-block w-100" src="http://hus.vnu.edu.vn/DATA/VIDEO/2020/05/slider-chao-mung.jpg?width=2000&height=400&mode=crop&anchor=middle" alt="Second slide"></a>
+                        <img class="d-block w-100" src="/php-intership-team/img/main/slider-chao-mung.jpg" alt="Second slide"></a>
                     </div>
                 
                     <div class="carousel-item"><a href="">
-                        <img class="d-block w-100" src="http://hus.vnu.edu.vn/DATA/VIDEO/2020/06/slider-tuyen-sinh-dai-hoc-2020-v10.5.jpg?width=2000&height=400&mode=crop&anchor=middle" alt="Third slide"></a>
+                        <img class="d-block w-100" src="/php-intership-team/img/main/slider-tuyen-sinh-dai-hoc-2020-v10.5.jpg" alt="Third slide"></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,32 +47,32 @@
                 <ul>
                     <li class="post-number">
                         <a href="" target="_blank">
-                            <img src="http://www.hus.vnu.edu.vn/static/hus/img/blog-img/eoffice.png" alt="E-Office"> 
+                            <img src="/php-intership-team/img/main/eoffice.png" alt="E-Office"> 
                             <span>E-OFFICE</span>
                         </a></li>
                     <li class="post-number">
                         <a href="" target="_blank">
-                            <img src="http://hus.vnu.edu.vn/static/hus/img/blog-img/canbo.png" alt="Cổng thông tin cán bộ">
+                            <img src="/php-intership-team/img/main/canbo.png" alt="Cổng thông tin cán bộ">
                             <span>CỔNG THÔNG TIN <br>CÁN BỘ</span>
                         </a></li>
                     <li class="post-number">
                         <a href="" target="_blank">
-                            <img src="http://hus.vnu.edu.vn/static/hus/img/blog-img/nguoihoc.png" alt="Cổng thông tin người học">
+                            <img src="/php-intership-team/img/main/nguoihoc.png" alt="Cổng thông tin người học">
                             <span>CỔNG THÔNG TIN<br>NGƯỜI HỌC</span>
                         </a></li>
                     <li class="post-number">
                         <a href="" target="_blank">
-                            <img src="http://hus.vnu.edu.vn/static/hus/img/blog-img/thuvien.png" alt="Thư viện"> 
+                            <img src="/php-intership-team/img/main/thuvien.png" alt="Thư viện"> 
                             <span>THƯ VIỆN</span>
                         </a></li>
                     <li class="post-number">
                         <a href="" target="_blank">
-                            <img src="http://hus.vnu.edu.vn/static/hus/img/blog-img/email.png" alt="Email"> 
+                            <img src="/php-intership-team/img/main/email.png" alt="Email"> 
                             <span>EMAIL</span>
                         </a></li>
                     <li class="post-number">
                         <a href="" target="_self">
-                            <img src="http://hus.vnu.edu.vn/static/hus/img/blog-img/calendar.png" alt="E-Office"> 
+                            <img src="/php-intership-team/img/main/calendar.png" alt="E-Office"> 
                             <span>LỊCH LÀM VIỆC</span>
                         </a></li>
                 </ul>
@@ -95,7 +95,7 @@
                             <div class="single-blog-post post-style-4 d-flex align-items-center">
                                 <div class="post-thumbnail">
                                     <a href="">
-                                    <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/07/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg?width=180&height=130&mode=crop&anchor=middle" alt="Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ...">
+                                    <img src="/php-intership-team/img/main/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg" alt="Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ...">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -112,7 +112,7 @@
                             <div class="single-blog-post post-style-4 d-flex align-items-center">
                                 <div class="post-thumbnail">
                                     <a href="">
-                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=180&height=130&mode=crop&anchor=middle" alt="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: ...">
+                                    <img src="/php-intership-team/img/main/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg" alt="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: ...">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -129,7 +129,7 @@
                             <div class="single-blog-post post-style-4 d-flex align-items-center">
                                 <div class="post-thumbnail">
                                     <a href="">
-                                    <img src="http://www.hus.vnu.edu.vn/DATA//IMAGES/2020/07/dsc06714.jpg?width=180&height=130&mode=crop&anchor=middle" alt="Trường Đại học Khoa học Tự nhiên gặp mặt sinh viên tốt nghiệp năm 2020...">
+                                    <img src="/php-intership-team/img/main/cefd-tong-ket-hop-phan-2-3.png" alt="Trường Đại học Khoa học Tự nhiên gặp mặt sinh viên tốt nghiệp năm 2020...">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -274,7 +274,7 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-6 pdr-10">
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
-                                            <img id="dnn_View_ltr1img" src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/08/nhap-hoc-lop-10-thpt-chuyen-khtn-1521-0.JPG?width=565&height=400&mode=crop&anchor=middlecenter">
+                                            <img id="dnn_View_ltr1img" src="/php-intership-team/img/main/nhap-hoc-lop-10-thpt-chuyen-khtn-1521-0.jfif">
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="">Lễ bế giảng và Trao bằng Cử nhân Khoa học hệ Đại học Chính quy năm 2020</a></h4>
                                                 <p><i class="fa fa-clock-o"></i>29/07/2020</p>
@@ -284,7 +284,7 @@
                                         <div class="col-12 col-lg-12 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <img id="dnn_View_ltr3img" src="http://www.hus.vnu.edu.vn/DATA//////IMAGES/2020/07/le-ky-ket-hop-tac-dao-tao-thac-si-khoa-hoc-du-lieu-1521-0.jpg?width=265&height=192&mode=crop&anchor=middlecenter">
+                                                    <img id="dnn_View_ltr3img" src="/php-intership-team/img/main/le-ky-ket-hop-tac-dao-tao-thac-si-khoa-hoc-du-lieu-1521-0.jpg">
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="">Lễ ký kết hợp tác đào tạo Thạc sĩ Khoa học Dữ liệu &amp; Tọa đàm Nhân lực chất lượng cao Khoa học Dữ liệu</a></h4>
                                                         <p><i class="fa fa-clock-o"></i> 18/07/2020</p>
@@ -292,7 +292,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <img id="dnn_View_ltr4img" src="http://www.hus.vnu.edu.vn/DATA/////IMAGES/2020/07/-1521-0.png?width=265&height=192&mode=crop&anchor=middlecenter">
+                                                    <img id="dnn_View_ltr4img" src="/php-intership-team/img/main/-1521-0.png">
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="">Hội thảo định hướng nghề nghiệp và ngày hội phỏng vấn việc làm</a></h4>
                                                         <p><i class="fa fa-clock-o"></i>14/07/2020</p>
@@ -306,7 +306,7 @@
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <img id="dnn_View_ltr5img" src="http://www.hus.vnu.edu.vn/DATA//IMAGES/2020/07/20161208152955087095_THPT%20CHUY%c3%8aN%20KHOA%20H%e1%bb%8cC%20T%e1%bb%b0%20NHI%c3%8aN04.jpg?width=265&height=192&mode=crop&anchor=middlecenter">
+                                                    <img id="dnn_View_ltr5img" src="/php-intership-team/img/main/20161208152955087095_THPT%20CHUY%c3%8aN%20KHOA%20H%e1%bb%8cC%20T%e1%bb%b0%20NHI%c3%8aN04.jpg">
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="">Thi tuyển THPT Chuyên Khoa học Tự nhiên</a></h4>
                                                         <p><i class="fa fa-clock-o"></i>12/07/2020</p>
@@ -314,7 +314,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <img id="dnn_View_ltr6img" src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-trao-quyet-dinh-bo-nhiem-2-pho-hieu-truong-1521-1.JPG?width=265&height=192&mode=crop&anchor=middlecenter">
+                                                    <img id="dnn_View_ltr6img" src="/php-intership-team/img/main/le-trao-quyet-dinh-bo-nhiem-2-pho-hieu-truong-1521-1.JFIF">
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="">Lễ trao Quyết định bổ nhiệm 2 Phó Hiệu trưởng</a></h4>
                                                         <p><i class="fa fa-clock-o"></i>02/07/2020</p>
@@ -325,7 +325,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
-                                            <img id="dnn_View_ltr2img" src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/hoi-nghi-cong-chuc-vien-chuc-nguoi-lao-dong-va-ton-1521-1.jpg?width=565&height=400&mode=crop&anchor=middlecenter">
+                                            <img id="dnn_View_ltr2img" src="/php-intership-team/img/main/hoi-nghi-cong-chuc-vien-chuc-nguoi-lao-dong-va-ton-1521-1.jpg">
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="">Hội nghị Công chức, Viên chức, Người lao động và Tổng kết năm học 2019 - 2020</a></h4>
                                                 <p>23/07/2020</p>
@@ -365,7 +365,7 @@
                                         <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1150px;"><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
                                                     <a href="">
-                                                        <img alt="Thành tựu và Gương mặt" src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/08/1TaQuangBuu.jpg?width=277&height=156&mode=crop&anchor=middle" class="img-news">
+                                                        <img alt="Thành tựu và Gương mặt" src="/php-intership-team/img/main/1TaQuangBuu.jpg" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
@@ -377,7 +377,7 @@
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
                                                     <a href="">
-                                                        <img alt="Hoạt động sinh viên" src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/h2.png?width=277&height=156&mode=crop&anchor=middle" class="img-news">
+                                                        <img alt="Hoạt động sinh viên" src="/php-intership-team/img/main/h2.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
@@ -389,7 +389,7 @@
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
                                                     <a href="">
-                                                        <img alt="Diễn đàn thầy và trò" src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/h3.png?width=277&height=156&mode=crop&anchor=middle" class="img-news">
+                                                        <img alt="Diễn đàn thầy và trò" src="/php-intership-team/img/main/h3.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
@@ -401,7 +401,7 @@
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
                                                     <a href="">
-                                                        <img alt="Thư viện Media" src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/h4.png?width=277&height=156&mode=crop&anchor=middle" class="img-news">
+                                                        <img alt="Thư viện Media" src="/php-intership-team/img/main/h4.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
@@ -446,26 +446,26 @@
                                         <div class="owl-stage-outer">
                                             <div class="owl-stage" style="transform: translate3d(-460px, 0px, 0px); transition: all 2s ease 0s; width: 1610px;">
                                                 <div class="owl-item" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="46th International Chemistry Olympiad"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/07.jpg?width=210&height=64&mode=crop&anchor=middle" alt="46th International Chemistry Olympiad"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="46th International Chemistry Olympiad"><img src="/php-intership-team/img/main/07.jpg" alt="46th International Chemistry Olympiad"></a></div>
                                                 </div>
                                                 <div class="owl-item" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="ILLINOIS"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/01.jpg?width=210&height=64&mode=crop&anchor=middle" alt="ILLINOIS"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="ILLINOIS"><img src="/php-intership-team/img/main/01.jpg" alt="ILLINOIS"></a></div>
                                                 </div>
                                                 <div class="owl-item active" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="Indian University"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/02.jpg?width=210&height=64&mode=crop&anchor=middle" alt="Indian University"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="Indian University"><img src="/php-intership-team/img/main/02.jpg" alt="Indian University"></a></div>
                                                 </div>
                                                 <div class="owl-item active" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="Tufts"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/03.jpg?width=210&height=64&mode=crop&anchor=middle" alt="Tufts"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="Tufts"><img src="/php-intership-team/img/main/03.jpg" alt="Tufts"></a></div>
                                                 </div>
                                                 <div class="owl-item active" style="width: 220px; margin-right: 10px;">
                                                     <div class="post-thumbnail"><a href="" target="_blank" title="Masachusetts">
-                                                        <img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/04.jpg?width=210&height=64&mode=crop&anchor=middle" alt="Masachusetts"></a></div>
+                                                        <img src="/php-intership-team/img/main/04.jpg" alt="Masachusetts"></a></div>
                                                 </div>
                                                 <div class="owl-item active" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="University Greifswald"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/05.jpg?width=210&height=64&mode=crop&anchor=middle" alt="University Greifswald"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="University Greifswald"><img src="/php-intership-team/img/main/05.jpg" alt="University Greifswald"></a></div>
                                                 </div>
                                                 <div class="owl-item active" style="width: 220px; margin-right: 10px;">
-                                                    <div class="post-thumbnail"><a href="" target="_blank" title="jaist"><img src="http://www.hus.vnu.edu.vn/DATA//VIDEO/2019/06/06.jpg?width=210&height=64&mode=crop&anchor=middle" alt="jaist"></a></div>
+                                                    <div class="post-thumbnail"><a href="" target="_blank" title="jaist"><img src="/php-intership-team/img/main/06.jpg" alt="jaist"></a></div>
                                                 </div>
                                             </div>
                                         </div>
