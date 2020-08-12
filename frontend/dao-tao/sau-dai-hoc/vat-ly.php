@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
 	<title>Vật lý & Công nghệ</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="" type="image/ico" sizes="16x16">
-</head>
 
 <body id="Body">
 
@@ -15,7 +8,8 @@
     include "../../header.html"
     ?>
     <!-- hết header -->
-
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
 
 
     <!-- content -->
@@ -250,4 +244,3 @@
         include "../../footer.html"
     ?>
 </body>
-</html>

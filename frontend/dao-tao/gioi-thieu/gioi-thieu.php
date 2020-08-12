@@ -9,9 +9,9 @@
     <!-- hết header -->
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-  	  <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+  	<script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
 
-   <div class="main-content-wrapper">
+   	<div class="main-content-wrapper">
         <div class="container">
             <div class="breakcrum mb-30">
                 <div class="row">

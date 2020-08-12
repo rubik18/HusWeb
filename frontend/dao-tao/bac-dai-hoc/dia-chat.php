@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html class="no-js" lang="vi-VN">
-<head id="Head">
     <title>Địa chất</title>
     <meta charset="utf-8">
-   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="" type="image/ico" sizes="16x16">
-
-</head>
-
-
-
+ 
 <body id="Body">
 
     <?php
     include "../../header.html"
     ?>
     <!-- hết header -->
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
 
     <!-- content -->
 
@@ -259,5 +250,4 @@
     ?>
 
 </body>
-</html>
 
