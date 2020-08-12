@@ -1,31 +1,4 @@
-<!-- <!DOCTYPE html>
-<html style="scroll-behavior: smooth;">
-<head>
-	<title>....Data.....</title>
-	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../../../css/themify-icons-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/font-awesome-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/style-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/swipebox-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/owl-n.css">
-    <link rel="stylesheet" type="text/css" href="../../../css/tictuc_tham.css">
-    
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-  	<link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
-
-  	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-</head>
-<body>
-
-	<div id="detailpage"> -->
         <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
@@ -40,7 +13,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">
-                            <li><a href="http://hus.vnu.edu.vn/thong-bao.html" class="item">Thông báo</a></li>&nbsp;<img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung.html" class="item">Thông báo chung</a></li>
+                            <li><a href="http://hus.vnu.edu.vn/thong-bao.html" class="item">Thông báo</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hop-tac-quoc-te/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung.html" class="item">Thông báo chung</a></li>
 
                         </ol>
                     </div>
@@ -288,15 +261,15 @@
 <ul class="bannerrighttop">
     
             <li style="display: block; padding-bottom: 10px;">
-                <a href='#' target=_blank alt='Lịch công tác'><img class='img-responsive' src='http://hus.vnu.edu.vn/DATA/VIDEO/2019/06/lichcongtac2.png' alt='Lịch công tác' width='260' height='110'></a>
+                <a href='#' target=_blank alt='Lịch công tác'><img class='img-responsive' src='/php-intership-team/img/tin-tuc/lichcongtac2.png' alt='Lịch công tác' width='260' height='110'></a>
             </li>
         
             <li style="display: block; padding-bottom: 10px;">
-                <a href='#' target=_blank alt='Lịch học - Lịch thi'><img class='img-responsive' src='http://hus.vnu.edu.vn/DATA/VIDEO/2019/06/lichhoc.png' alt='Lịch học - Lịch thi' width='260' height='110'></a>
+                <a href='#' target=_blank alt='Lịch học - Lịch thi'><img class='img-responsive' src='/php-intership-team/img/tin-tuc/lichhoc.png' alt='Lịch học - Lịch thi' width='260' height='110'></a>
             </li>
         
             <li style="display: block; padding-bottom: 10px;">
-                <a href='#' target=_blank alt='Học bổng - Việc làm'><img class='img-responsive' src='http://hus.vnu.edu.vn/DATA/VIDEO/2019/06/hocbong.png' alt='Học bổng - Việc làm' width='260' height='110'></a>
+                <a href='#' target=_blank alt='Học bổng - Việc làm'><img class='img-responsive' src='/php-intership-team/img/tin-tuc/hocbong.png' alt='Học bổng - Việc làm' width='260' height='110'></a>
             </li>
         
 </ul>
