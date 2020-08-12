@@ -28,6 +28,7 @@
     <?php include "../../header.html" ?>
     <!---end header------->
 	<title>Trao đổi & học bổng</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" language="javascript" src="../../../js/drop_list_tham.js"></script>
 	
 	<div class="main-content-wrapper">

@@ -27,6 +27,7 @@
     <?php include "../header.html" ?>
     <!---end header------->
     <title>Chương trình hợp tác</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
 	<div class="main-content-wrapper">
 		<div class="container">
