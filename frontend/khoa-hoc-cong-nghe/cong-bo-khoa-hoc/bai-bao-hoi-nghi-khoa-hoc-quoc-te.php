@@ -13,10 +13,10 @@
                     <ol class="breadcrumb">
                         <a href="#" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Công bố khoa học</a>
-                         <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Bài báo Hội nghị khoa học quốc tế</a>
                     </ol>

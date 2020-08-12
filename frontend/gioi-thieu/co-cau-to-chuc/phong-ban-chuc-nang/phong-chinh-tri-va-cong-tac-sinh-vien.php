@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng ban chức năng</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ban-chuc-nang.php" class="item">Phòng ban chức năng</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng Chính trị và Công tác sinh viên</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-chinh-tri-va-cong-tac-sinh-vien.php" class="item">Phòng Chính trị và Công tác sinh viên</a>
                     </ol>
                 </div>
             </div>
@@ -34,26 +34,26 @@
                 <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Chính trị và Công tác sinh viên-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Phòng Chính trị và Công tác sinh viên</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr12679_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div >
+                                            		<div class="Normal">
 														<p><span>Phòng Chính trị và Công tác sinh viên là đơn vị có chức năng tham mưu, giúp việc Hiệu trưởng về công tác chính trị tư tưởng, công tác tuyên huấn và công tác quảng bá hình ảnh của trường, công tác học sinh, sinh viên (bao gồm học sinh hệ Trung học phổ thông chuyên, sinh viên, học viên cao học và nghiên cứu sinh).</span></p>
 														<ol>
 														    <li><span><strong>Trưởng phòng</strong>: TS. Nguyễn Thanh Bình</span></li>
 														</ol>
 														<p><span>Phụ trách chung và phụ trách trực tiếp các công việc thuộc các lĩnh vực: Công tác sinh viên, Tuyên huấn,&nbsp;công tác chính trị tư tưởng,&nbsp;quảng bá hình ảnh về Nhà trường và công tác văn hóa quần chúng, khen thưởng, kỷ luật học sinh, sinh viên, học viên cao học, nghiên cứu sinh; phụ trách Bậc đào tạo sau đại học, đại học chính quy, cựu sinh viên &nbsp;…</span></p>
 														<p><span>Điện thoại: 04.35581226</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:nguyenbinh@vnu.edu.vn">nguyenbinh@vnu.edu.vn</a>&nbsp;<a href="mailto:Tamlv@vnu.edu.vn;LeVanTam@hus.edu.vn">; binhnt@hus.edu.vn</a>.</span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:nguyenbinh@vnu.edu.vn">nguyenbinh@vnu.edu.vn</a>&nbsp;<a style="font-weight: bold;" href="mailto:Tamlv@vnu.edu.vn;LeVanTam@hus.edu.vn">; binhnt@hus.edu.vn</a>.</span></p>
 														<p><span>Phòng làm việc: Phòng 322, tầng 3, nhà T1.</span></p>
 														<ol start="2" style="list-style-type: decimal;">
 														    <li>
@@ -68,26 +68,26 @@
 														<p><span>Phụ trách đào tạo đại học, hệ đại học chính quy: Đón tiếp sinh viên đại học chính quy, quản lý hồ sơ sinh viên, giải quyết các vấn đề liên quan đến sinh viên đại học chính quy.&nbsp;<br>
 														<br>
 														Điện thoại: 04.38581283</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:Chungptm@vnu.edu.vn;PhanThiMinhChung@hus.edu.vn">Chungptm@vnu.edu.vn;PhanThiMinhChung@hus.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:Chungptm@vnu.edu.vn;PhanThiMinhChung@hus.edu.vn">Chungptm@vnu.edu.vn;PhanThiMinhChung@hus.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 321, tầng 3, nhà T1.&nbsp;</span></p>
 														<p><span>&nbsp;&nbsp;&nbsp; 4.&nbsp;</span><strong>Chuyên viên:</strong><span>&nbsp;ThS. Nguyễn Thị Hồng Hoa</span></p>
 														<p><span>- Phụ trách công tác cựu sinh viên</span></p>
 														<p><span style="font-family: tahoma, geneva, sans-serif;">- Tư vấn hướng nghiệp, thông tin việc làm, kết nối doanh nghiệp</span></p>
 														<p><span>- Thực hiện bảo hiểm y tế cho học sinh, sinh viên</span></p>
 														<p><span>Điện thoại: 04.38581283</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:Hoanth@vnu.edu.vn">Hoanh@vnu.edu.vn</a>;&nbsp;<a href="mailto:NguyenThiHongHoa@hus.edu.vn">NguyenThiHongHoa@hus.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:Hoanth@vnu.edu.vn">Hoanh@vnu.edu.vn</a>;&nbsp;<a style="font-weight: bold;" href="mailto:NguyenThiHongHoa@hus.edu.vn">NguyenThiHongHoa@hus.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 320, tầng 3, nhà T1.</span></p>
 														<p><span><strong>&nbsp; &nbsp; &nbsp;</strong>5<strong>.&nbsp;</strong></span><strong>Chuyên viên:</strong><span>&nbsp;CN. Nguyễn Thị Thủy</span></p>
 														<p><span>Thực hiện chế độ học bổng, học phí, chế độ chính sách cho sinh viên đại học chính quy.</span></p>
 														<p><span>Điện thoại: 04.38581283</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:Thuyngt@vnu.edu.vn;NguyenThiThuy@hus.edu.vn">Thuyngt@vnu.edu.vn;NguyenThiThuy@hus.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:Thuyngt@vnu.edu.vn;NguyenThiThuy@hus.edu.vn">Thuyngt@vnu.edu.vn;NguyenThiThuy@hus.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 320, tầng 3, nhà T1</span></p>
 														<p><span>&nbsp; 6. &nbsp;<strong>Chuyên viên</strong>: ThS. Phạm Thị Lê Thủy</span></p>
 														<p><span>- Phụ trách đào tạo sau đại học,&nbsp;</span><span>giải quyết các vấn đề liên quan đến chế độ, chính sách cho học viên sau đại học</span></p>
 														<p><span>- Học bổng tài trợ cho các loại hình đào tạo.</span></p>
 														<p><span>- Phụ trách các công tác tuyên huấn, học chính trị, tuần sinh hoạt công dân cho HSSV</span></p>
 														<p><span>Điện thoại: 04.38581283</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:hoangthiquy@hus.edu.vn">thuyptl@vnu.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:hoangthiquy@hus.edu.vn">thuyptl@vnu.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 320, tầng 3, nhà T1.&nbsp;</span></p>
 														<p><span>&nbsp; 7. &nbsp;<strong>Chuyên viên</strong>&nbsp;: ThS. Hoàng Thị Quy</span></p>
 														<p><span>-&nbsp;</span><span>Phụ trách THPT Chuyên: Tiếp học sinh, giải quyết các vấn đề liên quan đến chế độ, chính sách cho học sinh.</span></p>
@@ -95,7 +95,7 @@
 														<p><span>- Phụ trách phòng truyền thống, cung cấp thông tin cho việc quảng bá, giới thiệu về trường;</span></p>
 														<p><span>- Phụ trách công tác thi đua khen thưởng, kỷ luật sinh viên.</span></p>
 														<p><span>Điện thoại: 04.38581283</span></p>
-														<p><span>E-mail: h<a href="mailto:oangthiquy@hus.edu.vn">oangthiquy@hus.edu.vn</a></span></p>
+														<p><span>E-mail: h<a style="font-weight: bold;" href="mailto:oangthiquy@hus.edu.vn">oangthiquy@hus.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 320, tầng 3, nhà T1.</span></p>
 													</div>
                                             	</div>
@@ -113,12 +113,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -211,10 +211,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

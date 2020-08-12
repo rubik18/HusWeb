@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng ban chức năng</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ban-chuc-nang.php" class="item">Phòng ban chức năng</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng Hành chính-Đối ngoại </a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-hanh-chinh-doi-ngoai.php" class="item">Phòng Hành chính-Đối ngoại </a>
                     </ol>
                 </div>
             </div>
@@ -34,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Hành chính-Đối ngoại-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
+                        <div >
+                            <div class="DnnModule ">
                                 <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Phòng Hành chính - Đối ngoại</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr12669_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div >
+                                            		<div  class="Normal">
 														<p style="text-align: justify;"><span>Phòng Hành chính – Đối ngoại là một đơn vị trực thuộc khối phòng ban, có chức năng tham mưu, giúp việc cho Hiệu trưởng về công tác quản lý hành chính và hợp tác quốc tế của Trường.&nbsp;</span><span style="text-align: justify;">Phòng hiện có 16 viên chức, trong đó có 1 Trưởng phòng (là cán bộ
 														giảng dạy kiêm nhiệm), 1 Phó trưởng phòng, 13 chuyên viên chính thức thuộc
 														phòng và 01 đồng chí là cán bộ chuyên trách Văn phòng Công đoàn Trường. Theo mảng
@@ -59,7 +59,7 @@
 														<p style="text-align: justify;"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;: 84 4-38262353 (bộ phận quản lý hội trường 19 Lê Thánh Tông);</span></p>
 														<p style="text-align: justify;"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 84 4-35586183 (bộ phận tổ xe);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 														<p style="text-align: justify;"><span>Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 844-38583061</span></p>
-														<p style="text-align: justify;"><span>Email:&nbsp;<a href="mailto:hus@hus.edu.vn">hcdn@hus.edu.vn</a>.</span></p>
+														<p style="text-align: justify;"><span>Email:&nbsp;<a style="font-weight: bold;" href="mailto:hus@hus.edu.vn">hcdn@hus.edu.vn</a>.</span></p>
 													</div>
                                             	</div>
                                             </div>
@@ -76,12 +76,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -174,10 +174,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

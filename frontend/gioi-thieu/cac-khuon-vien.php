@@ -11,11 +11,11 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Các khuôn viên</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/cac-khuon-vien.php" class="item">Các khuôn viên</a>
                         
                     </ol>
                 </div>
@@ -41,7 +41,7 @@
 									        <table align="center" class="image_center_wp">
 												<tbody>
 													<tr>
-														<td class="pic" style="text-align: left;"><a class="newsslidephoto" href="#" title=""><img alt="" src="http://www.hus.vnu.edu.vn/data/IMAGES/2019/05/IMG_0003_1.jpg" style="width: 700px;"></a></td>
+														<td class="pic" style="text-align: left;"><a class="newsslidephoto" href="#" title=""><img alt="" src="\php-intership-team\img\img-nhung/khuon-vien.jpg" style="width: 700px;"></a></td>
 													</tr>
 													<tr>
 														<td class="image_caption" style="text-align: left;">Khuôn viên 1 (trụ sở chính): 334 Nguyễn Trãi - Thanh Xuân - Hà Nội</td>
@@ -53,7 +53,7 @@
 												<tbody>
 													<tr>
 														<td class="pic" style="text-align: left;">
-														<p><a class="newsslidephoto" href="#" title=""><img alt="" src="http://www.hus.vnu.edu.vn/data/IMAGES/2019/05/IMG_3785.jpg" style="width: 700px;"></a></p>
+														<p><a class="newsslidephoto" href="#" title=""><img alt="" src="\php-intership-team\img\img-nhung/khuon-vien-1.jpg" style="width: 700px;"></a></p>
 														</td>
 													</tr>
 													<tr>
@@ -67,7 +67,7 @@
 											<table align="center" class="image_center_wp">
 												<tbody>
 													<tr>
-														<td class="pic" style="text-align: left;"><a class="newsslidephoto" href="#" rel="newsdetailslidephoto" title=""><img alt="" src="http://www.hus.vnu.edu.vn/data/IMAGES/2019/05/khuonviena.jpg" style="width: 700px;"></a></td>
+														<td class="pic" style="text-align: left;"><a class="newsslidephoto" href="#" rel="newsdetailslidephoto" title=""><img alt="" src="\php-intership-team\img\img-nhung/khuon-vien-2.jpg" style="width: 700px;"></a></td>
 													</tr>
 													<tr>
 														<td class="image_caption" style="text-align: left;">Khuôn viên 3: 182 - Lương Thế Vinh - Thanh Xuân - Hà Nội</td>
@@ -87,12 +87,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                       
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
@@ -143,10 +143,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

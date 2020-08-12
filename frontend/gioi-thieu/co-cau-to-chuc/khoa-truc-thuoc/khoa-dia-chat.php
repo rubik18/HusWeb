@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Địa chất</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-dia-chat.php" class="item">Khoa Địa chất</a>
                     </ol>
                 </div>
             </div>
@@ -34,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Địa chất-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div>
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div>
                                         <div class="post-meta">
                                             <h1>Khoa Địa chất</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11060_HtmlModule_lblContent" class="Normal">
+                                            <div>
+                                            	<div>
+                                            		<div  class="Normal">
 														<p style="background-color: #ffffff; text-align: center;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp;<img alt="" src="http://hus.vnu.edu.vn/portals/0/_UPLOAD/khoa_dc1.jpg" style="width: 600px; height: 401px;"></span></p>
 														<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp;Khoa Địa chất được thành lập từ năm 1966, là một cơ sở đào tạo đại học và sau đại học có uy tín trong nước. Nhiều cán bộ, sinh viên đã học tập, công tác tại Khoa hiện là các chuyên gia hàng đầu về nghiên cứu cơ bản, khoa học công nghệ và ứng dụng trong các lĩnh vực quản lý, khai thác tài nguyên thiên nhiên, đặc biệt là dầu khí, xây dựng và phát triển cơ sở hạ tầng, thích ứng với biến đổi khí hậu, giảm thiểu tai biến thiên nhiên,…</span></p>
 														<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp;Khoa Địa chất hiện có 40 cán bộ viên chức, trong đó có 33 cán bộ giảng viên, 7 cán bộ nghiên cứu và chuyên viên. Đội ngũ cán bộ có trình độ cao (02 giáo sư, 10 phó giáo sư, 18 tiến sĩ và tiến sĩ khoa học, 08 thạc sĩ). Cán bộ giảng dạy của Khoa luôn gắn kết chặt chẽ công tác giảng dạy với yêu cầu thực tế của xã hội, kết hợp với các nhà quản lý, nhà khoa học có uy tín trong các lĩnh vực dầu khí, môi trường, xây dựng, khai thác khoáng sản và quản lý tài nguyên, góp phần nâng cao tính cập nhật, khả năng thích ứng với công việc thực tế của người học. Mối liên kết đào tạo này đồng thời cũng là cầu nối quan trọng giúp sinh viên hiểu và tìm được công việc thích hợp sau khi tốt nghiệp. Trong những năm qua, nhiều sinh viên của Khoa đã được trao học bổng và nhận vào công tác tại các tập đoàn kinh tế, tổng công ty và Viện nghiên cứu lớn trên cả nước.</span></p>
@@ -102,12 +102,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule">
+                                <a></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -200,10 +200,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa vật lý</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-vat-ly.php" class="item">Khoa vật lý</a>
                     </ol>
                 </div>
             </div>
@@ -34,27 +34,27 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa vật lý-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
+                        <div>
+                            <div class="DnnModule ">
                                 <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                                <div>
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Khoa vật lý</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr10938_HtmlModule_lblContent" class="Normal">
+                                            <div>
+                                            	<div>
+                                            		<div class="Normal">
 														<table border="1" cellpadding="1" cellspacing="1">
 														    <tbody>
 														        <tr style="display: table-row; vertical-align: inherit;border-color: inherit;">
-														            <td><a href="/sites/default/files/u5123/logo_Khoa_VatLi.png" tabindex="0"><img alt="" style="padding-bottom: 7px; padding-left: 7px; padding-top: 7px ;" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/logo_Khoa_VatLi.png" width="177" height="100"></a></td>
+														            <td><a href="/sites/default/files/u5123/logo_Khoa_VatLi.png" tabindex="0"><img alt="" style="padding-bottom: 7px; padding-left: 7px; padding-top: 7px ;" src="/php-intership-team\img\img-nhung/logo_Khoa_VatLi.png" width="177" height="100"></a></td>
 														            <td style="padding-left: 7px">
 														            <p><span><strong>Giới thiệu sơ lượ</strong></span><span><strong>c v</strong></span><span><strong>ề Khoa Vật lý</strong></span></p>
 														            <div><span>Liên hệ: PGS.TS. Ngạc An Bang, Trưởng Khoa</span></div>
-														            <div><span>Điện thoại: +84.4.35583980, email:&nbsp;<a href="mailto:ngacanbang@hus.edu.vn" tabindex="0">ngacanbang@hus.edu.vn</a></span></div>
+														            <div><span>Điện thoại: +84.4.35583980, email:&nbsp;<a href=" " tabindex="0">ngacanbang@hus.edu.vn</a></span></div>
 														            </td>
 														        </tr>
 														    </tbody>
@@ -72,9 +72,9 @@
 														<table border="1" cellpadding="1" cellspacing="1" width="1025" height="304">
 														    <tbody>
 														        <tr>
-														            <td><img style="padding-left: 7px; padding-right: 7px;" alt="" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/May%20gia%20toc.jpg" width="292" height="190"></td>
+														            <td><img style="padding-left: 7px; padding-right: 7px;" alt="" src="\php-intership-team\img\img-nhung/May-gia-toc.jpg" width="292" height="190"></td>
 														            <td>&nbsp;</td>
-														            <td><img alt="" style="padding-right: 7px; padding-left: 7px;" src="http://www.hus.vnu.edu.vn/sites/default/files/u5123/Kinh%20hien%20vi.jpg" width="321" height="190"></td>
+														            <td><img alt="" style="padding-right: 7px; padding-left: 7px;" src="\php-intership-team\img\img-nhung/kinh-hien-vi.jpg" width="321" height="190"></td>
 														        </tr>
 														        <tr>
 														            <td>
@@ -151,12 +151,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule">
+                                <a></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -249,10 +249,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

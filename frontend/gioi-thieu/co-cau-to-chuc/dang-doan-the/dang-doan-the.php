@@ -14,11 +14,11 @@
                     <ol class="breadcrumb">
                         <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-doan-the.php" class="item">Đảng - Đoàn thể</a>
                         
                     </ol>
@@ -33,11 +33,11 @@
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
                         <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-15977"><a name="15977"></a>
-								<h4 class="header-title m-t-0"><span id="dnn_ctr15977_TITLE1_titleLabel" class="m_title">Đảng - Đoàn thể</span>
+                            <div class="DnnModule "><a></a>
+								<h4 class="header-title m-t-0"><span  class="m_title">Đảng - Đoàn thể</span>
 								</h4>
-					            <div id="dnn_ctr15977_ContentPane"><!-- Start_Module_15977 --><div id="dnn_ctr15977_ModuleContent">
-									<div id="dnn_ctr15977_HtmlModule_lblContent" class="Normal">
+					            <div ><!-- Start_Module_15977 --><div>
+									<div class="Normal">
 									<table border="0" cellpadding="0" cellspacing="0" style="color: #000000; border-width: 0px; width: 568px; border-collapse: collapse; background-color: #ffffff;">
 								    <tbody>
 								        <tr>
@@ -82,12 +82,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
+                            <div class="DnnModule ">
                                 <a name="11038"></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 

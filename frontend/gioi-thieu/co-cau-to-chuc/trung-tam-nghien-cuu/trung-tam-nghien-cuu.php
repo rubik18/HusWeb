@@ -14,11 +14,11 @@
                     <ol class="breadcrumb">
                         <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item" style="color: black;">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item" style="color: black;">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu.php" class="item" style="color: black;">Trung tâm nghiên cứu</a>
                         
                     </ol>
@@ -32,15 +32,15 @@
                 <!-- start nội dung-cơ cấu tổ chức - đảng_đoànthể - đảng ủy -->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-15977"><a name="15977"></a>
+                        <div >
+                            <div class="DnnModule "><a ></a>
 								<h4 class="header-title m-t-0"><span id="dnn_ctr15977_TITLE1_titleLabel" class="m_title">Trung tâm nghiên cứu</span>
 								</h4>
                                 <hr>
-					            <div id="dnn_ctr15977_ContentPane">
+					            <div>
                                     <!-- Start_Module_15977 -->
-                                    <div id="dnn_ctr15977_ModuleContent">
-							             <div id="dnn_ctr12774_HtmlModule_lblContent" class="Normal" style="color: black">
+                                    <div >
+							             <div class="Normal" style="color: black">
                                             <p><span><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/phong-thi-nghiem-trong-diem-Emzym-Protein.php" tabindex="0"><b style="color: #434343;">Phòng thí nghiệm trọng điểm Enzym Protein</b></a></span></p>
                                             <p><span><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-CNMT-va-PTBV.php" tabindex="0"><b style="color: #434343;">Trung tâm Nghiên cứu Công nghệ Môi trường và Phát triển bền vững</b></a></span></p>
                                             <p><span><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/trung-tam-nghien-cuu-QT-va-MHHMT.php" tabindex="0"><b style="color: #434343;">Trung tâm Nghiên cứu Quan trắc và Mô hình hóa Môi trường</b></a></span></p>
@@ -63,12 +63,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -160,10 +160,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

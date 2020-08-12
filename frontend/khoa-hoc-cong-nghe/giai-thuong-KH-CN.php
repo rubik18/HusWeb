@@ -13,7 +13,7 @@
                     <ol class="breadcrumb">
                         <a href="#" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="#" class="item">Giải thưởng KH-CN</a>
                         

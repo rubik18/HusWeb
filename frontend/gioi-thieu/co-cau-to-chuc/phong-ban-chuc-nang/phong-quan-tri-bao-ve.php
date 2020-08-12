@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng ban chức năng</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ban-chuc-nang.php" class="item">Phòng ban chức năng</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng Quản trị-Bảo vệ</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-quan-tri-bao-ve.php" class="item">Phòng Quản trị-Bảo vệ</a>
                     </ol>
                 </div>
             </div>
@@ -34,53 +34,53 @@
                 <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Quản trị-Bảo vệ-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div>
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Phòng Quản trị-Bảo vệ</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr12700_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div>
+                                            		<div class="Normal">
 														<p><span>1.<strong>&nbsp;Trưởng phòng</strong>: CN. Võ Thế Đại</span></p>
 														<p><span>Phụ trách chung và phụ trách trực tiếp các mảng công việc: Xây dựng cơ sở vật chất; điện nước…, mua sắm và thanh lý các thiết bị văn phòng.</span></p>
 														<p><span>Điện thoại: 043.8581421</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:daivt@vnu.edu.vn">daivt@vnu.edu.vn</a>;&nbsp;<a href="mailto:vothedai@gmail.com">vothedai@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:daivt@vnu.edu.vn">daivt@vnu.edu.vn</a>;&nbsp;<a style="font-weight: bold;" href="mailto:vothedai@gmail.com">vothedai@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 														<p><span>Phòng làm việc: phòng 311 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>2.&nbsp;<strong>Phó Trưởng phòng</strong>: CN. Nguyễn Hữu Trâm</span></p>
 														<p><span>Phụ trách và theo dõi các mảng công việc: An ninh trật tự, giảng đường- lớp học, vệ sinh môi trường, nhà gửi xe.</span></p>
 														<p><span>Điện thoại: 043.8581421</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:tramnh@vnu.edu.vn">tramnh@vnu.edu.vn</a>;&nbsp;<a href="mailto:tramphysics@gmail.com">tramphysics@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:tramnh@vnu.edu.vn">tramnh@vnu.edu.vn</a>;&nbsp;<a style="font-weight: bold;" href="mailto:tramphysics@gmail.com">tramphysics@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 														<p><span>Phòng làm việc: phòng 310 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>3. Kỹ thuật viên: TC. Nguyễn Mạnh Quân</span></p>
 														<p><span>Theo dõi trực tiếp các mảng công việc liên quan đến nước, sửa chữa, bảo dưỡng hệ thống cấp, thoát nước.</span></p>
 														<p><span>Điện thoại: 043.8583859</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:quannm@vnu.edu.vn">quannm@vnu.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:quannm@vnu.edu.vn">quannm@vnu.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 312 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>4. Kỹ sư: CN. Ngô Thanh Hải</span></p>
 														<p><span>Theo dõi trực tiếp các mảng công việc liên quan đến điện, sửa chữa, bảo dưỡng điều hòa, quản lý và phục vụ giảng đường lớn tầng 7 nhà T5.</span></p>
 														<p><span>Điện thoại: 043.8583859</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:haint@vnu.edu.vn">haint@vnu.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:haint@vnu.edu.vn">haint@vnu.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 312 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>5. Chuyên viên: CN. Hồ Sơn Lâm</span></p>
 														<p><span>Theo dõi trực tiếp các mảng công việc liên quan đến điện-nước, sửa chữa, bảo dưỡng điều hòa, quản lý và phục vụ giảng đường lớn tầng 7 nhà T5.</span></p>
 														<p><span>Điện thoại: 043.8583859</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:haint@vnu.edu.vn">lamhs@vnu.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:haint@vnu.edu.vn">lamhs@vnu.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 312 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>6. Nhân viên: CN. Dương Thị Minh Toan</span></p>
 														<p><span>Trực tiếp giao nhận công văn đi và đến; Theo dõi các giảng đường tầng 4 nhà T1; Quản lý hộ khẩu của cán bộ và sinh viên từ K39 trở về trước.</span></p>
 														<p><span>Điện thoại: 043.8581421</span></p>
-														<p><span>E-mail:&nbsp;<a href="mailto:toandm@vnu.edu.vn">toandm@vnu.edu.vn</a></span></p>
+														<p><span>E-mail:&nbsp;<a style="font-weight: bold;" href="mailto:toandm@vnu.edu.vn">toandm@vnu.edu.vn</a></span></p>
 														<p><span>Phòng làm việc: phòng 310 tầng 3 nhà T1.</span></p>
 														<p>&nbsp;</p>
 														<p><span>7. Nhân viên: TC. Nguyễn Thị Xuân Hạnh</span></p>
@@ -199,12 +199,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -297,10 +297,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

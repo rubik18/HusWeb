@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Trực thuộc</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-truc-thuoc.php" class="item">Khoa Trực thuộc</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Khoa Môi trường</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-moi-truong.php" class="item">Khoa Môi trường</a>
                     </ol>
                 </div>
             </div>
@@ -34,19 +34,19 @@
                 <!-- start nội dung-cơ cấu tổ chức -Khoa Môi trường-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
+                        <div >
+                            <div class="DnnModule ">
                                 <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Khoa Môi trường</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr11288_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div>
+                                            		<div class="Normal">
 														<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; Được thành lập từ năm 1995 theo quyết định của ĐHQGHN, Khoa môi trường,&nbsp; Trường ĐHKHTN đã và đang phát triển mạnh mẽ, dẫn đầu cả nước về đào tạo cán bộ chuyên sâu về lĩnh vực môi trường từ trình độ đại học (Cử nhân) với các chương trình chuẩn và chất lượng cao, đến trình độ sau đại học (Thạc sĩ, Tiến sĩ). Năm 2010, Khoa bắt đầu tuyển sinh khóa đầu tiên Chương trình tiên tiên – liên kết với trường đại học hàng đầu của Mỹ (Đại học Indiana) đào tạo Cử nhân Khoa học môi trường theo quyết định của BGD&amp;ĐT. Sinh viên tốt nghiệp từ các chương trình đào tạo của Khoa có nền tảng kiến thức vững chắc, chuyên môn và kỹ năng nghề nghiệp tốt, tự tin trong giao năng giao tiếp tiếng Anh. Ngoài đội ngũ cán bộ giảng dạy cơ hữu hàng đầu về lĩnh vực môi trường, hiện Khoa còn có đội ngũ đông đảo cán bộ khoa học làm giảng viên kiêm nhiệm từ các trường đại học, các viện nghiên cứu khoa học trong và ngoài nước; các cơ quản quản lý nhà nước như: Bộ Tài nguyên và Môi trường, Bộ Nông nghiệp và Phát triển nông thôn…</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp;Trung tâm Nghiên cứu, quan trắc và mô hình hóa môi trường và hệ thống các phòng thí nghiệm với thiết bị hiện đại trị giá nhiều triệu USD được liên tục đầu tư trong nhiều năm qua cho phép triển khai phân tích chính xác các thành phần môi trường không khí, nước, đất; đo nhanh, quan trắc và đánh giá chất lượng môi trường; đáp ứng nhiệm vụ đào tạo và nghiên cứu khoa học trình độ cao của cán bộ và sinh viên.&nbsp;</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp;Các phòng thí nghiệm của Khoa được xây dựng với quy mô hiện đại, có đội ngũ cán bộ giảng viên, nghiên cứu viên, cộng tác viên và kỹ thuật viên được đào tạo trong và ngoài nước, làm việc chuyên nghiệp, trang thiết bị hiện đại; cho phép triển khai phân tích chính xác các thành phần môi trường không khí, nước, đất; đo nhanh, quan trắc và đánh giá chất lượng môi trường, phân tích và nghiên cứu thực phẩm. Trung tâm Tư liệu – thư viện môi trường với hàng nghìn sách và tài liệu,&nbsp; trong đó có trên 500 đầu sách bằng tiếng Anh do Vương quốc Bỉ tài trợ, hàng trăm giáo trình do Khoa biên soạn đáp ứng nhu cầu nghiên cứu của cán bộ và học tập của sinh viên, học viên và nghiên cứu sinh.&nbsp;</span></div>
@@ -67,7 +67,7 @@
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Sinh viên ngành Khoa học môi trường sau khi tốt nghiệp có đủ năng lực nhận công tác tại các cơ quan quản lý nhà nước, môi trường công nghiệp, công nghệ cao, các trường đại học,viện nghiên cứu, các doanh nghiệp, các tổ chức phi chính phủ về lĩnh vực môi trường; triển khai và tham gia nghiên cứu, triển khai ứng dụng khoa học công nghệ trong các trường đại học, viện nghiên cứu và cơ sở sản xuất, doanh nghiệp, công ty.</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Một số hướng nghiên cứu chủ yếu:</span></div>
 													<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Quản lý môi trường, luật và chính sách môi trường, nghiên cứu ô nhiễm khí quyển, quản lý tài nguyên môi trường biển đảo, quản lý môi trường lưu vực, kinh tế môi trường, đánh giá tác động môi trường, đánh giá chiến lược môi trường, quy hoạch môi trường, quan trắc và mô hình hóa môi trường. nghiên cứu khoa học cơ bản và nghiên cứu ứng dụng về lĩnh vực khoa học đất, nông nghiệp và môi trường đất, trong đó tập trung vào quản lý bảo vệ độ phì đất và dinh dưỡng cây trồng; quy hoạch và sử dụng bền vững đất đai; quan trắc, quản lý và ứng dụng công nghệ sinh học, công nghệ vật liệu mới trong xử lý đất ô nhiễm, cải tạo phục hồi đất thoái hóa; Nghiên cứu phân tích và phục hồi chức năng môi trường của các hệ sinh thái, tác động môi trường tới các hệ sinh thái, đánh giá đa dạng sinh học; An toàn môi trường và phát triển bền vững; Nghiên cứu tai biến sinh thái và tác động của chúng tới hệ sinh thái; Ứng dụng các phương pháp sinh học phân tử hiện đại, bẫy ảnh để điều tra các loài quý hiếm và mô hình hóa phân bố loài trong điều kiện hiện nay và dưới tác động của biến đổi khí hậu.&nbsp;</span></p>
-													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="/Portals/0/_UPLOAD/Khoa hoc moi truong_chuan.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></span><span style="font-family: Tahoma; font-size: 13px;"><br>
+													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="\php-intership-team\img\img-nhung/Khoa-hoc-moi-truong_chuan.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></span><span style="font-family: Tahoma; font-size: 13px;"><br>
 													</span></p>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">2. Ngành Công nghệ kỹ thuật môi trường</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Mục tiêu đào tạo:</span></div>
@@ -79,7 +79,7 @@
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Sinh viên tốt nghiệp ngành Công nghệ kỹ thuật môi trường có đủ năng lực làm việc trong các cơ quan quản lý nhà nước,&nbsp; môi trường công nghiệp, công nghệ cao; giảng dạy, nghiên cứu, quản lý tại các trường đại học và cao đẳng, các viện và trung tâm nghiên cứu khoa học; các nhà máy xí nghiệp, công ty và khu công nghiệp, các cơ sở sản xuất kinh doanh có liên quan đến lĩnh vực công nghệ, kỹ thuật môi trường, môi trường và khai thác tài nguyên, giảm thiểu ô nhiễm môi trường, giữ gìn và cải tạo chất lượng môi trường.&nbsp; Ngoài ra có thể làm việc tại các cơ quan, tổ chức quốc tế.</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Một số hướng nghiên cứu chủ yếu:</span></div>
 													<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Công nghệ xử lý nước thải, xử lý nước cấp; Công nghệ xử lý khí thải và ô nhiễm không khí; Công nghệ xử lý chất thải rắn, chôn lấp chất thải, xử lý rác thải; Công nghệ xử lý chất thải nguy hại; Sử dụng phương pháp mô hình toán học trong công nghệ môi trường; Phân tích môi trường, đánh giá tác động môi trường; Kiểm toán chất thải; Kiểm soát ô nhiễm môi trường…</span></p>
-													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="/Portals/0/_UPLOAD/Cong nghe ky thuat moi truong_CLC.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></span><span style="font-family: Tahoma; font-size: 13px;"><br>
+													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="\php-intership-team\img\img-nhung/Cong-nghe-ky-thuat-moi-truong_CLC.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></span><span style="font-family: Tahoma; font-size: 13px;"><br>
 													</span></p>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">3. Ngành Khoa học và công nghệ thực phẩm</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Mục tiêu đào tạo:</span></div>
@@ -91,7 +91,7 @@
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Sinh viên sau khi tốt nghiệp có cơ hội làm việc tại Các cơ quan quản lý nhà nước về vệ sinh an toàn thực phẩm, các Viên nghiên cứu, Các công ty, tập đoàn lớn về thực phẩm; Các trường đại học, cao đẳng, Các tổ chức quốc tế, Quản lý tại các chuỗi nhà hàng khách sạn, hoặc khởi nghiệp tự tạo việc làm cho mình và cho bạn</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Một số hướng nghiên cứu chủ yếu:</span></div>
 													<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Công nghệ chế biến thực phẩm; Kiểm định chất lượng và an toàn thực phẩm; Thực phẩm và dinh dưỡng cộng đồng; Thực phẩm chức năng; Độc học thực phẩm;</span></p>
-													<p style="background-color: #ffffff; text-align: justify;"><strong style="font-family: Tahoma; font-size: small;"><a href="/Portals/0/_UPLOAD/KH_CNTP.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></strong></p>
+													<p style="background-color: #ffffff; text-align: justify;"><strong style="font-family: Tahoma; font-size: small;"><a href="\php-intership-team\img\img-nhung/KH_CNTP.pdf" target="_blank" tabindex="0">Thông tin chi tiết&nbsp;</a></strong></p>
 													<p style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">4. Ngành Khoa học đất</span></p>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Mục tiêu đào tạo:</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;"><em>Về kiến thức:</em>&nbsp;Chương trình đào tạo trang bị cho sinh viên những kiến thức cơ bản và hiện đại về khoa học đất để phục vụ nghiên cứu cơ bản, nghiên cứu ứng dụng và công tác trong các lĩnh vực: sử dụng hợp lý tài nguyên đất nhằm phát triển bền vững nông lâm nghiệp, quản lý đất nhiệt đới, quy hoạch sử dụng đất và đánh giá tác động đến tài nguyên và môi trường đất gây nên do các hoạt động sản xuất và đời sống của con người.</span></div>
@@ -102,7 +102,7 @@
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Sinh viên tốt nghiệp ngành Khoa học đất&nbsp; công tác tại các cơ quan quản lý nhà nước, quản lý đất đai, có đủ năng lực giảng dạy, nghiên cứu khoa học trong lĩnh vực ngành; trực tiếp lập các dự án về quản lý và sử dụng đất, đề xuất các biện pháp cải tạo và đánh giá tác động của các hoạt động sản xuất đến tính chất đất, đến các hệ thống nông nghiệp đặc biệt ở các vùng nhiệt đới và quy hoạch môi trường đất, hoặc trực tiếp chỉ đạo sản xuất nông - lâm nghiệp, phát triển nông thôn và quản lý tài nguyên đất; các lĩnh vực quản lý, bảo vệ tài nguyên và môi trường.</span></div>
 													<div style="background-color: #ffffff; text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Một số hướng nghiên cứu chủ yếu:</span></div>
 													<p style="background-color: #ffffff; text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">Hoá học đất, dinh dưỡng khoáng và cây trồng; Các quá trình thoái hóa đất và biện pháp cải tạo đất thoái hóa: Quá trình sa mạc hóa, phèn hóa, mặn hóa, chua hóa đất...; ảnh hưởng của các điều kiện kinh tế xã hội, các tác động của sự thay đổi các điều kiện tự nhiên đất, nước, không khí; Xử lý chất thải nông nghiệp, triển khai ứng dụng trong thực tế; ô nhiễm đất, các quá trình lan nhiễm, tác động đến môi trường và hệ sinh thái, các biện pháp kiểm soát và xử lý ô nhiễm môi trường đất; Quy hoạch sử dụng hợp lý tài nguyên đất; Ứng dụng viễn thám và GIS trong nghiên cứu và quản lý tài nguyên đất; Hệ thống nông nghiệp, nông nghiệp sinh thái học và sản xuất nông nghiệp bền vững; Sinh thái môi trường đất.</span></p>
-													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="/Portals/0/_UPLOAD/Khoa hoc dat.pdf" target="_blank" tabindex="0">Thông tin chi tiết</a>&nbsp;</span><span style="font-family: Tahoma; font-size: 13px;"><br>
+													<p style="background-color: #ffffff; text-align: justify;"><span style="background-color: #ffffff; font-weight: 700; font-size: small; font-family: Tahoma;"><a href="\php-intership-team\img\img-nhung/Khoa-hoc-dat.pdf" target="_blank" tabindex="0">Thông tin chi tiết</a>&nbsp;</span><span style="font-family: Tahoma; font-size: 13px;"><br>
 													</span></p>
 													<div style="background-color: #ffffff; text-align: justify;">
 													<div style="text-align: justify;"></div>
@@ -110,15 +110,15 @@
 													<div style="text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Bậc thạc sĩ:</span></div>
 													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a tabindex="0">Khoa học môi trường</a>&nbsp;<br>
 													</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/ThS.%20Ky-thuat-moi-truong.pdf" target="_blank" tabindex="0">Kỹ thuật môi trường</a>&nbsp;</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/ThS.%20Moi%20truong%20va%20PTBV%20-Nghien%20cuu.pdf" target="_blank" tabindex="0">Môi trường và phát triển bền vững (Định hướng nghiên cứu)</a>&nbsp;</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/ThS-Moi-truong-va-PTBV%20Ung%20dung.pdf" target="_blank" tabindex="0">Môi trường và phát triển bền vững (Định hướng ứng dụng)</a>&nbsp;</span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/ThS. Ky-thuat-moi-truong.pdf" target="_blank" tabindex="0">Kỹ thuật môi trường</a>&nbsp;</span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/ThS. Ky-thuat-moi-truong.pdf" target="_blank" tabindex="0">Môi trường và phát triển bền vững (Định hướng nghiên cứu)</a>&nbsp;</span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/ThS.Moi-truong-va-PTBV-Nghien-cuu.pdf" target="_blank" tabindex="0">Môi trường và phát triển bền vững (Định hướng ứng dụng)</a>&nbsp;</span></div>
 													<div style="text-align: justify;"><span style="font-weight: 700; font-family: Tahoma; font-size: 13px;">Bậc Tiến sĩ</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/TS.Khoa-hoc-moi-truong.pdf" target="_blank" tabindex="0">Khoa học môi trường</a>&nbsp;<br>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/ThS-Moi-truong-va-PTBV-Ung-dung.pdf" target="_blank" tabindex="0">Khoa học môi trường</a>&nbsp;<br>
 													</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/TS.%20Moi-truong-dat-va-nuoc.pdf" target="_blank" tabindex="0">Môi trường đất và nước</a>&nbsp;</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/TS.-Ki%20thuat-moi%20truong.pdf" target="_blank" tabindex="0">Kỹ thuật môi trường</a>&nbsp;</span></div>
-													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="/Portals/0/_UPLOAD/TS.Khoa%20hoc%20dat.pdf" target="_blank" tabindex="0">Khoa học đất&nbsp;</a></span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/TS.Khoa-hoc-moi-truong.pdf" target="_blank" tabindex="0">Môi trường đất và nước</a>&nbsp;</span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/TS.Moi-truong-dat-va-nuoc.pdf" target="_blank" tabindex="0">Kỹ thuật môi trường</a>&nbsp;</span></div>
+													<div style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">&nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href="\php-intership-team\img\img-nhung/TS.Khoa-hoc-dat.pdf" target="_blank" tabindex="0">Khoa học đất&nbsp;</a></span></div>
 													<p>&nbsp;</p>
 													</div>
 													</div>
@@ -137,12 +137,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -235,10 +235,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>

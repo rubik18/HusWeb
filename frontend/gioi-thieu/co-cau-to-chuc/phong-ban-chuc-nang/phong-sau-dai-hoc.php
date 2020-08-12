@@ -12,17 +12,17 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Giới thiệu</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/gioi-thieu.php" class="item">Giới thiệu</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Cơ cấu tổ chức</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/co-cau-to-chuc.php" class="item">Cơ cấu tổ chức</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng ban chức năng</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-ban-chuc-nang.php" class="item">Phòng ban chức năng</a>
                         &nbsp;
-                        <img alt="*" src="http://www.hus.vnu.edu.vn/images/breadcrumb.gif">
-                        <a href="#" class="item">Phòng Sau đại học</a>
+                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
+                        <a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-sau-dai-hoc.php" class="item">Phòng Sau đại học</a>
                     </ol>
                 </div>
             </div>
@@ -34,21 +34,21 @@
                 <!-- start nội dung-cơ cấu tổ chức -Phòng ban chức năng- Phòng Sau đại học-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
                                             <h1>Phòng Sau đại học</h1>
                                         </div>
                                         <div class="post-content">
-                                            <div id="dnn_ctr15974_ContentPane">
-                                            	<div id="dnn_ctr15974_ModuleContent">
-                                            		<div id="dnn_ctr12673_HtmlModule_lblContent" class="Normal">
+                                            <div >
+                                            	<div >
+                                            		<div  class="Normal">
 														<p class="MsoNormal" style="background-color: #ffffff; margin-bottom: 0.0001pt; text-align: justify; line-height: 21px;"><span lang="EN-US">&nbsp; &nbsp; &nbsp;Với chức năng tham mưu, giúp việc cho Hiệu trưởng trong công tác quản lý và tổ chức đào tạo, bồi dưỡng sau đại học, Phòng Sau đại học là đơn vị trực tiếp tư vấn, hỗ trợ các thí sinh, học viên và giảng viên về các quy trình và thủ tục liên quan đến đào tạo sau đại học, từ giai đoạn tuyển sinh cho đến lúc tốt nghiệp. Đồng thời, Phòng đóng vai trò là cầu nối giữa các học viên và giảng viên với các Khoa và Phòng chức năng của Nhà trường. Vai trò cầu nối này được thể hiện qua sự phối hợp chặt chẽ với các Khoa trong công tác đào tạo và quản lý sau đại học; Với phòng Chính trị và Công tác sinh viên và phòng Kế hoạch – Tài chính trong các vấn đề liên quan đến học bổng, học phí, kinh phí giảng dạy, quản lý, v.v.; Với phòng Khoa học Công nghệ trong nghiên cứu khoa học của học viên; Với phòng Hành chính – Đối ngoại trong các vấn đề liên quan đến liên kết quốc tế; Với phòng Quản trị - Bảo vệ đối với cơ sở vật chất, v.v.</span></p>
-														<p class="MsoNormal" style="background-color: #ffffff; margin-bottom: 0.0001pt; text-align: justify; line-height: 21px;"><span lang="EN-US">&nbsp; &nbsp; &nbsp;Phòng Sau đại học hiện có 4 phòng làm việc là: 404, 405, 406 và 420 Nhà T1, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội, điện thoại: 84 24-38582542; 84 24-35583307; email:&nbsp;<a href="mailto:saudaihoc@hus.edu.vn">saudaihoc@hus.edu.vn</a>,&nbsp;<a href="mailto:saudaihoc@hus.edu.vn"><span style="color: #0070c0;">saudaihoc.kht</span></a><span style="color: #0070c0;"><span style="text-decoration: underline;">n@</span>gmail.com</span></span></p>
+														<p class="MsoNormal" style="background-color: #ffffff; margin-bottom: 0.0001pt; text-align: justify; line-height: 21px;"><span lang="EN-US">&nbsp; &nbsp; &nbsp;Phòng Sau đại học hiện có 4 phòng làm việc là: 404, 405, 406 và 420 Nhà T1, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội, điện thoại: 84 24-38582542; 84 24-35583307; email:&nbsp;<a style="font-weight: bold;" href="mailto:saudaihoc@hus.edu.vn">saudaihoc@hus.edu.vn</a>,&nbsp;<a style="font-weight: bold;" href="mailto:saudaihoc@hus.edu.vn"><span style="color: #0070c0;">saudaihoc.kht</span></a><span style="color: #0070c0;"><span style="text-decoration: underline;">n@</span>gmail.com</span></span></p>
 													</div>
                                             	</div>
                                             </div>
@@ -65,12 +65,12 @@
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 
@@ -163,10 +163,10 @@
                     <div class="bordershadown borderorange mb-15 pd-10">
                         <ul class="bannerrighttop">
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
+                                <a href="#" target="_blank" alt="Website 60 nam"><img class="img-responsive" src="\php-intership-team\img\img-nhung/hus60y.png" alt="Website 60 nam" width="330" height="91"></a>
                             </li>
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="http://www.hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
+                                <a href="#" target="_blank" alt="Website cựu sinh viên"><img class="img-responsive" src="\php-intership-team\img\img-nhung/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124"></a>
                             </li>
                         </ul>
                     </div>
