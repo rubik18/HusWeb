@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">   
+    <link rel="icon" href="" type="image/ico" sizes="16x16">   
 </head>
 <body id="Body">
 
@@ -27,11 +27,11 @@
                             
                             <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\bac-dai-hoc.php" class="item1">Bậc Đại học</a></li>&nbsp;
 
-                            <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                            <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                             <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong.php" class="item1">Quản lý Tài nguyên Môi trường, Địa chất Ứng dụng</a></li>
 
@@ -114,7 +114,7 @@
 											<div id="dnn_ctr12659_ContentPane"><!-- Start_Module_12659 -->
 												<div id="dnn_ctr12659_ModuleContent">
 	
-													<link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+													<link href="/php-intership-team/css/khoa-style-duc.css" rel="stylesheet">
 														<div class="content">
     														<div id="jquery-accordion-menu" class="jquery-accordion-menu">
         														<div class="jquery-accordion-menu-header">Bậc Đại học </div>
@@ -181,7 +181,7 @@
 
 											                <div class="resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
 																<div class="tieude"><a href="#" class="item1">Khoa học và công nghệ thực phẩm</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/kh_cntp.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\kh_cntp.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -194,7 +194,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-1">
 																<div class="tieude"><a href="#" class="item1">Công nghệ kỹ thuật môi trường chất lượng cao</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/cong-nghe-ky-thuat-moi-truong_clc.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\cong-nghe-ky-thuat-moi-truong_clc.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -207,7 +207,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-2">
 																<div class="tieude"><a href="#" class="item1">Khoa học Môi trường</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/khoa-hoc-moi-truong_chuan.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\khoa-hoc-moi-truong_chuan.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -218,7 +218,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-3">
 																<div class="tieude"><a href="#" class="item1">Khoa học Môi trường chất lượng cao</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/khoa-hoc-moi-truong_clc.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\khoa-hoc-moi-truong_clc.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -229,7 +229,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-4">
 																<div class="tieude"><a href="#" class="item1">Công nghệ kỹ thuật môi trường</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/ky-thuat-moi-truong_chuan.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\ky-thuat-moi-truong_chuan.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -240,7 +240,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-5">
 																<div class="tieude"><a href="#" class="item1">Khoa học Môi trường tiên tiến</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn//DATA/IMAGES/2020/05/khoa-hoc-moi-truong_tien-tien.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\khoa-hoc-moi-truong_tien-tien.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 
@@ -251,7 +251,7 @@
 
 											                <div class="resp-tab-content" aria-labelledby="tab_item-6">
 																<div class="tieude"><a href="#" class="item1">Khoa học Đất</a></div>
-												                    <p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vnu/DATA/IMAGES/2020/05/khoa-hoc-dat.pdf" width="100%"></iframe></p>
+												                    <p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong\khoa-hoc-dat.pdf" width="100%"></iframe></p>
 
 																	<p>&nbsp;</p>
 

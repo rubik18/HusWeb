@@ -5,7 +5,7 @@
     <title>Đào tạo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="\php-intership-team\img\favicon.ico" type="image/ico" sizes="16x16">
     
 </head>
 
@@ -363,7 +363,7 @@
                                     <div id="dnn_ctr11045_ContentPane"><!-- Start_Module_11045 -->
                                         <div id="dnn_ctr11045_ModuleContent">
     
-                                        <link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                        <link href="\php-intership-team\css\khoa-style-duc.css" rel="stylesheet">
 
                                             <div class="content">
                                                 <div id="jquery-accordion-menu" class="jquery-accordion-menu">
@@ -480,95 +480,20 @@
                             <ul class="bannerrighttop">
                                 
                                 <li style="display: block; padding-bottom: 10px;">
-                                    <a href="http://60nam.hus.vnu.edu.vn/" target="_blank" alt="Website 60 nam">
-                                        <img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/08/hus60y.png" alt="Website 60 nam" width="330" height="91">
+                                    <a href="" target="_blank" alt="Website 60 nam">
+                                        <img class="img-responsive" src="\php-intership-team\img\dao-tao\hus60y.png" alt="Website 60 nam" width="330" height="91">
                                     </a>
                                 </li>
                             
                                 <li style="display: block; padding-bottom: 10px;">
-                                    <a href="http://alumni.hus.vnu.edu.vn/" target="_blank" alt="Website cựu sinh viên">
-                                        <img class="img-responsive" src="http://hus.vnu.edu.vn/DATA/VIDEO/2019/07/cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124">
+                                    <a href="" target="_blank" alt="Website cựu sinh viên">
+                                        <img class="img-responsive" src="\php-intership-team\img\dao-tao\cuu-sinhvien.jpg" alt="Website cựu sinh viên" width="330" height="124">
                                     </a>
                                 </li>
                                     
                             </ul>
 
 
-                        </div>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post" style="display: none;">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <img src="http://hus.vnu.edu.vn/static//hus/img/blog-img/bokeh_blur_nature_1000px.jpg" alt="">
-                                <!-- Catagory -->
-                                <div class="post-cta">
-                                    <p class="title">TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QGHN</p>
-                                    <p class="sample">Trường ĐHKTN ra đời là sự tiếp nối, kế thừa và phát huy truyền thống hơn 55 của Trường ĐHTH Hà Nội - Trường đại học đầu tiên và lớn nhât của đất nước</p>
-                                    <p class="readmore"><a href="/gioi-thieu/lich-su-phat-trien.html"><i class="fa fa-pencil"></i>Tìm hiểu thêm</a></p>
-                                </div>
-                                <!-- Video Button -->
-
-                            </div>
-                            <!-- Post Content -->
-
-                        </div>
-                        
-                        <!-- Single Blog Post -->
-                        <div class="bordershadown mb-15" style="display:none">
-                            <div class="row title">
-                                <h5><i class="fa fa-circle"></i>Sự kiện</h5>
-                                <span><a href="javascript:void(0);">Xem tất cả <i class="fa fa-angle-right"></i></a></span>
-                            </div>
-
-                            <!-- Single Blog Post -->
-                            <div class="single-blog-post post-style-2 d-flex align-items-center ">
-                                <!-- Post Thumbnail -->
-                                <div class="post-thumbnail">
-                                    <i class="fa fa-calendar"></i>
-                                </div>
-                                <!-- Post Content -->
-                                <div class="post-content">
-                                    <div class="post-meta">
-                                        <p><a href="javascript:void(0);" class="post-date">21/03/2019</a></p>
-                                    </div>
-                                    <a href="javascript:void(0);" class="headline">
-                                        <h5>Hội thảo quốc tế Sinh học từ hệ sinh thái rừng</h5>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post -->
-                        <div class="single-blog-post post-style-2 d-flex align-items-center">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <i class="fa fa-calendar"></i>
-                            </div>
-                            <!-- Post Content -->
-                            <div class="post-content">
-                                <div class="post-meta">
-                                    <p><a href="javascript:void(0);" class="post-date">21/03/2019</a></p>
-                                </div>
-                                <a href="javascript:void(0);" class="headline">
-                                    <h5>Hội thảo quốc tế Sinh học từ hệ sinh thái rừng</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post post-style-2 d-flex align-items-center">
-                            <!-- Post Thumbnail -->
-                            <div class="post-thumbnail">
-                                <i class="fa fa-calendar"></i>
-                            </div>
-                            <!-- Post Content -->
-                            <div class="post-content">
-                                <div class="post-meta">
-                                    <p><a href="javascript:void(0);" class="post-date">21/03/2019</a></p>
-                                </div>
-                                <a href="javascript:void(0);" class="headline">
-                                    <h5>Hội thảo quốc tế Sinh học từ hệ sinh thái rừng</h5>
-                                </a>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>

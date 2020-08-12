@@ -6,7 +6,7 @@
    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
-    <link rel="icon" href="http://hus.vnu.edu.vn/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="" type="image/ico" sizes="16x16">
 
 </head>
 
@@ -30,11 +30,11 @@
                             
                         <li><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\daotao.php" class="item1">Đào tạo</a></li>&nbsp;
                         
-                        <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                        <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                         <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\bac-dai-hoc.php" class="item1">Bậc Đại học</a></li>&nbsp;
 
-                        <img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;
+                        <img alt="*" src="\php-intership-team\img\dao-tao\breadcrumb.gif">&nbsp;
 
                         <li><a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php" class="item1">Địa chất</a></li>
 
@@ -121,7 +121,7 @@
 								<div id="dnn_ctr12659_ContentPane"><!-- Start_Module_12659 -->
 									<div id="dnn_ctr12659_ModuleContent">
 	
-										<link href="http://hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+										<link href="/php-intership-team/css/khoa-style-duc.css" rel="stylesheet">
 											<div class="content">
     											<div id="jquery-accordion-menu" class="jquery-accordion-menu">
         											<div class="jquery-accordion-menu-header">Bậc Đại học </div>
@@ -192,7 +192,7 @@
                 										<div class="resp-tab-content resp-tab-content-active" style="display:block" aria-labelledby="tab_item-0">
 															<div class="tieude"><a href="#" class="item1">Địa chất </a>
 															</div>
-                    											<p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn/DATA/IMAGES/2020/06/nganh_diachat_khoadiachat.pdf" width="100%"></iframe></p>
+                    											<p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\dia-chat\nganh_diachat_khoadiachat.pdf" width="100%"></iframe></p>
 
                 										</div>
             
@@ -201,7 +201,7 @@
 
                 										<div class="resp-tab-content" aria-labelledby="tab_item-1">
 															<div class="tieude"><a href="#" class="item1">Quản lý Tài nguyên và Môi trường</a></div>
-                    											<p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn/DATA/IMAGES/2020/06/nganh-quan-ly-tn-va-mt_khoadiachat.pdf" width="100%"></iframe></p>
+                    											<p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\dia-chat\nganh-quan-ly-tn-va-mt_khoadiachat.pdf" width="100%"></iframe></p>
 
                 										</div>
             
@@ -211,7 +211,7 @@
                 										<div class="resp-tab-content" aria-labelledby="tab_item-2">
 															<div class="tieude"><a href="#" class="item1">Kỹ thuật Địa chất</a>
 															</div>
-                    										<p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn/DATA/IMAGES/2020/06/nganh-ky-thuat-dia-chat_khoadiachat.pdf" width="100%"></iframe></p>
+                    										<p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\dia-chat\nganh-ky-thuat-dia-chat_khoadiachat.pdf" width="100%"></iframe></p>
 
                 										</div>
             
@@ -220,7 +220,7 @@
                 										<div class="resp-tab-content" aria-labelledby="tab_item-3">
 															<div class="tieude"><a href="#" class="item1">Công nghệ Quan trắc và Giám sát Tài nguyên Môi trường</a>
 															</div>
-                    											<p style="text-align: center;"><iframe height="700px" src="http://hus.vnu.edu.vn/DATA/IMAGES/2020/06/cnqt_gstnmt_khoadc.pdf" width="100%"></iframe></p>
+                    											<p style="text-align: center;"><iframe height="700px" src="\php-intership-team\img\dao-tao\bac-dai-hoc\dia-chat\cnqt_gstnmt_khoadc.pdf" width="100%"></iframe></p>
 
                 										</div>
             
