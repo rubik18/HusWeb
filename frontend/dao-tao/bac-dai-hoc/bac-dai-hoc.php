@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head id="Head">
-
     <title>Bậc đại học</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-    <link rel="icon" href="" type="image/ico" sizes="16x16">
-</head>
-
-
 <body>
     
     <?php
     include "../../header.html"
     ?>
     <!-- hết header -->
-
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+    <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+    
     <div class="main-content-wrapper">
         <div class="container">
             <div class="breakcrum mb-30">
@@ -1026,11 +1019,13 @@
                                                             <li class=""><a href="\php-intership-team\frontend\dao-tao\gioi-thieu\gioi-thieu.php">Giới thiệu chung</a></li>
 
                                                            
-                                                        <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
-                                                        <li class="trum active">
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Bậc đại học
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                        <li class="trum">
+
+                                                             <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+
+                                                            <a href="#510" class="submenu spn">
+                                                                <span class="ink animate-ink" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Bậc đại học
+                                                                <span class="submenu-indicator" >+</span>
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="5045">
@@ -1038,7 +1033,7 @@
                                                                         <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php">Địa chất</a>
                                                                     </li>
 
-                                                                    <li class="" style="padding: 0px;">
+                                                                    <li class="li-me" style="padding: 0px;">
                                                                         <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-li-quan-li-dat-dai.php">Địa lý, Quản lý đất đai và GISc</a>
                                                                     </li>
 
@@ -1052,20 +1047,20 @@
 
                                                                     </li>
 
-                                                                    <li class="" style="padding: 0px;">
+                                                                    <li class="li-me" style="padding: 0px;">
                                                                         <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\tai-nguyen-moi-truong.php">Quản lý Tài nguyên Môi trường, Địa chất Ứng dụng</a>
                                                                     </li>
 
-                                                                    <li class="" style="padding: 0px;">
+                                                                    <li class="li-me" style="padding: 0px;">
                                                                         <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\sinh-hoc-va-cong-nghe.php">Sinh học và Công nghệ</a>
                                                                     </li>
 
-                                                                    <li class="" style="padding: 0px;"> 
+                                                                    <li class="li-me" style="padding: 0px;"> 
                                                                       <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\toan-ung-dung.php">Toán, Toán ứng dụng và Tin học</a>
 
                                                                     </li>
 
-                                                                    <li class="" style="padding: 0px;">
+                                                                    <li class="li-me" style="padding: 0px;">
                                                                     <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\vat-li.php">Vật lí và Công nghệ</a>
                                                                     </li>
 
@@ -1073,16 +1068,17 @@
                                                             </div>
                                                         </li>
 
-                                                         <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+                                                         
                                                         <li class="trum">
-                                                            <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
-                                                            <a href="#510" class="submenu">
-                                                                <span class="ink animate-ink spn" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Sau đại học
-                                                                <span class="submenu-indicator spn" >+</span>
+                                                    <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
+
+                                                            <a href="#510" class="submenu spn">
+                                                                <span class="ink animate-ink" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Sau đại học
+                                                                <span class="submenu-indicator" >+</span>
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="5045">
-                                                                    <li class="active li-me" style="padding: 0px;">
+                                                                    <li class="active" style="padding: 0px;">
                                                                     <a href="\php-intership-team\frontend\dao-tao\sau-dai-hoc\toan-co-tin.php">Toán - Cơ - Tin học</a>
                                                                     </li>
 
@@ -1105,6 +1101,7 @@
                                                                 </ul>
                                                             </div>
                                                         </li>
+
 
                                                             <li class="">
                                                                 <a href="https://hsgs.edu.vn/">Trung học phổ thông</a>
@@ -1163,6 +1160,6 @@
     include "../../footer.html"
     ?>
 </body>
-</html>
+
 
     

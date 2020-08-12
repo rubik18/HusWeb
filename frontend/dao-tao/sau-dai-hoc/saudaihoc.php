@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
 	<title>Sau đại học</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
-    <link rel="icon" href="" type="image/ico" sizes="16x16">
+
 <body>
 
  <?php
     include "../../header.html"
     ?>
     <!-- hết header -->
-
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
 
 <div class="main-content-wrapper">
 	<div class="container">
@@ -96,4 +92,3 @@
 
     
 </body>
-</html>
