@@ -11,14 +11,14 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Khoa học - Công nghệ</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Công bố khoa học</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Công bố khoa học</a>
                          <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Bài báo Hội nghị khoa học trong nước</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-trong-nuoc.php" class="item">Bài báo Hội nghị khoa học trong nước</a>
                     </ol>
                 </div>
             </div>
@@ -30,15 +30,15 @@
                 <!-- start nội dung-sứ mang_tầm nhìn -->
                 <div class="col-12 col-lg-12">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <h4 class="header-title m-t-0"><span id="dnn_ctr15966_TITLE1_titleLabel" class="m_title">Bài báo đăng trong kỷ yếu HNKH trong nước</span></h4>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <h4 class="header-title m-t-0"><span  class="m_title">Bài báo đăng trong kỷ yếu HNKH trong nước</span></h4>
+                                <div>
                                     <!-- Start_Module_10672 -->
-                                <div id="dnn_ctr15966_ContentPane">
+                                <div >
                                     <!-- Start_Module_15966 -->
-                                   <div id="dnn_ctr15967_ModuleContent">
+                                   <div >
     
                                         <style type="text/css">
                                                 .table .alrpd10 {

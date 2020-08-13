@@ -11,11 +11,11 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Khoa học - Công nghệ</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Đề tài, dự án NCKH</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/de-tai-du-an-CNKH.php" class="item">Đề tài, dự án NCKH</a>
                         
                     </ol>
                 </div>
@@ -409,8 +409,8 @@
 																		<div class="list-page">
 																		    <ul class="pagination pagination-split">
 																		         <li></li>
-																		         <li><a  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=1">1</a></li>
-																		         <li><a  class="active" href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=2">2</a></li>
+																		         <li><a class="active"  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=1">1</a></li>
+																		         <li><a  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=2">2</a></li>
 																		         <li><a  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=3">3</a></li>
 																		         <li><a  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=4">4</a></li>
 																		         <li><a  href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/de-tai-du-an-nckh.html?currentpage=5">5</a></li>

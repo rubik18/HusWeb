@@ -1,6 +1,6 @@
 
 		$(document).ready(function(){
-      $(".btn").click(function(){
+      $(".nhung").click(function(){
 
        if ($(this).parents(".trum").find(".content").hasClass("d-none")) {
             

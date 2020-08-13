@@ -11,15 +11,15 @@ s<title>Hội nghị khoa học trong nước</title>
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Khoa hoc - Công nghệ</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa hoc - Công nghệ</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Hội nghị khoa học</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc.php" class="item">Hội nghị khoa học</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Hội nghị khoa học trong nước</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/hoi-nghi-khoa-hoc/hoi-nghi-khoa-hoc-trong-nuoc.php" class="item">Hội nghị khoa học trong nước</a>
                         
                     </ol>
                 </div>
@@ -32,11 +32,11 @@ s<title>Hội nghị khoa học trong nước</title>
                 <!-- start nội dung-Giới thiệu chung-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10737_ContentPane"><!-- Start_Module_10737 --><div id="dnn_ctr10737_ModuleContent">
-									<div id="list_news">
+                        <div >
+                            <div class="DnnModule">
+                                <a ></a>
+                                <div><!-- Start_Module_10737 --><div id="dnn_ctr10737_ModuleContent">
+									<div >
 									    <div class="list-news">
 									        <div class="tab-pane fade show">
 									    
@@ -112,12 +112,12 @@ s<title>Hội nghị khoa học trong nước</title>
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
-                            <div class="DnnModule DnnModule-Navigation-ShowPageSub DnnModule-11038">
-                                <a name="11038"></a>
+                            <div class="DnnModule ">
+                                <a ></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        <link href="http://www.hus.vnu.edu.vn/DesktopModules/NV_Navgiation/Display/Khoastyle.css" rel="stylesheet">
+                                       
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">KHOA HỌC - CÔNG NGHỆ </div>
@@ -126,7 +126,7 @@ s<title>Hội nghị khoa học trong nước</title>
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
                                                            <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                        <a href="#5510" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Hội nghị khoa học<span  class="submenu-indicator" >+</span></a>
                                                         <div class="content">
                                                             <ul class="submenu" style="display: block;" id="5510">
                                                                 <li class="active"><a style="color: #017dc5;
@@ -144,7 +144,7 @@ s<title>Hội nghị khoa học trong nước</title>
                                                     <li class="li-me"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/giai-thuong-KH-CN.php">Giải thưởng KH-CN</a></li>
                                                     <li class="li-me trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Công bố khoa học<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                        <a href="#5510" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Công bố khoa học<span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
                                                             <li class=""><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-ISI-SCOPLUS.php">Bài báo ISI/SCOPLUS</a></li>
                                                             

@@ -11,11 +11,11 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Khoa học - Công nghệ</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Giải thưởng KH-CN</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/giai-thuong-KH-CN.php" class="item">Giải thưởng KH-CN</a>
                         
                     </ol>
                 </div>
@@ -28,10 +28,10 @@
                 <!-- start nội dung-Giải thưởng KH-CN-->
                 <div class="col-12 col-lg-12">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-GiaiThuongKHCNDisplayIndex DnnModule-11052">
-                                <a name="10672"></a>
-                                <h4 class="header-title m-t-0"><span id="dnn_ctr11052_TITLE1_titleLabel" class="m_title">Giải thưởng KH-CN</span></h4>
+                        <div>
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <h4 class="header-title m-t-0"><span class="m_title">Giải thưởng KH-CN</span></h4>
                                 <div class="post-container">
                                 	<div class="post-content">
                                 		<div>

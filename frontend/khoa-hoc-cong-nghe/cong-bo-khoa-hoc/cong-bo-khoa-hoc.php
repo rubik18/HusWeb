@@ -1,4 +1,4 @@
-<title>Bài báo Hội nghị khoa học quốc tế</title>
+<title>Bài báo ISI/SCOPLUS</title>
 <!-- start header -->
 <?php include "../../header.html" ?>
 <!-- end header -->
@@ -16,9 +16,7 @@
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
                         <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Công bố khoa học</a>
-                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
-                        &nbsp;
-                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te.php" class="item">Bài báo Hội nghị khoa học quốc tế</a>
+                        
                     </ol>
                 </div>
             </div>
@@ -32,73 +30,72 @@
                     <div class="single-blog-content mb-50">
                         <div >
                             <div class="DnnModule ">
-                                <a ></a>
-                                <h4 class="header-title m-t-0"><span  class="m_title">Bài báo đăng trong kỷ yếu HNKH quốc tế</span></h4>
+                                <a name="10672"></a>
                                 <div >
                                     <!-- Start_Module_10672 -->
-                                   <div ><!-- Start_Module_15966 --><div>
-    
-                                    <style type="text/css">
-                                        .table .alrpd10 {
-                                            text-align: right;
-                                            padding: 10px 10px 0px 0px;
-                                        }
+                                    <div class="post-meta">
+                                           <h1>Công bố khoa học</h1>
+                                        </div>
+                                    <div >
+                                        <style type="text/css">
+                                            .table .alrpd10 {
+                                                text-align: right;
+                                                padding: 10px 10px 0px 0px;
+                                            }
 
-                                        .table tr td {
-                                            border-top: 1px solid #ddd !important;
-                                            border-left: 0px;
-                                        }
+                                            .table tr td {
+                                                border-top: 1px solid #ddd !important;
+                                                border-left: 0px;
+                                            }
 
-                                        .table-bordered td, .table-bordered th {
-                                            border: 1px solid #dee2e6;
-                                            padding: 5px;
-                                            text-align: left;
-                                        }
+                                            .table-bordered td, .table-bordered th {
+                                                border: 1px solid #dee2e6;
+                                                padding: 5px;
+                                                text-align: left;
+                                            }
 
-                                        .table-bordered tr td ul {
-                                            margin-left: 10px;
-                                        }
-
-                                            .table-bordered tr td ul li {
+                                            .table-bordered tr td ul {
                                                 margin-left: 10px;
                                             }
 
-                                                .table-bordered tr td ul li i {
-                                                    color: red;
-                                                    padding-right: 5px;
+                                                .table-bordered tr td ul li {
+                                                    margin-left: 10px;
                                                 }
 
-                                        .congbokh .form-control {
-                                           border-radius: 0px;
-                                        padding: 5px;
-                                        font-size: 14px;
-                                        box-shadow: 0px 1px 0px 0px #cacaca;
-                                        margin-bottom: 10px;height: 30px !important;
-                                        }
-                                    </style>
+                                                    .table-bordered tr td ul li i {
+                                                        color: red;
+                                                        padding-right: 5px;
+                                                    }
 
-                                    <div id="dnn_ctr15966_ListDetail_UpdatePanel1">
-                                            
-                                            <div id="dnn_ctr15966_ListDetail_Div1" style="width: 100%; display: block">
+                                            .congbokh .form-control {
+                                               border-radius: 0px;
+                                            padding: 5px;
+                                            font-size: 14px;
+                                            box-shadow: 0px 1px 0px 0px #cacaca;
+                                            margin-bottom: 10px;height: 30px !important;
+                                            }
+                                        </style>
+                                        <div id="dnn_ctr15963_ListDetail_UpdatePanel1">
+                                            <div id="dnn_ctr15963_ListDetail_Div1" style="width: 100%; display: block">
                                                 <div class="box box-info">
 
                                                     <div class="form-horizontal congbokh">
                                                         <div class="box-body ">
                                                             <div class="row">
                                                                 <div class="col-md-6">
-                                                                    <input name="dnn$ctr15966$ListDetail$txttencongtrinh" type="text" id="dnn_ctr15966_ListDetail_txttencongtrinh" class="form-control" placeholder="Tên công trình">
+                                                                    <input name="dnn$ctr15963$ListDetail$txttencongtrinh" type="text" id="dnn_ctr15963_ListDetail_txttencongtrinh" class="form-control" placeholder="Tên công trình">
                                                                 </div>
                                                                 <div class="col-md-6">
-                                                                    <input name="dnn$ctr15966$ListDetail$txttacgia" type="text" id="dnn_ctr15966_ListDetail_txttacgia" class="form-control" placeholder="Tác giả">
+                                                                    <input name="dnn$ctr15963$ListDetail$txttacgia" type="text" id="dnn_ctr15963_ListDetail_txttacgia" class="form-control" placeholder="Tác giả">
                                                                 </div>
 
                                                             </div>
                                                             <div class="row">
                                                                 <div class="col-md-6">
-                                                                    <input name="dnn$ctr15966$ListDetail$txttacgiahus" type="text" id="dnn_ctr15966_ListDetail_txttacgiahus" class="form-control" placeholder="Tác giả HUS">
+                                                                    <input name="dnn$ctr15963$ListDetail$txttacgiahus" type="text" id="dnn_ctr15963_ListDetail_txttacgiahus" class="form-control" placeholder="Tác giả HUS">
                                                                 </div>
                                                                 <div class="col-md-2">
-                                                                    <select name="dnn$ctr15966$ListDetail$ddlnambanhanh" id="dnn_ctr15966_ListDetail_ddlnambanhanh" class="form-control">
+                                                                    <select name="dnn$ctr15963$ListDetail$ddlnambanhanh" id="dnn_ctr15963_ListDetail_ddlnambanhanh" class="form-control">
                                                 <option value="0">Năm</option>
                                                 <option value="2010">2010</option>
                                                 <option value="2011">2011</option>
@@ -115,10 +112,10 @@
                                             </select>
                                                                 </div>
                                                                 <div class="col-md-3">
-                                                                    <input name="dnn$ctr15966$ListDetail$txtnoicongbo" type="text" id="dnn_ctr15966_ListDetail_txtnoicongbo" class="form-control" placeholder="Nơi công bố">
+                                                                    <input name="dnn$ctr15963$ListDetail$txtnoicongbo" type="text" id="dnn_ctr15963_ListDetail_txtnoicongbo" class="form-control" placeholder="Nơi công bố">
                                                                 </div>
                                                                 <div class="col-md-1">
-                                                                    <a id="dnn_ctr15966_ListDetail_lbtFind" class="btn btn-info pull-right" href="javascript:__doPostBack('dnn$ctr15966$ListDetail$lbtFind','')">Tìmkiếm</a>
+                                                                    <a id="dnn_ctr15963_ListDetail_lbtFind" class="btn btn-info pull-right" href="javascript:__doPostBack('dnn$ctr15963$ListDetail$lbtFind','')">Tìmkiếm</a>
                                                                 </div>
                                                             </div>
 
@@ -128,14 +125,14 @@
                                                 <table width="100%" style="margin: 10px 0px 5px 0px;">
                                                     <tbody><tr>
                                                         <td valign="bottom">
-                                                            <table style="background-color: #d2d2d2; height: 20px;font-size: 14px; line-height: 20px;" width="100%">
+                                                            <table style="background-color: #d2d2d2; height: 20px; line-height: 20px;" width="100%">
                                                                 <tbody><tr>
                                                                     <td valign="middle">Tổng số có: 
-                                                            455
+                                                            1092
                                                                         Bản ghi
                                                                     </td>
                                                                     <td align="right">Hiển thị
-                                                            <select name="dnn$ctr15966$ListDetail$ddlPageSize" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr15966$ListDetail$ddlPageSize\',\'\')', 0)" id="dnn_ctr15966_ListDetail_ddlPageSize">
+                                                            <select name="dnn$ctr15963$ListDetail$ddlPageSize" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr15963$ListDetail$ddlPageSize\',\'\')', 0)" id="dnn_ctr15963_ListDetail_ddlPageSize">
                                                 <option value="30">30</option>
                                                 <option value="50">50</option>
                                                 <option value="100">100</option>
@@ -149,59 +146,93 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <table class="table-bordered" cellspacing="0" rules="all" border="1" id="dnn_ctr15966_ListDetail_drgDataViewer" style="font-size:13px;width:100%;border-collapse:collapse;">
+                                                            <table class="table-bordered" cellspacing="0" rules="all" border="1" id="dnn_ctr15963_ListDetail_drgDataViewer" style="font-size:13px;width:100%;border-collapse:collapse;">
                                                 <tbody><tr style="color:White;background-color:#006699;font-weight:bold;">
                                                     <td>Tác giả</td><td>Tác giả HUS</td><td>Tên công trình</td><td>Năm công bố</td><td>Cấp công bố</td><td>Impact Factor</td><td>Nơi công bố</td><td>Tập số trang</td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Jun Matsumoto, Takehiko Satomura, Atsushi Higuchi, Shinjiro Kanae, Hiroshi Takahashi, Peiming Wu, Nobuhiko Endo, Hisayuki Kubota, Ikumi Akasaka, Miki Hattori, Jun-Ichi Hamada, Shuichi Mori, Manabu D. 
+                                                                            Jian-Ying Xiang, Wu Su-Gong, Phan Ke Loc, Onevilay Souliya
                                                                         </td><td style="width:200px;">
-                                                                            Ngô Đức Thành
+                                                                            Phan Kế Lộc
                                                                         </td><td>
-                                                                            Monsoon Asian Hydro-Atmoshere Scientific Research and prediction Initiative (MAHASRI) and climatic changes in Southeast Asia
+                                                                            Studies on the Genus Bolbitis (Dryopteridaceae) from Vietnam and Laos
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            0.407
                                                                         </td><td style="width:150px;">
-                                                                            JSPS International Forum: Climatic Changes in Monsoon Asia, January 6-7, 2011, Bangkok, Thailand.
+                                                                            American Fern Journal
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.101(4), pp.282-294
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Hoang Thi My Nhung
+                                                                            J.-F. Lamonier, T. B. Nguyen, M. Franco, S. Siffert, R. Cousin, Y. Li, X. Y. Yang, B.-L Su, J.-M. Giraudon
                                                                         </td><td style="width:200px;">
-                                                                            Hoàng Thị Mỹ Nhung
+                                                                            Nguyễn Thanh Bình
                                                                         </td><td>
-                                                                            Identification of Aurora kinases inhibitors from compounds extracted from Vietnamese herbs
+                                                                            Influence of meso-macroporous ZrO2-TiO2 calcination temperature on the pre-reduced Pd/ZrO2-TiO2 (1/1) perfomances in clorobenzen oxidation
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            3.407
                                                                         </td><td style="width:150px;">
-                                                                            Hanoi University of Science and KAIST symposium Feb 25, 2011. KAIST, Korea
+                                                                            Catalysis today
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.164, pp.566
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Hoang Chi Hieu, Nguyen Anh Tuan, Hongyan Li, Yoshihiro Miyauchi, Goro Mizutani,
+                                                                            Hung Huy Nguyen, Thi Nguyet Trieu, Ulrich Abram
                                                                         </td><td style="width:200px;">
-                                                                            Hoàng Chí Hiếu, Nguyễn Anh Tuấn
+                                                                            Nguyễn Hùng Huy, Triệu Thị Nguyệt
                                                                         </td><td>
-                                                                            Molecular orientation in cellulose fibers: Sum frequency confocal microscope study
+                                                                            Syntheses and Structures of Nitridorhenium(V) and Nitridotechnetium(V) Complexes with N,N-[(Dialkylamino)(thiocarbonyl)]-N'-(2-hydroxyphenyl)benzamidines
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.249
                                                                         </td><td style="width:150px;">
-                                                                            Proceeding of 8th International Symposium on Atomic Level Characterizations for New Materials and Devices ’11, Seoul, May 2011, pp 511- 516.
+                                                                            Z. Anorg. Allg. Chem. 2011
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.637, DOI: 10.1002/zaac.201100134
+                                                                        </td>
+                                                </tr><tr class="TRgrid">
+                                                    <td style="width:250px;">
+                                                                            Hung Huy Nguyen, Pham Chien Thang, Axel Rodenstein, Reinhard Kirmse, Ulrich Abram
+                                                                        </td><td style="width:200px;">
+                                                                            Nguyễn Hùng Huy, Phạm Chiến Thắng
+                                                                        </td><td>
+                                                                            Bipodal Acylthiourea Ligands as Building Blocks for Bi-, Tetra-, and Polynuclear Oxorhenium(V) Complexes
+                                                                        </td><td style="width:80px;">
+                                                                            2011
+                                                                        </td><td style="width:150px;">
+                                                                        </td><td style="width:150px;">
+                                                                            4.601
+                                                                        </td><td style="width:150px;">
+                                                                            Inorg. Chem
+                                                                        </td><td style="width:160px;">
+                                                                            Vol.50(2), pp.590-596
+                                                                        </td>
+                                                </tr><tr class="TRgrid">
+                                                    <td style="width:250px;">
+                                                                            Hung Huy Nguyen, Khatera Hazin, Ulrich Abram
+                                                                        </td><td style="width:200px;">
+                                                                            Nguyễn Hùng Huy
+                                                                        </td><td>
+                                                                            Synthesis and Characterization of Unusual Oxidorhenium (V) Cores
+                                                                        </td><td style="width:80px;">
+                                                                            2011
+                                                                        </td><td style="width:150px;">
+                                                                        </td><td style="width:150px;">
+                                                                            3.05
+                                                                        </td><td style="width:150px;">
+                                                                            European Journal of Inorganic Chemistry
+                                                                        </td><td style="width:160px;">
+                                                                            Vol.1, pp.78-82
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
@@ -209,288 +240,254 @@
                                                                         </td><td style="width:200px;">
                                                                             Hoàng Chí Hiếu, Nguyễn Anh Tuấn
                                                                         </td><td>
-                                                                            Optical sum frequency microscopy of cellulose fibers
+                                                                            Confocal sum frequency generation microscopy study of cellulose fibers
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.663
                                                                         </td><td style="width:150px;">
-                                                                            The 9th Asia PacificWorkshop on Materials Physics, Hanoi, Dec. 2010.
+                                                                            Applied Spectroscopy
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.65(11), pp.1254-1259
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Duong Thi Mai Huong, Nguyen Hoang Nam, Le Van Vu, and Nguyen Ngoc Long
+                                                                            Hoang Chi Hieu, Nguyen Anh Tuan, Hongyan Li, Yoshihiro Miyauchi and Goro Mizutani
                                                                         </td><td style="width:200px;">
-                                                                            Dương Thị Mai Hương, Nguyễn Hoàng Nam, Lê Văn Vũ, Nguyễn Ngọc Long
+                                                                            Hoàng Chí Hiếu, Nguyễn Anh Tuấn
                                                                         </td><td>
-                                                                            Photoluminescence characterization of Eu3+-doped CaTiO3 perovskite powder
+                                                                            Sum frequency generation microscopy study of cellulose fibers
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.663
                                                                         </td><td style="width:150px;">
-                                                                            The Second joint German-Vietnamese Symposium on fronties in materials science - FMS 2011, 6-9th October 2011, Frankfurt(M), Germany
+                                                                            Applied Spectroscopy
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.65(11), pp.1254-1259
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Duong Hong Anh, Nguyen Thi Thu Ha, Truong Thi Kim, Le Huu Tuyen, Pham Hung Viet
+                                                                            Hiroyuki Takasu, Satoru Suzuki, Alissara Reungsang, and Pham Hung Viet
                                                                         </td><td style="width:200px;">
-                                                                            Dương Hồng Anh, Lê Hữu Tuyến, Phạm Hùng Việt
+                                                                            Phạm Hùng Việt
                                                                         </td><td>
-                                                                            Atmospheric polycyclic aromatic hydrocarbons (PAHs) at Bavi - a background site in the north of Vietnam
+                                                                            Flouroquinolone (FQ) Contamination Does Not Correlate with Occurrence of FQ-Resistant Bacteria in Aquatic Environments of Vietnam and Thailand
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            2.35
                                                                         </td><td style="width:150px;">
-                                                                            Analytica Vietnam Conference, 7-8 April 2011, HCMC, pp.154-158
+                                                                            Microbes and Environments
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.26(2),135-143 PRINT ISSN:1342-6311
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Duong Hong Anh, Nguyen Hoang Tung, Nguyen Minh Duc, Pham Hung Viet
+                                                                            Hai The Pham, John S. Parkinson
                                                                         </td><td style="width:200px;">
-                                                                            Dương Hồng Anh, Nguyễn Hoàng Tùng, Phạm Hùng Việt
+                                                                            Phạm Thế Hải
                                                                         </td><td>
-                                                                            The PAH composition of surface sediments and sediment cores from Ba Lat area, a major estuary of Red river, Northern Vietnam
+                                                                            Phenol sensing by Escherichia coli chemoreceptors: a nonclassical mechanism
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            3.8
                                                                         </td><td style="width:150px;">
-                                                                            Analytica Vietnam Conference, 7-8 April 2011, HCMC, pp.98-102
+                                                                            Journal of Bacteriology
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.193(23), pp.6597-6604
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Do Phuc Tuyen, Phan Ngoc Tram, Nguyen Phuong Ha, Do Phuc Quan, Pham Hung Viet
+                                                                            Hai Minh Pham, Yasushi Yamaguchi, Thanh Quang Bui
                                                                         </td><td style="width:200px;">
-                                                                            Nguyễn Phương Hà, Đỗ Phúc Quân, Phạm Hùng Việt
+                                                                            Bùi Quang Thành
                                                                         </td><td>
-                                                                            Electrochemical determination of dopamine in the presence of ascobic and uric acids on the surface of the glassy carbon electrode modified by a bilayer of poly(3-methylthiophene and single wall carbon nanotubes
+                                                                            A case study on the relation between city planning and urban growth using remote sensing and spatial metrics
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            2.173
                                                                         </td><td style="width:150px;">
-                                                                            Analytica Vietnam Conference, 7-8 April 2011, HCMC, pp.229-237
+                                                                            Landscape and Urban Planning
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.100(3), pp.223-230, ISSN 0169-2046.
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Do Phuc Quan, Nguyen Minh Tue, Nguyen Phuong Ha, Pham Hung Viet
+                                                                            Ha Phuong Thu, Le Thi Thu Huong, Hoang Thi My Nhung, Nguyen Thi Tham, Nguyen Dac Tu, Ha Thi Minh Thi, Pham Thi Bich Hanh, Tran Thi Minh Nguyet, Nguyen Thi Quy, Pham Hong Nam, Tran Dai Lam, Nguyen Xuan
                                                                         </td><td style="width:200px;">
-                                                                            Đỗ Phúc Quân, Nguyễn Minh Tuệ, Nguyễn Phương Hà, Phạm Hùng Việt
+                                                                            Hoàng Thị Mỹ Nhung
                                                                         </td><td>
-                                                                            Polymethylmetacrylate membrane based ion-selective sensor as potentiometric detector in a flow-injection system for environmental monitoring
+                                                                            Fe3O4/o-Carboxylmethyl Chitosan/Curcumin-based Nano-Drug System for Chemotherapy and Fluorescence Imaging in HT29 Cancer Cell Line
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.587
                                                                         </td><td style="width:150px;">
-                                                                            Analytica Vietnam Conference, 7-8 April 2011, HCMC, pp.290-296
+                                                                            Chemistry Letters
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.40, pp.1264-1267.
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Do Phuc Hai, Quan Thi Minh Nguyet, Do Phuc Quan, Duong Ngoc Huyen, Nguyen Duc Chien
+                                                                            Du N. H. and Dieu N.T.
                                                                         </td><td style="width:200px;">
-                                                                            Đỗ Phúc Quân
+                                                                            Nguyễn Hữu Dư
                                                                         </td><td>
-                                                                            Fabrication and characterization of Ternanary Chalcogenide Cu-Sn-S thin films for Photovoltaic appications
+                                                                            The first attempt on the stochastic calculus on time scale
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            0.459
                                                                         </td><td style="width:150px;">
-                                                                            International Conference on Materials for Advanced Technology, 26/6-1/7/2011, Suntec, Singapore
+                                                                            Stochastic Analysis and Applications
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.29, pp.1057-1080
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Dinh Doan Long, Nguyen Anh Luong, Trinh Tat Cuong, Pham Thanh Huyen
+                                                                            Du N. H. and Dang N. H
                                                                         </td><td style="width:200px;">
-                                                                            Đinh Đoàn Long, Trịnh Tất Cường
+                                                                            Nguyễn Hữu Dư, Nguyễn Hải Đăng
                                                                         </td><td>
-                                                                            Interaction of various vietnamese medicicinal plant extracts with angiotensin II receptor revealed by fluorescein-labeled ligand receptor binding assays
+                                                                            Dynamics of Kolmogorov systems of competitive type under the telegraph noise
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.277
                                                                         </td><td style="width:150px;">
-                                                                            The 7th Indochina conference on pharmaceutical sciences, Advancing pharmacy for asean community, December 14-16, Bangkok, Thailand, PO-BB-08
+                                                                            Journal of Differential Equations
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.250(1), pp.386-409
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Dao Sy Duc, Nguyen Thi Thu Trang, Tran Thi Huyen Trang
+                                                                            Du N. H, Liem N. C, Chyan C. J. and Lin S. W
                                                                         </td><td style="width:200px;">
-                                                                            Đào Sỹ Đức
+                                                                            Nguyễn Hữu Dư
                                                                         </td><td>
-                                                                            Degradation of Reactive Blue 182 from aqueous solution by Advanced Oxidation Process using Fly ash/H2O2
+                                                                            Lyapunov Stability of Quasilinear Implicit Dynamic Equations on Time Scales
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            0.726
                                                                         </td><td style="width:150px;">
-                                                                            Proceedings of the International conference on Advanced Wastewater Treatment Technologies and the Potential of Phytoremediation Technology for Wastewater Treatment in Vietnam; Hanoi, Vietnam; pp.176-1
+                                                                            Journal of Inequalities and Applications
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Article ID 979705, DOI:10.1155/2011/979705
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Dang Dinh Kha, Tran Ngoc Anh and Nguyen Thanh Son,
+                                                                            Do Phuc Quan, Do Phuc Tuyen, Tran Dai Lam, Phan Thi Ngoc Tram, Nguyen Hai Binh, Pham Hung Viet
                                                                         </td><td style="width:200px;">
-                                                                            Đặng Đình Khá, Trần Ngọc Anh, Nguyễn Thanh Sơn
+                                                                            Đỗ Phúc Quân, Phạm Hùng Việt
                                                                         </td><td>
-                                                                            Flood vulnerability assessment of downstream area in Thach Han river basin, Quang Tri province
+                                                                            Electrochemically selective determination of dopamine in the presence of ascorbic and uric acids on the surface of the modified Nafion/single wall carbon nanotube/poly(3-methylthiophene) glassy carbon electrodes
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            3.456
                                                                         </td><td style="width:150px;">
-                                                                            2nd MAHASRI-Hy ARC workshop, August 22-24, 2011, Nha Trang, Vietnam, pp.295-304.
+                                                                            Colloids and Surfaces B: Biointerfaces
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.88, pp.764-770
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Cao The Ha, Vu Thi Hau, Vu Ngoc Duy, Le Van Chieu, Nguyen Huu Quyet
+                                                                            Do Ngoc Son, Bach Thanh Cong, Hideaki Kasai
                                                                         </td><td style="width:200px;">
-                                                                            Cao Thế Hà, Vũ Ngọc Duy, Lê Văn Chiều, Nguyễn Hữu Quyết
+                                                                            Bạch Thành Công
                                                                         </td><td>
-                                                                            Color and Chemical Oxygen Demand (COD) Removal from Dye Containing Wastewater in Catalytic Wet Air Oxidation (CWAO) with Different Catalysts Made from Natural Ores
+                                                                            Hydronium Adsorption on OOH Precovered Pt(111) surface: Effects of electrode potential
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            1.351
                                                                         </td><td style="width:150px;">
-                                                                            The 4th IWA-ASPIRE Conference &amp; Exhibition: Toward Sustainable Water Supply and Recycleing Systems, 2-6 October 2011, Tokyo, Japan, pp.170-171 (abstract), full text session code of 14-12-2 (8 page) on
+                                                                            Journal of nanoscience and Nanotechnology
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.11, pp.2983-2989
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Cao The Ha, Le Van Chieu, Vu Ngoc Duy, Nguyen Huu Quyet, Vo Thi Thanh Tam
+                                                                            Do Duc Thai anh Ninh Van Thu
                                                                         </td><td style="width:200px;">
-                                                                            Cao Thế Hà, Lê Văn Chiều, Vũ Ngọc Duy, Nguyễn Hữu Quyết, Võ Thị Thanh Tâm
+                                                                            Ninh Văn Thu
                                                                         </td><td>
-                                                                            Comparative study on arsenic removal by adsorption method between newly developed materials and some commercial As adsorbents
+                                                                            The second main theorem for hypersurfaces
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            0.366
                                                                         </td><td style="width:150px;">
-                                                                            Analytica Vietnam Conference, 7-8 April 2011, HCMC, pp.131-137
+                                                                            Kyushu Journal of Mathematics
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.65(2)
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Bùi Việt Hà
+                                                                            Dinh HungMac, Ramesh Samineni, Abdul Sattar, Srivari Chandrasekhar, Jhillu Singh Yadav, René Grée
                                                                         </td><td style="width:200px;">
-                                                                            Bùi Thị Việt Hà
+                                                                            Mạc Đình Hùng
                                                                         </td><td>
-                                                                            Using microbial preparation for controlling root-pathogenic microfungi (Phytophthora spp) in citrus trees
+                                                                            Total synthesis of gabosines via an iron-catalyzed intramolecular tandem aldol process
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            3.025
                                                                         </td><td style="width:150px;">
-                                                                            Hanoi University of Science-KAIST symposium 2011. Korea
+                                                                            Tetrahedron
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.67(48), pp.9305-9310
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            Bin He,&nbsp;Thanh Ngo-Duc, Han Xue, Kaoru Takara, Kenichiro Kobayashi, Yosuke Yamashiki
+                                                                            Damon P. Little, Philip Thomas, Hiep T. Nguyen, Loc K. Phan
                                                                         </td><td style="width:200px;">
-                                                                            Ngô Đức Thành
+                                                                            Phan Kế Lộc
                                                                         </td><td>
-                                                                            Projection of fine resolution daily precipitation and air temperature in Vietnam using climate change scenarios from GCMs&nbsp;
+                                                                            Before it had name: Diagnostic characteristics, geographic distribution, and the conservation of Cupressus tonkinensis (Cupressaceae)
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            0.475
                                                                         </td><td style="width:150px;">
-                                                                            The IHP Symposium on Extreme Events Meteorological, Hydrological and Tsunami Disasters: Social Adaptation and Future (EXTREME2011), October 24-28, 2011, Kyoto, Japan.
+                                                                            Brittonia
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.63(2), pp.171-196
                                                                         </td>
                                                 </tr><tr class="TRgrid">
                                                     <td style="width:250px;">
-                                                                            B. C. Vu
+                                                                            Claude Lepvrier, Michel Faure, Vuong Nguyen Van, Tich Van Vu, Wei Lin, Thang Ta Trong, Phuong Ta Hoa
                                                                         </td><td style="width:200px;">
-                                                                            Vũ Công Bằng
+                                                                            Nguyễn Văn Vượng, Vũ Văn Tích, Tạ Hòa Phương
                                                                         </td><td>
-                                                                            Resolution numerique de problemes variationnels composites
+                                                                            North-directed Triassic nappes in Northeastern Vietnam (East Bac Bo)
                                                                         </td><td style="width:80px;">
                                                                             2011
                                                                         </td><td style="width:150px;">
                                                                         </td><td style="width:150px;">
-                                                                            &nbsp;
+                                                                            2.215
                                                                         </td><td style="width:150px;">
-                                                                            Semain conjoint GdR MOA et GDR MSPC Optimisation et traitement des images
+                                                                            Journal of Asian Earth Sciences
                                                                         </td><td style="width:160px;">
-                                                                            &nbsp;
-                                                                        </td>
-                                                </tr><tr class="TRgrid">
-                                                    <td style="width:250px;">
-                                                                            B. C. Vu
-                                                                        </td><td style="width:200px;">
-                                                                            Vũ Công Bằng
-                                                                        </td><td>
-                                                                            Resolution d’inclusions monotones composites
-                                                                        </td><td style="width:80px;">
-                                                                            2011
-                                                                        </td><td style="width:150px;">
-                                                                        </td><td style="width:150px;">
-                                                                            &nbsp;
-                                                                        </td><td style="width:150px;">
-                                                                            Congrès du LIA CNRS Formath Vietnam, Paris 23-25 Novembre 2011.
-                                                                        </td><td style="width:160px;">
-                                                                            &nbsp;
-                                                                        </td>
-                                                </tr><tr class="TRgrid">
-                                                    <td style="width:250px;">
-                                                                            B. C. Vu
-                                                                        </td><td style="width:200px;">
-                                                                            Vũ Công Bằng
-                                                                        </td><td>
-                                                                            A splitting algorithm for dual monotone inclusions involving cocoercive operators
-                                                                        </td><td style="width:80px;">
-                                                                            2011
-                                                                        </td><td style="width:150px;">
-                                                                        </td><td style="width:150px;">
-                                                                            &nbsp;
-                                                                        </td><td style="width:150px;">
-                                                                            Journee Lions-Magenes, Dec. 2011
-                                                                        </td><td style="width:160px;">
-                                                                            &nbsp;
+                                                                            Vol.41, pp.56-68
                                                                         </td>
                                                 </tr>
                                             </tbody></table>
@@ -500,7 +497,7 @@
                                                         <td>
                                                             <table class="PagingTable">
                                                 <tbody><tr>
-                                                    <td align="left">Trang 1 trong 23</td><td align="right"><span>Đầu tiên </span>&nbsp;&nbsp;&nbsp;<span>Trước</span>&nbsp;&nbsp;&nbsp;<span>[1]</span>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/2.html">2</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/3.html">3</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/4.html">4</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/5.html">5</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/6.html">6</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/7.html">7</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/8.html">8</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/9.html">9</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/10.html">10</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/2.html">Tiếp</a>&nbsp;&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-hoi-nghi-khoa-hoc-quoc-te/currentpage/23.html">Cuối </a>&nbsp;&nbsp;&nbsp;</td>
+                                                    <td align="left">Trang 1 trong 55</td><td align="right"><span>Đầu tiên </span>&nbsp;&nbsp;&nbsp;<span>Trước</span>&nbsp;&nbsp;&nbsp;<span>[1]</span>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/2.html">2</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/3.html">3</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/4.html">4</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/5.html">5</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/6.html">6</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/7.html">7</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/8.html">8</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/9.html">9</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/10.html">10</a>&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/2.html">Tiếp</a>&nbsp;&nbsp;&nbsp;<a href="http://www.hus.vnu.edu.vn/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-isi-scopus/currentpage/55.html">Cuối </a>&nbsp;&nbsp;&nbsp;</td>
                                                 </tr>
                                             </tbody></table>
                                                         </td>
@@ -510,33 +507,6 @@
                                             </div>
                                         
                                         </div>
-                                    <style type="text/css">
-                                        .table .alrpd10 {
-                                            text-align: right;
-                                            padding: 10px 10px 0px 0px;
-                                        }
-
-                                        .table tr td {
-                                            border-top: 1px solid #ddd !important;
-                                            border-left: 0px;
-                                        }
-
-                                        .table-bordered tr td ul {
-                                            margin-left: 10px;
-                                        }
-
-                                            .table-bordered tr td ul li {
-                                                margin-left: 10px;
-                                            }
-
-                                                .table-bordered tr td ul li i {
-                                                    color: red;
-                                                    padding-right: 5px;
-                                                }
-                                    </style>
-
-                                    </div>
-                                    <!-- End_Module_15966 -->
                                     </div>
                                     <!-- End_Module_10672 -->
                                 </div>
@@ -555,3 +525,4 @@
 <!--start footer -->
 <?php include "../../footer.html" ?>
 <!-- end footer -->
+ 
