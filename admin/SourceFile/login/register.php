@@ -61,6 +61,7 @@
             </div>
           </div>
         </div>
+        <div><label>lever</label></div>
         <div class="input-group mb-3">
           <select class="form-control " name = "type" style="width: 100%;">
             <option selected="selected" value ="1">1</option>

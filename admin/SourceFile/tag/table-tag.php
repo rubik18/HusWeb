@@ -8,6 +8,11 @@
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
+   session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+  header("Location:/php-intership-team/admin/SourceFile/login/login.php");
+}
  ?>
 <!DOCTYPE html>
 <html>

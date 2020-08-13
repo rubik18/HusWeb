@@ -89,6 +89,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Stt</th>
                     <th>Title</th>
                     <th>Type</th>
+                    <th>Avatar</th>
                     <th>Description</th>
                     <th>Action</th>
                   </tr>
@@ -103,6 +104,7 @@ if (!isset($_SESSION['user'])) {
                       <td><?php echo $i?></td>
                       <td><?php echo $row['title'] ?></td>
                       <td><?php echo $row['name'] ?></td>
+                      <td><img src="<?php echo $row['avatar'];?>" style ="width: 100%; height: 50px"></td>
                       <td><?php echo $row['description'] ?></td>
                       <td class="project-actions text-right">
                           <a class="btn btn-secondary btn-sm" href="updateFile.php?id= <?php echo $row['id']?>">
