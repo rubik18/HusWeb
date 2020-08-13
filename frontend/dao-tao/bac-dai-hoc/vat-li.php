@@ -238,7 +238,7 @@
 												    });
 												</script>
 
-												<script src="../../js/chenslide.js"></script>
+												<script src="/php-intership-team/js/chenslide.js"></script>
 
 										</div><!-- End_Module_12644 -->
 									</div>
