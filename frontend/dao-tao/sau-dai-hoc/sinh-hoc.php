@@ -8,8 +8,8 @@
     include "../../header.html"
     ?>
     <!-- hết header -->
-    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/chen-slide.css">
+    <link rel="stylesheet" type="text/css" href="/php-intership-team/css/saudaihoc_duc.css">
 
 
     <!-- content -->
@@ -222,7 +222,7 @@
                                                     });
                                                 </script>
 
-                                                <script src="php-intership-team/js/chenslide.js"></script>
+                                                <script src="/php-intership-team/js/chenslide.js"></script>
 
                                         </div><!-- End_Module_12661 -->
                                     </div>
