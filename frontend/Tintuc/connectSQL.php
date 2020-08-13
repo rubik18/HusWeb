@@ -1,14 +1,14 @@
-<?php
-			$servername = "127.0.0.1";
-			$username = "root";
-			$password = "";
-			$database = "adminhus";
-
-			// Create connection
-			$conn = mysqli_connect($servername, $username, $password,$database);
-			if (!$conn) {
-			  die("Connection failed: " . mysqli_connect_error());
-			}
-			echo "Connected successfully<br>";
-			
-?>
+<?php 
+// kết nối đến MySQl
+	$db = array(
+		'server' => 'php-intern.cxo36tfgnhhp.ap-southeast-1.rds.amazonaws.com',
+		'username' => 'root',
+		'password' => '12345678',
+		'dbname' => 'adminhus'
+	);
+	$conn =mysqli_connect( $db['server'],$db['username'], $db['password'] , $db['dbname']);
+	if (!$conn) {
+		die('fail connect'). mysqli_connect_error($conn);
+	}
+	echo "successful";
+ ?>
