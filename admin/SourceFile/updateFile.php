@@ -117,6 +117,11 @@ if (!isset($_SESSION['user'])) {
                       ?>
                     </select>
                   </div>
+                  <!-- avatar -->
+                  <div class="form-group">
+                    <label>Avatar</label>
+                    <input type="text" name = "avatar" class="form-control" value="<?php echo $row['avatar'] ?>">
+                  </div>
                    <!-- Date and time range -->
                   <div class="form-group">
                     <label>Date and time range:</label>

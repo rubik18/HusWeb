@@ -116,6 +116,16 @@ if (!isset($_SESSION['user'])) {
                        ?>
                     </select>
                   </div>
+                  <!-- avatar -->
+                  <div class="form-group">
+                    <label for="exampleInputFile">Avatar</label>
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <label>URL</label>
+                        <input type="text" name = "avatar" class="form-control" placeholder="Enter ...">
+                      </div>
+                    </div>
+                  </div>
                   <!-- Nội dung -->
                   <!-- Date and time range -->
                 <div class="form-group">
@@ -165,6 +175,7 @@ if (!isset($_SESSION['user'])) {
       </div>
       <!-- ./row -->
     </section>
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -208,8 +219,13 @@ if (!isset($_SESSION['user'])) {
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 
+<!-- bs-custom-file-input -->
+<script src="plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
 
-<script>
+<script type="text/javascript">
+  $(document).ready(function () {
+  bsCustomFileInput.init();
+});
   $(function () {
     // Summernote
     $('.textarea').summernote()
@@ -222,6 +238,7 @@ if (!isset($_SESSION['user'])) {
         format: 'MM/DD/YYYY hh:mm A'
       }
     })
+</script>
 </script>
 </body>
 </html>
