@@ -1022,11 +1022,13 @@
                                                         <li class="trum">
 
                                                              <script type="text/javascript" language="javascript" src="/php-intership-team/js/drop-list-duc.js"></script>
-
+                                                            
                                                             <a href="#510" class="submenu spn">
                                                                 <span class="ink animate-ink" style="height: 359px; width: 359px;top: -163.5px;left: 146.344px;"></span> Bậc đại học
                                                                 <span class="submenu-indicator" >+</span>
                                                             </a>
+                                                    
+
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="5045">
                                                                     <li class="active li-me" style="padding: 0px;">

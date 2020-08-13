@@ -1,6 +1,5 @@
 	<title>Giới thiệu chung</title>
 	<meta charset="utf-8">
-	 <link rel="stylesheet" type="text/css" href="/php-intership-team/css/bacdaihoc.css">
 <body>
 
     <?php
@@ -384,8 +383,8 @@
                                                             </a>
                                                             <div class="content d-none">
                                                                 <ul class="submenu" style="display: block;" id="5045">
-                                                                    <li class="active li-me" style="padding: 0px;">
-                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php">Địa chất</a>
+                                                                    <li class="" style="padding: 0px;">
+                                                                        <a href="\php-intership-team\frontend\dao-tao\bac-dai-hoc\dia-chat.php" class="item1">Địa chất</a>
                                                                     </li>
 
                                                                     <li class="li-me" style="padding: 0px;">
