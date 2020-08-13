@@ -1,9 +1,18 @@
-
-        
+<?php 
+// kết nối
+  require'connectSQL.php';
+// Chuỗi kết nối
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id ORDER BY new.created_at DESC";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+ ?>
+        <title>Tin tức</title>
         <!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
-        <title>Tin tức</title>
         <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
 		<div class="main-content-wrapper" >
 			<div class="container" >
@@ -31,12 +40,19 @@
                                                 <!------start col-9 left----------------------->
             <div class="col-12 col-lg-9 pdr-0">
                 <div class="row">
-                <!-----------------box-1--------------------->                                                    
+                <!-----------------box-1---------------------> 
+                <?php        
+                    if(mysqli_num_rows($result)>0){
+                        
+
+                        while($row = mysqli_fetch_assoc($result)){  
+                        $id = $row['id'];   
+                ?>                                     
                 <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
                         <div class="magazine-item-media">
                                         <span class="media-mask"></span>
                                         <div class="item-image">
-                                            <a href="" class="content">
+                                            <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="content">
                                                 <span itemprop="image" itemscope="" itemtype="">
                                                     <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/07/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
                                                 </span>
@@ -44,395 +60,39 @@
                                         </div>
                         </div>
                         <div class="magazine-item-main">
-            			     <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
+            			     <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;">
+                                <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="item ">
+                                    <?php echo  $row['name'] .$row['id']. "<br>";?>
+                                </a></p>  
                             <div class="article-title">
                                 <h3 itemprop="name">
-                                    <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
+                                    <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>"class="content" style="font-size: 15px">
+                                        <?php echo substr($row['title'], 0, 150) ."..."; ?>
+                                    </a>
                                 </h3>
                             </div>	
                             <aside class="article-aside clearfix">
                                 <dl class="article-info muted">
                                     <dd class="published hasTooltip" title="Được đăng: ">
                                         <i class="fa fa-clock-o"></i>
-                                        <time datetime="11:15 30/07/2020">11:15 30/07/2020</time>
+                                        
+                                            <?php 
+                                                // $time = strtotime($row['created_at']);
+                                                // echo  date("h:i d/m/Y",$time) . "<br>";
+                                                echo $row['created_at']; ?>
+                                        
                                     </dd>
                                 </dl>
                             </aside>
                             <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
+                                <p style="text-align: justify;">
+                                    <?php echo  $row['description'] . "<br>";?>
                                 </p>
                             </div>
                         </div>
-                </div><!--end box-1 --------------->
-                <!-----------------box-2--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!----------------end box-2------------------->
-                <!-----------------box-3--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!----end box 3--start box 4--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---end box 4--start box 5-------------------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---end box 5------start box 6-------------------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---------end box 6-------------------------->
-                <!-----------------box-7--------------------->                                                    
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/07/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="11:15 30/07/2020">11:15 30/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!--end box-7 --------------->
-                <!-----------------box-8--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                                <div class="item-image">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                        <span itemprop="image" itemscope="" itemtype="">
-                                            <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                        </span>
-                                    </a>
-                                </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!----------------end box-8------------------->
-                <!-----------------box-9--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!----end box 9--start box 10--------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---end box 10--start box 11-------------------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---end box 11------start box 12-------------------------------->
-                <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-                        <div class="magazine-item-media">
-                                        <span class="media-mask"></span>
-                                        <div class="item-image">
-                                            <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" title="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng" class="content">
-                                                <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://www.hus.vnu.edu.vn/DATA///IMAGES/2020/07/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
-                                                </span>
-                                            </a>
-                                        </div>
-                        </div>
-                        <div class="magazine-item-main">
-                             <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;"><a href="#" class="item ">Đào tạo - Tuyển sinh</a></p>
-                            <div class="article-title">
-                                <h3 itemprop="name">
-                                    <a href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien/thu-khoa-tot-nghiep-dau-ra-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-khi-theo-duoi-dam-me-viec-hoc-rat-nhe-nhang-66474.html" itemprop="url" class="content">Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: Khi theo đuổi đam mê, việc học rất nhẹ nhàng</a>
-                                </h3>
-                            </div>  
-                            <aside class="article-aside clearfix">
-                                <dl class="article-info muted">
-                                    <dd class="published hasTooltip" title="Được đăng: ">
-                                        <i class="fa fa-clock-o"></i>
-                                        <time datetime="18:14 29/07/2020">18:14 29/07/2020</time>
-                                    </dd>
-                                </dl>
-                            </aside>
-                            <div class="magazine-item-ct">
-                                <p style="text-align: justify;">Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội chính là thủ khoa đầu ra của Trường Đại học Khoa học Tự nhiên trong năm 2020 với số điểm gần tuyệt đối: 3.95/4.0, xếp loại Xuất sắc. Sang cho biết, việc học của mình rất nhẹ nhàng do em được theo đuổi đam mê.
-                                Đam mê của Sang là bộ môn Hóa học. Được học sâu về Hóa, tăng hiểu biết cũng như nghiên cứu những ứng dụng của Hóa học, Hóa Dược đối với em là niềm vui, đem lại sự hứng thú chưa bao giờ dứt.
-                                </p>
-                            </div>
-                        </div>
-                </div><!---------end box 12-------------------------->
+                </div>
+            <?php }} ?>
+                
                 </div><!------------row ----------------->
                 <!-----start list-page----------------------->
                     <div class="list-page">
@@ -453,7 +113,7 @@
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=81">Trang cuối</a></li>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=6"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=6" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
                             </ul>
                         </div>
 
@@ -515,10 +175,19 @@
             </div>
             </div>
         </div></div></div></div></div></div></div>
+
+
+            
+            
+        
         <!---start footer----->
         <?php include "../footer.html" ?>
         <!----end footer------->
-    <!-- </div>
     
-</body>
-</html> -->
+
+    
+    
+
+
+
+
