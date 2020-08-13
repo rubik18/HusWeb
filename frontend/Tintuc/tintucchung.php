@@ -1,8 +1,7 @@
-
+        <title>Tin tức chung</title>
         <!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
-        <title>Tin tức chung</title>
         <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
 		<div class="main-content-wrapper" >
 			<div class="container" >

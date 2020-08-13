@@ -1,4 +1,24 @@
-        <title>....Data.....</title>
+<?php 
+// kết nối
+  require'../connectSQL.php';
+// Chuỗi kết nối
+  $sql = "SELECT * FROM `new` WHERE `id` = 94";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+ ?>
+
+  <title>
+  	<?php 
+  	if(mysqli_num_rows($result)>0){
+        $i = 0 ;
+       	while($row = mysqli_fetch_assoc($result)){
+            $i++;
+            echo  $row['title'] . "<br>";
+    ?>
+  </title>
         <!---------start header------------>
         <?php include "../../header.html" ?>
         <!---end header------->
@@ -11,7 +31,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">
-                            <li><a href="tintuc.php" class="item">Tin tức</a></li>&nbsp;<img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung.html" class="item">Tin tức chung</a></li>
+                            <li><a href="../tintuc.php" class="item">Tin tức</a></li>&nbsp;<img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung.html" class="item">Tin tức chung</a></li>
 
                         </ol>
                     </div>
@@ -144,13 +164,16 @@
                                     <div id="dnn_ctr10930_newsviewer_ctl00_up">
                                         <div class="title">
                                             <h1>
-                                                Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế
+                                            <?php echo  $row['title'] . "<br>"; ?>
                                             </h1>
                                         </div>
                                         <div class="post-meta">
                                             <div>
                                                     <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/nam-sinh-lop-11-truong-thpt-chuyen-khoa-hoc-tu-nhien-gianh-huy-chuong-vang-hoa-quoc-te-66482.html#" class="post-date">
-                                                        <i class="fa fa-clock-o"></i> 17:59 02/08/2020</a>
+                                                        <i class="fa fa-clock-o"></i>
+                                                        <?php $time = strtotime($row['update_at']);
+                                                            echo  date("h:i d/m/Y",$time) . "<br>"; ?>
+													</a>
                                             </div>
                                             <!---List share---->
                                             <div class='social'>
@@ -215,64 +238,11 @@
                                         <div class="post-content">
                                             <p>
                                                 <strong>
-                                                    Đạt 94,08 điểm, xếp thứ 9/231 thí sinh, Nguyễn Hoàng Dương là học sinh lớp 11 duy nhất của Việt Nam giành huy chương vàng Olympic Hóa học quốc tế năm 2020.</strong>
+                                                	<?php echo  $row['description'] . "<br>";?>
+                                                    </strong>
                                             </p>
                                             <span id="dnn_ctr10930_newsviewer_ctl00_lbContent">
-                                                <p style="text-align: justify;">Sáng 2/8, ba ngày sau khi biết kết quả ở Olympic Hóa học quốc tế (IChO 2020), Nguyễn Hoàng Dương, học sinh lớp 11 trường THPT chuyên Khoa học tự nhiên (Đại học Khoa học tự nhiên, Đại học Quốc gia Hà Nội) vẫn nhận được lời chúc mừng từ người quen. Ngồi chơi cùng em trai bên mô hình sân bóng tự chế bằng bìa carton, Dương bảo nhẹ nhõm khi đạt được mục tiêu ở đấu trường quốc tế.</p>
-
-                                                <p style="text-align: justify;">Dương nhớ như in buổi tối 30/7. Lễ công bố kết quả IChO 2020 diễn ra từ 19h đến 20h. Em và ba anh chị lớp 12 trong đội tuyển được gọi đến Đại học Sư phạm Hà Nội để cùng nghe kết quả với ba thầy cô phụ trách đội tuyển cùng đại diện Bộ Giáo dục và Đào tạo. Khi Ban tổ chức xướng tên thí sinh được nhận bằng khen, huy chương đồng rồi bạc mà vẫn chưa thấy tên 4 thí sinh Việt Nam, tất cả sung sướng vì biết chắc sẽ có 4 huy chương vàng. Khi Ban tổ chức đọc đến tên từng thí sinh, khuôn mặt ai nấy đều rạng rỡ.</p>
-
-                                                <div style="text-align:center">
-                                                    <figure class="image" style="display:inline-block"><a class="newsslidephoto" href="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/nguyen-hoang-duong-copy-8313-15963484351.jpg" rel="newsdetailslidephoto" title="Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế"><img alt="Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế" src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/nguyen-hoang-duong-copy-8313-15963484351.jpg" width="500"></a>
-
-                                                    <figcaption>Nguyễn Hoàng Dương trong phòng sách của gia đình.</figcaption>
-                                                    </figure>
-                                                </div>
-
-                                                <p style="text-align: justify;">Do Covid-19, phải tránh tụ tập đông người, gia đình Dương không được cùng con xem lễ công bố kết quả. Cả nhà tập trung trước tivi để xem. Thấy con là một trong 10 thí sinh có kết quả cao nhất, cả nhà bỏ cơm tối, chạy xe tới Đại học Sư phạm Hà Nội để chúc mừng và đón Dương trở về. "Có lẽ những khoảnh khắc đó cả nhà em không bao giờ quên", nam sinh nói.</p>
-
-                                                <p style="text-align: justify;">Sinh ra trong gia đình có bố mẹ đều làm trong ngành Y, dù từ nhỏ đã yêu thích Toán học, giành nhiều thành tích như giải nhất kỳ thi Toán giữa các thành phố tổ chức tại Nga, giải High Distinction (xuất sắc) cuộc thi Toán học Australia bậc THCS (AMO), top 5% ở kỳ thi Toán học Mỹ (AMC), Dương vẫn lựa chọn theo môn Hóa ngay từ lần đầu tiếp xúc năm lớp 8.</p>
-
-                                                <p style="text-align: justify;">Khi đó, chương trình học ở trường chủ yếu là lý thuyết, cả năm chỉ được xuống phòng thí nghiệm 2-3 lần, Dương mày mò, tìm thêm các thí nghiệm trên mạng. Em thích thú khi thấy sự biến chuyển chất này sang chất khác. Nhớ nhiều loại thuốc trong những đơn thuốc bố kê cho bệnh nhân, em tìm ra các chất hóa học tương ứng. Dần dần, Dương thấy Hóa học thiết thực với đời sống, em càng chắc chắn với lựa chọn của mình.</p>
-
-                                                <p style="text-align: justify;">Lớp 9, Dương có hai thành tích đầu tiên với môn Hóa, gồm giải nhất cấp quận và giải ba cấp thành phố. Thi vào THPT, em đỗ ba trường chuyên. Dù học trường Hà Nội - Amsterdam từ cấp THCS, lại được trường chuyên Đại học Sư phạm Hà Nội trao học bổng, Dương quyết chọn trường THPT chuyên Khoa học tự nhiên vì từng gặp gỡ anh chị trong trường và được tiếp lửa để tham gia các cuộc thi quốc gia, quốc tế.</p>
-
-                                                <p style="text-align: justify;">Vào trường, Dương được thầy giáo phát hiện có năng khiếu nên cho đi học dự thính cùng các anh chị lớp 11, 12 rồi thi chọn đội tuyển thi quốc gia. Dương vẫn nhớ khi đó có 4 tháng chuẩn bị kiến thức. Em phải học các chuyên đề trọng tâm rải rác ở lớp 10, 11 và 12 để đủ khả năng tranh suất dự vòng quốc gia.</p>
-
-                                                <p style="text-align: justify;">Ngoài thời gian học trên lớp, em dành gần hết quỹ thời gian ở nhà cho Hóa. Lúc mới đầu, gặp nhiều bài khó, Dương stress nhưng cứ nghĩ đến mục tiêu phải được thi quốc gia, em lại cố gắng hơn để rồi mỗi khi giải được bài khó, thu nạp được thêm kiến thức mới, em lại càng hứng thú đào sâu. Lúc đó, không ngày nào Dương đi ngủ trước 12h đêm. "Chưa bao giờ em đạt cường độ cao như vậy", Dương nói. Kết quả, Dương được đi thi quốc gia và giành giải ba, trở thành học sinh lớp 10 đầu tiên của cả nước đạt giải cao như vậy.</p>
-
-                                                <p style="text-align: justify;">Có thêm một năm ôn luyện, lớp 11, Dương tiếp tục được thi quốc gia và đạt giải nhất. Tuy nhiên, Covid-19 bùng phát, các kỳ thi Olympic quốc tế đều báo hoãn hoặc hủy, Dương xác định cơ hội thi quốc tế sẽ chỉ đến với em sau một năm nữa. Đang trong thế "xả hơi" thì đến cuối tháng 6, đầu tháng 7, Bộ Giáo dục và Đào tạo thông báo chọn đội tuyển thi Olympic Hóa học quốc tế bởi nước chủ nhà Thổ Nhĩ Kỳ sẽ tổ chức thi trực tuyến. Trở thành một trong bốn thí sinh của đội tuyển Việt Nam, Dương chỉ có 20 ngày để chuẩn bị cho kỳ thi tầm cỡ quốc tế.</p>
-
-                                                <p style="text-align: justify;">Dương mô tả 20 ngày cấp tốc ôn thi quốc tế bằng câu "Xung quanh em toàn là Hóa". Thời gian đó, ngày nào em cũng học cùng các anh chị từ 8h sáng đến 8h tối, thậm chí 10h. Các thầy cô phụ trách đội tuyển cũng rất áp lực khi phải hướng dẫn đào sâu 25 vấn đề mà ban tổ chức đưa ra trong thời gian gấp gáp. Dương và các anh chị phải làm rất nhiều bài khó. Thế nhưng, em lại rất vui vẻ vì được thỏa mãn đam mê.</p>
-
-                                                <p style="text-align: justify;">"Em học hỏi được rất nhiều kinh nghiệm từ các anh chị", Dương kể. Có người mạnh về tư duy, người cẩn thận, người lại tốc độ. Thấy vậy, Dương cũng thử làm đề nhanh hơn để so với người nhanh nhất trong đội hoặc thử làm chậm lại, cẩn thận hơn xem phần trăm sai sót có giảm. Khi giải bài khó, bốn người tìm ra bốn cách, em lại so sánh, thấy cách nào hay sẽ học hỏi. Điều này giúp Dương tìm ra tốc độ, chiến thuật tư duy phù hợp khi làm bài.</p>
-
-                                                <p style="text-align: justify;">Hôm thi trực tuyến, bốn thí sinh ngồi bốn góc trong căn phòng rộng ở Đại học Sư phạm Hà Nội, có camera trước, sau và camera online để thầy cô và Ban tổ chức quan sát. Sau 5 tiếng hoàn thành bài thi (từ 16h đến 21h, tương ứng với thời gian thi thực từ 13h đến 18h ở Thổ Nhĩ Kỳ), các thầy cô có 5 phút để scan bài ngay trong phòng và gửi sang cho Ban tổ chức. Dương làm được hết câu hỏi trong đề. Dù có một số ý không chắc chắn, em vẫn vào top 10 thí sinh có điểm cao nhất.</p>
-
-                                                <p style="text-align: justify;">Nhiều người bảo do thi trực tuyến, không có phần thực hành nên Việt Nam mới đạt 4 huy chương vàng. Dương thấy có phần đúng nhưng không phải tất cả bởi nó không đồng nghĩa học sinh Việt Nam không có kỹ năng thực hành.</p>
-
-                                                <p style="text-align: justify;">"Đề thi có những câu lý thuyết thực hành rất khó mà nếu thí sinh không biết làm thực hành sẽ không thể trả lời được. Hơn nữa, Việt Nam đã làm rất tốt phần thực hành trong những năm gần đây, như năm ngoái anh&nbsp;<a href="https://vnexpress.net/nam-sinh-dat-diem-tuyet-doi-phan-thuc-hanh-olympic-hoa-quoc-te-3960656.html" rel="dofollow">Bá Tân</a>&nbsp;được điểm tối đa phần này", Dương nói, mong muốn năm sau khi được tiếp tục thi quốc tế tại Nhật Bản, em và đội tuyển Việt Nam có thể tiếp tục chứng minh điều này.</p>
-
-                                                <p style="text-align: justify;">Ngồi xem hai cậu con trai chơi với nhau, gương mặt chị Nguyễn Phương Thanh ánh lên sự tự hào. Chị Thanh là Giám đốc Pháp chế và Quản lý chất lượng ngành Dược phẩm của văn phòng đại diện Tập đoàn Abbott (Mỹ) tại Việt Nam, trong khi chồng là PGS Nguyễn Văn Tuấn, Trưởng bộ môn Tâm thần (Đại học Y Hà Nội), Phó viện trưởng Viện Sức khỏe Tâm thần (Bệnh viện Bạch Mai). Vì vậy, anh chị rất bận rộn với việc giảng dạy, nghiên cứu, buộc các con phải tự lập sớm.</p>
-
-                                                <div style="text-align:center">
-                                                <figure class="image" style="display:inline-block"><a class="newsslidephoto" href="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/nguyen-hoang-duong-2-copy-9749-15963484351.jpg" rel="newsdetailslidephoto" title="Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế"><img alt="Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế" src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/nguyen-hoang-duong-2-copy-9749-15963484351.jpg" width="500"></a>
-
-                                                <figcaption>Dương bên bố mẹ và em trai.&nbsp;</figcaption>
-                                                </figure>
-                                                </div>
-
-                                                <p style="text-align: justify;">Chị Thanh kể Dương rất tự lập, đặc biệt trong việc lập kế hoạch học tập. Ví dụ, trước khi thi quốc tế, con bảo sẽ giải toàn bộ đề các năm trước, tìm các bài báo của chủ nhân giải Nobel Hóa học của nước chủ nhà để đọc. Hay việc con thích và tự giác đọc sách, đến mức mọi ngóc ngách trong nhà, kể cả toilet, đều thấy sách của Dương, từ truyện tranh đến sách khoa học. "Huy chương vàng Olymlic Hóa học quốc tế xứng đáng với những nỗ lực của con", chị Thanh nói.</p>
-
-                                                <p style="text-align: justify;">Thầy Vi Anh Tuấn, Hiệu phó trường THPT chuyên Khoa học tự nhiên, người dạy Hóa cho Dương ở trường, cũng đánh giá Dương xứng đáng với huy chương vàng vừa nhận được. Thầy Tuấn biết đến Dương khi giành giải nhất học sinh giỏi Hóa cấp quận hồi lớp 9. Khi đó, thầy đã liên hệ, bảo Dương đến trường tham quan, làm quen với các anh chị khóa trước để có định hướng, đam mê thêm về môn Hóa.</p>
-
-                                                <p style="text-align: justify;">Dương không phải học sinh đầu tiên của trường Khoa học tự nhiên đạt huy chương vàng quốc tế từ lớp 11 nên thầy Tuấn không bất ngờ khi đón nhận kết quả của em hôm 30/7. Dù vậy, thầy vẫn rất vui và tự hào. "Một học sinh lớp 11 đứng thứ 9 trong một cuộc thi quốc tế có 231 thí sinh từ 60 quốc gia và vùng lãnh thổ tham dự là rất hiếm", thầy Tuấn khẳng định.</p>
-
-                                                <p style="text-align: justify;">Thầy Nguyễn Ngọc Hà, Trưởng khoa Hóa Đại học Sư Phạm Hà Nội, Trưởng đoàn Olympic Hóa học của Việt Nam, đánh giá rất cao về Dương dù chỉ hướng dẫn em trong 20 ngày trước kỳ thi quốc tế. "Dương thông minh, luôn tìm ra điểm mấu chốt của bài rất sớm. Dù kém các anh chị trong đội tuyển một năm, khoảng cách kiến thức của em và các anh chị gần như không có", thầy Hà nói.</p>
-
-                                                <p style="text-align: justify;">Trở về cuộc sống bình thường sau tấm huy chương vàng, Dương dành nhiều thời gian cho các sở thích cá nhân như đọc sách, chơi piano, thể thao. Dương hy vọng tiếp tục được đi thi quốc tế và bảo vệ được tấm huy chương vàng trong năm sau.</p>
-
-                                                <p style="text-align: right;">(Theo Vnexpress)</p>
+                                            	<?php echo  $row['content'] . "<br>"; }}?>
                                             </span>
                                             <div class="post-tools" style="display: none">
                                                     
@@ -460,6 +430,3 @@
         <!---start footer----->
         <?php include "../../footer.html" ?>
         <!----end footer------->
-    
-
-

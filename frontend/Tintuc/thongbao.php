@@ -1,8 +1,7 @@
-
+        <title>Thông báo</title>
 		<!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
-        <title>Thông báo</title>
         <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
 
 		<div class="main-content-wrapper" >

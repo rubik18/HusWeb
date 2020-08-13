@@ -1,8 +1,8 @@
-
+        
+        <title>Đảng và các đoàn thể</title>
         <!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
-        <title>Đảng và các đoàn thể</title>
         <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
         <link rel="stylesheet" type="text/css" href="../../css/tictuc_tham.css">
 		<div class="main-content-wrapper" >

@@ -1,8 +1,8 @@
-
+        
+        <title>Đào tạo Tuyển sinh </title>
         <!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
-        <title>Đào tạo Tuyển sinh </title>
         <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
         <link rel="stylesheet" type="text/css" href="../../css/tictuc_tham.css">
 		<div class="main-content-wrapper" >
