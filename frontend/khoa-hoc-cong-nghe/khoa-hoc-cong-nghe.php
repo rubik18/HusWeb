@@ -1,4 +1,4 @@
-<title>Danh mục thiết bị khoa học chính</title>
+<title>Khoa học - Công nghệ</title>
 <!-- start header -->
 <?php include "../header.html" ?>
 <!-- end header -->
@@ -12,10 +12,7 @@
                 <div class="col-12">
                     <ol class="breadcrumb">
                         <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa học - Công nghệ</a>
-                        &nbsp;
-                        <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
-                        &nbsp;
-                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/danh-muc-thiet-bi-khoa-hoc-chinh.php" class="item">Danh mục thiết bị khoa học chính</a>
+                        
                         
                     </ol>
                 </div>
@@ -25,30 +22,40 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-Danh mục thiết bị khoa học chính-->
+                <!-- start nội dung-Giới thiệu chung-->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div >
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr10672_ModuleContent">
+                                    <div >
                                         <div class="post-meta">
-                                            <h1>Danh mục thiết bị chính trường ĐHKHTN</h1>
+                                            <h1>Giới thiệu chung</h1>
                                         </div>
                                         <div class="post-content">
-                                            <p style="text-align: center;">
-                                                <iframe height="700px" src="\php-intership-team\img\img-nhung/danh_muc_thiet_bi_chinh.pdf" width="100%">
-                                                    <!DOCTYPE html>
-                                                    <html>
-                                                    <head> </head>
-                                                    <body style="height: 100%; width: 100%; overflow: hidden; margin:0px; background-color: rgb(82, 86, 89);">
-                                                        <embed name="470A87D37535B2FA03157B12874C97F4" style="position:absolute; left: 0; top: 0;" width="100%" height="100%" src="\php-intership-team\img\img-nhung/danh_muc_thiet_bi_chinh.pdf" type="application/pdf" >
-                                                    </body>
-                                                    </html>
-                                                </iframe>
-                                            </p>									        
+
+									        <p style="text-align: justify;">Trường Đại học Khoa học Tự nhiên (ĐHKHTN) là một trong những trung tâm đào tạo và nghiên cứu khoa học hàng đầu của Việt Nam trong lĩnh vực khoa học tự nhiên.</p>
+
+											<p style="text-align: justify;">Kết hợp chặt chẽ giữa nghiên cứu khoa học (NCKH) và đào tạo là điểm nổi bật &nbsp;của Trường ĐHKHTN, qua đó góp phần thúc đẩy quá trình đổi mới phương pháp dạy - học, nâng cao chất lượng đào tạo và trình độ đội ngũ cán bộ.</p>
+
+											<p style="text-align: justify;">Với kế hoạch xây dựng Trường trở thành đại học nghiên cứu tiên tiến, Trường đặc biệt quan tâm nâng cao chất lượng và hiệu quả của nghiên cứu khoa học bằng cách xác định hướng nghiên cứu ưu tiên; tập trung đầu tư cho các nghiên cứu xuất sắc, đỉnh cao nhằm tăng số công bố trên các tạp chí quốc tế uy tín; các phát minh, sáng chế và các hợp đồng triển khai ứng dụng.</p>
+
+											<p style="text-align: justify;">Hiện nay Trường tập trung nguồn lực cho một số hướng nghiên cứu ưu tiên sau:</p>
+
+											<ul>
+												<li style="text-align: justify;">Toán và Vật lý lý thuyết</li>
+												<li style="text-align: justify;">Khoa học và công nghệ nano&nbsp;</li>
+												<li style="text-align: justify;">Vật liệu tiên tiến và Hóa dược</li>
+												<li style="text-align: justify;">Khoa học sự sống và công nghệ sinh học</li>
+												<li style="text-align: justify;">Biến đổi khí hậu, quản lý và sử dụng hợp lý tài nguyên thiên nhiên</li>
+												<li style="text-align: justify;">Khoa học và công nghệ môi trường</li>
+												<li style="text-align: justify;">Khoa học hạt nhân và năng lượng tái tạo</li>
+												<li style="text-align: justify;">Khoa học và công nghệ biển.</li>
+											</ul>
+
+
 									    </div>
                                     </div>
                                     <!-- End_Module_10672 -->
@@ -57,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - Danh mục thiết bị khoa học chính-->
+                <!-- end nội dung - Giới thiệu chung-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
@@ -67,12 +74,12 @@
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        
+                                       
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">KHOA HỌC - CÔNG NGHỆ </div>
                                                 <ul class="right-me">
-                                                    <li class="li-me"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/gioi-thieu-chung.php">Giới thiệu chung</a></li>
+                                                    <li class="active li-me"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/gioi-thieu-chung.php">Giới thiệu chung</a></li>
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
                                                            <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
@@ -104,7 +111,7 @@
                                                         </ul>
                                                         </div>
                                                     </li>
-                                                    <li class="active"><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/danh-muc-thiet-bi-khoa-hoc-chinh.php">Danh mục thiết bị khoa học chính</a></li>
+                                                    <li class=""><a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/danh-muc-thiet-bi-khoa-hoc-chinh.php">Danh mục thiết bị khoa học chính</a></li>
                                                 </ul>
                                             </div>
                                         </div>

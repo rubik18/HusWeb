@@ -133,7 +133,7 @@
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Đảng - Đoàn thể<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Đảng - Đoàn thể<span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/dang-doan-the/dang-uy.php">Đảng ủy</a></li>
@@ -145,7 +145,7 @@
                                                     </li>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Phòng ban chức năng <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Phòng ban chức năng <span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/phong-ban-chuc-nang/phong-chinh-tri-va-cong-tac-sinh-vien.php">Phòng chính trị và Công tác sinh viên</a></li>
@@ -163,7 +163,7 @@
                                                     </li>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Khoa trực thuộc <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Khoa trực thuộc <span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/khoa-truc-thuoc/khoa-toan-co-tin-hoc.php">Khoa Toán - Cơ - Tin học</a></li>
@@ -179,7 +179,7 @@
                                                     </li>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Trung tâm nghiên cứu <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Trung tâm nghiên cứu <span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/trung-tam-nghien-cuu/phong-thi-nghiem-trong-diem-Emzym-Protein.php">Phòng thí nghiệm trọng điểm Enzym Protein</a></li>
@@ -194,7 +194,7 @@
                                                     </li>
                                                     <li class="trum">
                                                         
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Dự án và Công ty <button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Dự án và Công ty <span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none">
                                                             <ul class="submenu" style="display: block;">
                                                                 <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/du-an-va-cong-ty/cong-ty-trach-nhiem-huu-han.php">Công ty Trách nhiệm hữu hạn (TNHH) Khoa học Tự nhiên</a></li>

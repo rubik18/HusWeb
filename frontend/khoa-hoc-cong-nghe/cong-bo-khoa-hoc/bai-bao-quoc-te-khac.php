@@ -11,14 +11,14 @@
             <div class="row">
                 <div class="col-12">
                     <ol class="breadcrumb">
-                        <a href="#" class="item">Khoa học - Công nghệ</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Khoa học - Công nghệ</a>
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Công bố khoa học</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/khoa-hoc-cong-nghe.php" class="item">Công bố khoa học</a>
                          <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="#" class="item">Bài báo quốc tế khác</a>
+                        <a href="/php-intership-team/frontend/khoa-hoc-cong-nghe/cong-bo-khoa-hoc/bai-bao-quoc-te-khac.php" class="item">Bài báo quốc tế khác</a>
                     </ol>
                 </div>
             </div>
@@ -30,12 +30,12 @@
                 <!-- start nội dung-sứ mang_tầm nhìn -->
                 <div class="col-12 col-lg-12">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule DnnModule-Tintc-HinthBoxChitittin DnnModule-10672">
-                                <a name="10672"></a>
-                                <div id="dnn_ctr10672_ContentPane">
+                        <div>
+                            <div class="DnnModule ">
+                                <a ></a>
+                                <div >
                                     <!-- Start_Module_10672 -->
-                                    <div id="dnn_ctr15964_ModuleContent">
+                                    <div>
     
                                         <style type="text/css">
                                             .table .alrpd10 {

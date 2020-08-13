@@ -103,7 +103,7 @@
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                     <li class="trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<button class="submenu-indicator btn" type="button"><span>+</span></button></a>
+                                                        <a href="#" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 160.344px;"></span>Cơ cấu tổ chức<span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;">
                                                             <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/so-do-to-chuc.php">Sơ đồ tổ chức</a></li>
                                                             <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/co-cau-to-chuc/ban-giam-hieu.php">Ban giám hiệu</a></li>
@@ -119,7 +119,7 @@
                                                     </li>
                                                     <li class="li-me trum">
                                                         <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                        <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ Cán bộ<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                        <a href="#5510" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ Cán bộ<span  class="submenu-indicator" >+</span></a>
                                                         <div class="content d-none"><ul class="submenu" style="display: block;" id="5510">
                                                             <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/hoi-dong-khoa-hoc-dao-tao.php">Hội đồng Khoa học Đào tạo</a></li>
                                                             <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-can-bo.php">Danh hiệu nhà giáo<span class="submenu-indicator">+</span></a></li>

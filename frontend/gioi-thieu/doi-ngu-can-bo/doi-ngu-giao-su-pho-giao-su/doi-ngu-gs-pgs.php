@@ -518,7 +518,7 @@
                                                                 <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
                                                                 <li class="li-me trum">
                                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
-                                                                    <a href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Danh hiệu nhà giáo<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                                    <a href="#5510" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Danh hiệu nhà giáo<span  class="submenu-indicator" >+</span></a>
                                                                     <div class="content d-none">
                                                                         <ul class="submenu" style="display: block;" id="5510">
                                                                             <li class=""><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/danh-hieu-nha-giao/nha-giao-nhan-dan.php">Nhà giáo Nhân dân</a></li>
@@ -532,7 +532,7 @@
                                                                             background: #f6f7f9;
                                                                             border-left: solid 3px #017dc5;
                                                                             font-weight: 600;
-                                                                            padding-left: 27px;" href="#5510" class=""><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ giáo sư, phó giáo sư<button  class="submenu-indicator btn" type="button">+</button></a>
+                                                                            padding-left: 27px;" href="#5510" class="submenu nhung"><span class="ink animate-ink" style="height: 359px; width: 359px; top: -158.5px; left: 154.344px;"></span>Đội ngũ giáo sư, phó giáo sư<span  class="submenu-indicator" >+</span></a>
                                                                     <div class="content">
                                                                         <ul class="submenu" style="display: block;" id="5510">
                                                                             <li class="active"><a href="/php-intership-team/frontend/gioi-thieu/doi-ngu-can-bo/doi-ngu-giao-su-pho-giao-su/giao-su.php">Giáo sư</a></li>
