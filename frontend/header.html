@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="vi-VN" style="scroll-behavior: smooth;">
 <head id="Head">
-    <title>Trường đại học Khoa Học Tự Nhiên</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/themify-icons-n.css">
@@ -288,16 +287,16 @@
             str = document.getElementById('seach-box').value;
             var str2 = str.replace('Nhập thông tin tìm kiếm', "");
             if (str2.toString() != '') {
-                window.open('/php-intership-team/frontend/tim-kiem/g.php?q=' + encodeURI(str2), "_self");
+                window.open('/php-intership-team/frontend/tim-kiem/php?q=' + encodeURI(str2), "_self");
             }
             else {
                 alert('Bạn hãy nhập từ khóa cần tìm');
             }
         }
         function checkKeypressSearchTop(e) {
-            var kC = (window.event) ? event.keyCode : e.keyCode;  // MSIE : Firefox
+            var kC = (window.event) ? event.keyCode : e.keyCode;  
             if (kC == 13) {
-                doSearchSite();   // if ENTER then ignore
+                doSearchSite();     
                 return false;
             }
         }

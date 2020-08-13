@@ -6,6 +6,24 @@
     <?php include "../header.html" ?>
     <!----end header------->
 
+    <?php 
+        $db = array(
+            'server' => 'localhost',
+            'username' => 'root',
+            'password' => '',
+            'database' => 'adminhus'
+        );
+        $conn = mysqli_connect($db['server'], $db['username'], $db['password'], $db['database']);
+        if (!$conn) {
+            die('Fail connect!'). mysqli_connect_error($conn);
+        }
+
+        $query = mysqli_query($conn,"select * from `new`,`category` 
+            where category.id = new.id_category 
+            ORDER BY RAND() LIMIT 3;");
+       
+     ?>
+
     <div class="hero-area">
         <div class="hero-slides owl-carousel owl-theme owl-loaded">            
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -46,27 +64,27 @@
             <div class="navigation single-slide align-items-center text-center">
                 <ul>
                     <li class="post-number">
-                        <a href="" target="_blank">
+                        <a href="https://eoffice.vnu.edu.vn/khtn" target="_blank">
                             <img src="/php-intership-team/img/main/eoffice.png" alt="E-Office"> 
                             <span>E-OFFICE</span>
                         </a></li>
                     <li class="post-number">
-                        <a href="" target="_blank">
+                        <a href="https://dangky.vnu.edu.vn" target="_blank">
                             <img src="/php-intership-team/img/main/canbo.png" alt="Cổng thông tin cán bộ">
                             <span>CỔNG THÔNG TIN <br>CÁN BỘ</span>
                         </a></li>
                     <li class="post-number">
-                        <a href="" target="_blank">
+                        <a href="https://daotao.vnu.edu.vn/" target="_blank">
                             <img src="/php-intership-team/img/main/nguoihoc.png" alt="Cổng thông tin người học">
                             <span>CỔNG THÔNG TIN<br>NGƯỜI HỌC</span>
                         </a></li>
                     <li class="post-number">
-                        <a href="" target="_blank">
+                        <a href="http://lic.vnu.edu.vn/" target="_blank">
                             <img src="/php-intership-team/img/main/thuvien.png" alt="Thư viện"> 
                             <span>THƯ VIỆN</span>
                         </a></li>
                     <li class="post-number">
-                        <a href="" target="_blank">
+                        <a href="https://www.google.com/a/hus.edu.vn" target="_blank">
                             <img src="/php-intership-team/img/main/email.png" alt="Email"> 
                             <span>EMAIL</span>
                         </a></li>
@@ -91,57 +109,30 @@
                                     <h5><a href="">Tin tức</a></h5>
                                 </div>  
                             </div>
-
-                            <div class="single-blog-post post-style-4 d-flex align-items-center">
-                                <div class="post-thumbnail">
-                                    <a href="">
-                                    <img src="/php-intership-team/img/main/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg" alt="Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ...">
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <a href="" class="headline">
-                                        <h5>Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ... </h5>
-                                    </a>
-                                    <p>Ngày 29/7/2020, tại Hội trường Ngụy Như Kon Tum (19 Lê Thánh Tông, Hà Nội), Trường Đại học Khoa học Tự nhiên đã trang trọng ...</p>
-                                    <div class="post-meta">
-                                        <p><a href="" class="post-date">30/07/2020</a></p>
+                                <?php if(mysqli_num_rows($query) > 0){
+                                    $i = 0 ;
+                                    while($row = mysqli_fetch_assoc($query)){      
+                                ?>
+                                <div class="single-blog-post post-style-4 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <a href="">
+                                        <img src="/php-intership-team/img/main/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg" alt="Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ...">
+                                        </a>
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="" class="headline">
+                                            <h5><?php echo $row['title']; ?> ...</h5>
+                                        </a>
+                                        <p><?php echo substr($row['description'], 0, 100); ?> ...</p>
+                                        <div class="post-meta">
+                                            <p><a href="" class="post-date"><?php $time = strtotime($row['update_at']);
+                                        echo  date("d/m/Y",$time); ?></a></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="single-blog-post post-style-4 d-flex align-items-center">
-                                <div class="post-thumbnail">
-                                    <a href="">
-                                    <img src="/php-intership-team/img/main/083b15c3-a4df-4c4c-ab30-e1ba4c2e1112.jpeg" alt="Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: ...">
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <a href="" class="headline">
-                                        <h5>Thủ khoa tốt nghiệp đầu ra Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội: ... </h5>
-                                    </a>
-                                    <p>Sinh viên Trương Tấn Sang, K61, Cử nhân Tài năng Hóa học, Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà ...</p>
-                                    <div class="post-meta">
-                                        <p><a href="" class="post-date">29/07/2020</a></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post post-style-4 d-flex align-items-center">
-                                <div class="post-thumbnail">
-                                    <a href="">
-                                    <img src="/php-intership-team/img/main/cefd-tong-ket-hop-phan-2-3.png" alt="Trường Đại học Khoa học Tự nhiên gặp mặt sinh viên tốt nghiệp năm 2020...">
-                                    </a>
-                                </div>
-                                <div class="post-content">
-                                    <a href="" class="headline">
-                                        <h5>Trường Đại học Khoa học Tự nhiên gặp mặt sinh viên tốt nghiệp năm 2020... </h5>
-                                    </a>
-                                    <p>Ngày 28/7/2020, tại Hội trường tầng 7, nhà T5, Trường Đại học Khoa học Tự nhiên đã tổ chức gặp mặt toàn bộ sinh viên ...</p>
-                                    <div class="post-meta">
-                                        <p><a href="" class="post-date">28/07/2020</a></p>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php
+                                }}
+                            ?>
                         </div>
                     </div>
                     
@@ -364,49 +355,49 @@
                                         <div class="vonhquanhhus owl-carousel owl-theme owl-responsive-1000 owl-loaded">                      
                                         <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1150px;"><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
-                                                    <a href="">
+                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">
                                                         <img alt="Thành tựu và Gương mặt" src="/php-intership-team/img/main/1TaQuangBuu.jpg" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
                                                     <h3>
-                                                        <a href="">Thành tựu và Gương mặt
+                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">Thành tựu và Gương mặt
                                                         </a>
                                                     </h3>
                                                 </div>
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
-                                                    <a href="">
+                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">
                                                         <img alt="Hoạt động sinh viên" src="/php-intership-team/img/main/h2.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
                                                     <h3>
-                                                        <a href="">Hoạt động sinh viên
+                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">Hoạt động sinh viên
                                                         </a>
                                                     </h3>
                                                 </div>
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
-                                                    <a href="">
+                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">
                                                         <img alt="Diễn đàn thầy và trò" src="/php-intership-team/img/main/h3.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
                                                     <h3>
-                                                        <a href="">Diễn đàn thầy và trò
+                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">Diễn đàn thầy và trò
                                                         </a>
                                                     </h3>
                                                 </div>
                                             </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
                                                 <div class="item-header">
-                                                    <a href="">
+                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.htmlhttp://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">
                                                         <img alt="Thư viện Media" src="/php-intership-team/img/main/h4.png" class="img-news">
                                                     </a>
                                                 </div>
                                                 <div class="item-content">
                                                     <h3>
-                                                        <a href="">Thư viện Media
+                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">Thư viện Media
                                                         </a>
                                                     </h3>
                                                 </div>

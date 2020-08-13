@@ -84,7 +84,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-12">
                                                         <ul class="ketquasearch">
-                                                            <li><a id="dnn_ctr2934_Main_ctl00_hplgooogle" href="/php-intership-team/frontend/main/tim-kiem/g.php?q=">Kết quả từ Google</a></li>
+                                                            <li><a id="dnn_ctr2934_Main_ctl00_hplgooogle" href="/php-intership-team/frontend/main/tim-kiem/php?q=">Kết quả từ Google</a></li>
                                                             <li class="active"><a href="javascript:void(0)">Kết quả từ Website</a></li>
                                                         </ul>
                                                     </div>
