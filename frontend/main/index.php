@@ -7,17 +7,8 @@
     <!----end header------->
 
     <?php 
-        $db = array(
-            'server' => 'localhost',
-            'username' => 'root',
-            'password' => '',
-            'database' => 'adminhus'
-        );
-        $conn = mysqli_connect($db['server'], $db['username'], $db['password'], $db['database']);
-        if (!$conn) {
-            die('Fail connect!'). mysqli_connect_error($conn);
-        }
-
+        require 'connectSQL.php';
+        $conn->set_charset("utf8");
         $query = mysqli_query($conn,"select * from `new`,`category` 
             where category.id = new.id_category 
             ORDER BY RAND() LIMIT 3;");
@@ -116,17 +107,21 @@
                                 <div class="single-blog-post post-style-4 d-flex align-items-center">
                                     <div class="post-thumbnail">
                                         <a href="">
-                                        <img src="/php-intership-team/img/main/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg" alt="Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ ...">
+                                        <img src="<?php echo $row['avatar'];?>" alt="<?php echo substr($row['title'], 0, 100); ?>...">
                                         </a>
                                     </div>
                                     <div class="post-content">
                                         <a href="" class="headline">
-                                            <h5><?php echo $row['title']; ?> ...</h5>
+                                            <h5><?php echo substr($row['title'], 0, 100); ?>...</h5>
                                         </a>
-                                        <p><?php echo substr($row['description'], 0, 100); ?> ...</p>
+                                        <p><?php echo substr($row['description'], 0, 150); ?></p>
                                         <div class="post-meta">
-                                            <p><a href="" class="post-date"><?php $time = strtotime($row['update_at']);
-                                        echo  date("d/m/Y",$time); ?></a></p>
+                                            <p><a href="" class="post-date" style="color: grey">
+                                                <?php 
+                                                    $time = strtotime($row['created_at']);
+                                                    echo  date("d/m/Y",$time); ?>
+                                                </a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -339,86 +334,80 @@
     <div class="main-content-motvongquanhhus pdt-10 pdb-10">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-12">
-                    <div id="dnn_vongquanhhusPane">
-                        <div class="DnnModule DnnModule-Banner-Show DnnModule-10928">
-                            <a name="10928"></a>
-                            <div id="dnn_ctr10928_ContentPane">
-                                <div id="dnn_ctr10928_ModuleContent">
-                                    <div class="post-content-area">
-                                    <div class="world-catagory-area">
-                                        <div class="titlevqh">
-                                            <div class="block-title uppercase"><a href="">
-                                                <h5>Một vòng quanh hus</h5></a>
-                                            </div>
-                                        </div>
-                                        <div class="vonhquanhhus owl-carousel owl-theme owl-responsive-1000 owl-loaded">                      
-                                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1150px;"><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
-                                                <div class="item-header">
-                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">
-                                                        <img alt="Thành tựu và Gương mặt" src="/php-intership-team/img/main/1TaQuangBuu.jpg" class="img-news">
-                                                    </a>
-                                                </div>
-                                                <div class="item-content">
-                                                    <h3>
-                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">Thành tựu và Gương mặt
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
-                                                <div class="item-header">
-                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">
-                                                        <img alt="Hoạt động sinh viên" src="/php-intership-team/img/main/h2.png" class="img-news">
-                                                    </a>
-                                                </div>
-                                                <div class="item-content">
-                                                    <h3>
-                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">Hoạt động sinh viên
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
-                                                <div class="item-header">
-                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">
-                                                        <img alt="Diễn đàn thầy và trò" src="/php-intership-team/img/main/h3.png" class="img-news">
-                                                    </a>
-                                                </div>
-                                                <div class="item-content">
-                                                    <h3>
-                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">Diễn đàn thầy và trò
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                            </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
-                                                <div class="item-header">
-                                                    <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.htmlhttp://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">
-                                                        <img alt="Thư viện Media" src="/php-intership-team/img/main/h4.png" class="img-news">
-                                                    </a>
-                                                </div>
-                                                <div class="item-content">
-                                                    <h3>
-                                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">Thư viện Media
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
+                <div class="col-12 col-lg-12"> 
+                    <div class="post-content-area">
+                        <div class="world-catagory-area">
+                            <div class="titlevqh">
+                                <div class="block-title uppercase"><a href="">
+                                    <h5>Một vòng quanh hus</h5></a>
+                                </div>
+                            </div>
+                            <div class="vonhquanhhus owl-carousel owl-theme owl-responsive-1000 owl-loaded">                      
+                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1150px;"><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
+                                    <div class="item-header">
+                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">
+                                            <img alt="Thành tựu và Gương mặt" src="/php-intership-team/img/main/1TaQuangBuu.jpg" class="img-news">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3>
+                                            <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thanh-tuu-guong-mat.html">Thành tựu và Gương mặt
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
+                                    <div class="item-header">
+                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">
+                                            <img alt="Hoạt động sinh viên" src="/php-intership-team/img/main/h2.png" class="img-news">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3>
+                                            <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/hoat-dong-sinh-vien.html">Hoạt động sinh viên
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div></div><div class="owl-item active" style="width: 277.5px; margin-right: 10px;"><div class="item-main">
+                                    <div class="item-header">
+                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">
+                                            <img alt="Diễn đàn thầy và trò" src="/php-intership-team/img/main/h3.png" class="img-news">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3>
+                                            <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/dien-dan-thay-va-tro.html">Diễn đàn thầy và trò
+                                            </a>
+                                        </h3>
                                     </div>
                                 </div>
-                                                <div class="owl-controls">
-                                                    <div class="owl-nav">
-                                                        <div class="owl-prev" style="">prev</div>
-                                                        <div class="owl-next" style="">next</div>
-                                                    </div>
-                                                    <div class="owl-dots" style="display: none;"></div>
-                                                </div>
-                                            </div>                               
-                                        </div>
+                            </div>
+                            <div class="owl-item active" style="width: 277.5px; margin-right: 10px;">
+                                <div class="item-main">
+                                    <div class="item-header">
+                                        <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.htmlhttp://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">
+                                            <img alt="Thư viện Media" src="/php-intership-team/img/main/h4.png" class="img-news">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3>
+                                            <a href="http://www.hus.vnu.edu.vn/mot-vong-quanh-hus/thu-vien-media.html">Thư viện Media
+                                            </a>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev" style="">prev</div>
+                            <div class="owl-next" style="">next</div>
+                        </div>
+                        <div class="owl-dots" style="display: none;"></div>
+                    </div>
+                </div>                               
+            </div>
+        </div>
                 </div>
             </div>
         </div>
