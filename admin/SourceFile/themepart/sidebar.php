@@ -37,11 +37,12 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <!-- tin tức -->
           <li class="nav-item has-treeview">
             <a href="/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
-                DataBase
+                Tin tức
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -72,6 +73,7 @@
               </li>
             </ul>
           </li>
+          <!-- tag -->
           <li class="nav-item has-treeview">
             <a href="/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
@@ -97,6 +99,33 @@
               </li>
             </ul>
           </li>
+          <!-- đề tài dự án -->
+          <li class="nav-item has-treeview">
+            <a href="/php-intership-team/admin/SourceFile/project_research/table-project.php" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Đề tài dự án
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/php-intership-team/admin/SourceFile/project_research/table-project.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ProjectTable</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="/php-intership-team/admin/SourceFile/project_research/form-project.php" class="nav-link">
+                  <i class="nav-icon fas fa-plus-circle"></i>
+                  <p>
+                  Thêm đề tài
+                  </p>
+                  </a>
+              </li>
+            </ul>
+          </li>
+          
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
               <i class="nav-icon fas fa-plus-circle"></i>
