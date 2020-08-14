@@ -123,7 +123,8 @@ if (!isset($_SESSION['user'])) {
                   <div>
                     Chọn file để upload:
                     <input type="file" name="fileupload" id="fileupload" accept="image/*">
-                    <img src="<?php echo $row['avatar'] ?>" style = style ="width: 100px; height: 100px" >
+                    <img src="<?php echo $row['avatar'] ?>" style ="width: 100px; height: 100px" >
+                    <input type="text" name = "URL" class="form-control" value="<?php echo $row['avatar'] ?>">
                   </div>
                 </div>
                    <!-- Date and time range -->

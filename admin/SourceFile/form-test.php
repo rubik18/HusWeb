@@ -121,7 +121,9 @@ if (!isset($_SESSION['user'])) {
                   <label for="exampleInputFile">Avatar</label>
                   <div>
                     Chọn file để upload:
-                    <input type="file" name="fileupload" id="fileupload" accept="image/*">
+                    <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
+                    URL:
+                    <input type="text" name = "URL" class="form-control" placeholder="Enter ...">
                   </div>
                 </div>
                   <!-- Nội dung -->
