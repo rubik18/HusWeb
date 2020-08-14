@@ -2,9 +2,9 @@
 // kết nối
   require'../db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM tag WHERE tag.deleted_at is NULL";
+  $sql = "SELECT * FROM detai_duan WHERE detai_duan.deleted_at is NULL";
   $conn->set_charset("utf8");
-  $result = mysqli_query($conn, $sql); 
+  $result = mysqli_query($conn, $sql);
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
@@ -51,12 +51,12 @@ if (!isset($_SESSION['user'])) {
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>TagTable</h1>
+            <h1>ProjectTable</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="home">Home</a></li>
-              <li class="breadcrumb-item active">TagTable</li>
+              <li class="breadcrumb-item active">ProjectTable</li>
             </ol>
           </div>
         </div>
@@ -72,7 +72,7 @@ if (!isset($_SESSION['user'])) {
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Tag</h3>
+                <h3 class="card-title">Sự kiện</h3>
               </div>
               <!-- /.card-header -->
                 <div class="card-body">
@@ -80,8 +80,11 @@ if (!isset($_SESSION['user'])) {
                   <thead>
                   <tr>
                     <th>Stt</th>
-                    <th>Tag</th>
+                    <th>id</th>
                     <th>Name</th>
+                    <th>leader</th>
+                    <th>workplace</th>
+                    <th></th>
                     <th>Action</th>
                   </tr>
                   </thead>
