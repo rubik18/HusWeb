@@ -2,7 +2,7 @@
 <?php 
 // kết nối
     $id = $_GET['id'];
-  require'connectSQL.php';
+  require'../connectSQL.php';
 // Chuỗi kết nối
   $sql = "SELECT * FROM `new` WHERE `id` = $id";
   $conn->set_charset("utf8");
@@ -22,7 +22,7 @@
     ?>
   </title>
         <!---------start header------------>
-        <?php include "../header.html" ?>
+        <?php include "../../header.html" ?>
         <!---end header------->
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/tictuc_tham.css">
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/canbo_tham.css">
@@ -197,5 +197,5 @@
         <!--  -->
         <!--*********End Body*******************--------->
         <!---start footer----->
-        <?php include "../footer.html" ?>
+        <?php include "../../footer.html" ?>
         <!----end footer------->
