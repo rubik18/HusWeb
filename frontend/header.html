@@ -248,12 +248,15 @@
                         <div class="search">
                             <input class="search_box" type="checkbox" id="search_box">
                             <label class="icon-search" for="search_box" onclick="OnClickButton();"></label>
-                            <div class="search_form">
-                                <input type="text" id="seach-box" class="search_tb" name="s" value="Nhập thông tin tìm kiếm" onkeypress="return checkKeypressSearchTop(event)" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                                <a href="javascript:void(0);" type="submit" class="search_btn" name="ok" value="Tìm kiếm" onclick="doSearchSite(); return false;">
-                                    Tìm kiếm
-                                </a>
-                            </div>
+                                <div class="search_form">
+                                    <form action="/php-intership-team/frontend/main/tim-kiem.php" method="get">
+                                        <input type="text" id="seach-box" class="search_tb" name="s" value="Nhập thông tin tìm kiếm" onkeypress="return checkKeypressSearchTop(event)" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                                        <button type="submit" class="search_btn" name="ok" value="Tìm kiếm" onclick="doSearchSite(); return false;">
+                                            Tìm kiếm
+                                        </button>
+                                    </form>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

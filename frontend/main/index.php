@@ -1,7 +1,5 @@
+<title>Trường đại học Khoa Học Tự Nhiên</title>
 
-    <title>Trường đại học Khoa Học Tự Nhiên</title>
-
-    
     <!---start header----->
     <?php include "../header.html" ?>
     <!----end header------->
@@ -12,7 +10,7 @@
         $query = mysqli_query($conn,"select * from `new`,`category` 
             where category.id = new.id_category 
             ORDER BY RAND() LIMIT 3;");
-       
+     
      ?>
 
     <div class="hero-area">

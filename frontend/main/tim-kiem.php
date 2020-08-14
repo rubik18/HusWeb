@@ -11,8 +11,6 @@
         $conn->set_charset("utf8"); 
      ?>
 
-
-
     <div class="main-content-wrapper">
         <div class="container">
             <div class="breakcrum mb-30">
@@ -79,19 +77,14 @@
                                     <div class="col-12 col-md-12">
                                         <form action="tim-kiem.php" method="get">
                                             <div style="width: 85%; float: left;">
-                                                <input name="s" type="text" style="border-color:#ECECEC;border-width:1px;border-style: solid;font-size:17px;height:35px;width:100%;">
+                                                <input name="s" value="<?php echo $_GET['s'];?>" type="text" style="border-color:#ECECEC;border-width:1px;border-style: solid;font-size:17px;height:35px;width:100%;">
                                             </div>
                                             <div style="padding-left: 5px; float: left; width: 70px; margin-top: 3px;">
                                                 <input type="submit" name="ok" value="Tìm kiếm" style="background-color:yellow;border-color:darkred;border-width:1px;border-style:solid;font-weight:bold;height:30px;width:80px;">
                                             </div>
                                         </form>
                                     </div>
-                                    <!-- <div class="col-12 col-md-12">
-                                        <ul class="ketquasearch">
-                                            <li><a href="/php-intership-team/frontend/main/tim-kiem.php?id= <?php echo $row['id']?>">Kết quả từ Google</a></li>
-                                            <li class="active"><a href="javascript:void(0)">Kết quả từ Website</a></li>
-                                        </ul>
-                                    </div> -->
+        
                                     <?php
                                         if (isset($_REQUEST['ok'])) 
                                         {
@@ -103,26 +96,26 @@
                                             {                                                    
                                                 $query = mysqli_query($conn,"SELECT * from `new` where description  like '%$s%' and title like '%$s%' and content like '%$s%';");
                                                 $num = mysqli_num_rows($query);
-                                                if ($num > 0 && $s != "") 
-                                                { ?> 
-                                                <div style="margin: 15px 10px 10px 15px;">
+                                                if ($num > 0 && $s != ""){ 
+                                                ?> 
+                                                <div style="margin: 25px 10px 10px 25px;">
                                                     <?php echo "$num kết quả với từ khóa <b>\"$s\"</b>";?>
                                                 </div>
                                                 <?php
                                                     while ($row = mysqli_fetch_assoc($query)) {
                                     ?>
 
-                                    <div id="list_news" style="margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-top: 10px; border-top: dashed 1px #ccc;">
+                                    <div id="list_news" style="margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-top: 10px; ">
                                         <div class="list-news">
                                             <div class="list-article">
                                                 <ul class="list-item">
                                                     <li>
                                                         <a href="">
-                                                            <img src="<?php echo $row['avatar'];?>" alt="<?php echo substr($row['title'], 0, 40); ?>..." style="width: 192px; height: 144px;">
+                                                            <img src="<?php echo $row['avatar'];?>" alt="<?php echo substr($row['title'], 0, 120); ?>..." style="width: 192px; height: 144px;">
                                                         </a>
                                                         <p class="name">
                                                             <a href="">
-                                                                <?php echo substr($row['title'], 0, 80); ?>...
+                                                                <?php echo substr($row['title'], 0, 100); ?>...
                                                             </a>
                                                         </p>
                                                         <p class="des">
