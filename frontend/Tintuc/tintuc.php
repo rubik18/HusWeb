@@ -42,31 +42,30 @@
                 <div class="row">
                 <!-----------------box-1---------------------> 
                 <?php        
-                    if(mysqli_num_rows($result)>0){
-                        
-
-                        while($row = mysqli_fetch_assoc($result)){  
+                    if(mysqli_num_rows($result)>0 ){
+                        $i = 0;
+                        while($row = mysqli_fetch_assoc($result) ){  
                         $id = $row['id'];   
                 ?>                                     
                 <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
                         <div class="magazine-item-media">
                                         <span class="media-mask"></span>
                                         <div class="item-image">
-                                            <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="content">
+                                            <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="content">
                                                 <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/07/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
+                                                    <img src="/php-intership-team/img/main/cefd-tong-ket-hop-phan-2-3.png" itemprop="url">
                                                 </span>
                                             </a>
                                         </div>
                         </div>
                         <div class="magazine-item-main">
             			     <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;">
-                                <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="item ">
-                                    <?php echo  $row['name'] .$row['id']. "<br>";?>
+                                <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="item ">
+                                    <?php echo  $row['name'] . "<br>";?>
                                 </a></p>  
                             <div class="article-title">
                                 <h3 itemprop="name">
-                                    <a href="nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>"class="content" style="font-size: 15px">
+                                    <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>"class="content" style="font-size: 15px">
                                         <?php echo substr($row['title'], 0, 150) ."..."; ?>
                                     </a>
                                 </h3>
@@ -91,7 +90,7 @@
                             </div>
                         </div>
                 </div>
-            <?php }} ?>
+            <?php  $i ++;}} ?>
                 
                 </div><!------------row ----------------->
                 <!-----start list-page----------------------->

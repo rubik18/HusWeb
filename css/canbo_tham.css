@@ -57,3 +57,10 @@ table {
     text-align: left !important;
 }
 
+/***********CSS **************/
+#events_details dl.details dd {
+    display: block !important;
+    margin: 15px 0 15px 100px !important;
+    text-align: justify !important;
+}
+
