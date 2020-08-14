@@ -11,10 +11,20 @@ $conn->set_charset("utf8");
   $avatar =$_POST['avatar'];
 // echo "phan tu trong chuoi"." ".$length_chuoi;
 	$date_time = explode("-",$_POST['date_time']);
+// uploadFile
+//lấy tên của file:
+$file_name=$_FILES['fileupload']["name"];
+//lấy đường dẫn tạm lưu nội dung file:
+$file_tmp =$_FILES['fileupload']['tmp_name'];
+//tạo đường dẫn lưu file trên host:
+$path ="upload/".$file_name;
+//upload nội dung file từ đường dẫn tạm vào đường dẫn vừa tạo:
+move_uploaded_file($file_tmp,$path);				
+
   if(!empty($_POST['tag'])){
   	$tag = $_POST['tag'];
 	  if(!empty($_POST)) {
-			$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]')";
+			$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$path', '$content', '$date_time[0]','$date_time[1]')";
 			mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 			$news_id = mysqli_insert_id($conn);
 			$v = "";
@@ -32,7 +42,7 @@ $conn->set_charset("utf8");
 		}
 	}
   else{
-  	$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]')";
+  	$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$path', '$content', '$date_time[0]','$date_time[1]')";
 	mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 	header("Location:table-master.php");
 
