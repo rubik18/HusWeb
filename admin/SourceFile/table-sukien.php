@@ -82,6 +82,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Stt</th>
                     <th>Title</th>
                     <th>Type</th>
+                    <th>Avatar</th>
                     <th>Description</th>
                     <th>Action</th>
                   </tr>
@@ -96,6 +97,7 @@ if (!isset($_SESSION['user'])) {
                     <td><?php echo $i ?></td>
                     <td><?php echo $row['title'] ?></td>
                     <td><?php echo $row['name'] ?></td>
+                    <th><?php echo $row['avatar'] ?></th>
                     <td><?php echo $row['description'] ?></td>
                     <td class="project-actions text-right">
                           <!-- <a class="btn btn-primary btn-sm" href="#">

@@ -95,7 +95,7 @@ if (!isset($_SESSION['user'])) {
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="add.php" method = "post">
+                <form role="form" action="add.php" method = "post" enctype="multipart/form-data">
                   <!-- Tit -->
                   <div class="form-group">
                     <label>Title</label>
@@ -117,15 +117,13 @@ if (!isset($_SESSION['user'])) {
                     </select>
                   </div>
                   <!-- avatar -->
-                  <div class="form-group">
-                    <label for="exampleInputFile">Avatar</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <label>URL</label>
-                        <input type="text" name = "avatar" class="form-control" placeholder="Enter ...">
-                      </div>
-                    </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">Avatar</label>
+                  <div>
+                    Chọn file để upload:
+                    <input type="file" name="fileupload" id="fileupload" accept="image/*">
                   </div>
+                </div>
                   <!-- Nội dung -->
                   <!-- Date and time range -->
                 <div class="form-group">
