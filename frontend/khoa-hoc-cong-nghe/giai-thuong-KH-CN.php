@@ -130,10 +130,10 @@
 												                <tr>
 												                    <td>
 												                        <table class="table-bordered" cellspacing="0" rules="all" border="1" id="dnn_ctr11052_Main_ctl00_drgDataViewer" style="width:100%;border-collapse:collapse;">
-															<tbody><tr align="center" style="color:White;background-color:#006699;font-weight:bold;">
-																<td>Năm</td><td>Tên giải thưởng</td><td>Cấp độ</td><td>Tên công trình</td><td>Tổ chức / cá nhân được tặng</td><td>Tóm tắt ý nghĩa khoa học của công trình</td>
-															</tr><tr class="TRgrid">
-																<td style="width:80px;">
+															<tbody><tr align="center" style="color:White;background-color:#006699;font-weight:bold; clear: both;">
+																<td>Năm</td><td>Tên giải thưởng</td><td>Cấp độ</td><td>Tên công trình</td><td width="15%" height="50px">Tổ chức / cá nhân được tặng</td><td>Tóm tắt ý nghĩa khoa học của công trình</td>
+															</tr><tr class="TRgrid" style=" padding-left:5px;padding-right: 5px;">
+																<td style="width:80px; ">
 												                                        2018
 												                                    </td><td style="width:120px;">
 												                                        Giải thưởng “Sinh viên nghiên cứu khoa học” cấp Bộ GD&amp;ĐT năm 2018
