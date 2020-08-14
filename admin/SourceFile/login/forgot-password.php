@@ -30,11 +30,7 @@
 
       <form action="recover-password.html" method="post">
         <div class="input-group mb-3">
-<<<<<<< HEAD
-          <input type="email" class="form-control" placeholder="Email">
-=======
           <input type="text" class="form-control" placeholder="Username">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -52,12 +48,6 @@
       <p class="mt-3 mb-1">
         <a href="login.html">Login</a>
       </p>
-<<<<<<< HEAD
-      <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
-      </p>
-=======
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
     </div>
     <!-- /.login-card-body -->
   </div>

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php 
 session_start();
 // var_dump($_SESSION['user']);die();
@@ -8,7 +6,6 @@ if (!isset($_SESSION['user'])) {
 }
 
  ?>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
 <!DOCTYPE html>
 <html>
 <head>

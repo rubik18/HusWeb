@@ -9,10 +9,6 @@
     die('error'. mysqli_error($conn));
   }
  ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,16 +38,9 @@
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
-<<<<<<< HEAD
-
-      <form action="#" method="post">
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email">
-=======
       <form action="login_submit.php" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" name="user_name" placeholder="Username">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -59,19 +48,13 @@
           </div>
         </div>
         <div class="input-group mb-3">
-<<<<<<< HEAD
-          <input type="password" class="form-control" placeholder="Password">
-=======
           <input type="password" class="form-control" name ="password"placeholder="Password">
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-=======
         <?php 
           if (@$_GET['Empty'] == true) {
         ?>
@@ -91,7 +74,6 @@
         <?php      
           }
         ?>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
@@ -103,11 +85,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-<<<<<<< HEAD
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-=======
             <button type="submit" name="login" class="btn btn-primary btn-block">Sign In</button>
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
           </div>
           <!-- /.col -->
         </div>
@@ -119,12 +97,6 @@
       <p class="mb-1">
         <a href="forgot-password.php">I forgot my password</a>
       </p>
-<<<<<<< HEAD
-      <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
-      </p>
-=======
->>>>>>> eab4e6f6b1ff04b8d87783a06866345b6540c41a
     </div>
     <!-- /.login-card-body -->
   </div>
