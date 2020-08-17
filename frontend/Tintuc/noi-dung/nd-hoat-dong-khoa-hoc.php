@@ -1,10 +1,14 @@
 
 <?php 
 // kết nối
-    $id = $_GET['id'];
+    if( isset($_GET['id']) ){
+        $id = $_GET['id'];
+    }else {
+        $id = 91;
+    }
   require'../connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM `new` WHERE `id` = $id";
+  $sql = "SELECT * FROM `new` WHERE `id` = $id AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -37,9 +41,9 @@
                     <div class="row" >
                         <div class="col-12">
                               <nav><ol class="breadcrumb" style="padding-top: 0 !important">
-                                <li class="breadcrumb-item active" aria-current="page"><a href="../tintuc.php" class="item ">Tin tức</a></li>&nbsp;
+                                <li class="breadcrumb-item active" aria-current="page"><a href="/php-intership-team/frontend/Tintuc/tintuc.php" class="item ">Tin tức</a></li>&nbsp;
                                 <img src="/php-intership-team/img/hop-tac-quoc-te/breadcrumb.gif">&nbsp;
-                                <li class="breadcrumb-item active" aria-current="page"><a href="../hoatdongkh.php" class="item ">Hoạt động khoa học</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><a href="/php-intership-team/frontend/Tintuc/hoatdongkh.php" class="item ">Hoạt động khoa học</a></li>
                               </ol></nav>
                             </div></div>
                 </div><!----end thanh muc luc-------->
@@ -166,13 +170,13 @@
                                 <div id="jquery-accordion-menu" class="jquery-accordion-menu">
                                     <div class="jquery-accordion-menu-header">Tin tức </div>
                                     <ul>
-                                        <li class=""><a href="../tinmoinhat.php">Tin mới nhất</a></li>
-                                        <li class=""><a href="../sukien.php">Sự kiện</a></li>
-                                        <li class=""><a href="../thongbao.php">Thông báo</a></li>
-                                        <li class=""><a href="../tintucchung.php">Tin tức chung</a></li>
-                                        <li class=""><a href="../dangvadoan.php">Đảng và các Đoàn thể</a></li>
-                                        <li class=""><a href="../daotaots.php">Đào tạo - Tuyển sinh</a></li>
-                                        <li class="active"><a href="../hoatdongkh.php">Hoạt động khoa học</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/tinmoinhat.php">Tin mới nhất</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/sukien.php">Sự kiện</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/thongbao.php">Thông báo</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/tintucchung.php">Tin tức chung</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/dangvadoan.php">Đảng và các Đoàn thể</a></li>
+                                        <li class=""><a href="/php-intership-team/frontend/Tintuc/daotaots.php">Đào tạo - Tuyển sinh</a></li>
+                                        <li class="active"><a href="/php-intership-team/frontend/Tintuc/hoatdongkh.php">Hoạt động khoa học</a></li>
                                     </ul>
                                     <div class="jquery-accordion-menu-footer"></div>
                                 </div>

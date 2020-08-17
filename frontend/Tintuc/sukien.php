@@ -1,3 +1,22 @@
+<?php 
+// kết nối
+    if( isset($_GET['page']) ){
+        $page = $_GET['page'];
+    }else {
+        $page = 1;
+    }
+    $ipage = ($page-1) * 9;
+  require'connectSQL.php';
+// Chuỗi kết nối
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Sự kiện' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 9";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+
+  
+ ?>
         <title>Sự kiện</title>
 		<!---------start header------------>
         <?php include "../header.html" ?>
@@ -30,14 +49,23 @@
                                                 <!------start col-9 left----------------------->
 <div class="col-12 col-lg-9 pdr-0">
     <div class="row">
-    <!-----------------box-1--------------------->                                                    
+
+    <!-----------------box-1--------------------->
+    <?php        
+                    if(mysqli_num_rows($result)>0 ){
+                        $i = 0;
+                        while($row = mysqli_fetch_assoc($result) ){  
+                        $id = $row['id'];
+                        $end = strtotime($row['end_date']); 
+                          $start = strtotime($row['start_date']);
+                ?>                                                     
     <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
             <div class="magazine-item-media">
                             <span class="media-mask"></span>
                             <div class="item-image">
                                 <a href="" class="content">
                                     <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
+                                        <img src="<?php echo $row['avatar']; ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                     </span>
                                 </a>
                             </div>
@@ -46,296 +74,36 @@
 			     
                 <div class="article-title">
                     <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
+                        <a href="noi-dung/nd-su-kien.php?id= <?php echo $id?>"class="content"><?php 
+                                            $string=$row['title'];
+                                            $array=explode(' ' ,$string);
+                                            for($x=0; $x<21 && $x< count($array); $x++){
+                                                echo $array[$x] ." ";
+                                            }
+                                           
+                                          ?></a>
                     </h3>
                 </div>	
                 <aside class="article-aside clearfix">
                     <dl class="article-info muted" >
                         <dd class="published hasTooltip" title="Được đăng: ">
                             <i class="fa fa-clock-o"></i>
+                            <?php if(date("Y/m/d")>date("Y/m/d",$end) ){ ?>
                             <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
                                 <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
+                            <?php } if(date("Y/m/d")<date("Y/m/d",$start)) { ?>
+                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
+                                <span class="sukienchuadienraz">CHƯA DIỄN RA</span></time>
+                            <?php } ?>
                         </dd>
                     </dl>
                 </aside>
                 
             </div>
-    </div><!--end box-1 --------------->
-    <!-----------------box-2--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/hoi-nghi-cong-chuc-vien-chuc-nguoi-lao-dong-va-ton-1521-1.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Hội nghị Công chức, Viên chức, Người lao động và Tổng kết năm học 2019 - 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!----------------end box-2------------------->
-    <!-----------------box-3--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!----end box 3--start box 4--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!---end box 4--start box 5-------------------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!---end box 5------start box 6-------------------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!---------end box 6-------------------------->
-    <!-----------------box-7--------------------->                                                    
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!--end box-7 --------------->
-    <!-----------------box-8--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!----------------end box-8------------------->
-    <!-----------------box-9--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!----end box 9--start box 10--------------------->
-    <div class="col-12 col-md-6 col-lg-4 magazine-item" style="padding-top: 24px;padding-bottom: 24px !important;">
-            <div class="magazine-item-media">
-                            <span class="media-mask"></span>
-                            <div class="item-image">
-                                <a href="" class="content">
-                                    <span itemprop="image" itemscope="" itemtype="">
-                                        <img src="http://hus.vnu.edu.vn/DATA///IMAGES/2020/07/le-be-giang-va-trao-bang-cu-nhan-khoa-hoc-he-dai-h-1521-0.jpg?width=260&height=180&mode=crop&anchor=topcenter" itemprop="url">
-                                    </span>
-                                </a>
-                            </div>
-            </div>
-            <div class="magazine-item-main">
-                 
-                <div class="article-title">
-                    <h3 itemprop="name">
-                        <a href=""class="content">Trường Đại học Khoa học Tự nhiên tổ chức Lễ bế giảng và trao bằng Cử nhân khoa học hệ Đại học chính quy năm 2020</a>
-                    </h3>
-                </div>  
-                <aside class="article-aside clearfix">
-                    <dl class="article-info muted" >
-                        <dd class="published hasTooltip" title="Được đăng: ">
-                            <i class="fa fa-clock-o"></i>
-                            <time datetime="<span class='sukiendadienraz'> Đã diễn ra</span>">
-                                <span class="sukiendadienraz">ĐÃ DIỄN RA</span></time>
-                        </dd>
-                    </dl>
-                </aside>
-                
-            </div>
-    </div><!---end box 10---------------------------------->
+    </div>
+    <?php  $i ++;}} ?>
+    <!--end box-1 --------------->
+    
     
     </div><!------------row ----------------->
     <!-----start list-page----------------------->

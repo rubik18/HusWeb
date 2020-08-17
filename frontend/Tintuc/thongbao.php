@@ -1,3 +1,22 @@
+<?php 
+// kết nối
+    if( isset($_GET['page']) ){
+        $page = $_GET['page'];
+    }else {
+        $page = 1;
+    }
+    $ipage = ($page-1) * 1;
+  require'connectSQL.php';
+// Chuỗi kết nối
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Thông báo' AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT $ipage,4 ";
+  $conn->set_charset("utf8");
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+
+  
+ ?>        
         <title>Thông báo</title>
 		<!---------start header------------>
         <?php include "../header.html" ?>
@@ -31,166 +50,35 @@
 <div class="col-12 col-lg-9 pdr-0">
     <!--------------start list thong bao----------->
     <div class="single-blog-post post-style-tb indexthongbao">
-            
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">28</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/tuyen-sinh-khoa-1-chuong-trinh-lien-ket-quoc-te-dao-tao-thac-si-vat-ly-chuyen-nganh-cong-nghe-ban-dan-66470.html">
-                                Tuyển sinh Khóa 1 chương trình liên kết quốc tế đào tạo Thạc sĩ Vật lý, chuyên ngành “Công nghệ bán dẫn”</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/tuyen-sinh-khoa-1-chuong-trinh-lien-ket-quoc-te-dao-tao-thac-si-vat-ly-chuyen-nganh-cong-nghe-ban-dan-66470.html" class="post-date">
-                                    08:25 28/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">27</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/tuyen-sinh-thac-si-va-tien-si-dot-2-nam-2020-66467.html">
-                                Tuyển sinh thạc sĩ và tiến sĩ đợt 2 năm 2020</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/tuyen-sinh-thac-si-va-tien-si-dot-2-nam-2020-66467.html" class="post-date">
-                                    14:44 27/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">27</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/danh-sach-ung-vien-nop-ho-so-xet-cong-nhan-dat-tieu-chuan-chuc-danh-gs-pgs-nam-2020-66466.html">
-                                Danh sách ứng viên nộp hồ sơ xét công nhận đạt tiêu chuẩn chức danh GS, PGS năm 2020</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/danh-sach-ung-vien-nop-ho-so-xet-cong-nhan-dat-tieu-chuan-chuc-danh-gs-pgs-nam-2020-66466.html" class="post-date">
-                                    10:59 27/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">24</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/nhap-hoc-cho-thi-sinh-trung-tuyen-dao-tao-tien-si-dot-1-nam-2020-66464.html">
-                                Nhập học cho thí sinh trúng tuyển đào tạo tiến sĩ đợt 1 năm 2020</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/nhap-hoc-cho-thi-sinh-trung-tuyen-dao-tao-tien-si-dot-1-nam-2020-66464.html" class="post-date">
-                                    11:05 24/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">24</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/nhap-hoc-cho-thi-sinh-trung-tuyen-dao-tao-thac-si-dot-1-nam-2020-65458.html">
-                                Nhập học cho thí sinh trúng tuyển đào tạo thạc sĩ đợt 1 năm 2020</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/nhap-hoc-cho-thi-sinh-trung-tuyen-dao-tao-thac-si-dot-1-nam-2020-65458.html" class="post-date">
-                                    10:58 24/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">24</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/thong-tin-tom-tat-lats-cua-ncs-le-quy-thuong-66462.html">
-                                Thông tin tóm tắt LATS của NCS Lê Quý Thưởng</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/thong-tin-tom-tat-lats-cua-ncs-le-quy-thuong-66462.html" class="post-date">
-                                    10:51 24/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">24</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/thong-tin-lats-cua-ncs-tran-bao-tram-66461.html">
-                                Thông tin LATS của NCS Trần Bảo Trâm</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/thong-tin-lats-cua-ncs-tran-bao-tram-66461.html" class="post-date">
-                                    10:46 24/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">22</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/thong-tin-tom-tat-lats-cua-ncs-vu-van-tam-66463.html">
-                                Thông tin tóm tắt LATS của NCS Vũ Văn Tâm</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/thong-tin-tom-tat-lats-cua-ncs-vu-van-tam-66463.html" class="post-date">
-                                    10:52 22/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">16</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/chuong-trinh-hoc-bong-snu-president-fellowship-spf-65452.html">
-                                Chương trình Học bổng SNU President Fellowship - SPF</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/chuong-trinh-hoc-bong-snu-president-fellowship-spf-65452.html" class="post-date">
-                                    11:40 16/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                
-                    <div class="media">
-                        <div class="object">
-                            <span class="day">16</span>
-                            <span class="date">07/2020</span>
-                        </div>
-                        <div class="body">
-                            <h3><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung/thong-tin-lats-cua-ncs-tran-thi-hue-65449.html">
-                                Thông tin LATS của NCS Trần Thị Huế</a></h3>
-                            <p>
-                                <a href="http://hus.vnu.edu.vn/thong-bao/thong-tin-lats-cua-ncs-tran-thi-hue-65449.html" class="post-date">
-                                    08:57 16/07/2020
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+            <?php        
+                                            if(mysqli_num_rows($result)>0 ){
+                                                $i = 0;
+                                                while($row = mysqli_fetch_assoc($result) ){  
+                                                $id = $row['id'];   
+                                        ?>  
+            <div class="media">
+                <div class="object">
+                    <span class="day"><?php 
+                        $time = strtotime($row['created_at']);
+                        echo  date(" d",$time) . "<br>"; ?></span>
+                    <span class="date"><?php 
+                        $time = strtotime($row['created_at']);
+                        echo  date(" m/Y",$time) . "<br>"; ?></span>
+                </div>
+                <div class="body">
+                    <h3><a href="">
+                        <?php echo $row['title']; ?></a></h3>
+                    <p>
+                        <a href="noi-dung/nd-thong-bao-chung.php?id=<?php echo $id ?>" class="post-date">
+                            <?php 
+                                $time = strtotime($row['created_at']);
+                                echo  date(" d/m/Y",$time) . "<br>"; ?>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <?php }} ?>    
+                    
                 
         </div>
     <!------------end list thongbao ----------------->
@@ -198,22 +86,68 @@
         <div class="list-page">
             <div>
                 <ul class="pagination pagination-split mb-0">
-                    <li>
-                        </li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=1">1</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg2" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=2">2</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg3" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=3">3</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg4" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=4">4</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg5" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=5">5</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=81">Trang cuối</a></li>
-                    <li>
-                        <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=6"><i class="fa fa-angle-double-right"></i></a></li>
+                    <?php 
+                                    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Thông báo' AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+                                    $conn->set_charset("utf8");
+                                    $resultlist = mysqli_query($conn, $sqlist);
+
+                                    if (!$resultlist) {
+                                        die('error'. mysqli_error($conn));
+                                    }
+                                    $count = 0;
+                                    if(mysqli_num_rows($resultlist)>0 ){
+                                        while($row = mysqli_fetch_assoc($resultlist) ){  
+                                           $count = floor($row['COUNT(*)'] /4) +1;
+                                        }
+                                    }
+                                    $list = floor($count/4);
+                                if($page <4){
+                                    for ($x = 1; $x <= 3 && $x<= $count; $x++) {
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=<?php if($count>4){
+                                        echo "4";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                             
+                                if($page >= 4&& $page <=7){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=1" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 4; $x < 7; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }?>
                 </ul>
             </div>
 
