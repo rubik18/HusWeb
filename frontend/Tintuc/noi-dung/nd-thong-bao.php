@@ -1,9 +1,13 @@
         <?php 
 // kết nối
-    $id = $_GET['id'];
+    if( isset($_GET['id']) ){
+        $id = $_GET['id'];
+    }else {
+        $id = 91;
+    }
   require'../connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM `new` WHERE `id` = $id";
+  $sql = "SELECT * FROM `new` WHERE `id` = $id AND new.deleted_at is NULL" ;
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -34,7 +38,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">
-                            <li><a href="http://hus.vnu.edu.vn/thong-bao.html" class="item">Thông báo</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hop-tac-quoc-te/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/thong-bao/thong-bao-chung.html" class="item">Thông báo chung</a></li>
+                            <li><a href="/php-intership-team/frontend/Tintuc/thongbao.php" class="item">Thông báo</a></li>
 
                         </ol>
                     </div>

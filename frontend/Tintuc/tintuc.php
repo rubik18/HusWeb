@@ -1,13 +1,27 @@
 <?php 
 // kết nối
+    if( isset($_GET['page']) ){
+        $page = $_GET['page'];
+    }else {
+        $page = 1;
+    }
+    $ipage = ($page-1) * 9;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id ORDER BY new.created_at DESC";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
+
+  $link = array("noi-dung/nd-hoat-dong-khoa-hoc.php",
+                "noi-dung/nd-su-kien.php",
+                "noi-dung/nd-thong-bao-chung.php" ,
+                "noi-dung/nd-dang-va-cac-doan-the.php" ,
+                "noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
+                "noi-dung/nd-hoat-dong-khoa-hoc.php" ,
+                "noi-dung/nd-tin-tuc-chung.php" , ); 
  ?>
         <title>Tin tức</title>
         <!---------start header------------>
@@ -51,22 +65,109 @@
                         <div class="magazine-item-media">
                                         <span class="media-mask"></span>
                                         <div class="item-image">
-                                            <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="content">
+                                            <a href="
+                                            <?php 
+                                                switch ($row['id_category']) {
+                                                    case '1':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                    case '2':
+                                                        echo $link[1] ."?id=" . $id;
+                                                        break;
+                                                    case '3':
+                                                        echo $link[2] ."?id=" . $id;
+                                                        break;
+                                                    case '5':
+                                                        echo $link[3] ."?id=" . $id;
+                                                        break;
+                                                    case '6':
+                                                        echo $link[4] ."?id=" . $id;
+                                                        break;
+                                                    case '7':
+                                                        echo $link[5] ."?id=" . $id;
+                                                        break; 
+                                                    case '8':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                }
+                                            ?>
+                                            " class="content">
                                                 <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="/php-intership-team/img/main/cefd-tong-ket-hop-phan-2-3.png" itemprop="url">
+                                                    <img src="<?php echo $row['avatar']; ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                                 </span>
                                             </a>
                                         </div>
                         </div>
                         <div class="magazine-item-main">
             			     <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;">
-                                <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>" class="item ">
+                                <a href="
+                                    <?php 
+                                        switch ($row['id_category']) {
+                                            case '1':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                            case '2':
+                                                echo $link[1] ."?id=" . $id;
+                                                break;
+                                            case '3':
+                                                echo $link[2] ."?id=" . $id;
+                                                break;
+                                            case '5':
+                                                echo $link[3] ."?id=" . $id;
+                                                break;
+                                            case '6':
+                                                echo $link[4] ."?id=" . $id;
+                                                break;
+                                            case '7':
+                                                echo $link[5] ."?id=" . $id;
+                                                break; 
+                                            case '8':
+                                                echo $link[6] ."?id=" . $id;
+                                                break; 
+                                            
+                                        }
+                                    ?>
+                                " class="item ">
                                     <?php echo  $row['name'] . "<br>";?>
                                 </a></p>  
                             <div class="article-title">
                                 <h3 itemprop="name">
-                                    <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id;?>"class="content" style="font-size: 15px">
-                                        <?php echo substr($row['title'], 0, 150) ."..."; ?>
+                                    <a href="
+                                    <?php 
+                                        switch ($row['id_category']) {
+                                            case '1':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                            case '2':
+                                                echo $link[1] ."?id=" . $id;
+                                                break;
+                                            case '3':
+                                                echo $link[2] ."?id=" . $id;
+                                                break;
+                                            case '5':
+                                                echo $link[3] ."?id=" . $id;
+                                                break;
+                                            case '6':
+                                                echo $link[4] ."?id=" . $id;
+                                                break;
+                                            case '7':
+                                                echo $link[5] ."?id=" . $id;
+                                                break; 
+                                            case '8':
+                                                echo $link[6] ."?id=" . $id;
+                                                break; 
+                                            
+                                        }
+                                    ?>
+                                    "class="content" style="font-size: 15px">
+                                        <?php 
+                                            $string=$row['title'];
+                                            $array=explode(' ' ,$string);
+                                            for($x=0; $x<21 && $x< count($array); $x++){
+                                                echo $array[$x] ." ";
+                                            }
+                                           
+                                          ?>
                                     </a>
                                 </h3>
                             </div>	
@@ -76,9 +177,8 @@
                                         <i class="fa fa-clock-o"></i>
                                         
                                             <?php 
-                                                // $time = strtotime($row['created_at']);
-                                                // echo  date("h:i d/m/Y",$time) . "<br>";
-                                                echo $row['created_at']; ?>
+                                                $time = strtotime($row['created_at']);
+                                                echo  date("h:i d/m/Y",$time) . "<br>"; ?>
                                         
                                     </dd>
                                 </dl>
@@ -97,22 +197,46 @@
                     <div class="list-page">
                         <div>
                             <ul class="pagination pagination-split mb-0">
+                                <?php 
+                                    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+                                    $conn->set_charset("utf8");
+                                    $resultlist = mysqli_query($conn, $sqlist);
+
+                                    if (!$resultlist) {
+                                        die('error'. mysqli_error($conn));
+                                    }
+                                    $count = 0;
+                                    if(mysqli_num_rows($resultlist)>0 ){
+                                        while($row = mysqli_fetch_assoc($resultlist) ){  
+                                           $count = floor($row['COUNT(*)'] /9) +1;
+                                        }
+                                    }
+                                    $list = floor($count/4);
+                                if($page <4){
+                                    for ($x = 1; $x <= 3 && $x<$count; $x++) {
+                                      if( $x==$page ){
+                                    
+                                 ?>
                                 <li>
-                                    </li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=1">1</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg2" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=2">2</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg3" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=3">3</a></li>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg4" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=4">4</a></li>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg5" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=5">5</a></li>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=81">Trang cuối</a></li>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="http://www.hus.vnu.edu.vn/tin-tuc-su-kien.html?page=6" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=<?php if($count>4){
+                                        echo "4";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php } ?>
+                             
+                                
                             </ul>
                         </div>
 
