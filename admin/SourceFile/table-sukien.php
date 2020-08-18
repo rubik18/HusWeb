@@ -110,7 +110,7 @@ if (!isset($_SESSION['user'])) {
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="#">
+                          <a class="btn btn-danger btn-sm" href="delete.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-trash">
                               </i>
                               Delete

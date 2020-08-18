@@ -1,3 +1,14 @@
+<?php 
+// kết nối
+  require'../db/connect.php';
+  $conn->set_charset("utf8");
+// Chuỗi kết nối
+  session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+  header("Location:/php-intership-team/admin/SourceFile/login/login.php");
+}
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,8 +29,14 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition register-page">
-<div class="register-box">
+<body class="">
+<!-- sidebar -->
+ <?php include '../themepart/top-menu.php' ?>
+ <!-- topmenu -->
+ <?php include '../themepart/sidebar.php' ?>
+ <!-- content -->
+<div class="content-wrapper">
+  <div class="register-box">
   <div class="register-logo">
     <b>Admin</b>LTE</a>
   </div>
@@ -28,7 +45,7 @@
     <div class="card-body register-card-body">
       <p class="login-box-msg">Register a new admin</p>
 
-      <form action="register_submit.php" method="post">
+      <form action="register_submit.php" method="post" enctype="multipart/form-data">
         <div class="input-group mb-3">
           <input type="text" class="form-control" name = "full_name" placeholder="Full name">
           <div class="input-group-append">
@@ -61,6 +78,43 @@
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- incorrect password or username -->
+        <?php 
+          if (@$_GET['Invalid'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger"><?php echo $_GET['Invalid'] ?></div>
+        </div>
+        <?php      
+          }
+        ?>
+        <?php 
+          if (@$_GET['exited'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger"><?php echo $_GET['exited'] ?></div>
+        </div>
+        <?php      
+          }
+        ?>
+         <div class="input-group">
+          <label for="exampleInputFile">Avatar</label>
+            <div>
+              Chọn file để upload:
+              <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
+              URL:
+              <input type="text" name = "URL" class="form-control" placeholder="Enter ...">
+            </div>   
+          </div>
         <div><label>lever</label></div>
         <div class="input-group mb-3">
           <select class="form-control " name = "type" style="width: 100%;">
@@ -82,6 +136,7 @@
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->
+  </div>
 </div>
 <!-- /.register-box -->
 
