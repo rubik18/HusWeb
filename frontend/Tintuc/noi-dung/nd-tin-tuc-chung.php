@@ -1,9 +1,13 @@
 <?php 
 // kết nối
-    $id = $_GET['id'];
+    if( isset($_GET['id']) ){
+        $id = $_GET['id'];
+    }else {
+        $id = 91;
+    }
   require'../connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM `new` WHERE `id` = $id";
+  $sql = "SELECT * FROM `new` WHERE `id` = $id AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -32,7 +36,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ol class="breadcrumb">
-                            <li><a href="../tintuc.php" class="item">Tin tức</a></li>&nbsp;<img alt="*" src="http://hus.vnu.edu.vn/images/breadcrumb.gif">&nbsp;<li><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung.html" class="item">Tin tức chung</a></li>
+                            <li><a href="/php-intership-team/frontend/Tintuc/tintuc.php" class="item">Tin tức</a></li>&nbsp;<img alt="*" src="/php-intership-team/img/hop-tac-quoc-te/breadcrumb.gif">&nbsp;<li><a href="/php-intership-team/frontend/Tintuc/tintucchung.php" class="item">Tin tức chung</a></li>
 
                         </ol>
                     </div>
@@ -55,105 +59,39 @@
                                         
                                         <div class="single-blog-post post-style-tb">
                                             <!----tin 1---->
-                                            <div class="media">
+                                            <?php 
+                                                $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL
+                                                        ORDER BY new.created_at DESC";
+                                                  $conn->set_charset("utf8");
+                                                  $resulti = mysqli_query($conn, $sqli); 
+                                                  if (!$resulti) {
+                                                    die('error'. mysqli_error($conn));
+                                                  }
+
+                                                  if(mysqli_num_rows($resulti)>0){
+                                                                $j = 0 ;
+                                                                while($rowi = mysqli_fetch_assoc($resulti )){
+                                                  ?>
+                                            <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                 <div class="object">
                                                     <img src="" alt="Trường  Đại học Khoa học Tự nhiên tổ chức tập huấn công tác coi thi kỳ thi tốt nghiệp THPT năm 2020">
                                                 </div>
                                                 <div class="body">
-                                                    <h3>
-                                                        <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/truong-dai-hoc-khoa-hoc-tu-nhien-to-chuc-tap-huan-cong-tac-coi-thi-ky-thi-tot-nghiep-thpt-nam-2020-66478.html">Trường  Đại học Khoa học Tự nhiên tổ chức tập huấn công tác coi thi kỳ thi tốt nghiệp THPT năm 2020</a></h3>
+                                                    <h3 >
+                                                        <a href="nd-tin-tuc-chung.php?id=<?php echo $rowi['id']; ?>" style="font-size: 12px !important;
+                                                        font-weight: 500;
+                                                        line-height: 16px;
+                                                        margin: 0px;
+                                                        padding: 0px;">
+                                                            
+                                                            <?php 
+                                                                    echo  $rowi['title'] ;
+                                                            ?>
+                                                        </a></h3>
                                                 </div>
                                             </div>
-                                            <!----tin2 --->
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="" alt="CED và Công ty TNHH Điện lực AES-TKV Mông Dương mong muốn hợp tác sâu rộng với Trường Đại học Khoa học Tự nhiên">
-                                                </div>
-                                                <div class="body">
-                                                    <h3>
-                                                        <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/ced-va-cong-ty-tnhh-dien-luc-aes-tkv-mong-duong-mong-muon-hop-tac-sau-rong-voi-truong-dai-hoc-khoa-hoc-tu-nhien-65461.html">CED và Công ty TNHH Điện lực AES-TKV Mông Dương mong muốn hợp tác sâu rộng với Trường Đại học Khoa học Tự nhiên</a></h3>
-                                                </div>
-                                            </div>
-                                            <!----tin3 ---->
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="" alt="Trường Đại học Khoa học Tự nhiên tổ chức Hội nghị công chức, viên chức, người lao động và Tổng kết năm học 2019-2020">
-                                                </div>
-                                                <div class="body">
-                                                    <h3>
-                                                        <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/truong-dai-hoc-khoa-hoc-tu-nhien-to-chuc-hoi-nghi-cong-chuc-vien-chuc-nguoi-lao-dong-va-tong-ket-nam-hoc-2019-2020-65460.html">Trường Đại học Khoa học Tự nhiên tổ chức Hội nghị công chức, viên chức, người lao động và Tổng kết năm học 2019-2020</a></h3>
-                                                </div>
-                                            </div>
-                                            <!---tin 4 ---->
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="" alt="Lĩnh vực vật lý của ĐHQGHN trong nhóm 401 – 500 của bảng xếp hạng ARWU">
-                                                </div>
-                                                <div class="body">
-                                                    <h3>
-                                                        <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/linh-vuc-vat-ly-cua-dhqghn-trong-nhom-401-500-cua-bang-xep-hang-arwu-65454.html">Lĩnh vực vật lý của ĐHQGHN trong nhóm 401 – 500 của bảng xếp hạng ARWU</a></h3>
-                                                </div>
-                                            </div>
-                                            <!---tin 5 ---->
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="" alt="Sinh viên HUS chưa tốt nghiệp đã được hai Tập đoàn công nghệ chào đón">
-                                                </div>
-                                                <div class="body">
-                                                    <h3>
-                                                        <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/sinh-vien-hus-chua-tot-nghiep-da-duoc-hai-tap-doan-cong-nghe-chao-don-65451.html">Sinh viên HUS chưa tốt nghiệp đã được hai Tập đoàn công nghệ chào đón</a></h3>
-                                                </div>
-                                            </div>
-                                
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/img_6117.jpg" alt="Olympic Sinh học Sinh viên toàn quốc năm 2021 sẽ được tổ chức tại trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội">
-                                                </div>
-                                                <div class="body">
-                                                    <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/olympic-sinh-hoc-sinh-vien-toan-quoc-nam-2021-se-duoc-to-chuc-tai-truong-dai-hoc-khoa-hoc-tu-nhien-dai-hoc-quoc-gia-ha-noi-65442.html">
-                                                        Olympic Sinh học Sinh viên toàn quốc năm 2021 sẽ được tổ chức tại trường Đại học Khoa học Tự nhiên - Đại học Quốc gia Hà Nội</a></h3>
-                                                </div>
-                                            </div>
-                                
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/phuong-anh-nhan-giai.jpg" alt="Nữ sinh Trường Đại học Khoa học Tự nhiên nhận Phần thưởng “Nữ sinh viên tiêu biểu trong lĩnh vực Khoa học Công nghệ 2019”">
-                                                </div>
-                                                <div class="body">
-                                                    <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/nu-sinh-truong-dai-hoc-khoa-hoc-tu-nhien-nhan-phan-thuong-nu-sinh-vien-tieu-bieu-trong-linh-vuc-khoa-hoc-cong-nghe-2019-65436.html">
-                                                        Nữ sinh Trường Đại học Khoa học Tự nhiên nhận Phần thưởng “Nữ sinh viên tiêu biểu trong lĩnh vực Khoa học Công nghệ 2019”</a></h3>
-                                                </div>
-                                            </div>
-                                
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/clb-xu-ly-ngon-ngu.png" alt="Đại hội thành lập Câu lạc bộ Xử lí Ngôn ngữ và Tiếng nói Tiếng Việt">
-                                                </div>
-                                                <div class="body">
-                                                    <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/dai-hoi-thanh-lap-cau-lac-bo-xu-li-ngon-ngu-va-tieng-noi-tieng-viet-65429.html">
-                                                        Đại hội thành lập Câu lạc bộ Xử lí Ngôn ngữ và Tiếng nói Tiếng Việt</a></h3>
-                                                </div>
-                                            </div>
-                                
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/pgs-pho-duc-tai-tu-van-tuyen-sinh-tai-hai-phong.jpg" alt="Ngày hội tư vấn tuyển sinh - hướng nghiệp năm 2020 đồng hành, hỗ trợ thí sinh">
-                                                </div>
-                                                <div class="body">
-                                                    <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/ngay-hoi-tu-van-tuyen-sinh-huong-nghiep-nam-2020-dong-hanh-ho-tro-thi-sinh-65428.html">
-                                                        Ngày hội tư vấn tuyển sinh - hướng nghiệp năm 2020 đồng hành, hỗ trợ thí sinh</a></h3>
-                                                </div>
-                                            </div>
-                                
-                                            <div class="media">
-                                                <div class="object">
-                                                    <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/anh-vnu-cover.jpg" alt="QS Top 50 Under 50 2021: Lần đầu tiên Đại học Quốc gia Hà Nội có mặt trong nhóm 101-150 đại học hàng đầu thế giới">
-                                                </div>
-                                                <div class="body">
-                                                    <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/qs-top-50-under-50-2021-lan-dau-tien-dai-hoc-quoc-gia-ha-noi-co-mat-trong-nhom-101-150-dai-hoc-hang-dau-the-gioi-65417.html">
-                                                        QS Top 50 Under 50 2021: Lần đầu tiên Đại học Quốc gia Hà Nội có mặt trong nhóm 101-150 đại học hàng đầu thế giới</a></h3>
-                                                </div>
-                                            </div>
+                                        <?php $j++; }} ?>
+                                            
                                         </div>
                                         <!-- End Tin moi cap nhap -->
                                     </div>
@@ -344,66 +282,37 @@
                                         <div class="titletinkhac" style="height: 29px;background: url(http://hus.vnu.edu.vn/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5; color: #fff;float: left; padding: 0 30px;border-radius: 5px 5px 0px 0px;margin-bottom: 10px;"><h5>Tin nổi bật</h5></div>
                                         <!-- Single Blog Post -->
                                         <div class="single-blog-post post-style-tb">
-                                            
-                                                    <div class="media">
+                                            <?php 
+                                                $sqlk = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL
+                                                        ORDER BY new.id ASC";
+                                                  $conn->set_charset("utf8");
+                                                  $resultk = mysqli_query($conn, $sqlk); 
+                                                  if (!$resulti) {
+                                                    die('error'. mysqli_error($conn));
+                                                  }
+
+                                                  if(mysqli_num_rows($resultk)>0){
+                                                                $k = 0 ;
+                                                                while($rowk = mysqli_fetch_assoc($resultk )){
+                                                  ?>
+                                            <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                         <div class="object">
                                                             <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/08/dhqg.jpg?width=60&height=60&mode=crop&anchor=middlecenter" alt="CÁC THẦY, CÔ CŨNG HỌC ONLINE">
                                                         </div>
                                                         <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/cac-thay-co-cung-hoc-online-62098.html">
-                                                                CÁC THẦY, CÔ CŨNG HỌC ONLINE</a></h3>
+                                                            <h3><a href="nd-tin-tuc-chung.php?id=<?php echo $rowk['id']; ?>" style="font-size: 12px !important;
+                                                        font-weight: 500;
+                                                        line-height: 16px;
+                                                        margin: 0px;
+                                                        padding: 0px;">
+                                                                <?php 
+                                                                    echo  $rowk['title'] ;
+                                                                ?>
+                                                            </a></h3>
                                                         </div>
-                                                    </div>
-                                                
-                                                    <div class="media">
-                                                        <div class="object">
-                                                            <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/c296_10.jpg" alt="Hiệu trưởng Trường THPT Chuyên KHTN khuyên học sinh định hình ước mơ và nỗ lực tự học">
-                                                        </div>
-                                                        <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/hieu-truong-truong-thpt-chuyen-khtn-khuyen-hoc-sinh-dinh-hinh-uoc-mo-va-no-luc-tu-hoc-59050.html">
-                                                                Hiệu trưởng Trường THPT Chuyên KHTN khuyên học sinh định hình ước mơ và nỗ lực tự học</a></h3>
-                                                        </div>
-                                                    </div>
-                                                
-                                                    <div class="media">
-                                                        <div class="object">
-                                                            <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/dat-1556502240426.jpg" alt="“Chuyện đỗ đạt” của Đạt: Học bổng tiến sĩ toàn phần 8,4 tỷ đồng từ Mỹ">
-                                                        </div>
-                                                        <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/-chuyen-do-dat-cua-dat-hoc-bong-tien-si-toan-phan-8-4-ty-dong-tu-my-59025.html">
-                                                                “Chuyện đỗ đạt” của Đạt: Học bổng tiến sĩ toàn phần 8,4 tỷ đồng từ Mỹ</a></h3>
-                                                        </div>
-                                                    </div>
-                                                
-                                                    <div class="media">
-                                                        <div class="object">
-                                                            <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/nhaphoc1.jpg" alt="Trường Đại học Khoa học Tự nhiên đón tân sinh viên nhập học, trao học bổng cho Thủ khoa và Á khoa đầu vào">
-                                                        </div>
-                                                        <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/truong-dai-hoc-khoa-hoc-tu-nhien-don-tan-sinh-vien-nhap-hoc-trao-hoc-bong-cho-thu-khoa-va-a-khoa-dau-vao-59000.html">
-                                                                Trường Đại học Khoa học Tự nhiên đón tân sinh viên nhập học, trao học bổng cho Thủ khoa và Á khoa đầu vào</a></h3>
-                                                        </div>
-                                                    </div>
-                                                
-                                                    <div class="media">
-                                                        <div class="object">
-                                                            <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/hdyes_1 (3).jpg" alt="Khởi động giải thưởng thường niên Honda Y-E-S cho sinh viên Trường Đại học Khoa học Tự nhiên">
-                                                        </div>
-                                                        <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/khoi-dong-giai-thuong-thuong-nien-honda-y-e-s-cho-sinh-vien-truong-dai-hoc-khoa-hoc-tu-nhien-58842.html">
-                                                                Khởi động giải thưởng thường niên Honda Y-E-S cho sinh viên Trường Đại học Khoa học Tự nhiên</a></h3>
-                                                        </div>
-                                                    </div>
-                                                
-                                                    <div class="media">
-                                                        <div class="object">
-                                                            <img src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/1_27.JPG" alt="Kỷ niệm 20 năm thành lập Trung tâm Khoa học Vật liệu: Trân trọng lịch sử - Truyền lửa đam mê cho hiện tại và tương lai">
-                                                        </div>
-                                                        <div class="body">
-                                                            <h3><a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/ky-niem-20-nam-thanh-lap-trung-tam-khoa-hoc-vat-lieu-tran-trong-lich-su-truyen-lua-dam-me-cho-hien-tai-va-tuong-lai-58705.html">
-                                                                Kỷ niệm 20 năm thành lập Trung tâm Khoa học Vật liệu: Trân trọng lịch sử - Truyền lửa đam mê cho hiện tại và tương lai</a></h3>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <?php $k++; }} ?>    
+                                                    
                                         </div>
                                         <!-- End Tin noi bat -->
                                     </div>
