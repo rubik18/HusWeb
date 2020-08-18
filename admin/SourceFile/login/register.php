@@ -1,4 +1,14 @@
-
+<?php 
+// kết nối
+  require'../db/connect.php';
+  $conn->set_charset("utf8");
+// Chuỗi kết nối
+  session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+  header("Location:/php-intership-team/admin/SourceFile/login/login.php");
+}
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +29,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition register-page">
+<body class="">
 <!-- sidebar -->
  <?php include '../themepart/top-menu.php' ?>
  <!-- topmenu -->
