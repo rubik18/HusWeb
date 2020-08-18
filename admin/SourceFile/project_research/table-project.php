@@ -2,8 +2,8 @@
 // kết nối
   require'../db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM detai_duan WHERE detai_duan.deleted_at is NULL";
-  $conn->set_charset("utf8");
+  $sql = "SELECT * FROM topic_project WHERE deleted_at is NULL";
+  $conn->set_charset("utf8"); 
   $result = mysqli_query($conn, $sql);
   if (!$result) {
     die('error'. mysqli_error($conn));
@@ -84,7 +84,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Name</th>
                     <th>leader</th>
                     <th>workplace</th>
-                    <th></th>
+                    <th>result</th>
                     <th>Action</th>
                   </tr>
                   </thead>
@@ -96,15 +96,18 @@ if (!isset($_SESSION['user'])) {
                     ?>
                     <tr>
                     <td><?php echo $i ?></td>
-                    <td><?php echo $row['tag'] ?></td>
+                    <td><?php echo $row['id_project'] ?></td>
                     <td><?php echo $row['name'] ?></td>
+                    <td><?php echo $row['lead_researcher'] ?></td>
+                    <td><?php echo $row['workplace'] ?></td>
+                    <td><?php echo $row['result'] ?></td>
                     <td class="project-actions text-right">
-                          <a class="btn btn-secondary btn-sm" href="updateFrom.php?id= <?php echo $row['id']?>">
+                          <a class="btn btn-secondary btn-sm" href="./updateFrom.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="delete-tag.php?id= <?php echo $row['id']?>">
+                          <a class="btn btn-danger btn-sm" href="./delete-project.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-trash">
                               </i>
                               Delete
@@ -119,9 +122,12 @@ if (!isset($_SESSION['user'])) {
                   </tbody>
                   <tfoot>
                   <tr>
-                    <th>Stt</th>
-                    <th>Tag</th>
+                   <th>Stt</th>
+                    <th>id</th>
                     <th>Name</th>
+                    <th>leader</th>
+                    <th>workplace</th>
+                    <th>result</th>
                     <th>Action</th>
                   </tr>
                   </tfoot>

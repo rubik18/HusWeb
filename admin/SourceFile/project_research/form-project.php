@@ -1,9 +1,9 @@
 <?php 
 // kết nối
   require'../db/connect.php';
-  $conn->set_charset("utf8");
 // Chuỗi kết nối
-  session_start();
+  $conn->set_charset("utf8");
+   session_start();
 // var_dump($_SESSION['user']);die();
 if (!isset($_SESSION['user'])) {
   header("Location:/php-intership-team/admin/SourceFile/login/login.php");
@@ -21,7 +21,7 @@ if (!isset($_SESSION['user'])) {
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="../https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <!-- summernote -->
@@ -45,12 +45,12 @@ if (!isset($_SESSION['user'])) {
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Tag Editors</h1>
+            <h1>Text Editors</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/DAPM/php-intership-team/admin/SourceFile/home.php">Home</a></li>
-              <li class="breadcrumb-item active">Tag Editors</li>
+              <li class="breadcrumb-item active">Text Editors</li>
             </ol>
           </div>
         </div>
@@ -64,7 +64,7 @@ if (!isset($_SESSION['user'])) {
           <div class="card card-outline card-info">
             <div class="card-header">
               <h3 class="card-title">
-                Tạo tag mới
+                Thêm đề tài, dự án
               </h3>
               <!-- tools box -->
               <div class="card-tools">
@@ -81,16 +81,36 @@ if (!isset($_SESSION['user'])) {
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="add-tag.php" method = "post">
-                  <!-- tag -->
+                <form role="form" action="add-project.php" method = "post">
+                  <!-- Tag -->
                   <div class="form-group">
-                    <label>Tag</label>
-                    <input type="text" name = "tag" class="form-control" placeholder="Enter ...">
+                    <label>id_project</label>
+                    <input type="text" name = "id_project" class="form-control" placeholder="Enter ..." >
                   </div>
                   <!-- name -->
                   <div class="form-group">
                     <label>Name</label>
-                    <input type="text" name = "name" class="form-control" placeholder="Enter ...">
+                    <textarea class="form-control" rows="3" name="name" placeholder="Enter ..."></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label>Leader</label>
+                    <input type="text" name = "leader" class="form-control" placeholder="Enter ...">
+                  </div>
+                  <div class="form-group">
+                    <label>Workplace</label>
+                    <input type="text" name = "workplace" class="form-control" placeholder="Enter ...">
+                  </div>
+                  <div class="form-group">
+                    <label>Approval_date</label>
+                    <input type="text" name = "approval_date" class="form-control" placeholder="Enter ...">
+                  </div>
+                   <div class="form-group">
+                    <label>Acceptance_date</label>
+                    <input type="text" name = "acceptance_date" class="form-control" placeholder="Enter ...">
+                  </div>
+                  <div class="form-group">
+                    <label>Result</label>
+                    <input type="text" name = "result" class="form-control" placeholder="Enter ...">
                   </div>
                   <!-- Submit -->
                   <div class="card-footer">
@@ -118,15 +138,15 @@ if (!isset($_SESSION['user'])) {
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="../plugins/jquery/jquery.min.js"></script>
+<script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../dist/js/adminlte.min.js"></script>
+<script src="dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../dist/js/demo.js"></script>
+<script src="dist/js/demo.js"></script>
 <!-- Summernote -->
-<script src="../plugins/summernote/summernote-bs4.min.js"></script>
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
 <script>
   $(function () {
     // Summernote

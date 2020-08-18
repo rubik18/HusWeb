@@ -3,7 +3,7 @@
   require'../db/connect.php';
 // Chuỗi kết nối
   $id = (int)$_GET['id'];
-  $sql = "SELECT * FROM tag WHERE tag.id= {$id} ";
+  $sql = "SELECT * FROM topic_project WHERE topic_project.id= {$id}";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -88,16 +88,36 @@ if (!isset($_SESSION['user'])) {
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="update-tag.php?id= <?php echo $row['id'] ?>" method = "post">
+                <form role="form" action="update-project.php?id= <?php echo $row['id'] ?>" method = "post">
                   <!-- Tag -->
                   <div class="form-group">
-                    <label>Tag</label>
-                    <input type="text" name = "tag" class="form-control" value="<?php echo $row['tag'] ?>">
+                    <label>id_project</label>
+                    <input type="text" name = "id_project" class="form-control" value="<?php echo $row['id_project'] ?>">
                   </div>
                   <!-- name -->
                   <div class="form-group">
                     <label>Name</label>
-                    <input type="text" name = "name" class="form-control" value="<?php echo $row['name'] ?>">
+                    <textarea class="form-control" rows="3" name="name"><?php echo $row['name'] ?></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label>Leader</label>
+                    <input type="text" name = "leader" class="form-control" value="<?php echo $row['lead_researcher'] ?>">
+                  </div>
+                  <div class="form-group">
+                    <label>Workplace</label>
+                    <input type="text" name = "workplace" class="form-control" value="<?php echo $row['workplace'] ?>">
+                  </div>
+                  <div class="form-group">
+                    <label>Approval_date</label>
+                    <input type="text" name = "approval_date" class="form-control" value="<?php echo $row['approval_date'] ?> ">
+                  </div>
+                   <div class="form-group">
+                    <label>acceptance_date</label>
+                    <input type="text" name = "acceptance_date" class="form-control" value="<?php echo $row['acceptance_date'] ?> ">
+                  </div>
+                  <div class="form-group">
+                    <label>result</label>
+                    <input type="text" name = "result" class="form-control" value="<?php echo $row['result'] ?> ">
                   </div>
                   <!-- Submit -->
                   <div class="card-footer">
