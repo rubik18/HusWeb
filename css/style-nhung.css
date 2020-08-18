@@ -15,6 +15,21 @@
     -webkit-box-sizing: border-box;
     outline: 0;
 }
+.at-share-btn:hover{
+    transform: translateY(-4px) !important;
+    color: #fff;
+    text-decoration: none;
+}
+.at-label{
+    font-family: helvetica neue,helvetica,arial,sans-serif;
+    font-size: 9pt;
+    padding: 0 15px 5px 0;
+    margin: 0 0 0 5px;
+    height: 2pc;
+    line-height: 2pc;
+    background: none;
+    cursor: pointer;
+}
 
 .jquery-accordion-menu {
     /*min-width: 260px;
