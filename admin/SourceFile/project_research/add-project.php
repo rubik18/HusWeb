@@ -3,15 +3,20 @@
 require'../db/connect.php';
 $conn->set_charset("utf8");
 // chuối kết nối
-$tag = $_POST['tag'];
-$name = $_POST['name'];
-$sql1 = "SELECT * FROM tag WHERE tag.deleted_at is NULL";
-$result = mysqli_query($conn, $sql1); 
-
+  $id_project = $_POST['id_project'];
+  $name = $_POST['name'];
+  $leader = $_POST['leader'];
+  $workplace = $_POST['workplace'];
+  $approval_date = $_POST['approval_date'];
+  $acceptance_date = $_POST['acceptance_date'];
+  $result = $_POST['result'];
   if(!empty($_POST)) {
     var_dump($_POST);
-		  $sql = "INSERT INTO `tag` ( `tag`, `name`) VALUES ( '$tag', '$name')";
-		    mysqli_query($conn,$sql) or die("Thêm tag thất bại !");
-			header("Location:table-tag.php");
+		  $sql = "INSERT INTO `topic_project` ( `id_project`, `name`, `lead_researcher`,`workplace`,`approval_date`,`acceptance_date`,`result`) VALUES ( '$id_project', '$name','$leader','$workplace','$approval_date','$acceptance_date',$result)";
+		    $result = mysqli_query($conn,$sql);
+		    if (!$result) {
+    			die('error'.' '. mysqli_error($conn));
+  			}
+			header("Location:table-project.php");
   }
 ?>
