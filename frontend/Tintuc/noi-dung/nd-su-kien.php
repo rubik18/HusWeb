@@ -106,7 +106,7 @@
                         margin: 15px 0 15px 100px !important;
                         text-align: justify !important;">: <?php 
                                         $time = strtotime($row['update_at']);
-                                        echo  date("h:i d/m/Y",$time)  ; ?></dd>
+                                        echo  date("H:i d/m/Y",$time)  ; ?></dd>
                         <dt style="margin: 0;
                             padding: 0;
                             font-size: 14px;font-weight: bold;

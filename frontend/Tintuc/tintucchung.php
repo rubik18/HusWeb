@@ -96,7 +96,7 @@
                                         
                                             <?php 
                                                 $time = strtotime($row['created_at']);
-                                                echo  date("h:i d/m/Y",$time) . "<br>"; ?>
+                                                echo  date("H:i d/m/Y",$time) . "<br>"; ?>
                                         
                                     </dd>
                                 </dl>
@@ -207,27 +207,27 @@
                         <ul class="bannerrighttop" style="padding-left: 0">
                 
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="#" target="_blank" alt="Chương trình đào tạo đặc biệt"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaotainang.jpg" alt="Chương trình đào tạo đặc biệt" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Chương trình đào tạo Tài năng"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaotainang.jpg" alt="Chương trình đào tạo Tài năng" width="245" height="88"></a>
                             </li>
                         
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="" target="_blank" alt="Chương trình đào tạo Tài năng"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/dao-tao-chuan-quocte.jpg" alt="Chương trình đào tạo Tài năng" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Chương trình đào tạo chuẩn Quốc tế"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/dao-tao-chuan-quocte.jpg" alt="Chương trình đào tạo chuẩn Quốc tế" width="245" height="88"></a>
                             </li>
                         
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="" target="_blank" alt="Chương trình đào tạo Tiên tiến"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotientien.jpg" alt="Chương trình đào tạo Tiên tiến" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Chương trình đào tạo Tiên tiến"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotientien.jpg" alt="Chương trình đào tạo Tiên tiến" width="245" height="88"></a>
                             </li>
                         
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="" target="_blank" alt="Chương trình đào tạo liên kết"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaochatluongcao.jpg" alt="Chương trình đào tạo liên kết" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Chương trình đào tạo Chất lượng cao "><img class="img-responsive" src="/php-intership-team/img/tin-tuc/chuongtrinhdaotaochatluongcao.jpg" alt="Chương trình đào tạo Chất lượng cao" width="245" height="88"></a>
                             </li>
                         
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="" target="_blank" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotheothongtubo.jpg" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/daotaotheothongtubo.jpg" alt="Chương trình đào tạo chất lượng cao theo thông tư 23 của Bộ" width="245" height="88"></a>
                             </li>
                         
                             <li style="display: block; padding-bottom: 10px;">
-                                <a href="" target="_blank" alt="Học cùng lúc 2 chương trình đào tạo"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/hoc2truong.jpg" alt="Học cùng lúc 2 chương trình đào tạo" width="245" height="88"></a>
+                                <a href="#" target="_blank" alt="Học cùng lúc 2 chương trình đào tạo"><img class="img-responsive" src="/php-intership-team/img/tin-tuc/hoc2truong.jpg" alt="Học cùng lúc 2 chương trình đào tạo" width="245" height="88"></a>
                             </li>
                         </ul>
                     </div>

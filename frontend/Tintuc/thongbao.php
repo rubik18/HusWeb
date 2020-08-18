@@ -66,10 +66,10 @@
                         echo  date(" m/Y",$time) . "<br>"; ?></span>
                 </div>
                 <div class="body">
-                    <h3><a href="">
+                    <h3><a href="noi-dung/nd-thong-bao.php?id=<?php echo $id ?>">
                         <?php echo $row['title']; ?></a></h3>
                     <p>
-                        <a href="noi-dung/nd-thong-bao-chung.php?id=<?php echo $id ?>" class="post-date">
+                        <a href="noi-dung/nd-thong-bao.php?id=<?php echo $id ?>" class="post-date">
                             <?php 
                                 $time = strtotime($row['created_at']);
                                 echo  date(" d/m/Y",$time) . "<br>"; ?>

@@ -94,7 +94,7 @@
                                                 }
                                             ?>" class="content">
                                         <span itemprop="image" itemscope="" itemtype="">
-                                            <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/07/trao-bang-cho-8-sinh-vien-tot-nghiep-xuat-sac.jpg?width=260&height=170&mode=crop&anchor=topcenter" itemprop="url">
+                                            <img src="<?php echo $row['avatar']; ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                         </span>
                                     </a>
                                 </div>
@@ -154,7 +154,14 @@
                                                         echo $link[6] ."?id=" . $id;
                                                         break;
                                 }
-                                ?>"class="content"><?php echo substr($row['title'], 0, 150) ."..."; ?></a>
+                                ?>"class="content"><?php 
+                                            $string=$row['title'];
+                                            $array=explode(' ' ,$string);
+                                            for($x=0; $x<21 && $x< count($array); $x++){
+                                                echo $array[$x] ." ";
+                                            }
+                                            echo "..."
+                                          ?></a>
                         </h3>
                     </div>	
                     <aside class="article-aside clearfix">
@@ -163,7 +170,7 @@
                                 <i class="fa fa-clock-o"></i>
                                 <?php 
                                     $time = strtotime($row['created_at']);
-                                    echo  date("h:i d/m/Y",$time) . "<br>"; ?>
+                                    echo  date("H:i d/m/Y",$time) . "<br>"; ?>
                             </dd>
                         </dl>
                     </aside>
