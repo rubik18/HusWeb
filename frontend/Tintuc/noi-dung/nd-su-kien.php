@@ -1,9 +1,13 @@
       <?php 
 // kết nối
-    $id = $_GET['id'];
+    if( isset($_GET['id']) ){
+        $id = $_GET['id'];
+    }else {
+        $id = 91;
+    }
   require'../connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM `new` WHERE `id` = $id";
+  $sql = "SELECT * FROM `new` WHERE `id` = $id AND new.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
