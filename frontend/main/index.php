@@ -7,10 +7,12 @@
     <?php 
         require 'connectSQL.php';
         $conn->set_charset("utf8");
-        $query = mysqli_query($conn,"select * from `new`,`category` 
+        $news = mysqli_query($conn,"SELECT * from `new`,`category` 
             where category.id = new.id_category 
-            ORDER BY RAND() LIMIT 3;");
-     
+            and new.id_category = 1 LIMIT 3;");
+        $noti = mysqli_query($conn,"SELECT * from `new`,`category` 
+            where category.id = new.id_category 
+            and new.id_category = 3 LIMIT 10;");
      ?>
 
     <div class="hero-area">
@@ -98,9 +100,8 @@
                                     <h5><a href="">Tin tức</a></h5>
                                 </div>  
                             </div>
-                                <?php if(mysqli_num_rows($query) > 0){
-                                    $i = 0 ;
-                                    while($row = mysqli_fetch_assoc($query)){      
+                                <?php if(mysqli_num_rows($news) > 0){
+                                    while($row = mysqli_fetch_assoc($news)){      
                                 ?>
                                 <div class="single-blog-post post-style-4 d-flex align-items-center">
                                     <div class="post-thumbnail">
@@ -110,15 +111,29 @@
                                     </div>
                                     <div class="post-content">
                                         <a href="" class="headline">
-                                            <h5><?php echo substr($row['title'], 0, 100); ?>...</h5>
+                                            <h5><?php 
+                                                $string = $row['title'];
+                                                $array = explode(' ' ,$string);
+                                                for($x = 0; $x < 15 && $x < count($array); $x ++){
+                                                    echo $array[$x] ." ";
+                                                }
+                                            ?>...</h5>
                                         </a>
-                                        <p><?php echo substr($row['description'], 0, 150); ?></p>
+                                        <p>
+                                        <?php 
+                                            $string = $row['description'];
+                                            $array = explode(' ' ,$string);
+                                            for($x = 0; $x < 28 && $x< count($array); $x++){
+                                                echo $array[$x] ." ";
+                                            }
+                                        ?>...</p>
                                         <div class="post-meta">
                                             <p><a href="" class="post-date" style="color: grey">
                                                 <?php 
                                                     $time = strtotime($row['created_at']);
-                                                    echo  date("d/m/Y",$time); ?>
-                                                </a>
+                                                    echo date("d/m/Y", $time);
+                                                ?>
+                                                </a> 
                                             </p>
                                         </div>
                                     </div>
@@ -134,107 +149,40 @@
                             <div class="titlethongbao">
                                 <h5><a href="">Thông báo</a></h5>
                             </div>
-                            <div class="single-blog-post post-style-tb">
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">28/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Tuyển sinh Khóa 1 chương trình liên kết quốc tế đào tạo Thạc sĩ Vật lý, chuyên ngành ...</a></h3>
-                                    </div>
+                            <?php if(mysqli_num_rows($noti) > 0){
+                                    while($row_noti = mysqli_fetch_assoc($noti)){      
+                            ?>
+                                <div class="single-blog-post post-style-tb">
+                                    <div class="media">
+                                        <div class="object">
+                                            <span class="day">
+                                                <?php 
+                                                    $time = strtotime($row_noti['created_at']);
+                                                    echo date("d", $time);
+                                                ?>
+                                            </span>
+                                            <span class="date">
+                                                <?php 
+                                                    $time = strtotime($row_noti['created_at']);
+                                                    echo date("m/Y", $time);
+                                                ?>
+                                            </span>
+                                        </div>
+                                        <div class="body">
+                                            <h3><a href="">
+                                            <?php 
+                                                $string = $row_noti['title'];
+                                                $array = explode(' ' ,$string);
+                                                for($x = 0; $x < 12 && $x < count($array); $x ++){
+                                                    echo $array[$x] ." ";
+                                                }
+                                            ?>...</a></h3>
+                                        </div>
+                                    </div>                                
                                 </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">27/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Tuyển sinh thạc sĩ và tiến sĩ đợt 2 năm 2020...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">27/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Danh sách ứng viên nộp hồ sơ xét công nhận đạt tiêu chuẩn chức danh GS, PGS năm ...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">24/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Nhập học cho thí sinh trúng tuyển đào tạo tiến sĩ đợt 1 năm 2020...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">24/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Nhập học cho thí sinh trúng tuyển đào tạo thạc sĩ đợt 1 năm 2020...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">24/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Thông tin tóm tắt LATS của NCS Lê Quý Thưởng...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">24/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Thông tin LATS của NCS Trần Bảo Trâm...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">22/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Thông tin tóm tắt LATS của NCS Vũ Văn Tâm...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">16/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Chương trình Học bổng SNU President Fellowship - SPF...</a></h3>
-                                    </div>
-                                </div>
-                                
-                                <div class="media">
-                                    <div class="object">
-                                        <span class="day">07</span>
-                                        <span class="date">16/2020</span>
-                                    </div>
-                                    <div class="body">
-                                        <h3><a href="">Thông tin LATS của NCS Trần Thị Huế...</a></h3>
-                                    </div>
-                                </div>                                 
-                            </div>
+                            <?php
+                                }}
+                            ?>
                         </div>
                     </div>
                 </div>

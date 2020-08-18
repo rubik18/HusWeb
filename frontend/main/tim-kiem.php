@@ -130,7 +130,11 @@
                                                     }
                                                 } 
                                                 else {
-                                                    echo "Không tìm thấy kết quả!";
+                                                ?> 
+                                                    <div style="margin: 25px 10px 10px 25px;">
+                                                        <?php echo "Không tìm thấy kết quả với từ khóa <b>\"$s\"</b>";?>
+                                                    </div>
+                                                <?php
                                                 }
                                             }
                                         }

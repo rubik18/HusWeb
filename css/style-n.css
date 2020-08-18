@@ -1726,7 +1726,6 @@ h2.post-title {
 .single-blog-post {
     position: relative;
     z-index: 1;
-    margin-bottom: 15px;
 }
 
     .single-blog-post .post-thumbnail {
