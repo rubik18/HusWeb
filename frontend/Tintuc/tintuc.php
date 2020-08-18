@@ -34,7 +34,7 @@
 				<div class="breadcrumb" style="height: 45px !important; overflow: hidden!important; ">
 					<div class="row" >
 						<div class="col-12">
-							  <nav><ol class="breadcrumb" style="padding-top: 0 !important"><li class="breadcrumb-item active" aria-current="page"><a href="" class="item ">Tin tức</a></li></ol></nav>
+							  <nav><ol class="breadcrumb" style="padding-top: 0 !important"><li class="breadcrumb-item active" aria-current="page"><a href="#" class="item ">Tin tức</a></li></ol></nav>
 							</div></div>
 				</div><!----end thanh muc luc-------->
                 <!--------start body tin tuc--------->
@@ -178,7 +178,7 @@
                                         
                                             <?php 
                                                 $time = strtotime($row['created_at']);
-                                                echo  date("h:i d/m/Y",$time) . "<br>"; ?>
+                                                echo  date("H:i d/m/Y",$time) . "<br>"; ?>
                                         
                                     </dd>
                                 </dl>
@@ -213,7 +213,7 @@
                                     }
                                     $list = floor($count/4);
                                 if($page <4){
-                                    for ($x = 1; $x <= 3 && $x<$count; $x++) {
+                                    for ($x = 1; $x <= 3 && $x<=$count; $x++) {
                                       if( $x==$page ){
                                     
                                  ?>

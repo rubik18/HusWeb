@@ -3,6 +3,7 @@
     <?php include "../header.html" ?>
     <!---end header------->
     <title>Đối tác quốc tế</title>
+    <link rel="stylesheet" type="text/css" href="../../css/canbo_tham.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" language="javascript" src="../../js/drop_list_tham.js"></script>
 <div class="main-content-wrapper">

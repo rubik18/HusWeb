@@ -68,7 +68,7 @@
                                                     <div>
                                                         <a href="#" class="post-date"><?php 
                                                         $time = strtotime($row['update_at']);
-                                                        echo  date("h:i d/m/Y",$time) . "<br>"; ?></a>
+                                                        echo  date("H:i d/m/Y",$time) . "<br>"; ?></a>
                                                     </div>
                                                     <div class='social'> 
                                                         <div class="at-share-btn-elements">

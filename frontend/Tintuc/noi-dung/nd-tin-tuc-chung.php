@@ -52,7 +52,7 @@
                                 
                                     <div id="box_other" class="news-lastest">
                                         <!-- Tin khac -->
-                                        <div class="titletinkhac" style="height: 29px;background: url(http://hus.vnu.edu.vn/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5; color: #fff;float: left; padding: 0 30px;border-radius: 5px 5px 0px 0px;margin-bottom: 10px;">
+                                        <div class="titletinkhac" style="height: 29px;background: url(/php-intership-team/img/main/hometintuc.png) no-repeat left bottom #017dc5; color: #fff;float: left; padding: 0 30px;border-radius: 5px 5px 0px 0px;margin-bottom: 10px;">
                                             <h5>Tin gần đây</h5>
                                         </div>
                                         <!-- Single Blog Post -->
@@ -74,7 +74,7 @@
                                                   ?>
                                             <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                 <div class="object">
-                                                    <img src="" alt="Trường  Đại học Khoa học Tự nhiên tổ chức tập huấn công tác coi thi kỳ thi tốt nghiệp THPT năm 2020">
+                                                    <img  src="<?php echo $rowi['avatar']; ?>"  alt="<?php echo substr($rowi['title'],0,150); ?>" style="width: 40; height: 40">
                                                 </div>
                                                 <div class="body">
                                                     <h3 >
@@ -108,10 +108,10 @@
                                         </div>
                                         <div class="post-meta">
                                             <div>
-                                                    <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/nam-sinh-lop-11-truong-thpt-chuyen-khoa-hoc-tu-nhien-gianh-huy-chuong-vang-hoa-quoc-te-66482.html#" class="post-date">
+                                                    <a href="#" class="post-date">
                                                         <i class="fa fa-clock-o"></i>
-                                                        <?php $time = strtotime($row['update_at']);
-                                                            echo  date("h:i d/m/Y",$time) . "<br>"; ?>
+                                                        <?php $time = strtotime($row['created_at']);
+                                                            echo  date("H:i d/m/Y",$time) . "<br>"; ?>
 													</a>
                                             </div>
                                             <!---List share---->
@@ -192,94 +192,16 @@
                                             </ul>
                                         </div>
 
-                                        <div class="cl white-bg" style="display: none">
-                                        <div class="comment-block">
-                                                <div id="dnn_ctr10930_newsviewer_ctl00_update">
-                                    
-                                                    <div class="block-heading">
-                                                        <div class="pull-left">
-                                                            <a href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/nam-sinh-lop-11-truong-thpt-chuyen-khoa-hoc-tu-nhien-gianh-huy-chuong-vang-hoa-quoc-te-66482.html#divcomment" class="showcomment" style="display: inline;">
-                                                                <strong class="uppercase">Bình luận</strong></a>
-                                                        </div>
-                                                        <div class="cl"></div>
-                                                    </div>
-                                                    <div class="block-content mt-10 divcomment"name="divcomment"style="display: none;">
-                                                        <div class="row">
-                                                                    <div class="col-xs-6">
-                                                                        <div class="form-group">
-                                                                            <label class="control-label">Họ tên</label>
-                                                                            <input name="dnn$ctr10930$newsviewer$ctl00$txtName" type="text" id="dnn_ctr10930_newsviewer_ctl00_txtName" placeholder="Họ tên của bạn" class="form-control" data-error="Bạn chưa nhập họ tên" required="">
-                                                                            <div class="help-block with-errors"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-xs-6">
-                                                                        <div class="form-group">
-                                                                            <label class="control-label">Email</label>
-                                                                            <input name="dnn$ctr10930$newsviewer$ctl00$txtEmail" type="text" id="dnn_ctr10930_newsviewer_ctl00_txtEmail" placeholder="Phản hồi khi cần thiết" class="form-control" data-error="Bạn chưa nhập email" required="">
-                                                                            <div class="help-block with-errors"></div>
-                                                                        </div>
-                                                                    </div>
-                                                        </div>
-                                                        <div class="form-group">
-                                                                <label class="control-label">Bình luận</label>
-                                                                <textarea name="dnn$ctr10930$newsviewer$ctl00$txtContent" id="dnn_ctr10930_newsviewer_ctl00_txtContent" data-minlength="10" placeholder="Cho chúng tôi biết ý kiến của bạn" rows="3" data-error="Bình luận cần có 10 ký tự trở lên" class="form-control comment" required="" style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 74px;"></textarea>
-                                                                <div class="help-block with-errors"></div>
-                                                                <div id="dnn_ctr10930_newsviewer_ctl00_Panel1">
-                                                                    <span>
-                                                                        <div class="g-recaptcha" data-sitekey="6LctrT8UAAAAAHOQyujQa-cqLXWyiYsKOmGHc-OJ">
-                                                                            <div style="width: 304px; height: 78px;">
-                                                                                <div>
-                                                                                    <iframe src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/anchor.html" width="304" height="78" role="presentation" name="a-5duynnpve6n3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-                                                                                </div>
-                                                                                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                                                            </div>
-                                                                            <iframe style="display: none;" src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/saved_resource.html"></iframe>
-                                                                        </div>
-                                                                    </span>
-                                                                </div>
-                                                                <div class="pull-left">
-                                                                    <a onclick="return isFormValid();" id="dnn_ctr10930_newsviewer_ctl00_lbtUpdate" class="btn btn-xs font-14 btn-primary" href="javascript:__doPostBack(&#39;dnn$ctr10930$newsviewer$ctl00$lbtUpdate&#39;,&#39;&#39;)" style="color:White;">
-                                                                        <strong>&nbsp;&nbsp;Gửi bình luận&nbsp;&nbsp;</strong>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="cl"></div>
-                                                        </div>
-                                                    </div>      
-                                                </div>
-                                        </div>
-                                        <div class="block-comments pd-10"></div>
-                                        <div class="clearfix pagination-wp">
-                                            <ul class="pagination pull-left">
-                                                <li><a><i class="fa fa-angle-double-left"></i></a></li>     
-                                            </ul>
-                                            <div class="cl"></div>
-                                        </div>
-                                        <div class="fb-wp mt-15">
-                                            <div>
-                                                <strong><i class="fa fa-facebook blue-color"></i>Bình luận trên Facebook</strong>
-                                            </div>
-                                            <script type="text/javascript">
-                                                document.write("<div class='fb-comments' data-href='" + window.location.href + "' data-numposts='5' data-colorscheme='light' data-width='100%'></div>");
-                                            </script>
-                                            <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="http://hus.vnu.edu.vn/tin-tuc-su-kien/tin-tuc-chung/nam-sinh-lop-11-truong-thpt-chuyen-khoa-hoc-tu-nhien-gianh-huy-chuong-vang-hoa-quoc-te-66482.html" data-numposts="5" data-colorscheme="light" data-width="100%" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=1558554517524029&amp;color_scheme=light&amp;container_width=0&amp;height=100&amp;href=http%3A%2F%2Fhus.vnu.edu.vn%2Ftin-tuc-su-kien%2Ftin-tuc-chung%2Fnam-sinh-lop-11-truong-thpt-chuyen-khoa-hoc-tu-nhien-gianh-huy-chuong-vang-hoa-quoc-te-66482.html&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v3.3&amp;width=" style="width: 100%;">
-                                                    <span style="vertical-align: bottom; width: 100%; height: 0px;">
-                                                        <iframe name="f1c07407649ae4" width="1000px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="./Nam sinh lớp 11 Trường THPT Chuyên Khoa học Tự nhiên giành huy chương vàng Hóa quốc tế_files/comments.html" class="" style="border: none; visibility: visible; width: 100%; height: 0px;"></iframe>
-                                                    </span>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <div class="cl"></div>
+                                        <!--  -->
                                     </div>
-                                    <div id="dnn_ctr10930_newsviewer_ctl00_UpdateProgress1" style="display:none;" role="status" aria-hidden="true">
-                                        <div class="loading" id="loadizng">Loading…</div>
-                                    </div>
+                                   <!--  -->
                                 </div>
                             </div>
                             <div class="col-12 col-lg-3" id="ba">
                                 <div id="dnn_ctr10930_newsviewer_ctl00_Panel2">
                                     <div id="box_tinhotcat" class="news-lastest">
                                         <!-- Tin noi bat -->
-                                        <div class="titletinkhac" style="height: 29px;background: url(http://hus.vnu.edu.vn/hus/img/blog-img/hometintuc.png) no-repeat left bottom #017dc5; color: #fff;float: left; padding: 0 30px;border-radius: 5px 5px 0px 0px;margin-bottom: 10px;"><h5>Tin nổi bật</h5></div>
+                                        <div class="titletinkhac" style="height: 29px;background: url(/php-intership-team/img/main/hometintuc.png) no-repeat left bottom #017dc5; color: #fff;float: left; padding: 0 30px;border-radius: 5px 5px 0px 0px;margin-bottom: 10px;"><h5>Tin nổi bật</h5></div>
                                         <!-- Single Blog Post -->
                                         <div class="single-blog-post post-style-tb">
                                             <?php 
@@ -297,7 +219,7 @@
                                                   ?>
                                             <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                         <div class="object">
-                                                            <img src="http://hus.vnu.edu.vn/DATA//IMAGES/2020/08/dhqg.jpg?width=60&height=60&mode=crop&anchor=middlecenter" alt="CÁC THẦY, CÔ CŨNG HỌC ONLINE">
+                                                            <img src="<?php echo $rowk['avatar']; ?>"  alt="<?php echo substr($rowk['title'],0,150); ?>" style="width: 40; height: 40">
                                                         </div>
                                                         <div class="body">
                                                             <h3><a href="nd-tin-tuc-chung.php?id=<?php echo $rowk['id']; ?>" style="font-size: 12px !important;
