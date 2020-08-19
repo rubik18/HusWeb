@@ -36,10 +36,10 @@ if (!isset($_SESSION['user'])) {
  <?php include '../themepart/sidebar.php' ?>
  <!-- content -->
 <div class="content-wrapper">
-  <div class="register-box" style="padding: 1.25rem; margin-left: 385px !important;">
+  <div class="" style="padding: 1.25rem; ">
 
   <div class="card">
-    <div class="card-body register-card-body" style="padding : 10px;">
+    <div class="" style="padding : 10px;">
      <div class="register-logo" style="margin-bottom: 5px !important;">
         <b>Admin</b>LTE</a>
       </div>
@@ -106,16 +106,19 @@ if (!isset($_SESSION['user'])) {
         <?php      
           }
         ?>
-         <div class="input-group">
+          <div class="input-group">
           <label for="exampleInputFile">Avatar</label>
+          </div>
             <div>
               Chọn file để upload:
               <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
               URL:
               <input type="text" name = "URL" class="form-control" style="border-right: 1.5px solid #dee2e6 !important;" placeholder="Enter ...">
             </div>   
-          </div>
-        <div><label>lever</label></div>
+          
+
+        
+        <div><label>Lever</label></div>
         <div class="input-group mb-3">
           <select class="form-control " name = "type" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
             <option selected="selected" value ="1">1</option>
@@ -124,10 +127,10 @@ if (!isset($_SESSION['user'])) {
           </select>
         </div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-10">
           </div>
           <!-- /.col -->
-          <div class="col-4">
+          <div class="col-2">
             <button type="submit" class="btn btn-primary btn-block">Register</button>
           </div>
           <!-- /.col -->
