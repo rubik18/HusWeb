@@ -8,7 +8,7 @@
     $ipage = ($page-1) * 9;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -17,7 +17,7 @@
 
   $link = array("noi-dung/nd-hoat-dong-khoa-hoc.php",
                 "noi-dung/nd-su-kien.php",
-                "noi-dung/nd-thong-bao-chung.php" ,
+                "noi-dung/nd-thong-bao.php" ,
                 "noi-dung/nd-dang-va-cac-doan-the.php" ,
                 "noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
                 "noi-dung/nd-hoat-dong-khoa-hoc.php" ,
@@ -226,16 +226,70 @@
                                 
                                 
                                 <?php }} ?>
+                               
+                                    
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=<?php if($count>4){
                                         echo "4";
                                         }else echo $count;
                                      ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php } ?>
-                             
+                                <?php } 
+                                if($page >= 4&& $page <7){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 4; $x < 7; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintuc.php?page=1">First</a></li>
+                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="tintuc.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                                if($page >= 7&& $page <10){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=4" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 7; $x < 10; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="tintuc.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                               <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintuc.php?page=1">First</a></li>
+                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=10" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                                 ?>
                                 
                             </ul>
                         </div>

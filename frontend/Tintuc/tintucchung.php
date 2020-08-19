@@ -145,7 +145,7 @@
                                 
                                 <?php }} ?>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=<?php if($count>4){
@@ -154,7 +154,7 @@
                                      ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php }
                              
-                                if($page >= 4&& $page <=7){ ?>
+                                if($page >= 4&& $page <7){ ?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=1" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
                                     <?php for ($x = 4; $x < 7; $x++) {
@@ -171,12 +171,42 @@
                                 
                                 
                                 <?php }} ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=1">First</a></li>
+                                    
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }?>
+                                <?php }
+                                if($page >= 7&& $page <10){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=4" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 7; $x < 10; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="tintucchung.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="tintucchung.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=1">First</a></li>
+                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=10" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                                 ?>
                             </ul>
                         </div>
 

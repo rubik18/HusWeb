@@ -5,10 +5,10 @@
     }else {
         $page = 1;
     }
-    $ipage = ($page-1) * 1;
+    $ipage = ($page-1) * 5;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Hoạt động khoa học' AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT $ipage,4 ";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Hoạt động khoa học' AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT $ipage,5 ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -101,7 +101,7 @@
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                           $count = floor($row['COUNT(*)'] /4) +1;
+                                           $count = floor($row['COUNT(*)'] /5) +1;
                                         }
                                     }
                                     $list = floor($count/4);
@@ -119,8 +119,8 @@
                                 
                                 
                                 <?php }} ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php if($count>4){
@@ -146,8 +146,11 @@
                                 
                                 
                                 <?php }} ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintuc.php?page=1">First</a></li>
+                                    
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
@@ -175,10 +178,10 @@
                                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
                                         <li class=""><a href="sukien.php">Sự kiện</a></li>
                                         <li class=""><a href="thongbao.php">Thông báo</a></li>
-                                        <li class=""><a href="hoatdongkh.php">Tin tức chung</a></li>
+                                        <li class=""><a href="tintucchung.php">Tin tức chung</a></li>
                                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
                                         <li class=""><a href="daotaots.php">Đào tạo - Tuyển sinh</a></li>
-                                        <li class="active"><a href="">Hoạt động khoa học</a></li>
+                                        <li class="active"><a href="hoatdongkh.php">Hoạt động khoa học</a></li>
                                     </ul>
                                     <div class="jquery-accordion-menu-footer"></div>
                                 </div>

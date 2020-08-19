@@ -92,6 +92,15 @@ if (!isset($_SESSION['user'])) {
                     <label>Name</label>
                     <input type="text" name = "name" class="form-control" placeholder="Enter ...">
                   </div>
+                   <?php 
+                    if (@$_GET['Empty'] == true) {
+                    ?>
+                    <div class="input-group">
+                      <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+                    </div>
+                    <?php      
+                      }
+                    ?>
                   <!-- Submit -->
                   <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>

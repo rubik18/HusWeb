@@ -3,7 +3,7 @@
   require'../db/connect.php';
 // Chuỗi kết nối
   $id = (int)$_GET['id'];
-  $sql = "SELECT * FROM topic_project WHERE topic_project.id= {$id}";
+  $sql = "SELECT * FROM topic_project,type_topic_project WHERE topic_project.id= {$id} AND topic_project.id_type = type_topic_project.id";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -114,6 +114,27 @@ if (!isset($_SESSION['user'])) {
                    <div class="form-group">
                     <label>acceptance_date</label>
                     <input type="text" name = "acceptance_date" class="form-control" value="<?php echo $row['acceptance_date'] ?> ">
+                  </div>
+                  <!-- php -->
+                    <?php 
+                      $sql1 = "SELECT * from type_topic_project";
+                      $result1 = mysqli_query($conn,$sql1);
+                    ?>
+                 <!-- Type -->
+                  <div class="form-group">
+                    <label>Type</label>
+                    <select class="form-control select2" name="type" style="width: 100%;">
+                      <option selected="selected" value="<?php echo $row['id'] ?>"><?php echo $row['name_type'] ?></option>
+                      <?php 
+                        if (mysqli_num_rows($result1) > 0){
+                          while ($row1 = mysqli_fetch_assoc($result1)) {                 
+                      ?>
+                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name_type']?></option>
+                      <?php  
+                          }
+                        }
+                      ?>
+                    </select>
                   </div>
                   <div class="form-group">
                     <label>result</label>

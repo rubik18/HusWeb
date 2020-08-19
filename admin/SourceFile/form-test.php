@@ -96,20 +96,29 @@ if (!isset($_SESSION['user'])) {
             <div class="card-body pad">
               <div class="mb-3">
                 <form role="form" action="add.php" method = "post" enctype="multipart/form-data">
+                  <?php 
+                    if (@$_GET['Empty'] == true) {
+                  ?>
+                  <div class="input-group">
+                    <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+                  </div>
+                  <?php      
+                    }
+                  ?>
                   <!-- Tit -->
                   <div class="form-group">
-                    <label>Title</label>
+                    <label>Title *</label>
                     <input type="text" name = "title" class="form-control" placeholder="Enter ...">
                   </div>
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" name = "type" style="width: 100%;">
+                    <select class="form-control select2" name = "type" id = "option"style="width: 100%;">
                       <?php 
                       if (mysqli_num_rows($result1) > 0){
                         while ($row1 = mysqli_fetch_assoc($result1)) {                 
                       ?>
-                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
+                        <option selected="selected"  value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
                       <?php  
                         }
                       }
@@ -118,7 +127,7 @@ if (!isset($_SESSION['user'])) {
                   </div>
                   <!-- avatar -->
                 <div class="form-group">
-                  <label for="exampleInputFile">Avatar</label>
+                  <label for="exampleInputFile">Avatar *</label>
                   <div>
                     Chọn file để upload:
                     <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
@@ -134,7 +143,7 @@ if (!isset($_SESSION['user'])) {
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-clock"></i></span>
                     </div>
-                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime">
+                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime" >
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -156,12 +165,15 @@ if (!isset($_SESSION['user'])) {
                   </div>
                  <!-- mô tả -->
                   <div class="form-group">
-                    <label>Mô tả</label>
+                    <label>Mô tả *</label>
                     <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
                   </div>
-                  <label for="exampleInputFile">Nội dung</label>
+                  <label for="exampleInputFile">Nội dung *</label>
                   <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                  <div class="form-group">
+                    * là bắt buộc điền
+                  </div>
                   <!-- Submit -->
                   <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
@@ -229,7 +241,7 @@ if (!isset($_SESSION['user'])) {
   $(function () {
     // Summernote
     $('.textarea').summernote()
-  })
+  });
  //Date range picker with time picker
     $('#reservationtime').daterangepicker({
       timePicker: true,
@@ -237,7 +249,18 @@ if (!isset($_SESSION['user'])) {
       locale: {
         format: 'MM/DD/YYYY hh:mm A'
       }
-    })
+    });
+    $(document).ready(function(){
+    $('#reservationtime').prop("disabled", true);
+    $('#option').click(function(){
+            if($(this).val() == '2'){
+                $('#reservationtime').prop("disabled", false);
+            }
+            else{
+                $('#reservationtime').prop("disabled", true);
+            }
+        });
+    });
 </script>
 </script>
 </body>
