@@ -104,13 +104,13 @@ if (!isset($_SESSION['user'])) {
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" name="type" id ="option"style="width: 100%;">
-                     
+                    <select class="form-control select2" id="option" name="type" style="width: 100%;">
+                      <option selected="selected" value="<?php echo $row['id_category'] ?>"><?php echo $row['name'] ?></option>
                       <?php 
                         if (mysqli_num_rows($result1) > 0){
                           while ($row1 = mysqli_fetch_assoc($result1)) {                 
                       ?>
-                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
+                        <option  value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
                       <?php  
                           }
                         }
@@ -136,6 +136,11 @@ if (!isset($_SESSION['user'])) {
                       </div>
                       <input type="text" class="form-control float-right" name="date_time" id="reservationtime">  
                     </div>
+                  </div>
+                  <!-- location -->
+                   <div class="form-group">
+                    <label>location</label>
+                    <input type="text" name = "location" class="form-control" id = "location" placeholder="Enter ..." value="<?php echo $row['location'] ?>">
                   </div>
                   <!-- tag -->
                   <div class="form-group">
@@ -226,7 +231,7 @@ if (!isset($_SESSION['user'])) {
   $(function () {
     // Summernote
     $('.textarea').summernote()
-  });
+  })
   //Date range picker with time picker
     $('#reservationtime').daterangepicker({
       timePicker: true,
@@ -237,8 +242,8 @@ if (!isset($_SESSION['user'])) {
       locale: {
         format: 'MM/DD/YYYY hh:mm A'
       }
-    });
-     $(document).ready(function(){
+    })
+    $(document).ready(function(){
     $('#reservationtime').prop("disabled", true);
     $('#option').click(function(){
             if($(this).val() == '2'){
@@ -246,6 +251,17 @@ if (!isset($_SESSION['user'])) {
             }
             else{
                 $('#reservationtime').prop("disabled", true);
+            }
+        });
+    });
+    $(document).ready(function(){
+    $('#location').prop("disabled", true);
+    $('#option').click(function(){
+            if($(this).val() == '2'){
+                $('#location').prop("disabled", false);
+            }
+            else{
+                $('#location').prop("disabled", true);
             }
         });
     });
