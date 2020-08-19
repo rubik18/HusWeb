@@ -11,7 +11,7 @@ $conn->set_charset("utf8");
   $approval_date = $_POST['approval_date'];
   $acceptance_date = $_POST['acceptance_date'];
   $result = $_POST['result'];
-  if ( isset($_POST['submit']) || empty($id_project) || empty($name) || empty($leader) || empty($workplace) || empty($approval_date || empty($approval_date) || empty($acceptance_date)) ) {
+  if ( isset($_POST['submit']) || empty($id_project) || empty($name) || empty($leader) || empty($workplace) || empty($approval_date || empty($approval_date) || empty($acceptance_date)|| empty($result)) ) {
     header("Location:form-project.php?Empty= Please fill in the blanks");
   }
   else{

@@ -82,6 +82,15 @@ if (!isset($_SESSION['user'])) {
             <div class="card-body pad">
               <div class="mb-3">
                 <form role="form" action="add-project.php" method = "post">
+                  <?php 
+                    if (@$_GET['Empty'] == true) {
+                  ?>
+                  <div class="input-group">
+                    <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+                  </div>
+                  <?php      
+                    }
+                  ?>
                   <!-- Tag -->
                   <div class="form-group">
                     <label>id_project</label>
