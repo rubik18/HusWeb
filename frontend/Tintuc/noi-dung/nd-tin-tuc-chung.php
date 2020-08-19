@@ -13,6 +13,20 @@
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
+
+  $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+    $conn->set_charset("utf8");
+    $resulti = mysqli_query($conn, $sqli); 
+    if (!$resulti) {
+         die('error'. mysqli_error($conn));
+    }
+
+  $sqlk = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.id ASC";
+    $conn->set_charset("utf8");
+    $resultk = mysqli_query($conn, $sqlk); 
+    if (!$resulti) {
+        die('error'. mysqli_error($conn));
+    }  
  ?>
 
   <title>
@@ -65,21 +79,16 @@
                                         <div class="single-blog-post post-style-tb">
                                             <!----tin 1---->
                                             <?php 
-                                                $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL
-                                                        ORDER BY new.created_at DESC";
-                                                  $conn->set_charset("utf8");
-                                                  $resulti = mysqli_query($conn, $sqli); 
-                                                  if (!$resulti) {
-                                                    die('error'. mysqli_error($conn));
-                                                  }
-
                                                   if(mysqli_num_rows($resulti)>0){
-                                                                $j = 0 ;
-                                                                while($rowi = mysqli_fetch_assoc($resulti )){
+                                                     $j = 0 ;
+                                                     while($rowi = mysqli_fetch_assoc($resulti )){
                                                   ?>
                                             <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                 <div class="object">
-                                                    <img  src="<?php echo $rowi['avatar']; ?>"  alt="<?php echo substr($rowi['title'],0,150); ?>" style="width: 40; height: 40">
+                                                    <img  src="<?php 
+                                                    if($rowi['avatar']!=null){
+                                                        echo $rowi['avatar']; 
+                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($rowi['title'],0,150); ?>" style="width: 40; height: 40">
                                                 </div>
                                                 <div class="body">
                                                     <h3 >
@@ -189,21 +198,16 @@
                                         <!-- Single Blog Post -->
                                         <div class="single-blog-post post-style-tb">
                                             <?php 
-                                                $sqlk = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL
-                                                        ORDER BY new.id ASC";
-                                                  $conn->set_charset("utf8");
-                                                  $resultk = mysqli_query($conn, $sqlk); 
-                                                  if (!$resulti) {
-                                                    die('error'. mysqli_error($conn));
-                                                  }
-
                                                   if(mysqli_num_rows($resultk)>0){
                                                                 $k = 0 ;
                                                                 while($rowk = mysqli_fetch_assoc($resultk )){
                                                   ?>
                                             <div class="media" style="border-bottom: dashed 1px #ececec;">
                                                         <div class="object">
-                                                            <img src="<?php echo $rowk['avatar']; ?>"  alt="<?php echo substr($rowk['title'],0,150); ?>" style="width: 40; height: 40">
+                                                            <img src="<?php 
+                                                    if($rowk['avatar']!=null){
+                                                        echo $rowk['avatar']; 
+                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"    alt="<?php echo substr($rowk['title'],0,150); ?>" style="width: 40; height: 40">
                                                         </div>
                                                         <div class="body">
                                                             <h3><a href="nd-tin-tuc-chung.php?id=<?php echo $rowk['id']; ?>" style="font-size: 12px !important;
