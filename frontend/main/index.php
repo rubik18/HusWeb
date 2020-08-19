@@ -7,10 +7,18 @@
     <?php 
         require 'connectSQL.php';
         $conn->set_charset("utf8");
-        $news = mysqli_query($conn,"SELECT new.* from `new`
-            where new.id_category = 1 LIMIT 3;");
-        $noti = mysqli_query($conn,"SELECT new.* from `new`
-            where new.id_category = 3 order by id DESC LIMIT 10;");
+        $news = mysqli_query($conn,"SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category NOT IN(3) AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 3;");
+        $link = array("/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php",
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php",
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-thong-bao-chung.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-dang-va-cac-doan-the.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php" , ); 
+
+        $noti = mysqli_query($conn,"SELECT new.* FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category = 3 AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT 10;");
+
+        $event = mysqli_query($conn,"SELECT new.* FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category = 2 AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT 6;");
      ?>
 
     <div class="hero-area">
@@ -95,20 +103,75 @@
                         <div>                          
                             <div class="row title">
                                 <div class="block-title uppercase">
-                                    <h5><a href="">Tin tức</a></h5>
+                                    <h5><a>Tin tức</a></h5>
                                 </div>  
                             </div>
                                 <?php if(mysqli_num_rows($news) > 0){
-                                    while($row = mysqli_fetch_assoc($news)){      
+                                    $i = 0;
+                                    while($row = mysqli_fetch_assoc($news)){ 
+                                    $id = $row['id'];     
                                 ?>
                                 <div class="single-blog-post post-style-4 d-flex align-items-center">
                                     <div class="post-thumbnail">
-                                        <a href="">
-                                        <img src="<?php echo $row['avatar'];?>" alt="<?php echo substr($row['title'], 0, 100); ?>...">
+                                        <a href="<?php 
+                                                switch ($row['id_category']) {
+                                                    case '1':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                    case '2':
+                                                        echo $link[1] ."?id=" . $id;
+                                                        break;
+                                                    case '3':
+                                                        echo $link[2] ."?id=" . $id;
+                                                        break;
+                                                    case '5':
+                                                        echo $link[3] ."?id=" . $id;
+                                                        break;
+                                                    case '6':
+                                                        echo $link[4] ."?id=" . $id;
+                                                        break;
+                                                    case '7':
+                                                        echo $link[5] ."?id=" . $id;
+                                                        break; 
+                                                    case '8':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                }
+                                                ?>">
+                                        <img src="<?php echo $row['avatar'];?>" alt="<?php 
+                                                $string = $row['title'];
+                                                $array = explode(' ' ,$string);
+                                                for($x = 0; $x < 15 && $x < count($array); $x ++){
+                                                    echo $array[$x] ." ";
+                                                }?>...">
                                         </a>
                                     </div>
                                     <div class="post-content">
-                                        <a href="" class="headline">
+                                        <a href="<?php 
+                                                switch ($row['id_category']) {
+                                                    case '1':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                    case '2':
+                                                        echo $link[1] ."?id=" . $id;
+                                                        break;
+                                                    case '3':
+                                                        echo $link[2] ."?id=" . $id;
+                                                        break;
+                                                    case '5':
+                                                        echo $link[3] ."?id=" . $id;
+                                                        break;
+                                                    case '6':
+                                                        echo $link[4] ."?id=" . $id;
+                                                        break;
+                                                    case '7':
+                                                        echo $link[5] ."?id=" . $id;
+                                                        break; 
+                                                    case '8':
+                                                        echo $link[6] ."?id=" . $id;
+                                                        break;
+                                                }
+                                                ?>" class="headline">
                                             <h5><?php 
                                                 $string = $row['title'];
                                                 $array = explode(' ' ,$string);
@@ -137,49 +200,49 @@
                                     </div>
                                 </div>
                             <?php
-                                }}
+                               $i ++; }}
                             ?>
                         </div>
                     </div>
-                    
+
                     <div class="col-12 col-lg-4">
                         <div>
                             <div class="titlethongbao">
-                                <h5><a href="">Thông báo</a></h5>
+                                <h5><a>Thông báo</a></h5>
                             </div>
                             <?php if(mysqli_num_rows($noti) > 0){
                                 $i = 0;
                                 while($row_noti = mysqli_fetch_assoc($noti)){   
-                                $id = $row['id'];   
-                        ?>
-                                <div class="single-blog-post post-style-tb">
-                                    <div class="media">
-                                        <div class="object">
-                                            <span class="day">
-                                                <?php 
-                                                    $time = strtotime($row_noti['created_at']);
-                                                    echo date("d", $time);
-                                                ?>
-                                            </span>
-                                            <span class="date">
-                                                <?php 
-                                                    $time = strtotime($row_noti['created_at']);
-                                                    echo date("m/Y", $time);
-                                                ?>
-                                            </span>
-                                        </div>
-                                        <div class="body">
-                                            <h3><a href="/frontend/Tintuc/noi-dung/nd-thong-bao.php?id= <?php echo $id ?>">
+                                $id = $row_noti['id'];   
+                            ?>
+                            <div class="single-blog-post post-style-tb">
+                                <div class="media">
+                                    <div class="object">
+                                        <span class="day">
                                             <?php 
-                                                $string = $row_noti['title'];
-                                                $array = explode(' ' ,$string);
-                                                for($x = 0; $x < 12 && $x < count($array); $x ++){
-                                                    echo $array[$x] ." ";
-                                                }
-                                            ?>...</a></h3>
-                                        </div>
-                                    </div>                                
-                                </div>
+                                                $time = strtotime($row_noti['created_at']);
+                                                echo date("d", $time);
+                                            ?>
+                                        </span>
+                                        <span class="date">
+                                            <?php 
+                                                $time = strtotime($row_noti['created_at']);
+                                                echo date("m/Y", $time);
+                                            ?>
+                                        </span>
+                                    </div>
+                                    <div class="body">
+                                        <h3><a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-thong-bao.php?id= <?php echo $id ?>">
+                                        <?php 
+                                            $string = $row_noti['title'];
+                                            $array = explode(' ' ,$string);
+                                            for($x = 0; $x < 12 && $x < count($array); $x ++){
+                                                echo $array[$x] ." ";
+                                            }
+                                        ?>...</a></h3>
+                                    </div>
+                                </div>                                
+                            </div>
                             <?php
                                $i ++; }}
                             ?>
@@ -198,36 +261,62 @@
                         <div class="mb-20 pd-10">
                             <div class="title">
                                 <div class="block-title uppercase">
-                                    <h5><a href="">Sự kiện</a></h5>
+                                    <h5><a href="/php-intership-team/frontend/Tintuc/sukien.php">Sự kiện</a></h5>
                                 </div>
                             </div>
-                            
+                            <?php 
+                                $array = [];
+                                $array_title = [];
+                                if(mysqli_num_rows($event) > 0){
+                                    $i = 0;
+                                    while($row_event = mysqli_fetch_assoc($event)){ 
+                                        $id = $row_event['id'];
+                                        $title = $row_event['title'];
+                                        $array[$i] = $id;
+                                        $array_title[$i] = $title;
+                                        $i ++; 
+                                    }          
+                                }
+                            ?>
                             <div class="sukiencontent">
                                 <div class="row">
                                     <div class="col-12 col-lg-6 pdr-10">
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
-                                            <img id="dnn_View_ltr1img" src="/php-intership-team/img/main/nhap-hoc-lop-10-thpt-chuyen-khtn-1521-0.jfif">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[0]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 565; height: 400;">
+                                            </a> 
                                             <div class="caption">
-                                                <h4><a style="text-decoration: none" href="">Lễ bế giảng và Trao bằng Cử nhân Khoa học hệ Đại học Chính quy năm 2020</a></h4>
-                                                <p><i class="fa fa-clock-o"></i>29/07/2020</p>
+                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[0]?>"><?php echo $array_title[0]?></a></h4>
+                                                <p><i class="fa fa-clock-o"></i>
+                                                    <?php 
+                                                        $time = strtotime($row_event['start_date']);
+                                                        echo date("d/m/Y",$time);
+                                                    ?>
+                                                </p>
                                                 <p><i class="fa fa-map-marker"></i>Hội trường Ngụy Như Kon Tum, 19 Lê Thánh Tông, Hoàn Kiếm, Hà Nội</p>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <img id="dnn_View_ltr3img" src="/php-intership-team/img/main/le-ky-ket-hop-tac-dao-tao-thac-si-khoa-hoc-du-lieu-1521-0.jpg">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[1]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="">Lễ ký kết hợp tác đào tạo Thạc sĩ Khoa học Dữ liệu &amp; Tọa đàm Nhân lực chất lượng cao Khoa học Dữ liệu</a></h4>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[1]?>"><?php echo $array_title[1]?></a></h4>
                                                         <p><i class="fa fa-clock-o"></i> 18/07/2020</p>
                                                         <p><i class="fa fa-map-marker"></i>Phòng hội thảo tầng 10, Thư viện Tạ Quang Bửu, Trường Đại học Bách Khoa Hà Nội, (cổng đường Trần Đại Nghĩa), Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <img id="dnn_View_ltr4img" src="/php-intership-team/img/main/-1521-0.png">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[2]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="">Hội thảo định hướng nghề nghiệp và ngày hội phỏng vấn việc làm</a></h4>
-                                                        <p><i class="fa fa-clock-o"></i>14/07/2020</p>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[2]?>"><?php echo $array_title[2]?></a></h4>
+                                                        <p><i class="fa fa-clock-o"></i>
+                                                            <?php 
+                                                                $time = strtotime($row_event['start_date']);
+                                                                echo date("d/m/Y",$time);
+                                                            ?>
+                                                        </p>
                                                         <p><i class="fa fa-map-marker"></i>Tầng 7 nhà T5</p>
                                                     </div>
                                                 </div>
@@ -238,18 +327,25 @@
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <img id="dnn_View_ltr5img" src="/php-intership-team/img/main/20161208152955087095_THPT%20CHUY%c3%8aN%20KHOA%20H%e1%bb%8cC%20T%e1%bb%b0%20NHI%c3%8aN04.jpg">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[3]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="">Thi tuyển THPT Chuyên Khoa học Tự nhiên</a></h4>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[3]?>"><?php echo $array_title[3]?></a></h4>
                                                         <p><i class="fa fa-clock-o"></i>12/07/2020</p>
                                                         <p><i class="fa fa-map-marker"></i>Trường Đại học Khoa học Tự nhiên, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <img id="dnn_View_ltr6img" src="/php-intership-team/img/main/le-trao-quyet-dinh-bo-nhiem-2-pho-hieu-truong-1521-1.JFIF">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[4]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="">Lễ trao Quyết định bổ nhiệm 2 Phó Hiệu trưởng</a></h4>
-                                                        <p><i class="fa fa-clock-o"></i>02/07/2020</p>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[4]?>"><?php echo $array_title[4]?></a></h4>
+                                                        <p><i class="fa fa-clock-o"></i>
+                                                            <?php 
+                                                                $time = strtotime($row_event['start_date']);
+                                                                echo date("d/m/Y",$time);
+                                                            ?>
+                                                        </p>
                                                         <p><i class="fa fa-map-marker"></i>Phòng 418 nhà T1, Trường Đại học Khoa học Tự nhiên
                                                         334 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
                                                     </div>
@@ -257,20 +353,24 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
-                                            <img id="dnn_View_ltr2img" src="/php-intership-team/img/main/hoi-nghi-cong-chuc-vien-chuc-nguoi-lao-dong-va-ton-1521-1.jpg">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[5]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 565; height: 400;">
+                                            </a>  
                                             <div class="caption">
-                                                <h4><a style="text-decoration: none" href="">Hội nghị Công chức, Viên chức, Người lao động và Tổng kết năm học 2019 - 2020</a></h4>
-                                                <p>23/07/2020</p>
-                                                <p>Giảng đường lớn tầng 7, nhà T5, Trường Đại học Khoa học Tự nhiên</p>
+                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[5]?>"><?php echo $array_title[5]?></a></h4>
+                                                <p><i class="fa fa-clock-o"></i>
+                                                    <?php 
+                                                        $time = strtotime($row_event['start_date']);
+                                                        echo date("d/m/Y",$time);
+                                                    ?>
+                                                </p>
+                                                <p><i class="fa fa-map-marker"></i>Giảng đường lớn tầng 7, nhà T5, Trường Đại học Khoa học Tự nhiên</p>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-
+                            <?php ?>
                         </div>
-
                     </div>
                 </div>
             </div>
