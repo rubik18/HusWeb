@@ -147,6 +147,11 @@ if (!isset($_SESSION['user'])) {
                   </div>
                   <!-- /.input group -->
                 </div>
+                <!-- loction -->
+                <div class="form-group">
+                    <label>location</label>
+                    <input type="text" name = "location" class="form-control" id = "location" placeholder="Enter ...">
+                  </div>
                   <!-- tag -->
                   <div class="form-group">
                     <div><label>Tag</label></div>
@@ -258,6 +263,17 @@ if (!isset($_SESSION['user'])) {
             }
             else{
                 $('#reservationtime').prop("disabled", true);
+            }
+        });
+    });
+    $(document).ready(function(){
+    $('#location').prop("disabled", true);
+    $('#option').click(function(){
+            if($(this).val() == '2'){
+                $('#location').prop("disabled", false);
+            }
+            else{
+                $('#location').prop("disabled", true);
             }
         });
     });

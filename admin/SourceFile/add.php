@@ -8,7 +8,7 @@ $conn->set_charset("utf8");
   $description= $_POST['description'];
   $id_category =$_POST['type'];
 // echo "phan tu trong chuoi"." ".$length_chuoi;
-	$date_time = explode("-",$_POST['date_time']);
+	
 // uploadFile
 //lấy tên của file:
 $file_name=$_FILES['fileupload']["name"];
@@ -24,6 +24,14 @@ move_uploaded_file($file_tmp,$path);
   else{
   	$avatar = $_POST['URL'];
   }
+  if ($id_category == '2') {
+  	$date_time = explode("-",$_POST['date_time']);
+  	$location = $_POST['location'];
+  }
+  else{
+  	$date_time = '';
+  	$location = '';
+  }
    if ( isset($_POST['submit']) || empty($title) || empty($content) || empty($description) || empty($avatar)){
     header("Location:form-test.php?Empty= Please fill in the blanks");
   }
@@ -31,7 +39,7 @@ move_uploaded_file($file_tmp,$path);
 	  if(!empty($_POST['tag'])){
 	  	$tag = $_POST['tag'];
 		  if(!empty($_POST)) {
-				$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]')";
+				$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`,`location`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]','$location')";
 				mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 				$news_id = mysqli_insert_id($conn);
 				$v = "";
@@ -49,7 +57,7 @@ move_uploaded_file($file_tmp,$path);
 			}
 		}
 	  else{
-	  	$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]')";
+	  	$sql = "INSERT INTO `new` ( `id_category`, `title`, `description`,`avatar`,`content`, `start_date`, `end_date`,`location`) VALUES ( '$id_category', '$title', '$description','$avatar', '$content', '$date_time[0]','$date_time[1]','$location')";
 		mysqli_query($conn,$sql) or die("Thêm dữ liệu thất bại !");
 		header("Location:table-master.php");
   	  	}	
