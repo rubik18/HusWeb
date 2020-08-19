@@ -129,6 +129,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Name</th>
                     <th>leader</th>
                     <th>workplace</th>
+                    <th>Type</th>
                     <th>result</th>
                     <th>Action</th>
                   </tr>
