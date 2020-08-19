@@ -291,8 +291,9 @@
             var str = '';
             str = document.getElementById('seach-box').value;
             var str2 = str.replace('Nhập thông tin tìm kiếm', "");
-            if (str2.toString() != '') {
-                window.open('/php-intership-team/frontend/main/tim-kiem.php?s=' + encodeURI(str2), "_self");
+            var str3 = str2 + '&ok=Tìm+kiếm';
+            if (str3.toString() != '&ok=Tìm+kiếm') {
+                window.open('/php-intership-team/frontend/main/tim-kiem.php?s=' + encodeURI(str3), "_self");
             }
             else {
                 alert('Hãy nhập từ khóa cần tìm');
