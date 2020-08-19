@@ -9,6 +9,59 @@
     margin: 0;
     padding: 0;
 }
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.post-container {
+}
+
+    .post-container ul, .post-container ol {
+        padding: 10px 20px;
+    }
+
+        .post-container ol li {
+            list-style-type: decimal;
+            padding: 5px 10px;
+        }
+
+        .post-container ul li {
+            list-style-type: disc;
+            padding: 5px 10px;
+        }
+
+    .post-container h1.post-title {
+        font-size: 30px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: solid 1px #ececec;
+    }
+
+table {
+    border: 1px solid #f4f4f4;width:100%;
+}
+
+    table tr td {
+        border: 1px solid #c3c3c3;
+    padding: 8px !important;
+    line-height: 1.42857143;
+    vertical-align: top;
+    }
+    .post-content h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    .post-content img {max-width:100%;}
+    .post-content a {color:#007DC5; font-weight:600;}
+    ol {}
+    ol li {list-style-type:decimal;
+           padding:5px 10px;
+    }
 .jquery-accordion-menu, .jquery-accordion-menu * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -30,7 +83,53 @@
     background: none;
     cursor: pointer;
 }
+..table .alrpd10 {
+    text-align: right;
+    padding: 10px 10px 0px 0px;
+}
 
+.table tr td {
+    border-top: 1px solid #ddd !important;
+    border-left: 0px;
+}
+
+.table-bordered tr td ul {
+    margin-left: 10px;
+}
+
+    .table-bordered tr td ul li {
+        margin-left: 10px;
+    }
+
+        .table-bordered tr td ul li i {
+            color: red;
+            padding-right: 5px;
+        }
+
+.timkiemdtda {
+    margin-top: 27px;
+}
+
+.btn {
+    font-size: 1rem !important;
+}
+
+.detaiduan .form-control {
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 14px;
+    box-shadow: 0px 1px 0px 0px #cacaca;
+    margin-bottom: 10px;
+    height: 30px !important;
+}
+.col-md-6tim {
+    width: 50%;
+float: left;
+}
+.docralam{
+    width: 100%; 
+    display: block;
+}
 .jquery-accordion-menu {
     /*min-width: 260px;
         float: left;

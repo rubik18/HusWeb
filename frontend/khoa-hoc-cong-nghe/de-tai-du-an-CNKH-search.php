@@ -7,7 +7,7 @@
 
  <?php
  	if (isset($_GET['search'])) {
- 		$search = "";
+ 		$search = '';
  		if ($_GET['date_from']) {
  			$search .= $search === '' ? 'approval_date >= '.$_GET['date_from'].'-01-01' : 'AND approval_date <= '.$_GET['date_from'].'-01-01';
  		}
@@ -17,26 +17,18 @@
  		}
 
  		if ($_GET['topic_name']) {
- 			$search .= $search === '' ? 'name LIKE "%'.$_GET['topic_name'].'%' : ' AND name LIKE "%'.$_GET['topic_name'].'%';
+ 			$search .= $search === '' ? 'name LIKE %'.$_GET['topic_name'].'%' : ' AND name LIKE %'.$_GET['topic_name'].'%';
  		}
 
  		if ($_GET['topic_type']) {
- 			$search .= $search === '' ? 'type = '.$_GET['topic_type'] : '" AND type = "'.$_GET['topic_type'];
- 		}
- 		if ($_GET['topic_type']) {
- 			$search .= $search === '' ? 'type = '.$_GET['topic_type'] : '" ';
+ 			$search .= $search === '' ? 'type = '.$_GET['topic_type'] : ' AND type = '.$_GET['topic_type'];
  		}
 
  		$sqlSearch = 'SELECT * FROM detai_duan WHERE '.$search;
- 		// var_dump($sqlSearch);
- 		$project = mysqli_query($connect,$sqlSearch) or die("k truy vấn được!");
- 		// var_dump($project);
- 		$num1 = mysqli_num_rows($project);
- 		// var_dump($num1);
+
+ 		
  	}
  ?>
-
- 
 
 <title>Đề tài dự án CNKH</title>
 <!-- start header -->
@@ -225,9 +217,23 @@
 									                                     else{
 																		?>
 																		
-																		<?php
-																			if ($num1 > 0){ 
-								                                               while ($row1 = mysqli_fetch_array($project)) {
+																		<?php 
+																		
+																			if (isset($_GET['search'])){
+									                                            $topic = $_GET['topic_name'];
+									                                            $type = $_GET['topic_type'];
+									                                            $date_from = $_GET['date_from'];
+									                                            $date_to = $_GET['date_to'];
+									                                            if ($topic !="" || $type !="" || $date_from !="" || $date_to !="") {
+									                                            	                      
+									                                            	$select="SELECT * FROM detai_duan WHERE `name` LIKE '%$topic%' AND `type` LIKE'%$type%' OR `approval_date` (between (`approval_date` LIKE '%$date_from%') and (`acceptance_date` LIKE '%$date_to%') )" or die("Không tìm thấy");
+									                                            	// var_dump($select);die;
+									                                            	$project = mysqli_query($connect,$select) or die("k truy vấn được!");
+									                                            	// var_dump($project); 
+									                                                $num1 = mysqli_num_rows($project);
+									                                                // var_dump($num1);
+									                                                if ($num1 > 0){ 
+								                                                    while ($row1 = mysqli_fetch_array($project)) {
 
 																		
 										                                ?>
@@ -250,8 +256,8 @@
 							                                                   	else {
 								                                                    echo "Không tìm thấy kết quả!";
 								                                                	}
-							                                                	 
-						                                            	 	
+							                                                	} 
+						                                            	 	}
 						                                            	}
 							                                            
 									                                        
