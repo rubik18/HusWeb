@@ -1,4 +1,6 @@
 <?php 
+require'db/connect.php';
+  $conn->set_charset("utf8");
 session_start();
 // var_dump($_SESSION['user']);die();
 if (!isset($_SESSION['user'])) {

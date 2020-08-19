@@ -108,6 +108,27 @@ if (!isset($_SESSION['user'])) {
                     <label>Acceptance_date</label>
                     <input type="text" name = "acceptance_date" class="form-control" placeholder="Enter ...">
                   </div>
+                  <!-- php of type -->
+                  <?php 
+                    $sql = "SELECT * from type_topic_project";
+                    $result1 = mysqli_query($conn,$sql);
+                  ?>
+                  <!-- Type -->
+                  <div class="form-group">
+                    <label>Type</label>
+                    <select class="form-control select2" name = "type" style="width: 100%;">
+                      <?php 
+                      if (mysqli_num_rows($result1) > 0){
+                        while ($row1 = mysqli_fetch_assoc($result1)) {                 
+                      ?>
+                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name_type']?></option>
+                      <?php  
+                        }
+                      }
+                       ?>
+                    </select>
+                  </div>
+
                   <div class="form-group">
                     <label>Result</label>
                     <input type="text" name = "result" class="form-control" placeholder="Enter ...">
