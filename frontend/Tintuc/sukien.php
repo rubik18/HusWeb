@@ -128,7 +128,7 @@
                                            $count = floor($row['COUNT(*)'] /9) +1;
                                         }
                                     }
-                                    $list = floor($count/4);
+                                    
                                 if($page <4){
                                     for ($x = 1; $x <= 3 && $x<=$count; $x++) {
                                       if( $x==$page ){
@@ -143,16 +143,44 @@
                                 
                                 
                                 <?php }} ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" class="inactive pagelast" href="sukien.php?page=<?php echo $count ?>">Trang cuối</a></li>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php if($count>4){
                                         echo "4";
                                         }else echo $count;
                                      ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php } ?>
-                             
+                                <?php } 
+                                if($page >= 4&& $page <7){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=1" style="padding-top: 10px !important"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 4; $x < 7; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintuc.php?page=1">First</a></li>
+                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php if($count>7){
+                                        echo "7";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }?>
                     
                     
                 </ul>
