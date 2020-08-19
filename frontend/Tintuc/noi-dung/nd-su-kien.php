@@ -13,6 +13,14 @@
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
+
+  $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Sự kiện' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 10 ";
+                          $conn->set_charset("utf8");
+                          $resulti = mysqli_query($conn, $sqli); 
+                          if (!$resulti) {
+                            die('error'. mysqli_error($conn));
+                            }
+
  ?>
 
   <title>
@@ -185,13 +193,7 @@
                     </div>
                 </div>
                 <div class="bordershadown borderorange mb-15 pd-10">
-                    <?php $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Sự kiện' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 10 ";
-                          $conn->set_charset("utf8");
-                          $resulti = mysqli_query($conn, $sqli); 
-                          if (!$resulti) {
-                            die('error'. mysqli_error($conn));
-                            }
-
+                    <?php 
                             if(mysqli_num_rows($resulti)>0 ){
                                 $i = 0;
                                 while($rowi = mysqli_fetch_assoc($resulti) ){  
