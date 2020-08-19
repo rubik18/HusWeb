@@ -1,13 +1,20 @@
 <?php 
-require'db/connect.php';
+// kết nối
+  require'db/connect.php';
+// Chuỗi kết nối
+  $sql = "SELECT * FROM user";
   $conn->set_charset("utf8");
-session_start();
+  $result = mysqli_query($conn, $sql); 
+  if (!$result) {
+    die('error'. mysqli_error($conn));
+  }
+  session_start();
 // var_dump($_SESSION['user']);die();
 if (!isset($_SESSION['user'])) {
   header("Location:login/login.php");
 }
-
  ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,12 +78,12 @@ if (!isset($_SESSION['user'])) {
                 <div class="card-body pt-0">
                   <div class="row">
                     <div class="col-7">
-                      <h2 class="lead"><b>Đào Tấn Dũng</b></h2>
-                      <p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover </p>
-                      <ul class="ml-4 mb-0 fa-ul text-muted">
-                        <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone: 09779944332</li>
-                      </ul>
+                      <span class="fas fa-user">
+                        <h2 class="lead"><b>Đào Tấn Dũng</b></h2> 
+                      </span>
+                                            
                     </div>
+
                     <div class="col-5 text-center">
                       <img src="dist/img/user1-128x128.jpg" alt="" class="img-circle img-fluid">
                     </div>
@@ -172,80 +179,7 @@ if (!isset($_SESSION['user'])) {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-              <div class="card bg-light">
-                <div class="card-header text-muted border-bottom-0">
-                  Digital Strategist
-                </div>
-                <div class="card-body pt-0">
-                  <div class="row">
-                    <div class="col-7">
-                      <h2 class="lead"><b>Nicole Pearson</b></h2>
-                      <p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover </p>
-                      <ul class="ml-4 mb-0 fa-ul text-muted">
-                        <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Address: Demo Street 123, Demo City 04312, NJ</li>
-                        <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23 52</li>
-                      </ul>
-                    </div>
-                    <div class="col-5 text-center">
-                      <img src="dist/img/user1-128x128.jpg" alt="" class="img-circle img-fluid">
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <div class="text-right">
-                    <a class="btn btn-secondary btn-sm" href="#">
-                      <i class="fas fa-pencil-alt">
-                      </i>
-                        Edit
-                    </a>
-                                       
-                    <a class="btn btn-danger btn-sm" href="#">
-                      <i class="fas fa-trash">
-                      </i>
-                      Delete
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-              <div class="card bg-light">
-                <div class="card-header text-muted border-bottom-0">
-                  Digital Strategist
-                </div>
-                <div class="card-body pt-0">
-                  <div class="row">
-                    <div class="col-7">
-                      <h2 class="lead"><b>Nicole Pearson</b></h2>
-                      <p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist / Coffee Lover </p>
-                      <ul class="ml-4 mb-0 fa-ul text-muted">
-                        <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Address: Demo Street 123, Demo City 04312, NJ</li>
-                        <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23 52</li>
-                      </ul>
-                    </div>
-                    <div class="col-5 text-center">
-                      <img src="dist/img/user2-160x160.jpg" alt="" class="img-circle img-fluid">
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <div class="text-right">
-                    <a class="btn btn-secondary btn-sm" href="#">
-                      <i class="fas fa-pencil-alt">
-                      </i>
-                        Edit
-                    </a>
-                                       
-                    <a class="btn btn-danger btn-sm" href="#">
-                      <i class="fas fa-trash">
-                      </i>
-                      Delete
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
         <!-- /.card-body -->
