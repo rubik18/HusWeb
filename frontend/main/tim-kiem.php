@@ -90,7 +90,11 @@
                                         {
                                             $s = addslashes($_GET['s']);
                                             if (empty($s)) {
-                                                echo "Hãy nhập từ khóa cần tìm kiếm";
+                                                ?> 
+                                                <div style="margin: 25px 10px 10px 25px;">
+                                                    <?php echo "<b>Hãy nhập từ khóa cần tìm kiếm</b>";?>
+                                                </div>
+                                                <?php
                                             } 
                                             else
                                             {                                                    
