@@ -124,6 +124,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Stt</th>
                     <th>Title</th>
                     <th>Type</th>
+                    <th>Avatar</th>
                     <th>Description</th>
                     <th>Action</th>
                   </tr>

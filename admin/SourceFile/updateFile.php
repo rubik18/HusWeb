@@ -104,8 +104,8 @@ if (!isset($_SESSION['user'])) {
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
-                    <select class="form-control select2" name="type" style="width: 100%;">
-                      <option selected="selected" value="<?php echo $row['id_category'] ?>"><?php echo $row['name'] ?></option>
+                    <select class="form-control select2" name="type" id ="option"style="width: 100%;">
+                     
                       <?php 
                         if (mysqli_num_rows($result1) > 0){
                           while ($row1 = mysqli_fetch_assoc($result1)) {                 
@@ -226,7 +226,7 @@ if (!isset($_SESSION['user'])) {
   $(function () {
     // Summernote
     $('.textarea').summernote()
-  })
+  });
   //Date range picker with time picker
     $('#reservationtime').daterangepicker({
       timePicker: true,
@@ -237,7 +237,18 @@ if (!isset($_SESSION['user'])) {
       locale: {
         format: 'MM/DD/YYYY hh:mm A'
       }
-    })
+    });
+     $(document).ready(function(){
+    $('#reservationtime').prop("disabled", true);
+    $('#option').click(function(){
+            if($(this).val() == '2'){
+                $('#reservationtime').prop("disabled", false);
+            }
+            else{
+                $('#reservationtime').prop("disabled", true);
+            }
+        });
+    });
 </script>
 </body>
 </html>

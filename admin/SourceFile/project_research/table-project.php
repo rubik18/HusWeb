@@ -84,6 +84,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Name</th>
                     <th>leader</th>
                     <th>workplace</th>
+                    <th>Type</th>
                     <th>result</th>
                     <th>Action</th>
                   </tr>
@@ -100,6 +101,7 @@ if (!isset($_SESSION['user'])) {
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['lead_researcher'] ?></td>
                     <td><?php echo $row['workplace'] ?></td>
+                    <td><?php echo $row['id_type'] ?></td>
                     <td><?php echo $row['result'] ?></td>
                     <td class="project-actions text-right">
                           <a class="btn btn-secondary btn-sm" href="./updateFrom.php?id= <?php echo $row['id']?>">
@@ -127,6 +129,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Name</th>
                     <th>leader</th>
                     <th>workplace</th>
+                    <th>Type</th>
                     <th>result</th>
                     <th>Action</th>
                   </tr>
