@@ -129,7 +129,7 @@ if (!isset($_SESSION['user'])) {
                         if (mysqli_num_rows($result1) > 0){
                           while ($row1 = mysqli_fetch_assoc($result1)) {                 
                       ?>
-                        <option selected="selected" value = <?php echo $row1['id']?>> <?php echo $row1['name_type']?></option>
+                        <option  value = <?php echo $row1['id']?>> <?php echo $row1['name_type']?></option>
                       <?php  
                           }
                         }
