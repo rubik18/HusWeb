@@ -7,12 +7,10 @@
     <?php 
         require 'connectSQL.php';
         $conn->set_charset("utf8");
-        $news = mysqli_query($conn,"SELECT * from `new`,`category` 
-            where category.id = new.id_category 
-            and new.id_category = 1 LIMIT 3;");
-        $noti = mysqli_query($conn,"SELECT * from `new`,`category` 
-            where category.id = new.id_category 
-            and new.id_category = 3 LIMIT 10;");
+        $news = mysqli_query($conn,"SELECT new.* from `new`
+            where new.id_category = 1 LIMIT 3;");
+        $noti = mysqli_query($conn,"SELECT new.* from `new`
+            where new.id_category = 3 order by id DESC LIMIT 10;");
      ?>
 
     <div class="hero-area">
@@ -150,8 +148,10 @@
                                 <h5><a href="">Thông báo</a></h5>
                             </div>
                             <?php if(mysqli_num_rows($noti) > 0){
-                                    while($row_noti = mysqli_fetch_assoc($noti)){      
-                            ?>
+                                $i = 0;
+                                while($row_noti = mysqli_fetch_assoc($noti)){   
+                                $id = $row['id'];   
+                        ?>
                                 <div class="single-blog-post post-style-tb">
                                     <div class="media">
                                         <div class="object">
@@ -169,7 +169,7 @@
                                             </span>
                                         </div>
                                         <div class="body">
-                                            <h3><a href="">
+                                            <h3><a href="/frontend/Tintuc/noi-dung/nd-thong-bao.php?id= <?php echo $id ?>">
                                             <?php 
                                                 $string = $row_noti['title'];
                                                 $array = explode(' ' ,$string);
@@ -181,7 +181,7 @@
                                     </div>                                
                                 </div>
                             <?php
-                                }}
+                               $i ++; }}
                             ?>
                         </div>
                     </div>
