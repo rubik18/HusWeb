@@ -1,6 +1,6 @@
 <?php 
 // Kết nối
-	require'db/connect.php';
+	require'../db/connect.php';
 	$conn->set_charset("utf8");
 // Tạo mã SQL
 	$id = (int)$_GET['id'];
@@ -9,5 +9,5 @@
 if (!mysqli_query($conn,$sql)) {
 	die('error:'. mysqli_error($conn));
 }
-	header("Location: contacts.php");
+	header("Location: \php-intership-team\admin\SourceFile\add-admin\contacts.php");
  ?>

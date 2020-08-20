@@ -1,6 +1,6 @@
 <?php 
 // kết nối
-  require'db/connect.php';
+  require'../db/connect.php';
 // Chuỗi kết nối
   $sql = "SELECT * FROM `user` WHERE user.deleted_at is NULL";
   $conn->set_charset("utf8");
@@ -11,7 +11,7 @@
   session_start();
 // var_dump($_SESSION['user']);die();
 if (!isset($_SESSION['user'])) {
-  header("Location:login/login.php");
+  header("Location: /php-intership-team/admin/SourceFile/login/login.php");
 }
  ?>
 
@@ -25,11 +25,11 @@ if (!isset($_SESSION['user'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="./plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="./dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -37,11 +37,11 @@ if (!isset($_SESSION['user'])) {
 <!-- Site wrapper -->
 <div class="wrapper">
   <!-- Navbar -->
-  <?php include 'themepart/top-menu.php'  ?>
+  <?php include '../themepart/top-menu.php'  ?>
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
- <?php include 'themepart/sidebar.php' ?>
+ <?php include '../themepart/sidebar.php' ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -144,12 +144,12 @@ if (!isset($_SESSION['user'])) {
 
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<script src="../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="../dist/js/demo.js"></script>
 </body>
 </html>
