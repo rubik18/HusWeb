@@ -14,7 +14,7 @@
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-dang-va-cac-doan-the.php" ,
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php" ,
-                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php, "); 
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php "); 
 
         $noti = mysqli_query($conn,"SELECT new.* FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category = 3 AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT 10;");
 
@@ -203,8 +203,7 @@
                                $i ++; }}
                             ?>
                         </div>
-                    </div>
-
+                    
                     <div class="col-12 col-lg-4">
                         <div>
                             <div class="titlethongbao">
