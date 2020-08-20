@@ -88,7 +88,7 @@ if (!isset($_SESSION['user'])) {
             
             <div class="card-body pad">
               <div class="mb-3">
-                <form role="form" action="update-project.php?id=<?php echo $row['id'] ?>" method = "post">
+                <form role="form" action="update-project.php?id=<?php echo $id?>" method = "post">
                   <!-- Tag -->
                   <div class="form-group">
                     <label>id_project</label>

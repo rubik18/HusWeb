@@ -15,7 +15,7 @@ $conn->set_charset("utf8");
  // session
   $_SESSION['title'] = $title;
   $_SESSION['content'] = $content;
-  $_SESSION['description'] = $description;
+  
 	
 // uploadFile
 //lấy tên của file:
@@ -41,7 +41,7 @@ move_uploaded_file($file_tmp,$path);
   	$location = '';
   }
   $_SESSION['avatar'] = $avatar;
-   if ( isset($_POST['submit']) || empty($title) || empty($content) || empty($description) || empty($avatar)){
+   if ( isset($_POST['submit']) || empty($title) || empty($content)  || empty($avatar)){
     header("Location:form-test.php?empty=true");
   }
   else{
