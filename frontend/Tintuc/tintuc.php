@@ -8,12 +8,19 @@
     $ipage = ($page-1) * 9;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
-  $conn->set_charset("utf8");
-  $result = mysqli_query($conn, $sql); 
-  if (!$result) {
-    die('error'. mysqli_error($conn));
-  }
+      $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
+      $conn->set_charset("utf8");
+      $result = mysqli_query($conn, $sql); 
+      if (!$result) {
+        die('error'. mysqli_error($conn));
+      }
+
+    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+    $conn->set_charset("utf8");
+    $resultlist = mysqli_query($conn, $sqlist);
+    if (!$resultlist) {
+        die('error'. mysqli_error($conn));
+    }
 
   $link = array("noi-dung/nd-hoat-dong-khoa-hoc.php",
                 "noi-dung/nd-su-kien.php",
@@ -93,7 +100,10 @@
                                             ?>
                                             " class="content">
                                                 <span itemprop="image" itemscope="" itemtype="">
-                                                    <img src="<?php echo $row['avatar']; ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
+                                                    <img src="<?php 
+                                                    if($row['avatar']!=null){
+                                                        echo $row['avatar']; 
+                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                                 </span>
                                             </a>
                                         </div>
@@ -198,13 +208,7 @@
                         <div>
                             <ul class="pagination pagination-split mb-0">
                                 <?php 
-                                    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC";
-                                    $conn->set_charset("utf8");
-                                    $resultlist = mysqli_query($conn, $sqlist);
-
-                                    if (!$resultlist) {
-                                        die('error'. mysqli_error($conn));
-                                    }
+                                    
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  

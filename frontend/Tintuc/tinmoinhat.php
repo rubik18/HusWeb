@@ -94,7 +94,10 @@
                                                 }
                                             ?>" class="content">
                                         <span itemprop="image" itemscope="" itemtype="">
-                                            <img src="<?php echo $row['avatar']; ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
+                                            <img src="<?php 
+                                                    if($row['avatar']!=null){
+                                                        echo $row['avatar']; 
+                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                         </span>
                                     </a>
                                 </div>

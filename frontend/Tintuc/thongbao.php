@@ -15,7 +15,12 @@
     die('error'. mysqli_error($conn));
   }
 
-  
+  $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Thông báo' AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+        $conn->set_charset("utf8");
+        $resultlist = mysqli_query($conn, $sqlist);
+        if (!$resultlist) {
+            die('error'. mysqli_error($conn));
+        }
  ?>        
         <title>Thông báo</title>
 		<!---------start header------------>
@@ -51,11 +56,11 @@
     <!--------------start list thong bao----------->
     <div class="single-blog-post post-style-tb indexthongbao">
             <?php        
-                                            if(mysqli_num_rows($result)>0 ){
-                                                $i = 0;
-                                                while($row = mysqli_fetch_assoc($result) ){  
-                                                $id = $row['id'];   
-                                        ?>  
+            if(mysqli_num_rows($result)>0 ){
+                $i = 0;
+                while($row = mysqli_fetch_assoc($result) ){  
+                    $id = $row['id'];   
+            ?>  
             <div class="media">
                 <div class="object">
                     <span class="day"><?php 
@@ -87,13 +92,7 @@
             <div>
                 <ul class="pagination pagination-split mb-0">
                     <?php 
-                                    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Thông báo' AND new.deleted_at is NULL ORDER BY new.created_at DESC";
-                                    $conn->set_charset("utf8");
-                                    $resultlist = mysqli_query($conn, $sqlist);
-
-                                    if (!$resultlist) {
-                                        die('error'. mysqli_error($conn));
-                                    }
+                                    
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  

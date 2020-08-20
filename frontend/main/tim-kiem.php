@@ -9,6 +9,14 @@
     <?php 
         require 'connectSQL.php';
         $conn->set_charset("utf8"); 
+
+        $link = array("/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php",
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php",
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-thong-bao-chung.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-dang-va-cac-doan-the.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php" ,
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php" , ); 
      ?>
 
     <div class="main-content-wrapper">
@@ -98,7 +106,7 @@
                                             } 
                                             else
                                             {                                                    
-                                                $query = mysqli_query($conn,"SELECT * from `new` where description  like '%$s%' and title like '%$s%' and content like '%$s%';");
+                                                $query = mysqli_query($conn,"SELECT new.* from `new`, `category`  where new.id_category = category.id  and description  like '%$s%' and title like '%$s%' and content like '%$s%' AND new.deleted_at is NULL;");
                                                 $num = mysqli_num_rows($query);
                                                 if ($num > 0 && $s != ""){ 
                                                 ?> 
@@ -106,7 +114,9 @@
                                                     <?php echo "$num kết quả với từ khóa <b>\"$s\"</b>";?>
                                                 </div>
                                                 <?php
+                                                    $i = 0;
                                                     while ($row = mysqli_fetch_assoc($query)) {
+                                                        $id = $row['id'];
                                     ?>
 
                                     <div id="list_news" style="margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-top: 10px; ">
@@ -114,12 +124,70 @@
                                             <div class="list-article">
                                                 <ul class="list-item">
                                                     <li>
-                                                        <a href="">
-                                                            <img src="<?php echo $row['avatar'];?>" alt="<?php echo substr($row['title'], 0, 120); ?>..." style="width: 192px; height: 144px;">
+                                                        <a href="<?php 
+                                                                switch ($row['id_category']) {
+                                                                    case '1':
+                                                                        echo $link[6] ."?id=" . $id;
+                                                                        break;
+                                                                    case '2':
+                                                                        echo $link[1] ."?id=" . $id;
+                                                                        break;
+                                                                    case '3':
+                                                                        echo $link[2] ."?id=" . $id;
+                                                                        break;
+                                                                    case '5':
+                                                                        echo $link[3] ."?id=" . $id;
+                                                                        break;
+                                                                    case '6':
+                                                                        echo $link[4] ."?id=" . $id;
+                                                                        break;
+                                                                    case '7':
+                                                                        echo $link[5] ."?id=" . $id;
+                                                                        break; 
+                                                                    case '8':
+                                                                        echo $link[6] ."?id=" . $id;
+                                                                        break;
+                                                                }
+                                                            ?>">
+                                                            <img src="<?php echo $row['avatar'];?>" alt="<?php $string = $row['title'];
+                                                                $array = explode(' ' ,$string);
+                                                                for($x = 0; $x < 20 && $x < count($array); $x ++){
+                                                                    echo $array[$x] ." ";
+                                                                } ?>..." style="width: 192px; height: 144px;">
                                                         </a>
                                                         <p class="name">
-                                                            <a href="">
-                                                                <?php echo substr($row['title'], 0, 100); ?>...
+                                                            <a href="<?php 
+                                                                    switch ($row['id_category']) {
+                                                                        case '1':
+                                                                            echo $link[6] ."?id=" . $id;
+                                                                            break;
+                                                                        case '2':
+                                                                            echo $link[1] ."?id=" . $id;
+                                                                            break;
+                                                                        case '3':
+                                                                            echo $link[2] ."?id=" . $id;
+                                                                            break;
+                                                                        case '5':
+                                                                            echo $link[3] ."?id=" . $id;
+                                                                            break;
+                                                                        case '6':
+                                                                            echo $link[4] ."?id=" . $id;
+                                                                            break;
+                                                                        case '7':
+                                                                            echo $link[5] ."?id=" . $id;
+                                                                            break; 
+                                                                        case '8':
+                                                                            echo $link[6] ."?id=" . $id;
+                                                                            break;
+                                                                    }
+                                                                ?>">
+                                                                <?php 
+                                                                    $string = $row['title'];
+                                                                    $array = explode(' ' ,$string);
+                                                                    for($x = 0; $x < 20 && $x < count($array); $x ++){
+                                                                        echo $array[$x] ." ";
+                                                                    }
+                                                                ?>...
                                                             </a>
                                                         </p>
                                                         <p class="des">
@@ -131,7 +199,7 @@
                                         </div>
                                     </div>
                                     <?php        
-                                                    }
+                                                    $i ++;}
                                                 } 
                                                 else {
                                                 ?> 
