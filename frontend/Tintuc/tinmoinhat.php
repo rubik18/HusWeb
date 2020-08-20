@@ -3,7 +3,7 @@
     
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 9";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3','2') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 9";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -20,7 +20,7 @@
  ?>
         
         
-        
+        <title>Tin tức</title>
 		<!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
@@ -94,11 +94,12 @@
                                                 }
                                             ?>" class="content">
                                         <span itemprop="image" itemscope="" itemtype="">
-                                            <img src="<?php 
+                                                    <img src="<?php 
                                                     if($row['avatar']!=null){
                                                         echo $row['avatar']; 
-                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
-                                        </span>
+                                                    }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260!important ; height: 170!important;">
+                                                </span>
+
                                     </a>
                                 </div>
                                 <span class="category-name cat-violet" title="Category">
