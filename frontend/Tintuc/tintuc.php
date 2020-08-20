@@ -15,7 +15,7 @@
         die('error'. mysqli_error($conn));
       }
 
-    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC";
     $conn->set_charset("utf8");
     $resultlist = mysqli_query($conn, $sqlist);
     if (!$resultlist) {
@@ -102,7 +102,7 @@
                                                 <span itemprop="image" itemscope="" itemtype="">
                                                     <img src="<?php 
                                                     if($row['avatar']!=null){
-                                                        echo $row['avatar']; 
+                                                        echo "/php-intership-team/admin/SourceFile/". $row['avatar']; 
                                                     }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                                 </span>
                                             </a>
@@ -212,11 +212,12 @@
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                           $count = floor($row['COUNT(*)'] /9) +1;
+                                          $count = ceil($row['COUNT(*)'] /9) ;
+                                          
                                         }
                                     }
-                                    $list = floor($count/4);
-                                if($page <4){
+                                   
+                                if($page <4 && $page<=$count){
                                     for ($x = 1; $x <= 3 && $x<=$count; $x++) {
                                       if( $x==$page ){
                                     
@@ -239,12 +240,12 @@
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=<?php if($count>4){
                                         echo "4";
                                         }else echo $count;
-                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php } 
-                                if($page >= 4&& $page <7){ ?>
+                                if($page >= 4&& $page <7 && $page<=$count){ ?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 4; $x < 7; $x++) {
+                                    <?php for ($x = 4; $x < 7 && $x<=$count; $x++) {
 
                                       if( $x==$page ){
                                     
@@ -265,11 +266,14 @@
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="tintuc.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="tintuc.php?page=<?php if($count>7){
+                                        echo "7";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php }
-                                if($page >= 7&& $page <10){ ?>
+                                if($page >= 7&& $page <10 && $page<$count){ ?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=4" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=4" style="padding-top: 10px !important"><i class="fa fa-angle-double-left"></i></a></li>
                                     <?php for ($x = 7; $x < 10; $x++) {
 
                                       if( $x==$page ){
@@ -291,9 +295,17 @@
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=10" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=<?php if($count>10){
+                                        echo "10";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php }
+                                if($page>$count){
                                  ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                            <?php } ?>
                                 
                             </ul>
                         </div>

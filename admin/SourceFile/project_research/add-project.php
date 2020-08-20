@@ -28,7 +28,7 @@ $conn->set_charset("utf8");
   $_SESSION['acceptance_date'] = $acceptance_date;
   $_SESSION['result'] = $result;
   if ( isset($_POST['submit']) || empty($id_project) || empty($name) || empty($leader) || empty($workplace) || empty($approval_date || empty($acceptance_date)|| empty($result)) ) {
-    header("Location:form-project.php?Empty=true");
+    header("Location:form-project.php?empty=true");
   }
   else{
     if(!empty($_POST)) {
@@ -42,3 +42,4 @@ $conn->set_charset("utf8");
     }
   }
 ?>
+

@@ -69,7 +69,7 @@
                         <div class="magazine-item-media">
                                         <span class="media-mask"></span>
                                         <div class="item-image">
-                                            <a href="noi-dung/nd-tin-tuc-chung.php?id= <?php echo $id?>" class="content">
+                                            <a href="noi-dung/nd-tin-tuc-chung.php?id=<?php echo $id?>" class="content">
                                                 <span itemprop="image" itemscope="" itemtype="">
                                                     <img src="<?php 
                                                     if($row['avatar']!=null){
@@ -81,12 +81,12 @@
                         </div>
                         <div class="magazine-item-main">
                              <p style="padding: 7px 0px;margin: 0px;color: #8d8d8d!important;">
-                                <a href="noi-dung/nd-tin-tuc-chung.php?id= <?php echo $id?>" class="item ">
-                                    <?php echo  $row['name'] . "<br>";?>
+                                <a href="noi-dung/nd-tin-tuc-chung.php?id=<?php echo $id?>" class="item ">
+                                    <?php echo  $row['name'] ;?>
                                 </a></p>  
                             <div class="article-title">
                                 <h3 itemprop="name">
-                                    <a href="noi-dung/nd-tin-tuc-chung.php?id= <?php echo $id?>"class="content" style="font-size: 15px">
+                                    <a href="noi-dung/nd-tin-tuc-chung.php?id=<?php echo $id?>"class="content" style="font-size: 15px">
                                         <?php 
                                             $string=$row['title'];
                                             $array=explode(' ' ,$string);
@@ -105,14 +105,14 @@
                                         
                                             <?php 
                                                 $time = strtotime($row['created_at']);
-                                                echo  date("H:i d/m/Y",$time) . "<br>"; ?>
+                                                echo  date("H:i d/m/Y",$time) ; ?>
                                         
                                     </dd>
                                 </dl>
                             </aside>
                             <div class="magazine-item-ct">
                                 <p style="text-align: justify;">
-                                    <?php echo  $row['description'] . "<br>";?>
+                                    <?php echo  $row['description'] ;?>
                                 </p>
                             </div>
                         </div>
@@ -124,17 +124,18 @@
                     <div class="list-page">
                         <div>
                             <ul class="pagination pagination-split mb-0">
-                                <?php 
+                               <?php 
                                     
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                           $count = floor($row['COUNT(*)'] /4) +1;
+                                          $count = ceil($row['COUNT(*)'] /9) ;
+                                          
                                         }
                                     }
-                                    $list = floor($count/4);
-                                if($page <4){
-                                    for ($x = 1; $x <= 3; $x++) {
+                                   
+                                if($page <4 && $page<=$count){
+                                    for ($x = 1; $x <= 3 && $x<=$count; $x++) {
                                       if( $x==$page ){
                                     
                                  ?>
@@ -147,6 +148,8 @@
                                 
                                 
                                 <?php }} ?>
+                               
+                                    
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
                                 
@@ -155,12 +158,11 @@
                                         echo "4";
                                         }else echo $count;
                                      ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
-                             
-                                if($page >= 4&& $page <7){ ?>
+                                <?php } 
+                                if($page >= 4&& $page <7 && $page<=$count){ ?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=1" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 4; $x < 7; $x++) {
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 4; $x < 7 && $x<=$count; $x++) {
 
                                       if( $x==$page ){
                                     
@@ -174,16 +176,19 @@
                                 
                                 
                                 <?php }} ?>
-                                 <li>
+                                <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=1">First</a></li>
                                     
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="tintucchung.php?page=<?php if($count>7){
+                                        echo "7";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php }
-                                if($page >= 7&& $page <10){ ?>
+                                if($page >= 7&& $page <10 && $page<$count){ ?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=4" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
                                     <?php for ($x = 7; $x < 10; $x++) {
@@ -200,16 +205,24 @@
                                 
                                 
                                 <?php }} ?>
-                                <li>
+                               <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=1">First</a></li>
                                     
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintucchung.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=10" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=<?php if($count>10){
+                                        echo "10";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
                                 <?php }
+                                if($page>$count){
                                  ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                            <?php } ?>
                             </ul>
                         </div>
 
@@ -227,7 +240,7 @@
                                     <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
                                     <li class=""><a href="sukien.php">Sự kiện</a></li>
                                     <li class=""><a href="thongbao.php">Thông báo</a></li>
-                                    <li class="active"><a href="tintucchung.php">Tin tức chung</a></li>
+                                    <li class="active"><a href="tintucchungchung.php">Tin tức chung</a></li>
                                     <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
                                     <li class=""><a href="daotaots.php">Đào tạo - Tuyển sinh</a></li>
                                     <li class=""><a href="hoatdongkh.php">Hoạt động khoa học</a></li>

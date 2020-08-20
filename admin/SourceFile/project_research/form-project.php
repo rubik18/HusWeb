@@ -87,28 +87,93 @@ if (!isset($_SESSION['user'])) {
                     <label>id_project</label>
                     <input type="text" name = "id_project" class="form-control" placeholder="Enter ..." >
                   </div>
-                  
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['id_project'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <!-- name -->
                   <div class="form-group">
                     <label>Name</label>
                     <textarea class="form-control" rows="3" name="name" placeholder="Enter ..."></textarea>
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['name'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <div class="form-group">
                     <label>Leader</label>
                     <input type="text" name = "leader" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['leader'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <div class="form-group">
                     <label>Workplace</label>
                     <input type="text" name = "workplace" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['workplace'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <div class="form-group">
                     <label>Approval_date</label>
                     <input type="text" name = "approval_date" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['approval_date'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                    <div class="form-group">
                     <label>Acceptance_date</label>
                     <input type="text" name = "acceptance_date" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['acceptance_date'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <!-- php of type -->
                   <?php 
                     $sql = "SELECT * from type_topic_project";
@@ -134,6 +199,17 @@ if (!isset($_SESSION['user'])) {
                     <label>Result</label>
                     <input type="text" name = "result" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['result'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <!-- Submit -->
                   <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>

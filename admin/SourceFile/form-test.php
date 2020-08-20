@@ -183,20 +183,9 @@ if (!isset($_SESSION['user'])) {
                   </div>
                  <!-- mô tả -->
                   <div class="form-group">
-                    <label>Mô tả<div class= "text-danger" style="display: inline-block;">*</div></label>
+                    <label>Mô tả</label>
                     <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
                   </div>
-                  <?php 
-                    if (@$_GET['empty'] == true) {
-                     if (empty($_SESSION['description'])) {
-                  ?>
-                  <div class="input-group">
-                    <div class= "alert-light text-danger">please fill in the blanks</div>
-                  </div>
-                  <?php      
-                      }
-                    }
-                  ?>
                   <label for="exampleInputFile">Nội dung<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
