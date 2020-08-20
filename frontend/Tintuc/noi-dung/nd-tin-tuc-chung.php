@@ -83,7 +83,7 @@
                                                 <div class="object">
                                                     <img  src="<?php 
                                                     if($rowi['avatar']!=null){
-                                                        echo "/php-intership-team/admin/SourceFile/". $rowi['avatar']; 
+                                                        echo $rowi['avatar']; 
                                                     }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($rowi['title'],0,150); ?>" style="width: 40; height: 40">
                                                 </div>
                                                 <div class="body">
@@ -121,7 +121,7 @@
                                                     <a href="#" class="post-date">
                                                         <i class="fa fa-clock-o"></i>
                                                         <?php $time = strtotime($row['created_at']);
-                                                            echo  date("H:i d/m/Y",$time) . "<br>"; ?>
+                                                            echo  date("H:i d/m/Y",$time) ; ?>
 													</a>
                                             </div>
                                             <!---List share---->
@@ -196,11 +196,11 @@
                                         <div class="post-content">
                                             <p>
                                                 <strong>
-                                                	<?php echo  $row['description'] . "<br>";?>
+                                                	<?php echo  $row['description'] ;?>
                                                     </strong>
                                             </p>
                                             <span id="dnn_ctr10930_newsviewer_ctl00_lbContent">
-                                            	<?php echo  $row['content'] . "<br>"; }}?>
+                                            	<?php echo  $row['content']; }}?>
                                             </span>
                                             <div class="post-tools" style="display: none">
                                                     
@@ -232,7 +232,7 @@
                                                         <div class="object">
                                                             <img src="<?php 
                                                     if($rowk['avatar']!=null){
-                                                        echo "/php-intership-team/admin/SourceFile/". $rowk['avatar']; 
+                                                        echo $rowk['avatar']; 
                                                     }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"    alt="<?php echo substr($rowk['title'],0,150); ?>" style="width: 40; height: 40">
                                                         </div>
                                                         <div class="body">
