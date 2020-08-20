@@ -1,6 +1,10 @@
 <?php  
 // Kết nối
 session_start();
+unset($_SESSION['title']);
+unset($_SESSION['content']);
+unset($_SESSION['description']);
+unset($_SESSION['avatar']);
 require'db/connect.php';
 $conn->set_charset("utf8");
 // chuối kết nối
@@ -8,7 +12,7 @@ $conn->set_charset("utf8");
   $content = $_POST['content'];
   $description= $_POST['description'];
   $id_category =$_POST['type'];
-// echo "phan tu trong chuoi"." ".$length_chuoi;
+ // session
   $_SESSION['title'] = $title;
   $_SESSION['content'] = $content;
   $_SESSION['description'] = $description;
@@ -38,7 +42,7 @@ move_uploaded_file($file_tmp,$path);
   }
   $_SESSION['avatar'] = $avatar;
    if ( isset($_POST['submit']) || empty($title) || empty($content) || empty($description) || empty($avatar)){
-    header("Location:form-test.php");
+    header("Location:form-test.php?empty=true");
   }
   else{
 	  if(!empty($_POST['tag'])){
