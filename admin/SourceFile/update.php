@@ -14,11 +14,12 @@
   //lấy đường dẫn tạm lưu nội dung file:
   $file_tmp =$_FILES['fileupload']['tmp_name'];
   //tạo đường dẫn lưu file trên host:
-  $path ="/php-intershipteam/admin/Sourceupload/".$file_name;
+  $path ="upload/".$file_name;
+  $link ="/php-intership-team/admin/SourceFile/upload/".$file_name;
   //upload nội dung file từ đường dẫn tạm vào đường dẫn vừa tạo:
 move_uploaded_file($file_tmp,$path);  
   if (isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"]!=null) {
-    $avatar = $path;
+    $avatar = $link;
   }
   else{
     $avatar = $_POST['URL'];
