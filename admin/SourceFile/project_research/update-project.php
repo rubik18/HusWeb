@@ -2,7 +2,6 @@
 // kết nối
   require'../db/connect.php';
 // Chuỗi kết nối
-  var_dump($_POST);die();
   $id = (int)$_GET['id'];
   $id_project = $_POST['id_project'];
   $name = $_POST['name'];

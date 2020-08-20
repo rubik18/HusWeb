@@ -1,5 +1,6 @@
 <?php  
 // Kết nối
+session_start();
 require'db/connect.php';
 $conn->set_charset("utf8");
 // chuối kết nối
@@ -8,6 +9,9 @@ $conn->set_charset("utf8");
   $description= $_POST['description'];
   $id_category =$_POST['type'];
 // echo "phan tu trong chuoi"." ".$length_chuoi;
+  $_SESSION['title'] = $title;
+  $_SESSION['content'] = $content;
+  $_SESSION['description'] = $description;
 	
 // uploadFile
 //lấy tên của file:
@@ -32,8 +36,9 @@ move_uploaded_file($file_tmp,$path);
   	$date_time = '';
   	$location = '';
   }
+  $_SESSION['avatar'] = $avatar;
    if ( isset($_POST['submit']) || empty($title) || empty($content) || empty($description) || empty($avatar)){
-    header("Location:form-test.php?Empty= Please fill in the blanks");
+    header("Location:form-test.php");
   }
   else{
 	  if(!empty($_POST['tag'])){
