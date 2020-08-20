@@ -140,7 +140,7 @@ if (!isset($_SESSION['user'])) {
                   <!-- location -->
                    <div class="form-group">
                     <label>location</label>
-                    <input type="text" name = "location" class="form-control" id = "location" placeholder="Enter ..." value="<?php echo $row['location'] ?>">
+                    <input type="text" name = "location" class="form-control" id = "location" value="<?php echo $row['location'] ?>">
                   </div>
                   <!-- tag -->
                   <div class="form-group">
