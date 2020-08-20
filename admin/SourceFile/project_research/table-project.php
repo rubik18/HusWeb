@@ -104,12 +104,12 @@ if (!isset($_SESSION['user'])) {
                     <td><?php echo $row['id_type'] ?></td>
                     <td><?php echo $row['result'] ?></td>
                     <td class="project-actions text-right">
-                          <a class="btn btn-secondary btn-sm" href="./updateFrom.php?id= <?php echo $row['id']?>">
+                          <a class="btn btn-secondary btn-sm" href="./updateFrom.php?id=<?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="./delete-project.php?id= <?php echo $row['id']?>">
+                          <a class="btn btn-danger btn-sm" href="./delete-project.php?id=<?php echo $row['id']?>">
                               <i class="fas fa-trash">
                               </i>
                               Delete
