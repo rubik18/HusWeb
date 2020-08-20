@@ -5,36 +5,59 @@
  //  $query = mysqli_query($connect, $sql) or die ("erorr!!"); 
  ?>
 
- <?php
- 	if (isset($_GET['search'])) {
- 		$search = "";
- 		if ($_GET['date_from']) {
- 			$search .= $search === '' ? 'approval_date >= '.$_GET['date_from'].'-01-01' : 'AND approval_date <= '.$_GET['date_from'].'-01-01';
- 		}
+<?php 
 
- 		if ($_GET['date_to']) {
- 			$search .= $search === '' ? 'approval_date <= '.$_GET['date_to'].'-12-31' : ' AND approval_date <= '.$_GET['date_to'].'-12-31';
- 		}
+if(!isset($_GET['search'])){
+	
+	if(empty($topic) && empty($type) && empty($date_from) && empty($date_to)){
+		$query = mysqli_query($connect,"SELECT * from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3)" );
+		$number= mysqli_num_rows($query); 
+		// var_dump($query);
+		// if (mysqli_num_rows($query)>0) {
+  //   //         while ($row = mysqli_fetch_assoc($query)) {
+  //   //         // var_dump($row);die;   
+    			
+		// 		// }
+  //           } 
+        } 
+     else{
+	?>
+	
+	<?php
+	    if(isset($_GET['search'])){   
+	    $topic= $_GET['topic_name'];
+		$type = $_GET['topic_type'];
+        $date_from = $_GET['date_from'];
+        $date_to = $_GET['date_to'];
+        }
+	}
+    
+} else{
+	 if(isset($_GET['search'])){   
+	    $topic= $_GET['topic_name'];
+		$type = $_GET['topic_type'];
+        $date_from = $_GET['date_from'];
+        $date_to = $_GET['date_to'];
+        	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' " or die("Không tìm thấy");
+        	
+        	// var_dump($select);die;
+        	$query = mysqli_query($connect,$select) or die("k truy vấn được!");
+        	$number= mysqli_num_rows($query);
+        	// var_dump($project); 
+            
+		// if (mysqli_num_rows($query) > 0){ 
+  //          // while ($row = mysqli_fetch_assoc($query)) {
 
- 		if ($_GET['topic_name']) {
- 			$search .= $search === '' ? 'name LIKE "%'.$_GET['topic_name'].'%' : ' AND name LIKE "%'.$_GET['topic_name'].'%';
- 		}
+           
+  //          //  	}
+  //          	}
+           	// else {
+            //     echo "Không tìm thấy kết quả!";
+            // 	}
+        	}
+	}
+?> 
 
- 		if ($_GET['topic_type']) {
- 			$search .= $search === '' ? 'type = '.$_GET['topic_type'] : '" AND type = "'.$_GET['topic_type'];
- 		}
- 		if ($_GET['topic_type']) {
- 			$search .= $search === '' ? 'type = '.$_GET['topic_type'] : '" ';
- 		}
-
- 		$sqlSearch = 'SELECT * FROM detai_duan WHERE '.$search;
- 		// var_dump($sqlSearch);
- 		$project = mysqli_query($connect,$sqlSearch) or die("k truy vấn được!");
- 		// var_dump($project);
- 		$num1 = mysqli_num_rows($project);
- 		// var_dump($num1);
- 	}
- ?>
 
  
 
@@ -85,7 +108,7 @@
 																	<label class="col-md-12">Năm công bố</label>
 																	<div class="col-md-6tim">
 									                                    <select  name="date_from"  class="form-control">
-																			<option value="">Từ</option>
+																			<option value="1000">Từ</option>
 																			<option value="2000">2000</option>
 																			<option value="2001">2001</option>
 																			<option value="2002">2002</option>
@@ -111,7 +134,7 @@
 																	</div>
 																	<div class="col-md-6tim">
 									                                    <select name="date_to"  class="form-control">
-																			<option value="">Đến</option>
+																			<option value="3000">Đến</option>
 																			<option value="2000">2000</option>
 																			<option value="2001">2001</option>
 																			<option value="2002">2002</option>
@@ -176,7 +199,7 @@
 																	<tbody>
 																		<tr>
 																			<td valign="middle">Tổng số có: 
-														                        <span style="color: maroon ;font-weight:bold;">1921</span> Bản ghi
+														                        <span style="color: maroon ;font-weight:bold;"><?php echo $number; ?></span> Bản ghi
 											                                </td>
 															                <td align="right">Hiển thị
 														                        <select name="dnn$ctr11036$Main$ctl00$ddlPageSize" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr11036$Main$ctl00$ddlPageSize\',\'\')', 0)" >
@@ -197,66 +220,34 @@
 																		<tr align="center" style="color:White;background-color:#007DC5;font-size:11px;font-weight:bold;">
 																			<td>Mã số đề tài</td><td>Tên đề tài</td><td>Chủ nhiệm đề tài</td><td>Tên đơn vị</td><td>Loại đề tài</td><td>Ngày Phê duyệt</td><td>Ngày nghiệm thu</td><td>Kết quả</td>
 																		</tr>
-
+																	
 																	<?php 
-																	if(isset($_GET['search'])){
-																		$s= addslashes($_GET['topic_name']);
-																		if(empty($s)){
-																			$query = mysqli_query($connect,"SELECT * from detai_duan;");
-																			if (mysqli_num_rows($query)>0) {
-									                                                
-								                                                    while ($row = mysqli_fetch_assoc($query)) {      
-										                                ?>
+																	if (mysqli_num_rows($query)>0) {
+																	while ($row = mysqli_fetch_assoc($query)) {
+															            // var_dump($row);die;   
+															    	?>
+																	
 																		<tr class="TRgrid">
 																			<td style="width:70px;"><?php echo $row['id_project']; 
 																			?></td>
 																			<td style="width:300px;"><?php echo $row['name'];  ?></td>
 																			<td style="width:150px;"> <?php echo $row['lead_researcher'];  ?></td>
 																			<td style="width:100px;"><?php echo $row['workplace'];  ?></td>
-																			<td style="width:120px;"><?php echo $row['type'];  ?></td>
+																			<td style="width:120px;"><?php echo $row['name_type'];  ?></td>
 																			<td align="center" style="width:100px;"><?php echo $row['approval_date'];  ?></td>
 																			<td align="center" style="width:100px;"><?php echo $row['acceptance_date'];  ?></td>
 																			<td align="center" style="width:100px;"><?php echo $row['result'];  ?></td>
 																		</tr>
-																		<?php 
-																					}
-									                                            } 
-									                                        } 
-									                                     else{
-																		?>
-																		
-																		<?php
-																			if ($num1 > 0){ 
-								                                               while ($row1 = mysqli_fetch_array($project)) {
-
-																		
-										                                ?>
-										                                
-																		<tr class="TRgrid">
-																			<td style="width:70px;"><?php echo $row1['id_project']; 
-																			?></td>
-																			<td style="width:300px;"><?php echo $row1['name'];  ?></td>
-																			<td style="width:150px;"> <?php echo $row1['lead_researcher'];  ?></td>
-																			<td style="width:100px;"><?php echo $row1['workplace'];  ?></td>
-																			<td style="width:120px;"><?php echo $row1['type'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row1['approval_date'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row1['acceptance_date'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row1['result'];  ?></td>
-																		</tr>
-																		
-																	<?php        
-							                                                    	}
-							                                                   	}
-							                                                   	else {
-								                                                    echo "Không tìm thấy kết quả!";
-								                                                	}
-							                                                	 
-						                                            	 	
-						                                            	}
-							                                            
-									                                        
-									                                    }
-									                                ?> 
+																	<?php 
+																	}
+																	} 
+																	 else {
+														                echo "Không tìm thấy kết quả!";
+														            	}	
+																    ?>
+																    	
+																           
+																    
 																		
 																	</tbody>
 																</table>
