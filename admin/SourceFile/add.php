@@ -19,15 +19,20 @@ $conn->set_charset("utf8");
 	
 // uploadFile
 //lấy tên của file:
+  // echo "<pre>";
+  // var_dump($_FILES);die();
+  // echo "</pre>";
 $file_name=$_FILES['fileupload']["name"];
 //lấy đường dẫn tạm lưu nội dung file:
 $file_tmp =$_FILES['fileupload']['tmp_name'];
 //tạo đường dẫn lưu file trên host:
-$path ="/php-intership-team/admin/SourceFile/upload/".$file_name;
+$path ="upload/".$file_name;
+// var_dump($path);die();
+$link ="/php-intership-team/admin/SourceFile/upload/".$file_name;
 //upload nội dung file từ đường dẫn tạm vào đường dẫn vừa tạo:
 move_uploaded_file($file_tmp,$path);
   if (isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"]!=null) {
-  	$avatar = $path;
+  	$avatar = $link;
   }
   else{
   	$avatar = $_POST['URL'];
