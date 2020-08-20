@@ -207,7 +207,7 @@
                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
                         <li class=""><a href="sukien.php">Sự kiện</a></li>
                         <li class="active"><a href="thongbao.php">Thông báo</a></li>
-                        <li class=""><a href="thongbaochung.php">Tin tức chung</a></li>
+                        <li class=""><a href="tintucchung.php">Tin tức chung</a></li>
                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
                         <li class=""><a href="daotaots.php">Đào tạo - Tuyển sinh</a></li>
                         <li class=""><a href="hoatdongkh.php">Hoạt động khoa học</a></li>
