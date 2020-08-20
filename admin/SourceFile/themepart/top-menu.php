@@ -12,7 +12,7 @@
         <a href="/php-intership-team/admin/SourceFile/home.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/php-intership-team/admin/SourceFile/contacts.php" class="nav-link">Contact</a>
+        <a href="/php-intership-team/admin/SourceFile/add-admin/contacts.php" class="nav-link">Contact</a>
       </li>
     </ul>
 
