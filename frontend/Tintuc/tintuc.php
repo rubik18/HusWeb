@@ -102,7 +102,7 @@
                                                 <span itemprop="image" itemscope="" itemtype="">
                                                     <img src="<?php 
                                                     if($row['avatar']!=null){
-                                                        echo "/php-intership-team/admin/SourceFile/". $row['avatar']; 
+                                                        echo $row['avatar']; 
                                                     }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"  alt="<?php echo substr($row['title'],0,150); ?>" style="width: 260 ; height: 170;">
                                                 </span>
                                             </a>

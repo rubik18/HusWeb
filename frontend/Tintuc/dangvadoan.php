@@ -65,7 +65,7 @@
                                     <div class="post-thumbnail">
                                         <img src="<?php 
                                                     if($row['avatar']!=null){
-                                                        echo "/php-intership-team/admin/SourceFile/". $row['avatar']; 
+                                                        echo  $row['avatar']; 
                                                     }else echo "/php-intership-team/img/tin-tuc/ahus.jpg" ?>"style="width: 210; height: 180;" alt="<?php echo $row['title']; ?>">
                                     </div>
                                     <!-- Post Content -->
