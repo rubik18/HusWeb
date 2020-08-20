@@ -1,4 +1,4 @@
-s<title>Hội nghị khoa học trong nước</title>
+<title>Hội nghị khoa học trong nước</title>
 <!-- start header -->
 <?php include "../../header.html" ?>
 <!-- end header -->
