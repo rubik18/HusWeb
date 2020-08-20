@@ -2,7 +2,7 @@
 // kết nối
   require'db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM `user`";
+  $sql = "SELECT * FROM `user` WHERE user.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
