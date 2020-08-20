@@ -8,14 +8,14 @@
     $ipage = ($page-1) * 9;
   require'connectSQL.php';
 // Chuỗi kết nối
-      $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
+      $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3','2') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,9 ";
       $conn->set_charset("utf8");
       $result = mysqli_query($conn, $sql); 
       if (!$result) {
         die('error'. mysqli_error($conn));
       }
 
-    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3') AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+    $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3','2') AND new.deleted_at is NULL ORDER BY new.created_at DESC";
     $conn->set_charset("utf8");
     $resultlist = mysqli_query($conn, $sqlist);
     if (!$resultlist) {
@@ -195,7 +195,7 @@
                             </aside>
                             <div class="magazine-item-ct">
                                 <p style="text-align: justify;">
-                                    <?php echo  $row['description'] . "<br>";?>
+                                    <?php echo  $row['description'];?>
                                 </p>
                             </div>
                         </div>

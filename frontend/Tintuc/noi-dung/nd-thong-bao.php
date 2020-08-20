@@ -115,7 +115,7 @@
                                             <path d="M27 9.243C27 8.006 26.02 7 24.81 7H7.19C5.988 7 5 8.004 5 9.243v.465c0 .554.385 1.232.857 1.514l9.61 5.733c.267.16.8.16 1.067 0l9.61-5.733c.473-.283.856-.96.856-1.514v-.465z"></path></g>
                                         </svg>
                                     </span> -->
-                                    <i class='fab fa-pinterest' style='font-size:15px'></i>
+                                    <i class='fab fa-pinterest' style='font-size:15px;color: #fff'></i>
                                     <span class="at-label" style="font-size: 10.5px; line-height: 20px; height: 20px; color: rgb(255, 255, 255);">&nbsp;&nbsp;Pinterest&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 </a>
                                 
