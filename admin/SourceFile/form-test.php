@@ -96,20 +96,22 @@ if (!isset($_SESSION['user'])) {
             <div class="card-body pad">
               <div class="mb-3">
                 <form role="form" action="add.php" method = "post" enctype="multipart/form-data">
-                  <?php 
-                    if (@$_GET['Empty'] == true) {
-                  ?>
-                  <div class="input-group">
-                    <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
-                  </div>
-                  <?php      
-                    }
-                  ?>
                   <!-- Tit -->
                   <div class="form-group">
-                    <label>Title *</label>
+                    <label>Title <div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "title" class="form-control" placeholder="Enter ...">
                   </div>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['title'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= " text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <!-- Type -->
                   <div class="form-group">
                     <label>Type</label>
@@ -127,7 +129,7 @@ if (!isset($_SESSION['user'])) {
                   </div>
                   <!-- avatar -->
                 <div class="form-group">
-                  <label for="exampleInputFile">Avatar *</label>
+                  <label for="exampleInputFile">Avatar<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <div>
                     Chọn file để upload:
                     <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
@@ -135,6 +137,17 @@ if (!isset($_SESSION['user'])) {
                     <input type="text" name = "URL" class="form-control" placeholder="Enter ...">
                   </div>
                 </div>
+                <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['avatar'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= "alert-light text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <!-- Nội dung -->
                   <!-- Date and time range -->
                 <div class="form-group">
@@ -170,14 +183,25 @@ if (!isset($_SESSION['user'])) {
                   </div>
                  <!-- mô tả -->
                   <div class="form-group">
-                    <label>Mô tả *</label>
+                    <label>Mô tả</label>
                     <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
                   </div>
-                  <label for="exampleInputFile">Nội dung *</label>
+                  <label for="exampleInputFile">Nội dung<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                  <?php 
+                    if (@$_GET['empty'] == true) {
+                     if (empty($_SESSION['content'])) {
+                  ?>
+                  <div class="input-group">
+                    <div class= "alert-light text-danger">please fill in the blanks</div>
+                  </div>
+                  <?php      
+                      }
+                    }
+                  ?>
                   <div class="form-group">
-                    * là bắt buộc điền
+                    <div class= "text-danger" style="display: inline-block;">*</div>là bắt buộc điền
                   </div>
                   <!-- Submit -->
                   <div class="card-footer">

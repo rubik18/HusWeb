@@ -1,6 +1,14 @@
 <?php  
 // Kết nối
 require'../db/connect.php';
+session_start();
+unset($_SESSION['id_project']);
+unset($_SESSION['name']);
+unset($_SESSION['leader']);
+unset($_SESSION['workplace']);
+unset($_SESSION['approval_date']);
+unset($_SESSION['acceptance_date']);
+unset($_SESSION['result']);
 $conn->set_charset("utf8");
 // chuối kết nối
   $id_project = $_POST['id_project'];
@@ -11,8 +19,16 @@ $conn->set_charset("utf8");
   $approval_date = $_POST['approval_date'];
   $acceptance_date = $_POST['acceptance_date'];
   $result = $_POST['result'];
-  if ( isset($_POST['submit']) || empty($id_project) || empty($name) || empty($leader) || empty($workplace) || empty($approval_date || empty($approval_date) || empty($acceptance_date)|| empty($result)) ) {
-    header("Location:form-project.php?Empty= Please fill in the blanks");
+  // session
+  $_SESSION['id_project'] = $id_project;
+  $_SESSION['name'] = $name;
+  $_SESSION['leader'] = $leader;
+  $_SESSION['workplace'] = $workplace;
+  $_SESSION['approval_date'] = $approval_date;
+  $_SESSION['acceptance_date'] = $acceptance_date;
+  $_SESSION['result'] = $result;
+  if ( isset($_POST['submit']) || empty($id_project) || empty($name) || empty($leader) || empty($workplace) || empty($approval_date || empty($acceptance_date)|| empty($result)) ) {
+    header("Location:form-project.php?empty=true");
   }
   else{
     if(!empty($_POST)) {
@@ -26,3 +42,4 @@ $conn->set_charset("utf8");
     }
   }
 ?>
+

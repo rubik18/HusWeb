@@ -75,7 +75,7 @@
           </li>
           <!-- tag -->
           <li class="nav-item has-treeview">
-            <a href="/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
                 Tag

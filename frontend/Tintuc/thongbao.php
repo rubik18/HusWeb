@@ -65,10 +65,10 @@
                 <div class="object">
                     <span class="day"><?php 
                         $time = strtotime($row['created_at']);
-                        echo  date(" d",$time) . "<br>"; ?></span>
+                        echo  date(" d",$time) ; ?></span>
                     <span class="date"><?php 
                         $time = strtotime($row['created_at']);
-                        echo  date(" m/Y",$time) . "<br>"; ?></span>
+                        echo  date(" m/Y",$time) ; ?></span>
                 </div>
                 <div class="body">
                     <h3><a href="noi-dung/nd-thong-bao.php?id=<?php echo $id ?>">
@@ -77,7 +77,7 @@
                         <a href="noi-dung/nd-thong-bao.php?id=<?php echo $id ?>" class="post-date">
                             <?php 
                                 $time = strtotime($row['created_at']);
-                                echo  date(" d/m/Y",$time) . "<br>"; ?>
+                                echo  date(" d/m/Y",$time) ; ?>
                         </a>
                     </p>
                 </div>
@@ -96,12 +96,13 @@
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                           $count = floor($row['COUNT(*)'] /5) +1;
+                                          $count = ceil($row['COUNT(*)'] /5) ;
+                                          
                                         }
                                     }
-                                    $list = floor($count/4);
-                                if($page <4){
-                                    for ($x = 1; $x <= 3 && $x<= $count; $x++) {
+                                   
+                                if($page <4 && $page<=$count){
+                                    for ($x = 1; $x <= 3 && $x<=$count; $x++) {
                                       if( $x==$page ){
                                     
                                  ?>
@@ -114,20 +115,21 @@
                                 
                                 
                                 <?php }} ?>
+                               
+                                    
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=<?php if($count>4){
                                         echo "4";
                                         }else echo $count;
                                      ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
-                             
-                                if($page >= 4&& $page <=7){ ?>
+                                <?php } 
+                                if($page >= 4&& $page <7 && $page<=$count){ ?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=1" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 4; $x < 7; $x++) {
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 4; $x < 7 && $x<=$count; $x++) {
 
                                       if( $x==$page ){
                                     
@@ -141,15 +143,53 @@
                                 
                                 
                                 <?php }} ?>
-                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="tintuc.php?page=1">First</a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="thongbao.php?page=1">First</a></li>
                                     
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="tintuc.php?page=<?php echo $count ?>">Last</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=7" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }?>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="thongbao.php?page=<?php if($count>7){
+                                        echo "7";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                                if($page >= 7&& $page <10 && $page<$count){ ?>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=4" style="padding-top: 10px"><i class="fa fa-angle-double-left"></i></a></li>
+                                    <?php for ($x = 7; $x < 10; $x++) {
+
+                                      if( $x==$page ){
+                                    
+                                 ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+                                <?php }elseif($x!=$page){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="thongbao.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+                                
+                                
+                                <?php }} ?>
+                               <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="thongbao.php?page=1">First</a></li>
+                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=<?php if($count>10){
+                                        echo "10";
+                                        }else echo $count;
+                                     ?>" style="padding-top: 10px"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }
+                                if($page>$count){
+                                 ?>
+                                 <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="thongbao.php?page=<?php echo $count ?>">Last</a></li>
+                                
+                            <?php } ?>
                 </ul>
             </div>
 

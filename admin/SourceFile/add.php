@@ -1,6 +1,10 @@
 <?php  
 // Kết nối
 session_start();
+unset($_SESSION['title']);
+unset($_SESSION['content']);
+unset($_SESSION['description']);
+unset($_SESSION['avatar']);
 require'db/connect.php';
 $conn->set_charset("utf8");
 // chuối kết nối
@@ -8,10 +12,10 @@ $conn->set_charset("utf8");
   $content = $_POST['content'];
   $description= $_POST['description'];
   $id_category =$_POST['type'];
-// echo "phan tu trong chuoi"." ".$length_chuoi;
+ // session
   $_SESSION['title'] = $title;
   $_SESSION['content'] = $content;
-  $_SESSION['description'] = $description;
+  
 	
 // uploadFile
 //lấy tên của file:
@@ -19,7 +23,7 @@ $file_name=$_FILES['fileupload']["name"];
 //lấy đường dẫn tạm lưu nội dung file:
 $file_tmp =$_FILES['fileupload']['tmp_name'];
 //tạo đường dẫn lưu file trên host:
-$path ="upload/".$file_name;
+$path ="/php-intership-team/admin/SourceFile/upload/".$file_name;
 //upload nội dung file từ đường dẫn tạm vào đường dẫn vừa tạo:
 move_uploaded_file($file_tmp,$path);
   if (isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"]!=null) {
@@ -37,8 +41,8 @@ move_uploaded_file($file_tmp,$path);
   	$location = '';
   }
   $_SESSION['avatar'] = $avatar;
-   if ( isset($_POST['submit']) || empty($title) || empty($content) || empty($description) || empty($avatar)){
-    header("Location:form-test.php");
+   if ( isset($_POST['submit']) || empty($title) || empty($content)  || empty($avatar)){
+    header("Location:form-test.php?empty=true");
   }
   else{
 	  if(!empty($_POST['tag'])){
