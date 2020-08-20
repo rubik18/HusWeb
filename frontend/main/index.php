@@ -138,12 +138,12 @@
                                                         break;
                                                 }
                                                 ?>">
-                                        <img src="<?php echo $row['avatar'];?>" alt="<?php 
+                                        <img src="<?php echo $row['avatar'];?>" style="width: 210; height: 139" alt="<?php 
                                                 $string = $row['title'];
                                                 $arr = explode(' ' ,$string);
                                                 for($x = 0; $x < 15 && $x < count($arr); $x ++){
                                                     echo $arr[$x] ." ";
-                                                }?>...">
+                                                }?>..." >
                                         </a>
                                     </div>
                                     <div class="post-content">
@@ -301,7 +301,7 @@
                                                         echo date("d/m/Y",$time);
                                                     ?>
                                                 </p>
-                                                <p><i class="fa fa-map-marker"></i><?php $arr_location[0]?></p>
+                                                <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[0]?></p>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
@@ -317,7 +317,7 @@
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[1]?></p>
+                                                        <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[1]?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
@@ -331,7 +331,7 @@
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[2]?></p>
+                                                        <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[2]?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -351,7 +351,7 @@
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[3]?></p>
+                                                        <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[3]?></p>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
@@ -365,7 +365,7 @@
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[4]?></p>
+                                                        <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[4]?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -381,7 +381,7 @@
                                                         echo date("d/m/Y",$time);
                                                     ?>
                                                 </p>
-                                                <p><i class="fa fa-map-marker"></i><?php $arr_location[5]?></p>
+                                                <p><i class="fa fa-map-marker"></i><?php echo " ".$arr_location[5]?></p>
                                             </div>
                                         </div>
                                     </div>
