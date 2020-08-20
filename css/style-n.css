@@ -2199,6 +2199,7 @@ h2.post-title {
     background: #007dc575;
     width: 100%;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .homesukien .sukiencontent .caption2 {
@@ -2207,6 +2208,7 @@ h2.post-title {
     background: #007dc575;
     width: calc(100% - 25px);
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
     .homesukien .sukiencontent .caption h4, .homesukien .sukiencontent .caption h4 a,
@@ -3082,7 +3084,6 @@ h2.post-title {
     border: 0;
     border-left: 1px solid rgba(255,255,255,0.1);
     color: #fff;
-    padding: 6px 15px 1px 0px !important;
     /* text-transform: uppercase; */
     font-weight: 400;
     font-size: 14px;

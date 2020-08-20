@@ -14,7 +14,7 @@
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-dang-va-cac-doan-the.php" ,
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-dao-tao-tuyen-sinh.php" ,   
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php" ,
-                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php" , ); 
+                "/php-intership-team/frontend/Tintuc/noi-dung/nd-tin-tuc-chung.php, "); 
 
         $noti = mysqli_query($conn,"SELECT new.* FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category = 3 AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT 10;");
 
@@ -140,9 +140,9 @@
                                                 ?>">
                                         <img src="<?php echo $row['avatar'];?>" alt="<?php 
                                                 $string = $row['title'];
-                                                $array = explode(' ' ,$string);
-                                                for($x = 0; $x < 15 && $x < count($array); $x ++){
-                                                    echo $array[$x] ." ";
+                                                $arr = explode(' ' ,$string);
+                                                for($x = 0; $x < 15 && $x < count($arr); $x ++){
+                                                    echo $arr[$x] ." ";
                                                 }?>...">
                                         </a>
                                     </div>
@@ -174,18 +174,18 @@
                                                 ?>" class="headline">
                                             <h5><?php 
                                                 $string = $row['title'];
-                                                $array = explode(' ' ,$string);
-                                                for($x = 0; $x < 15 && $x < count($array); $x ++){
-                                                    echo $array[$x] ." ";
+                                                $arr = explode(' ' ,$string);
+                                                for($x = 0; $x < 15 && $x < count($arr); $x ++){
+                                                    echo $arr[$x] ." ";
                                                 }
                                             ?>...</h5>
                                         </a>
                                         <p>
                                         <?php 
                                             $string = $row['description'];
-                                            $array = explode(' ' ,$string);
-                                            for($x = 0; $x < 28 && $x< count($array); $x++){
-                                                echo $array[$x] ." ";
+                                            $arr = explode(' ' ,$string);
+                                            for($x = 0; $x < 28 && $x< count($arr); $x++){
+                                                echo $arr[$x] ." ";
                                             }
                                         ?>...</p>
                                         <div class="post-meta">
@@ -235,9 +235,9 @@
                                         <h3><a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-thong-bao.php?id= <?php echo $id ?>">
                                         <?php 
                                             $string = $row_noti['title'];
-                                            $array = explode(' ' ,$string);
-                                            for($x = 0; $x < 12 && $x < count($array); $x ++){
-                                                echo $array[$x] ." ";
+                                            $arr = explode(' ' ,$string);
+                                            for($x = 0; $x < 12 && $x < count($arr); $x ++){
+                                                echo $arr[$x] ." ";
                                             }
                                         ?>...</a></h3>
                                     </div>
@@ -265,15 +265,24 @@
                                 </div>
                             </div>
                             <?php 
-                                $array = [];
-                                $array_title = [];
+                                $arr = [];
+                                $arr_title = [];
+                                $arr_avatar = [];
+                                $arr_date = [];
+                                $arr_location = [];
                                 if(mysqli_num_rows($event) > 0){
                                     $i = 0;
                                     while($row_event = mysqli_fetch_assoc($event)){ 
                                         $id = $row_event['id'];
                                         $title = $row_event['title'];
-                                        $array[$i] = $id;
-                                        $array_title[$i] = $title;
+                                        $avatar = $row_event['avatar'];
+                                        $date = $row_event['start_date'];
+                                        $location = $row_event['location'];
+                                        $arr[$i] = $id;
+                                        $arr_title[$i] = $title;
+                                        $arr_avatar[$i] =  $avatar;
+                                        $arr_date[$i]= $date;
+                                        $arr_location[$i] = $location;
                                         $i ++; 
                                     }          
                                 }
@@ -282,42 +291,47 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-6 pdr-10">
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[0]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[0]?>" style="width: 565; height: 400;">
                                             </a> 
                                             <div class="caption">
-                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[0]?>"><?php echo $array_title[0]?></a></h4>
+                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><?php echo $arr_title[0]?></a></h4>
                                                 <p><i class="fa fa-clock-o"></i>
                                                     <?php 
-                                                        $time = strtotime($row_event['start_date']);
+                                                        $time = strtotime($arr_date[0]);
                                                         echo date("d/m/Y",$time);
                                                     ?>
                                                 </p>
-                                                <p><i class="fa fa-map-marker"></i>Hội trường Ngụy Như Kon Tum, 19 Lê Thánh Tông, Hoàn Kiếm, Hà Nội</p>
+                                                <p><i class="fa fa-map-marker"></i><?php $arr_location[0]?></p>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[1]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[1]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[1]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[1]?>"><?php echo $array_title[1]?></a></h4>
-                                                        <p><i class="fa fa-clock-o"></i> 18/07/2020</p>
-                                                        <p><i class="fa fa-map-marker"></i>Phòng hội thảo tầng 10, Thư viện Tạ Quang Bửu, Trường Đại học Bách Khoa Hà Nội, (cổng đường Trần Đại Nghĩa), Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[2]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
-                                                    </a> 
-                                                    <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[2]?>"><?php echo $array_title[2]?></a></h4>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[1]?>"><?php echo $arr_title[1]?></a></h4>
                                                         <p><i class="fa fa-clock-o"></i>
                                                             <?php 
-                                                                $time = strtotime($row_event['start_date']);
+                                                                $time = strtotime($arr_date[1]);
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i>Tầng 7 nhà T5</p>
+                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[1]?></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 pdr-0">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[2]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[2]?>" style="width: 265; height: 192;">
+                                                    </a> 
+                                                    <div class="caption2">
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[2]?>"><?php echo $arr_title[2]?></a></h4>
+                                                        <p><i class="fa fa-clock-o"></i>
+                                                            <?php 
+                                                                $time = strtotime($arr_date[2]);
+                                                                echo date("d/m/Y",$time);
+                                                            ?>
+                                                        </p>
+                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[2]?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -327,43 +341,47 @@
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[3]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[3]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[3]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[3]?>"><?php echo $array_title[3]?></a></h4>
-                                                        <p><i class="fa fa-clock-o"></i>12/07/2020</p>
-                                                        <p><i class="fa fa-map-marker"></i>Trường Đại học Khoa học Tự nhiên, 334 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[4]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 265; height: 192;">
-                                                    </a> 
-                                                    <div class="caption2">
-                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[4]?>"><?php echo $array_title[4]?></a></h4>
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[3]?>"><?php echo $arr_title[3]?></a></h4>
                                                         <p><i class="fa fa-clock-o"></i>
                                                             <?php 
-                                                                $time = strtotime($row_event['start_date']);
+                                                                $time = strtotime($arr_date[3]);
                                                                 echo date("d/m/Y",$time);
                                                             ?>
                                                         </p>
-                                                        <p><i class="fa fa-map-marker"></i>Phòng 418 nhà T1, Trường Đại học Khoa học Tự nhiên
-                                                        334 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
+                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[3]?></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6 pdr-0">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[4]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[4]?>" style="width: 265; height: 192;">
+                                                    </a> 
+                                                    <div class="caption2">
+                                                        <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[4]?>"><?php echo $arr_title[4]?></a></h4>
+                                                        <p><i class="fa fa-clock-o"></i>
+                                                            <?php 
+                                                                $time = strtotime($arr_date[4]);
+                                                                echo date("d/m/Y",$time);
+                                                            ?>
+                                                        </p>
+                                                        <p><i class="fa fa-map-marker"></i><?php $arr_location[4]?></p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $array[5]?>"><img id="dnn_View_ltr1img" src="<?php echo $row_event['avatar']?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[5]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[5]?>" style="width: 565; height: 400;">
                                             </a>  
                                             <div class="caption">
-                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $array[5]?>"><?php echo $array_title[5]?></a></h4>
+                                                <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[5]?>"><?php echo $arr_title[5]?></a></h4>
                                                 <p><i class="fa fa-clock-o"></i>
                                                     <?php 
-                                                        $time = strtotime($row_event['start_date']);
+                                                        $time = strtotime($arr_date[5]);
                                                         echo date("d/m/Y",$time);
                                                     ?>
                                                 </p>
-                                                <p><i class="fa fa-map-marker"></i>Giảng đường lớn tầng 7, nhà T5, Trường Đại học Khoa học Tự nhiên</p>
+                                                <p><i class="fa fa-map-marker"></i><?php $arr_location[5]?></p>
                                             </div>
                                         </div>
                                     </div>
