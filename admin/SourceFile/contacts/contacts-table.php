@@ -88,13 +88,11 @@ if (!isset($_SESSION['user'])) {
  
                       <ul class="ml-4 mb-0 fa-ul text-muted">
                         <li class=""><span class="fa-li"><i class="fas fa-user"></i></span><?php echo $row['user_name'] ?></li>
-                        <li class=""><span class="fa-li"><i class="fas fa-lock"></i></span><?php echo $row['password'] ?></li>
-
                         <li class=""><span class="fa-li"><i class="fas fa-arrow-up"></i></span><?php echo $row['level'] ?></li>
                       </ul>
                     </div>
                     <div class="col-5 text-center">
-                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle img-fluid">
+                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 100px; height : 100px;">
                     </div>
                   </div>
                 </div>

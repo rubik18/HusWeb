@@ -25,7 +25,7 @@ if (!isset($_SESSION['user'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Editors</title>
+  <title>AdminLTE 3 | Update admin</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,7 +63,7 @@ if (!isset($_SESSION['user'])) {
       </div>
       <p class="login-box-msg" style="text-align: center; font-size: 15px;">Update a admin</p>
 
-      <form action="register_submit.php" method="post" enctype="multipart/form-data">
+      <form action="update-admin.php?id=<?php echo $row['id']?>" method="post" enctype="multipart/form-data">
         <div class="input-group mb-3">
           <input type="text" class="form-control" name = "full_name" value="<?php echo $row['full_name'] ?>">
           <div class="input-group-append">
@@ -124,15 +124,16 @@ if (!isset($_SESSION['user'])) {
         <?php      
           }
         ?>
-          <div class="input-group">
-          <label for="exampleInputFile">Avatar</label>
-          </div>
-            <div>
-              Chọn file để upload:
-              <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
-              URL:
-              <input type="text" name = "URL" class="form-control" style="border-right: 1.5px solid #dee2e6 !important;" placeholder="Enter ...">
-            </div>   
+             <div class="form-group">
+                  <label for="exampleInputFile">Avatar</label>
+                  <div>
+                    Chọn file để upload:
+                    <input type="file" name="fileupload" id="fileupload" accept="image/*">
+                    <img src="<?php echo $row['avatar'] ?>" style ="width: 100px; height: 100px" >
+                    <br>URL :
+                    <input type="text" name = "URL" class="form-control" value="<?php echo $row['avatar'] ?>" style="border-right: 1.5px solid #dee2e6 !important;">
+                  </div>
+                </div>
           
 
         
