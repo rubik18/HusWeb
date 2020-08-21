@@ -35,7 +35,7 @@
         $i = 0 ;
        	while($row = mysqli_fetch_assoc($result)){
             $i++;
-            echo  $row['title'] . "<br>";
+            echo  $row['title'] ;
     ?>
   </title>
        

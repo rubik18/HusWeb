@@ -20,7 +20,7 @@
  ?>
         
         
-        <title>Tin tức</title>
+        <title>Tin tức mới nhất</title>
 		<!---------start header------------>
         <?php include "../header.html" ?>
         <!---end header------->
@@ -158,7 +158,7 @@
                                                         echo $link[6] ."?id=" . $id;
                                                         break;
                                 }
-                                ?>"class="content"><?php 
+                                ?>"class="content" style="font-size: 14px !important;font-weight: 700;"><?php 
                                             $string=$row['title'];
                                             $array=explode(' ' ,$string);
                                             for($x=0; $x<21 && $x< count($array); $x++){
