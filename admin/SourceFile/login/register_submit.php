@@ -4,8 +4,8 @@ require '../db/connect.php';
 // kiểm tra điền đầy đủ thông tin
 $username = $_POST["user_name"];
 $fullname = $_POST["full_name"];
-$password = $_POST["password"];
-$repassword = $_POST["repassword"];
+$password = md5($_POST["password"]);
+$repassword =md5($_POST["repassword"]);
 $lever = $_POST["type"];
 //lấy tên của file:
 // var_dump($_FILES['fileupload']);die();

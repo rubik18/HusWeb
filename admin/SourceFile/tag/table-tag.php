@@ -81,7 +81,6 @@ if (!isset($_SESSION['user'])) {
                   <tr>
                     <th>Stt</th>
                     <th>Tag</th>
-                    <th>Name</th>
                     <th>Action</th>
                   </tr>
                   </thead>
@@ -94,7 +93,6 @@ if (!isset($_SESSION['user'])) {
                     <tr>
                     <td><?php echo $i ?></td>
                     <td><?php echo $row['tag'] ?></td>
-                    <td><?php echo $row['name'] ?></td>
                     <td class="project-actions text-right">
                           <a class="btn btn-secondary btn-sm" href="updateFrom.php?id= <?php echo $row['id']?>">
                               <i class="fas fa-pencil-alt">
@@ -102,7 +100,7 @@ if (!isset($_SESSION['user'])) {
                               Edit
                           </a>
                           <a class="btn btn-danger btn-sm" href="delete-tag.php?id= <?php echo $row['id']?>">
-                              <i class="fas fa-trash">
+                              <i class="fas fa-trash" onclick = "return confirm('Bạn chắc chưa')">
                               </i>
                               Delete
                           </a>
@@ -118,7 +116,6 @@ if (!isset($_SESSION['user'])) {
                   <tr>
                     <th>Stt</th>
                     <th>Tag</th>
-                    <th>Name</th>
                     <th>Action</th>
                   </tr>
                   </tfoot>

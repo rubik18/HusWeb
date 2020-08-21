@@ -106,7 +106,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['title'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
@@ -142,7 +142,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['avatar'])) {
                   ?>
                   <div class="input-group">
-                    <div class= "alert-light text-danger">please fill in the blanks</div>
+                    <div class= "alert-light text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
@@ -194,7 +194,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['content'])) {
                   ?>
                   <div class="input-group">
-                    <div class= "alert-light text-danger">please fill in the blanks</div>
+                    <div class= "alert-light text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }

@@ -5,7 +5,7 @@ session_start();
 require '../db/connect.php';
 // kiểm tra điền đầy đủ thông tin
 $username = $_POST["user_name"];
-$password = $_POST["password"];
+$password =md5($_POST["password"]);
 if (isset($_POST['login'])) {	
   if (empty($username) || empty($password)) {
   	header("Location:login.php?Empty= Please fill in the blanks");
