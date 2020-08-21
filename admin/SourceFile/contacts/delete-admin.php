@@ -1,6 +1,11 @@
 <?php 
 // Kết nối
 	require'../db/connect.php';
+	  session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+ header("Location: /php-intership-team/admin/SourceFile/login/login.php");
+}
 	$conn->set_charset("utf8");
 // Tạo mã SQL
 	$id = (int)$_GET['id'];
@@ -9,5 +14,5 @@
 if (!mysqli_query($conn,$sql)) {
 	die('error:'. mysqli_error($conn));
 }
-	header("Location: \php-intership-team\admin\SourceFile\add-admin\contacts.php");
+	header("Location: \php-intership-team\admin\SourceFile\contacts\contacts-table.php");
  ?>
