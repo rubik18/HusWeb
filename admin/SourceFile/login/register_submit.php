@@ -1,6 +1,7 @@
 <?php 
 //connect
 require '../db/connect.php';
+ $conn->set_charset("utf8");
 // kiểm tra điền đầy đủ thông tin
 $username = $_POST["user_name"];
 $fullname = $_POST["full_name"];
@@ -44,7 +45,7 @@ else{
 			     if (!$kq) {
 	    			die('error'.' '. mysqli_error($conn));
 	  			}
-				header("Location:../home.php");
+				header("Location:\php-intership-team\admin\SourceFile\contacts\contacts-table.php");
 	  	}
 	  }
 	}

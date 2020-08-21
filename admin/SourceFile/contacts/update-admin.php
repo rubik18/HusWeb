@@ -8,8 +8,8 @@
   // var_dump($_POST); die();
   $user_name = $_POST['user_name'];
   $full_name = $_POST['full_name'];
-  $password = $_POST['password'];
-  $repassword = $_POST['repassword'];
+  $password = md5($_POST['password']);
+  $repassword = md5($_POST['repassword']);
   $lever = $_POST["type"];
   $file_name=$_FILES['fileupload']["name"];
   //lấy đường dẫn tạm lưu nội dung file:
