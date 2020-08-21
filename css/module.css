@@ -14,6 +14,8 @@
     clear: both;
     margin-bottom: 16px;
     padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
     clear: both;
     border-bottom: dotted 1px #9D9D9D;
     float: left;
@@ -21,7 +23,7 @@
 }
 
     #list_news .list-news ul li p {
-        line-height: 120% !important;
+        line-height: 140% !important;
     }
 
     #list_news .list-news ul li .name {

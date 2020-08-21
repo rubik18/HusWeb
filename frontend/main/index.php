@@ -290,7 +290,7 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-6 pdr-10">
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[0]?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[0]?>" style="width: 565; height: 400;">
                                             </a> 
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><?php echo $arr_title[0]?></a></h4>
@@ -306,7 +306,7 @@
                                         <div class="col-12 col-lg-12 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[1]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[1]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[1]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[1]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[1]?>"><?php echo $arr_title[1]?></a></h4>
@@ -320,7 +320,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[2]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[2]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[2]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[2]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[2]?>"><?php echo $arr_title[2]?></a></h4>
@@ -340,7 +340,7 @@
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[3]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[3]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[3]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[3]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[3]?>"><?php echo $arr_title[3]?></a></h4>
@@ -354,7 +354,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[4]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[4]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[4]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[4]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[4]?>"><?php echo $arr_title[4]?></a></h4>
@@ -370,7 +370,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[5]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[5]?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[5]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[5]?>" style="width: 565; height: 400;">
                                             </a>  
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[5]?>"><?php echo $arr_title[5]?></a></h4>
