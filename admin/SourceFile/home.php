@@ -65,7 +65,7 @@ if (!isset($_SESSION['user'])) {
           <div class="col-lg-3 col-6">
             <!-- Tin tức -->
             <?php 
-              $sql = "SELECT COUNT(id) FROM new WHERE new.id_category = 1 AND  new.deleted_at is NULL ";
+              $sql = "SELECT COUNT(new.id) FROM category, new WHERE new.id_category = category.id AND category.parent_id = 1  AND new.deleted_at is NULL";
               $result = mysqli_query($conn, $sql);
               $row = mysqli_fetch_row($result);
               // $sql1 ="SELECT count(id) FROM category, new WHERE new.id_category = category.id AND category.parent_id = 1  AND new.deleted_at is NULL";
