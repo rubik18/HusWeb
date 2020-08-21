@@ -8,7 +8,7 @@
     $ipage = ($page-1) * 5;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Hoạt động khoa học' AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT $ipage,5 ";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='7' AND new.deleted_at is NULL ORDER BY new.created_at DESC  LIMIT $ipage,5 ";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -72,7 +72,7 @@
                                             <!-- Post Content -->
                                             <div class="post-content">
                                                 <a href="noi-dung/nd-hoat-dong-khoa-hoc.php?id=<?php echo $id ?>" class="headline">
-                                                    <h5><?php echo $row['title']; ?></h5>
+                                                    <h5 style="font-size: 16px;font-weight: 700"><?php echo $row['title']; ?></h5>
                                                 </a>
                                                 <p> <?php 
                                             $string=$row['title'];
@@ -98,19 +98,36 @@
                                 </div>
                                 <div class="list-page">
                                     <div>
-                                        <ul class="pagination pagination-split mb-0">
+                            <ul class="pagination pagination-split mb-0">
                                 <?php 
-                                    
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
                                           $count = ceil($row['COUNT(*)'] /5) ;
-                                          
                                         }
                                     }
-                                   
-                                if($page <4 && $page<=$count){
-                                    for ($x = 1; $x <= 3 && $x<=$count; $x++) {
+                                    /////First/// 
+                                    if($page == 1 && $count>1){?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active"  href="hoatdongkh.php">1</a></li>
+                                
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=2">2</a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=3">3</a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Last</a></li>  
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=2" style="padding-top: 10px!important"><i class="fa fa-angle-double-right"></i></a></li>    
+
+                                   <?php } ///////
+                                if($page >1 &&$page <4 && $page<$count){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php">1</a></li>
+                                <?php for ($x = 2; $x <= 3 && $x<$count; $x++) {
                                       if( $x==$page ){
                                     
                                  ?>
@@ -120,84 +137,68 @@
                                 <?php }elseif($x!=$page){ ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
                                 <?php }} ?>
-                               
-                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="hoatdongkh.php">First</a></li>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php if($count>4){
-                                        echo "4";
-                                        }else echo $count;
-                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php } 
-                                if($page >= 4&& $page <7 && $page<=$count){ ?>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php echo $page+1;?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+
+                                <?php } ?>
+
+                            <!-- ///////// -->
+                            <?php
+                            $list = ceil($count/3);
+                            for($j=2 ; $j<=$list ; $j++){
+                                $k = ($j-1)*3+1;
+                                if($page>=$k && $page<$k+3 && $page<$count){ ?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 4; $x < 7 && $x<=$count; $x++) {
-
-                                      if( $x==$page ){
-                                    
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                <?php for ($x = $k; $x <$k+3 && $x<=$count; $x++) {
+                                        if( $x==$page ){
                                  ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="hoatdongkh.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
 
-                                <?php }elseif($x!=$page){ ?>
+                                <?php   }elseif($x!=$page){ ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
                                 <?php }} ?>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=1">First</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="hoatdongkh.php">First</a></li>
                                     
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="hoatdongkh.php?page=<?php if($count>7){
-                                        echo "7";
-                                        }else echo $count;
-                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
-                                if($page >= 7&& $page <10 && $page<$count){ ?>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="hoatdongkh.php?page=<?php echo $page+1;?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }} ?> 
+                                     <!-- //////////////// -->
+                                
+                                <!-- /////Last/////// -->
+                            <?php    if($page == $count && $count>2){?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=4" style="padding-top: 10px !important"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 7; $x < 10; $x++) {
-
-                                      if( $x==$page ){
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                     <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="hoatdongkh.php">First</a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=<?php echo $page-2 ?>"><?php echo $page-2 ?></a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=<?php echo $page-1 ?>"><?php echo $page-1 ?></a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active"  href="hoatdongkh.php?page=<?php echo $page ?>"><?php echo $page ?></a></li>  
                                     
-                                 ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="hoatdongkh.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
 
-                                <?php }elseif($x!=$page){ ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="hoatdongkh.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
-                                <?php }} ?>
-                               <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=1">First</a></li>
-                                    
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Last</a></li>
-                                
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="hoatdongkh.php?page=<?php if($count>10){
-                                        echo "10";
-                                        }else echo $count;
-                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
+                                   <?php }?>
+                                <?php
                                 if($page>$count){
                                  ?>
                                  <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="hoatdongkh.php?page=<?php echo $count ?>">Last</a></li>
                                 
-                            <?php } ?>
+                            <?php } ?>  
                             </ul>
                                     </div>
 

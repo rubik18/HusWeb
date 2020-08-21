@@ -8,7 +8,7 @@
     $ipage = ($page-1) * 9;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Sự kiện' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 9";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='2' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 9";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -69,7 +69,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
             <div class="magazine-item-media">
                             <span class="media-mask"></span>
                             <div class="item-image">
-                                <a href="noi-dung/nd-su-kien.php?id= <?php echo $id?>" class="content">
+                                <a href="noi-dung/nd-su-kien.php?id=<?php echo $id?>" class="content">
                                     <span itemprop="image" itemscope="" itemtype="">
                                         <img src="<?php 
                                                     if($row['avatar']!=null){
@@ -82,8 +82,8 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
             <div class="magazine-item-main">
 			     
                 <div class="article-title">
-                    <h3 itemprop="name" style="margin-top: 10px; margin-bottom: 5px">
-                        <a href="noi-dung/nd-su-kien.php?id= <?php echo $id?>"class="content"><?php 
+                    <h3 itemprop="name" style="margin-top: 10px; margin-bottom: 5px; ">
+                        <a href="noi-dung/nd-su-kien.php?id= <?php echo $id?>"class="content" style="font-size: 14px !important;font-weight: 700;"><?php 
                                             $string=$row['title'];
                                             $array=explode(' ' ,$string);
                                             for($x=0; $x<21 && $x< count($array); $x++){
@@ -128,12 +128,30 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
                                           $count = ceil($row['COUNT(*)'] /9) ;
-                                          
                                         }
                                     }
-                                   
-                                if($page <4 && $page<=$count){
-                                    for ($x = 1; $x <= 3 && $x<=$count; $x++) {
+                                    /////First/// 
+                                    if($page == 1 && $count>1){?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active"  href="sukien.php">1</a></li>
+                                
+                                
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=2">2</a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=3">3</a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="sukien.php?page=<?php echo $count ?>">Last</a></li>  
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=2" style="padding-top: 10px!important"><i class="fa fa-angle-double-right"></i></a></li>    
+
+                                   <?php } ///////
+                                if($page >1 &&$page <4 && $page<$count){ ?>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php">1</a></li>
+                                <?php for ($x = 2; $x <= 3 && $x<$count; $x++) {
                                       if( $x==$page ){
                                     
                                  ?>
@@ -143,78 +161,62 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                                 <?php }elseif($x!=$page){ ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
                                 <?php }} ?>
-                               
-                                    
+                                <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="sukien.php">First</a></li>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="sukien.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php if($count>4){
-                                        echo "4";
-                                        }else echo $count;
-                                     ?>" style=" padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php } 
-                                if($page >= 4&& $page <7 && $page<=$count){ ?>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php echo $page+1;?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+
+                                <?php } ?>
+
+                            <!-- ///////// -->
+                            <?php
+                            $list = ceil($count/3);
+                            for($j=2 ; $j<=$list ; $j++){
+                                $k = ($j-1)*3+1;
+                                if($page>=$k && $page<$k+3 && $page<$count){ ?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=1" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 4; $x < 7 && $x<=$count; $x++) {
-
-                                      if( $x==$page ){
-                                    
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                <?php for ($x = $k; $x <$k+3 && $x<=$count; $x++) {
+                                        if( $x==$page ){
                                  ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
 
-                                <?php }elseif($x!=$page){ ?>
+                                <?php   }elseif($x!=$page){ ?>
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
                                 <?php }} ?>
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="sukien.php?page=1">First</a></li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="sukien.php">First</a></li>
                                     
                                 <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="sukien.php?page=<?php echo $count ?>">Last</a></li>
                                 
                                 <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="sukien.php?page=<?php if($count>7){
-                                        echo "7";
-                                        }else echo $count;
-                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
-                                if($page >= 7&& $page <10 && $page<$count){ ?>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext"  class="inactive" href="sukien.php?page=<?php echo $page+1;?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+                                <?php }} ?> 
+                                     <!-- //////////////// -->
+                                
+                                <!-- /////Last/////// -->
+                            <?php    if($page == $count && $count>2){?>
                                     <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=4" style="padding-top: 10px !important"><i class="fa fa-angle-double-left"></i></a></li>
-                                    <?php for ($x = 7; $x < 10; $x++) {
-
-                                      if( $x==$page ){
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+                                     <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="sukien.php">First</a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $page-2 ?>"><?php echo $page-2 ?></a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $page-1 ?>"><?php echo $page-1 ?></a></li>
+                                    <li>
+                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active"  href="sukien.php?page=<?php echo $page ?>"><?php echo $page ?></a></li>  
                                     
-                                 ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active" href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
 
-                                <?php }elseif($x!=$page){ ?>
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="sukien.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
-                                
-                                
-                                <?php }} ?>
-                               <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi"style="width: 40px" class="inactive pagelast" href="sukien.php?page=1">First</a></li>
-                                    
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btncuoi" style="width: 40px" class="inactive pagelast" href="sukien.php?page=<?php echo $count ?>">Last</a></li>
-                                
-                                <li>
-                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php if($count>10){
-                                        echo "10";
-                                        }else echo $count;
-                                     ?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
-                                <?php }
+                                   <?php }?>
+                                <?php
                                 if($page>$count){
                                  ?>
                                  <li>
@@ -238,7 +240,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
                         <li class="active"><a href="">Sự kiện</a></li>
                         <li class=""><a href="thongbao.php">Thông báo</a></li>
-                        <li class=""><a href="tintucchung.php">Tin tức chung</a></li>
+                        <li class=""><a href="sukien.php">Tin tức chung</a></li>
                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
                         <li class=""><a href="daotaots.php">Đào tạo - Tuyển sinh</a></li>
                         <li class=""><a href="hoatdongkh.php">Hoạt động khoa học</a></li>
