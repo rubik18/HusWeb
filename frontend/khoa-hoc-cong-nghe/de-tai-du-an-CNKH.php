@@ -3,9 +3,11 @@
 	// $sql = "SELECT * FROM detai_duan";
   $connect->set_charset("utf8");
  //  $query = mysqli_query($connect, $sql) or die ("erorr!!"); 
+  	$query_type= mysqli_query($connect, "SELECT `name_type` from `type_topic_project`") or die("chịu! không thấy!"); 
  ?>
 
 <?php 
+
 
 if(!isset($_GET['search'])){
 	
@@ -38,6 +40,7 @@ if(!isset($_GET['search'])){
 		$type = $_GET['topic_type'];
         $date_from = $_GET['date_from'];
         $date_to = $_GET['date_to'];
+        if ($topic !="" || $type !="" || $date_from !="" || $date_to !="") {
         	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' " or die("Không tìm thấy");
         	
         	// var_dump($select);die;
@@ -55,6 +58,7 @@ if(!isset($_GET['search'])){
             //     echo "Không tìm thấy kết quả!";
             // 	}
         	}
+        }
 	}
 ?> 
 
@@ -109,53 +113,53 @@ if(!isset($_GET['search'])){
 																	<div class="col-md-6tim">
 									                                    <select  name="date_from"  class="form-control">
 																			<option value="1000">Từ</option>
-																			<option value="2000">2000</option>
-																			<option value="2001">2001</option>
-																			<option value="2002">2002</option>
-																			<option value="2003">2003</option>
-																			<option value="2004">2004</option>
-																			<option value="2005">2005</option>
-																			<option value="2006">2006</option>
-																			<option value="2007">2007</option>
-																			<option value="2008">2008</option>
-																			<option value="2009">2009</option>
-																			<option value="2010">2010</option>
-																			<option value="2011">2011</option>
-																			<option value="2012">2012</option>
-																			<option value="2013">2013</option>
-																			<option value="2014">2014</option>
-																			<option value="2015">2015</option>
-																			<option value="2016">2016</option>
-																			<option value="2017">2017</option>
-																			<option value="2018">2018</option>
-																			<option value="2019">2019</option>
-																			<option value="2020">2020</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2000') echo "selected=\"selected\" "; ?> value="2000">2000</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2001') echo "selected=\"selected\" "; ?> value="2001">2001</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2002') echo "selected=\"selected\" "; ?> value="2002">2002</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2003') echo "selected=\"selected\" "; ?> value="2003">2003</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2004') echo "selected=\"selected\" "; ?> value="2004">2004</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2005') echo "selected=\"selected\" "; ?> value="2005">2005</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2006') echo "selected=\"selected\" "; ?> value="2006">2006</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2007') echo "selected=\"selected\" "; ?> value="2007">2007</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2008') echo "selected=\"selected\" "; ?> value="2008">2008</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2009') echo "selected=\"selected\" "; ?> value="2009">2009</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2010') echo "selected=\"selected\" "; ?> value="2010">2010</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2011') echo "selected=\"selected\" "; ?> value="2011">2011</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2012') echo "selected=\"selected\" "; ?> value="2012">2012</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2013') echo "selected=\"selected\" "; ?> value="2013">2013</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2014') echo "selected=\"selected\" "; ?> value="2014">2014</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2015') echo "selected=\"selected\" "; ?> value="2015">2015</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2016') echo "selected=\"selected\" "; ?> value="2016">2016</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2017') echo "selected=\"selected\" "; ?> value="2017">2017</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2018') echo "selected=\"selected\" "; ?> value="2018">2018</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2019') echo "selected=\"selected\" "; ?> value="2019">2019</option>
+																			<option <?php if (isset($_GET['date_from']) && $_GET['date_from'] == '2020') echo "selected=\"selected\" "; ?> value="2020">2020</option>
 																		</select>
 																	</div>
 																	<div class="col-md-6tim">
 									                                    <select name="date_to"  class="form-control">
 																			<option value="3000">Đến</option>
-																			<option value="2000">2000</option>
-																			<option value="2001">2001</option>
-																			<option value="2002">2002</option>
-																			<option value="2003">2003</option>
-																			<option value="2004">2004</option>
-																			<option value="2005">2005</option>
-																			<option value="2006">2006</option>
-																			<option value="2007">2007</option>
-																			<option value="2008">2008</option>
-																			<option value="2009">2009</option>
-																			<option value="2010">2010</option>
-																			<option value="2011">2011</option>
-																			<option value="2012">2012</option>
-																			<option value="2013">2013</option>
-																			<option value="2014">2014</option>
-																			<option value="2015">2015</option>
-																			<option value="2016">2016</option>
-																			<option value="2017">2017</option>
-																			<option value="2018">2018</option>
-																			<option value="2019">2019</option>
-																			<option value="2020">2020</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2000') echo "selected=\"selected\" "; ?> value="2000">2000</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2001') echo "selected=\"selected\" "; ?> value="2001">2001</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2002') echo "selected=\"selected\" "; ?> value="2002">2002</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2003') echo "selected=\"selected\" "; ?> value="2003">2003</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2004') echo "selected=\"selected\" "; ?> value="2004">2004</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2005') echo "selected=\"selected\" "; ?> value="2005">2005</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2006') echo "selected=\"selected\" "; ?> value="2006">2006</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2007') echo "selected=\"selected\" "; ?> value="2007">2007</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2008') echo "selected=\"selected\" "; ?> value="2008">2008</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2009') echo "selected=\"selected\" "; ?> value="2009">2009</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2010') echo "selected=\"selected\" "; ?> value="2010">2010</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2011') echo "selected=\"selected\" "; ?> value="2011">2011</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2012') echo "selected=\"selected\" "; ?> value="2012">2012</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2013') echo "selected=\"selected\" "; ?> value="2013">2013</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2014') echo "selected=\"selected\" "; ?> value="2014">2014</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2015') echo "selected=\"selected\" "; ?> value="2015">2015</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2016') echo "selected=\"selected\" "; ?> value="2016">2016</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2017') echo "selected=\"selected\" "; ?> value="2017">2017</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2018') echo "selected=\"selected\" "; ?> value="2018">2018</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2019') echo "selected=\"selected\" "; ?> value="2019">2019</option>
+																			<option <?php if (isset($_GET['date_to']) && $_GET['date_to'] == '2020') echo "selected=\"selected\" "; ?> value="2020">2020</option>
 																		</select>
                         											</div>
 								                                </div>
@@ -167,24 +171,22 @@ if(!isset($_GET['search'])){
 								                                	<label>Cấp độ</label>
 								                                	<select name="topic_type" class="form-control">
 																		<option value="">Tất cả</option>
-																		<option value="Nhà nước">Nhà nước</option>
-																		<option value="NAFOSTED">NAFOSTED</option>
-																		<option value="ĐH Quốc Gia HN">ĐH Quốc Gia HN</option>
-																		<option value="Hợp tác Bộ, Ngành, Địa phương">Hợp tác Bộ, Ngành, Địa phương</option>
-																		<option value="Cơ sở">Cơ sở</option>
-																		<option value="Hợp đồng dịch vụ khoa học và chuyển giao công nghệ">Hợp đồng dịch vụ khoa học và chuyển giao công nghệ</option>
-																		<option value="Sản phẩm ứng dụng">Sản phẩm ứng dụng</option>
-																		<option value="Cấp Bộ">Cấp Bộ</option>
-																		<option value="Quỹ ARC">Quỹ ARC</option>
-																		<option value="Tỉnh">Tỉnh</option>
-																		<option value="Nghị đinh thư">Nghị đinh thư</option>
-																		<option value="Dự án hợp tác QT">Dự án hợp tác QT</option>
-																		<option value="Hợp đồng CQ ngoài">Hợp đồng CQ ngoài</option>
+																		<?php 
+																		if (mysqli_num_rows($query_type)>0) {
+																		while ($row_type = mysqli_fetch_assoc($query_type)) {
+																            // var_dump($row);die;   
+																    	?>
+																		<option <?php if(isset($_GET['topic_type']) && $_GET['topic_type'] == $row_type['name_type']) echo "selected=\"selected\" "; ?> value="<?php echo $row_type['name_type']; ?>"><?php echo $row_type['name_type']; ?></option>
+																		<?php 
+																			}
+																		}
+																		?>
 																	</select>						
 								                                </div>
 								                                <div class="col-md-2">
 								                                	<label>&nbsp;</label>	
 								                                		<input type="submit" name="search" value="Tìm kiếm" class="btn btn-info pull-right timkiemdtda" style="font-weight: bold;"/>
+
 								                                </div>
 															</div>
 														</form>
