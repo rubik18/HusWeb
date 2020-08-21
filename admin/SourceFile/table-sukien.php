@@ -97,7 +97,7 @@ if (!isset($_SESSION['user'])) {
                     <td><?php echo $i ?></td>
                     <td><?php echo $row['title'] ?></td>
                     <td><?php echo $row['name'] ?></td>
-                    <th><?php echo $row['avatar'] ?></th>
+                    <td><img src="<?php echo $row['avatar'];?>" style ="width: 100px; height: 50px"></td>
                     <td><?php echo $row['description'] ?></td>
                     <td class="project-actions text-right">
                           <!-- <a class="btn btn-primary btn-sm" href="#">
