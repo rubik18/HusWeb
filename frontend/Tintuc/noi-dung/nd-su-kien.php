@@ -106,7 +106,7 @@
                     <div class="news-details">
                         <div class="centreColumn bodyCopy">
                     <h3><?php echo  $row['title'] ; ?></h3>
-                    <dl class="details">
+                    <dl class="details" style="font-style: 13px!important">
                         
                         <?php echo  $row['description'] ; ?>
                     </dl>
