@@ -88,10 +88,6 @@ if (!isset($_SESSION['user'])) {
                     <input type="text" name = "tag" class="form-control" placeholder="Enter ...">
                   </div>
                   <!-- name -->
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" name = "name" class="form-control" placeholder="Enter ...">
-                  </div>
                    <?php 
                     if (@$_GET['Empty'] == true) {
                     ?>

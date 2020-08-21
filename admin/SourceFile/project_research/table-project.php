@@ -109,7 +109,7 @@ if (!isset($_SESSION['user'])) {
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="./delete-project.php?id=<?php echo $row['id']?>">
+                          <a class="btn btn-danger btn-sm" href="./delete-project.php?id=<?php echo $row['id']?>" onclick = "return confirm('Bạn chắc chưa')">
                               <i class="fas fa-trash">
                               </i>
                               Delete

@@ -84,7 +84,7 @@ if (!isset($_SESSION['user'])) {
                 <form role="form" action="add-project.php" method = "post">
                   <!-- Tag -->
                   <div class="form-group">
-                    <label>id_project</label>
+                    <label>id_project<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "id_project" class="form-control" placeholder="Enter ..." >
                   </div>
                   <?php 
@@ -92,7 +92,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['id_project'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
@@ -100,7 +100,7 @@ if (!isset($_SESSION['user'])) {
                   ?>
                   <!-- name -->
                   <div class="form-group">
-                    <label>Name</label>
+                    <label>Name<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <textarea class="form-control" rows="3" name="name" placeholder="Enter ..."></textarea>
                   </div>
                   <?php 
@@ -108,14 +108,14 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['name'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
                     }
                   ?>
                   <div class="form-group">
-                    <label>Leader</label>
+                    <label>Leader<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "leader" class="form-control" placeholder="Enter ...">
                   </div>
                   <?php 
@@ -123,14 +123,14 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['leader'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
                     }
                   ?>
                   <div class="form-group">
-                    <label>Workplace</label>
+                    <label>Workplace<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "workplace" class="form-control" placeholder="Enter ...">
                   </div>
                   <?php 
@@ -138,14 +138,14 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['workplace'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
                     }
                   ?>
                   <div class="form-group">
-                    <label>Approval_date</label>
+                    <label>Approval_date<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "approval_date" class="form-control" placeholder="Enter ...">
                   </div>
                   <?php 
@@ -153,14 +153,14 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['approval_date'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
                     }
                   ?>
                    <div class="form-group">
-                    <label>Acceptance_date</label>
+                    <label>Acceptance_date<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "acceptance_date" class="form-control" placeholder="Enter ...">
                   </div>
                   <?php 
@@ -168,7 +168,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['acceptance_date'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">P<div class= "text-danger" style="display: inline-block;">*</div>Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
@@ -181,7 +181,7 @@ if (!isset($_SESSION['user'])) {
                   ?>
                   <!-- Type -->
                   <div class="form-group">
-                    <label>Type</label>
+                    <label>Type<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <select class="form-control select2" name = "type" style="width: 100%;">
                       <?php 
                       if (mysqli_num_rows($result1) > 0){
@@ -196,7 +196,7 @@ if (!isset($_SESSION['user'])) {
                   </div>
 
                   <div class="form-group">
-                    <label>Result</label>
+                    <label>Result<div class= "text-danger" style="display: inline-block;">*</div></label>
                     <input type="text" name = "result" class="form-control" placeholder="Enter ...">
                   </div>
                   <?php 
@@ -204,7 +204,7 @@ if (!isset($_SESSION['user'])) {
                      if (empty($_SESSION['result'])) {
                   ?>
                   <div class="input-group">
-                    <div class= " text-danger">please fill in the blanks</div>
+                    <div class= " text-danger">Please fill in the blanks</div>
                   </div>
                   <?php      
                       }
