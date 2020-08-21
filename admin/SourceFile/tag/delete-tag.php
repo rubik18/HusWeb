@@ -2,6 +2,9 @@
 // Kết nối
 	require'../db/connect.php';
 	$conn->set_charset("utf8");
+	if (!isset($_SESSION['user'])) {
+	header("Location:login/login.php");die();
+	}
 // Tạo mã SQL
 	$id = (int)$_GET['id'];
 	$sql = "UPDATE `tag` SET `deleted_at` = {$id} WHERE `id` = {$id} AND `deleted_at` is NULL";
