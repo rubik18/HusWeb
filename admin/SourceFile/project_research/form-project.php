@@ -98,6 +98,15 @@ if (!isset($_SESSION['user'])) {
                       }
                     }
                   ?>
+                  <?php 
+                    if (@$_GET['exited'] == true) {
+                  ?>
+                  <div class="input-group mb-3">
+                    <div class= "alert-light text-danger">Exited id_project</div>
+                  </div>
+                  <?php      
+                    }
+                  ?>
                   <!-- name -->
                   <div class="form-group">
                     <label>Name<div class= "text-danger" style="display: inline-block;">*</div></label>
