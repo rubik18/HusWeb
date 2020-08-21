@@ -2,17 +2,17 @@
 // kết nối
   require'../db/connect.php';
 // Chuỗi kết nối
+   session_start();
+// var_dump($_SESSION['user']);die();
+if (!isset($_SESSION['user'])) {
+ header("Location: /php-intership-team/admin/SourceFile/login/login.php");
+}
   $sql = "SELECT * FROM `user` WHERE user.deleted_at is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
-  session_start();
-// var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
-  header("Location: /php-intership-team/admin/SourceFile/login/login.php");
-}
  ?>
 
 <!DOCTYPE html>
@@ -105,13 +105,13 @@ if (!isset($_SESSION['user'])) {
                       <i class="fas fa-user"></i> View Profile
                     </a>
 
-                    <a class="btn btn-secondary btn-sm" href="#">
+                    <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
                       </i>
                         Edit
                     </a>
                                        
-                    <a class="btn btn-danger btn-sm" href="delete-admin.php?id= <?php echo $row['id']?>">
+                    <a class="btn btn-danger btn-sm" href="delete-admin.php?id=<?php echo $row['id']?>" onclick =" return confirm('Do you want to delete?')">
                       <i class="fas fa-trash">
                       </i>
                       Delete
