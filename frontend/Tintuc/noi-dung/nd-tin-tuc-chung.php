@@ -14,14 +14,14 @@
     die('error'. mysqli_error($conn));
   }
 
-  $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+  $sqli = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 10";
     $conn->set_charset("utf8");
     $resulti = mysqli_query($conn, $sqli); 
     if (!$resulti) {
          die('error'. mysqli_error($conn));
     }
 
-  $sqlk = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.id ASC";
+  $sqlk = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id = 8 AND new.deleted_at is NULL ORDER BY new.id ASC LIMIT 10";
     $conn->set_charset("utf8");
     $resultk = mysqli_query($conn, $sqlk); 
     if (!$resulti) {

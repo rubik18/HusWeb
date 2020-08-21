@@ -15,7 +15,7 @@
     die('error'. mysqli_error($conn));
   }
 
-  $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Tin tức chung' AND new.deleted_at is NULL ORDER BY new.created_at DESC";
+  $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Tin tức chung' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 10";
         $conn->set_charset("utf8");
         $resultlist = mysqli_query($conn, $sqlist);
         if (!$resultlist) {
@@ -204,7 +204,7 @@
                                      <!-- //////////////// -->
                                 
                                 <!-- /////Last/////// -->
-                            <?php    if($page == $count && $count>2){?>
+                            <?php    if($page == $count && $count>1){?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintucchung.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
                                      <li>

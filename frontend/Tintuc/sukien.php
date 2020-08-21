@@ -5,10 +5,10 @@
     }else {
         $page = 1;
     }
-    $ipage = ($page-1) * 9;
+    $ipage = ($page-1) * 3;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='2' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 9";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='2' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 3";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -127,7 +127,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                          $count = ceil($row['COUNT(*)'] /9) ;
+                                          $count = ceil($row['COUNT(*)'] /3) ;
                                         }
                                     }
                                     /////First/// 
@@ -202,7 +202,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                                      <!-- //////////////// -->
                                 
                                 <!-- /////Last/////// -->
-                            <?php    if($page == $count && $count>2){?>
+                            <?php    if($page == $count && $count>1){?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="sukien.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
                                      <li>
