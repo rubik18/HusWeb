@@ -99,9 +99,6 @@ if (!isset($_SESSION['user'])) {
 
                 <div class="card-footer">
                   <div class="text-right">
-                    <a href="#" class="btn btn-sm btn-primary">
-                      <i class="fas fa-user"></i> View Profile
-                    </a>
 
                     <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
