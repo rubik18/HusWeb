@@ -200,44 +200,5 @@ if (!isset($_SESSION['user'])) {
 <script src="../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../dist/js/demo.js"></script>
-<script>
-  $(function () {
-    // Summernote
-    $('.textarea').summernote()
-  })
-  //Date range picker with time picker
-    $('#reservationtime').daterangepicker({
-      timePicker: true,
-      timePickerIncrement: 30,
- 
-      startDate: "<?php echo $row['start_date']?>",
-      endDate: "<?php echo $row['end_date'] ?>",
-      locale: {
-        format: 'MM/DD/YYYY hh:mm A'
-      }
-    })
-    $(document).ready(function(){
-    $('#reservationtime').prop("disabled", true);
-    $('#option').click(function(){
-            if($(this).val() == '2'){
-                $('#reservationtime').prop("disabled", false);
-            }
-            else{
-                $('#reservationtime').prop("disabled", true);
-            }
-        });
-    });
-    $(document).ready(function(){
-    $('#location').prop("disabled", true);
-    $('#option').click(function(){
-            if($(this).val() == '2'){
-                $('#location').prop("disabled", false);
-            }
-            else{
-                $('#location').prop("disabled", true);
-            }
-        });
-    });
-</script>
 </body>
 </html>

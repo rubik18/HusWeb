@@ -92,7 +92,7 @@ if (!isset($_SESSION['user'])) {
                       </ul>
                     </div>
                     <div class="col-5 text-center">
-                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 100px; height : 100px;">
+                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 80px; height : 80px;">
                     </div>
                   </div>
                 </div>
