@@ -1,1 +1,4 @@
 C:\xampp\htdocs\php-intership-team\img
+.jpg
+.png
+.jpeg
