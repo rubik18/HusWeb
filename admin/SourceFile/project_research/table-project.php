@@ -2,7 +2,7 @@
 // kết nối
   require'../db/connect.php';
 // Chuỗi kết nối
-  $sql = "SELECT * FROM topic_project WHERE deleted_at is NULL";
+  $sql = "SELECT * FROM topic_project, type_topic_project WHERE topic_project.id_type = type_topic_project.id AND topic_project.deleted_at is NULL";
   $conn->set_charset("utf8"); 
   $result = mysqli_query($conn, $sql);
   if (!$result) {
@@ -101,7 +101,7 @@ if (!isset($_SESSION['user'])) {
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['lead_researcher'] ?></td>
                     <td><?php echo $row['workplace'] ?></td>
-                    <td><?php echo $row['id_type'] ?></td>
+                    <td><?php echo $row['name_type'] ?></td>
                     <td><?php echo $row['result'] ?></td>
                     <td class="project-actions text-right">
                           <a class="btn btn-secondary btn-sm" href="./updateFrom.php?id=<?php echo $row['id']?>">
