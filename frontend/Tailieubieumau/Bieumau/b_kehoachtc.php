@@ -36,42 +36,34 @@
                         <div id="dnn_ContentPane">
                         <div class="DnnModule DnnModule-DNN_HTML DnnModule-12909"><a name="12909"></a>
                         <div class="post-container">
-                            <h1 class="post-title"><span id="dnn_ctr12909_TITLE1_titleLabel" class="Head">Hợp tác quốc tế</span></h1>
-                        <div class="post-content"><div id="dnn_ctr12909_ContentPane">
-                            <!-- Start_Module_12909 -->
-                        <div id="dnn_ctr12909_ModuleContent">
-                    <div id="dnn_ctr12909_HtmlModule_lblContent" class="Normal">
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">1.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu xin tổ chức hội thảo.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">2.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu kế hoạch đo&agrave;n ra.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">3.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu kế hoạch đo&agrave;n v&agrave;o.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">4.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu dự to&aacute;n chi đo&agrave;n đi c&ocirc;ng t&aacute;c nước ngo&agrave;i.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">5.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu đơn xin gia hạn visa, tạm tr&uacute; cho kh&aacute;ch nước ngo&agrave;i.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">6.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu đơn xin visa cho kh&aacute;ch nước ngo&agrave;i.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">7.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu đơn xin đi nước ngo&agrave;i.
-                            </a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">8.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu đơn xin đi nước ngo&agrave;i học sinh, sinh vi&ecirc;n.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">9.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu phiếu thanh to&aacute;n đi nước ngo&agrave;i.</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">10.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu xin sử dụng xe &ocirc;t&ocirc;.&nbsp;</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">11.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">C&aacute;c giấy tờ cần thiết khi xin visa H&agrave;n Quốc để dự hội nghị, hội thảo d&agrave;nh cho c&aacute;c c&aacute;n bộ thuộc c&aacute;c Viện Nghi&ecirc;n cứu hoặc Giảng vi&ecirc;n thuộc c&aacute;c trường Đại học</a></p>
-                        <p style="margin-bottom: 1rem; padding-bottom: 0px; color: #434343; line-height: 1.5em; font-family: Roboto, sans-serif; text-align: justify; background-color: #ffffff;">12.&nbsp;
-                            <a href="" style="color: #1b1b1b; transition-duration: 500ms; outline-style: none; outline-width: initial; border-bottom-width: 1px; border-bottom-style: dotted;">Mẫu xin sử dụng ph&ograve;ng Chuy&ecirc;n gia.</a></p>
-                    </div>
+                            <h1 class="post-title"><span id="dnn_ctr12909_TITLE1_titleLabel" class="Head">Biểu Mẫu</span></h1>
+                            <div id="dnn_ctr16028_ContentPane"><!-- Start_Module_16028 --><div id="dnn_ctr16028_ModuleContent">
+    <div id="dnn_ctr16028_HtmlModule_lblContent" class="Normal">
+    <p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">1. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/1.Mau%201A-%20Hop%20dong%20de%20tai%20Nafosted-%20ky%20voi%20CNDT.doc" tabindex="0">Mẫu 1A- Hợp đồng đề tài Nafosted- ký với Chủ nhiệm đề tài</a></span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">2. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/2.Mau%201B-%20Hop%20dong%20de%20tai%20Nafosted-%20ky%20voi%20thanh%20vien.doc" tabindex="0">Mẫu 1B- Hợp đồng đề tài Nafosted- ký với thành viên</a><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">3. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/5.Mau%20HD%20Cong%20lao%20dong%20de%20tai%20QG.doc" tabindex="0">Mẫu 3 - HĐ Công Lao Động Đề tài cấp ĐHQGHN</a><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">4. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/6.Mau%20HD%20de%20tai%20Tay%20Bac.docx" tabindex="0">Mẫu HĐ đề tài Tây Bắc</a><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">5. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/3.Mau%20To%20trinh%20su%20dung%20kinh%20phi%20de%20tai%20NAFOSTED.doc" tabindex="0">Tờ trình sử dụng kinh phí đề tài</a><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">6. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/8.Huong%20dan%20thanh%20toan.doc" tabindex="0">Hướng dẫn thanh toán 2018</a><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">7. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/4.Mau%20QD%20giao%20thuc%20hien%20noi%20dung%20TKCM.doc" tabindex="0">Quyết định&nbsp;</a><span lang="EN-GB" style="text-align: left; line-height: 115%;"><a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/4.Mau%20QD%20giao%20thuc%20hien%20noi%20dung%20TKCM.doc" tabindex="0">giao thực hiện nội dung chuyên môn.</a></span><br>
+</span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">8. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/7.Mau%20HD%20de%20tai%20KCM.doc" tabindex="0">Mẫu hợp đồng thuê khoán chuyên môn.</a></span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">9.<a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/9.Mau%20hop%20dong%20xay%20dung%20thuyet%20minh.docx" tabindex="0"> Mẫu hợp đồng xây dựng thuyết minh.</a></span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">10. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/10.Mau%20tham%20khao%20Quy%20che%20chi%20tieu%20noi%20bo.doc" tabindex="0">Mẫu tham khảo quy chế chi tiêu nội bộ.</a></span></p>
+<p style="text-align: justify;"><span style="font-family: Tahoma; font-size: 13px;">11. <a href="http://hus.vnu.edu.vn/Portals/0/_UPLOAD/11.mau%20bao%20cao%20chenh%20lech.xls">Mẫu báo cáo chênh lệch.</a></span></p>
+</div>
 
-                        </div><!-- End_Module_12909 -->
-                            </div></div></div></div></div>
+</div><!-- End_Module_16028 --></div>
+
+
+                        </div></div></div>
                             <!-- Single Blog Post -->
-                        </div>
+                    </div>
                 </div>
 				<!-- end body left-->
 				<!-- start thanh bên phải -->

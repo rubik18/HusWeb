@@ -4,7 +4,7 @@ $db = array(
 	'server' => 'php-intern.cxo36tfgnhhp.ap-southeast-1.rds.amazonaws.com',
 	'username' => 'root',
 	'password' => '12345678',
-	'dbname' => 'adminhus'
+	'dbname' => 'adminHUS'
 );
 $conn =mysqli_connect( $db['server'],$db['username'], $db['password'] , $db['dbname']);
 if (!$conn) {
