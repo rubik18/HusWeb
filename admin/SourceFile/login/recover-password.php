@@ -1,8 +1,13 @@
 <?php 
 // kết nối
+  session_start();
   require'../db/connect.php';
 // Chuỗi kết nối
-  $id = (int)$_GET['id'];
+  $name = $_SESSION['user'];
+   $a =  "SELECT * FROM user WHERE user_name = '$name'";
+  $b = mysqli_query($conn,$a);
+  $c = mysqli_fetch_assoc($b);
+  $id = (int) $c['id'];
   $sql = "SELECT * FROM `user` WHERE user.id= {$id} AND `deleted_at` is NULL";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql);
@@ -14,7 +19,6 @@
   // echo "<pre>";
   // var_dump($row); die(); 
   // echo "</pre>";
-  session_start();
 // var_dump($_SESSION['user']);die();
 if (!isset($_SESSION['user'])) {
   header("Location: /php-intership-team/admin/SourceFile/login/login.php");
@@ -67,7 +71,7 @@ if (!isset($_SESSION['user'])) {
       <form action="recover-submit.php?id=<?php echo $row['id']?>" method="post" enctype="multipart/form-data">   
         <label for="exampleInputFile">Current password: </label><br>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" name = "password" value="<?php echo $row['password'] ?>">
+          <input type="password" class="form-control" name = "password" placeholder="Enter current password...">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -76,7 +80,7 @@ if (!isset($_SESSION['user'])) {
         </div>
          <label for="exampleInputFile">New password: </label><br>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" name = "repassword" value="<?php echo $row['password'] ?>">
+          <input type="password" class="form-control" name = "repassword" placeholder="Enter new password...">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -85,7 +89,7 @@ if (!isset($_SESSION['user'])) {
         </div>
          <label for="exampleInputFile">Retype password: </label><br>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" name = "repassword" value="<?php echo $row['password'] ?>">
+          <input type="password" class="form-control" name = "retype-password" placeholder="Enter retype password...">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -125,7 +129,7 @@ if (!isset($_SESSION['user'])) {
           </div>
           <!-- /.col -->
           <div class="col-2">
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            <button type="submit" class="btn btn-primary btn-block">Save changes</button>
           </div>
           <!-- /.col -->
         </div>
