@@ -41,9 +41,33 @@
                                         <!-- Start_Module_12923 -->
                                         <div id="dnn_ctr12923_ModuleContent">
                                             <div id="dnn_ctr12923_HtmlModule_lblContent" class="Normal">
-                                                <p>Đang cập nhật</p>
+                                                 <link rel="stylesheet" type="text/css" href="../../css/style-n.css">
+
+            <table border="0" cellpadding="0" cellspacing="0"  style="background-color: #ffffff; border-right-width: 0px; border-bottom-width: 0px; color: #000000; width: 568px;">
+                <tbody>
+                    <tr>
+                        <td colspan="3" style="padding: 0px; width: 568px; height: 15px;"><a href="/php-intership-team/frontend/main/index.php" style="color: #336699;" tabindex="0"><span style="font-weight: 700;">Trường Đại học khoa học Tự nhiên, ĐHQGHN</span></a></td>
+                    </tr>
+                    <!--  -->
+                    <tr>
+                        <td style="padding: 0px; width: 20px; height: 15px;">|_</td>
+                        <td colspan="2" style="padding: 0px; width: 548px; height: 15px;"><a href="/php-intership-team/frontend/Tailieubieumau/thuonghieu.php" tabindex="0">Nhận diện thương hiệu</a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
+                        <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><a href="/php-intership-team/frontend/Tailieubieumau/Thuonghieu/quydinh.php" style="color: #336699;" tabindex="0">Quy định</a></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
+                        <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="/php-intership-team/frontend/Tailieubieumau/Thuonghieu/tepvaha.php" style="color: #336699;" tabindex="0">Tệp và hình ảnh</a></span></td>
+                    </tr>
+                </tbody>
+            </table>
                                             </div>
                                         </div>
+
                                     <!-- End_Module_12923 -->
                                     </div>
                             </div>

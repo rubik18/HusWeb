@@ -156,10 +156,7 @@
                             <strong>
                                 </strong>
                         </p>
-                        <span id="dnn_ctr10933_newsviewer_ctl00_lbContent"><p style="text-align: center;"><iframe height="700px" src="/php-intership-team/img/pdf/thong-tin-last_nguyen-thi-phuong-le-chi-hoa-moi-truong.pdf" width="100%"></iframe></p>
-
-                            
-                        <p style='text-align:right; font-family: FontAwesome !important'><i style='font-family: FontAwesome !important' class='fa fa-pencil' aria-hidden='true'></i> <strong></strong></p></span>
+                        <?php echo $row['content']; ?>
                         
                         <ul class="post-tags">
                             <li><strong>Tags:</strong></li>
