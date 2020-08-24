@@ -82,8 +82,8 @@ if (!isset($_SESSION['user'])) {
              
               <div class="card bg-light">
                 <div class="card-body pt-0"> <!-- thẻ trắng -->
-                  <div class="row">
-                    <div class="col-7">
+                  <div class="row" style="margin-top: 10px!important;">
+                    <div class="col-8">
                       <h2 class="lead"><b><?php echo $row['full_name'] ?></b></h2>
  
                       <ul class="ml-4 mb-0 fa-ul text-muted">
@@ -91,8 +91,8 @@ if (!isset($_SESSION['user'])) {
                         <li class=""><span class="fa-li"><i class="fas fa-arrow-up"></i></span><?php echo $row['level'] ?></li>
                       </ul>
                     </div>
-                    <div class="col-5 text-center">
-                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 100px; height : 100px;">
+                    <div class="col-4 text-center">
+                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 70px; height : 70px;">
                     </div>
                   </div>
                 </div>

@@ -150,7 +150,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/recover-password.php" class="nav-link">
+            <a href="/php-intership-team/admin/SourceFile/login/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
               <p>Change Password</p>
             </a>
