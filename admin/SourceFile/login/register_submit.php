@@ -25,29 +25,29 @@ move_uploaded_file($file_tmp,$path);
   }
 $x = "SELECT * FROM `user` WHERE `user_name` = '$username'";
 $r = mysqli_query($conn,$x);
+
 if (mysqli_num_rows($r) > 0) {
-	header("Location:register.php?exited= Existed acc");
+  header("Location:register.php?exited= Existed acc");
+}
+elseif ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
+  header("Location:register.php?Empty=true");
+}
+elseif ( $password != $repassword) {
+  header("Location:register.php?Invalid=true");
+}
+elseif (strlen($_POST["password"]) < 8) {
+  header("Location:register.php?MinValue=fail");
 }
 else{
-	if ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
-	  header("Location:register.php?Empty= Please fill in the blanks");
-	}
-	else{
-		if ( $password != $repassword) {
-	  	header("Location:register.php?Invalid= Please enter correct repassword");
-	  }
-	  else{
-	  	if(!empty($_POST)) {
-	    var_dump($_POST);
-			  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password`) VALUES ( '$username', '$fullname','$avatar','$password')";
-			    $kq = mysqli_query($conn,$sql);
-			     if (!$kq) {
-	    			die('error'.' '. mysqli_error($conn));
-	  			}
-				header("Location:../home.php");
-	  	}
-	  }
-	}
+  	if(!empty($_POST)) {
+    var_dump($_POST);
+		  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password`) VALUES ( '$username', '$fullname','$avatar','$password')";
+		    $kq = mysqli_query($conn,$sql);
+		     if (!$kq) {
+    			die('error'.' '. mysqli_error($conn));
+  			}
+			header("Location:../home.php");
+  	}
 }
 
 

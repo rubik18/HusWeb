@@ -47,7 +47,7 @@ if (!isset($_SESSION['user'])) {
 
       <form action="register_submit.php" method="post" enctype="multipart/form-data">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" name = "full_name" placeholder="Full name">
+          <input type="text" class="form-control" name = "full_name" placeholder="Full name" value="">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -79,10 +79,20 @@ if (!isset($_SESSION['user'])) {
           </div>
         </div>
         <?php 
+          if (@$_GET['MinValue'] == true) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger">Your password is too short! You need to type a password more than 8 characters</div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- empty password -->
+        <?php 
           if (@$_GET['Empty'] == true) {
         ?>
         <div class="input-group mb-3">
-          <div class= "alert-light text-danger"><?php echo $_GET['Empty'] ?></div>
+          <div class= "alert-light text-danger">Please fill in the blanks </div>
         </div>
         <?php      
           }
@@ -92,7 +102,7 @@ if (!isset($_SESSION['user'])) {
           if (@$_GET['Invalid'] == true) {
         ?>
         <div class="input-group mb-3">
-          <div class= "alert-light text-danger"><?php echo $_GET['Invalid'] ?></div>
+          <div class= "alert-light text-danger">Please enter correct repassword</div>
         </div>
         <?php      
           }

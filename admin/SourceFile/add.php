@@ -5,6 +5,9 @@ unset($_SESSION['title']);
 unset($_SESSION['content']);
 unset($_SESSION['description']);
 unset($_SESSION['avatar']);
+unset($_SESSION['date_time']);
+unset($_SESSION['location']);
+unset($_SESSION['type']);
 require'db/connect.php';
 $conn->set_charset("utf8");
 // chuối kết nối
@@ -15,6 +18,9 @@ $conn->set_charset("utf8");
  // session
   $_SESSION['title'] = $title;
   $_SESSION['content'] = $content;
+  $_SESSION['description'] = $description;
+  $_SESSION['type'] = $id_category;
+
   
 	
 // uploadFile
@@ -40,6 +46,8 @@ move_uploaded_file($file_tmp,$path);
   if ($id_category == '2') {
   	$date_time = explode("-",$_POST['date_time']);
   	$location = $_POST['location'];
+    $_SESSION['date_time'] = $_POST['date_time'];
+    $_SESSION['location'] = $location;
   }
   else{
   	$date_time = '';

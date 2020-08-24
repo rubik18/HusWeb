@@ -44,6 +44,17 @@ if (!isset($_SESSION['user'])) {
   
 </head>
 <body class="hold-transition sidebar-mini">
+  <?php 
+    if (@$_GET['click'] == true) {
+      unset($_SESSION['title']);
+      unset($_SESSION['content']);
+      unset($_SESSION['description']);
+      unset($_SESSION['avatar']);
+      unset($_SESSION['date_time']);
+      unset($_SESSION['location']);
+      unset($_SESSION['type']);
+    }
+  ?>
 <div class="wrapper">
   <!-- Navbar -->
   <?php include './themepart/top-menu.php' ?>
@@ -99,7 +110,7 @@ if (!isset($_SESSION['user'])) {
                   <!-- Tit -->
                   <div class="form-group">
                     <label>Title <div class= "text-danger" style="display: inline-block;">*</div></label>
-                    <input type="text" name = "title" class="form-control" placeholder="Enter ...">
+                    <input type="text" name = "title" class="form-control" placeholder="Enter ..." value="<?php if (isset($_SESSION['title'])) {echo $_SESSION['title'];} ?>">
                   </div>
                   <?php 
                     if (@$_GET['empty'] == true) {
@@ -120,7 +131,8 @@ if (!isset($_SESSION['user'])) {
                       if (mysqli_num_rows($result1) > 0){
                         while ($row1 = mysqli_fetch_assoc($result1)) {                 
                       ?>
-                        <option selected="selected"  value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
+                       <!-- selected="selected" -->
+                        <option <?php if (isset($_SESSION['type']) && $_SESSION['type'] == $row1['id']) echo "selected=\"selected\" "; ?> value = <?php echo $row1['id']?>> <?php echo $row1['name']?></option>
                       <?php  
                         }
                       }
@@ -156,14 +168,14 @@ if (!isset($_SESSION['user'])) {
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="far fa-clock"></i></span>
                     </div>
-                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime" >
+                    <input type="text" class="form-control float-right" name="date_time" id="reservationtime" value="<?php if (isset($_SESSION['date_time'])) {echo $_SESSION['date_time'];} ?>">
                   </div>
                   <!-- /.input group -->
                 </div>
                 <!-- loction -->
                 <div class="form-group">
                     <label>location</label>
-                    <input type="text" name = "location" class="form-control" id = "location" placeholder="Enter ...">
+                    <input type="text" name = "location" class="form-control" id = "location" placeholder="Enter ..." value="<?php if (isset($_SESSION['location'])) {echo $_SESSION['location'];} ?>">
                   </div>
                   <!-- tag -->
                   <div class="form-group">
@@ -184,11 +196,11 @@ if (!isset($_SESSION['user'])) {
                  <!-- mô tả -->
                   <div class="form-group">
                     <label>Mô tả</label>
-                    <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..."></textarea>
+                    <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..." ><?php if (isset($_SESSION['description'])) {echo $_SESSION['description'];} ?></textarea>
                   </div>
                   <label for="exampleInputFile">Nội dung<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <textarea class="textarea" name="content" placeholder="Place some text here"
-                            style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                            style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"><?php if (isset($_SESSION['description'])) {echo $_SESSION['description'];} ?></textarea>
                   <?php 
                     if (@$_GET['empty'] == true) {
                      if (empty($_SESSION['content'])) {
