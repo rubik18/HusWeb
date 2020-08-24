@@ -41,42 +41,42 @@
             <table border="0" cellpadding="0" cellspacing="0"  style="background-color: #ffffff; border-right-width: 0px; border-bottom-width: 0px; color: #000000; width: 568px;">
                 <tbody>
                     <tr>
-                        <td colspan="3" style="padding: 0px; width: 568px; height: 15px;"><a href="http://hus.vnu.edu.vn/" style="color: #336699;" tabindex="0"><span style="font-weight: 700;">Trường Đại học khoa học Tự nhiên, ĐHQGHN</span></a></td>
+                        <td colspan="3" style="padding: 0px; width: 568px; height: 15px;"><a href="/php-intership-team/frontend/main/index.php" style="color: #336699;" tabindex="0"><span style="font-weight: 700;">Trường Đại học khoa học Tự nhiên, ĐHQGHN</span></a></td>
                     </tr>
                     <!--  -->
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td colspan="2" style="padding: 0px; width: 548px; height: 15px;"><a href="http://hus.vnu.edu.vn/tai-lieu-bieu-mau/bieu-mau.html" tabindex="0">Biểu mẫu</a></td>
+                        <td colspan="2" style="padding: 0px; width: 548px; height: 15px;"><a href="/php-intership-team/frontend/Tailieubieumau/bieumau.php" tabindex="0">Biểu mẫu</a></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><a href="http://hus.vnu.edu.vn/can-bo/van-ban-lien-quan/tai-lieu-bieu-mau-58836.html" style="color: #336699;" tabindex="0">Cán bộ</a></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_canbo.php" style="color: #336699;" tabindex="0">Cán bộ</a></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="http://hus.vnu.edu.vn/hoc-sinh-sinh-vien/van-ban-lien-quan/tai-lieu-bieu-mau-58863.html" style="color: #336699;" tabindex="0">Học sinh - sinh viên</a></span></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_hssv.php" style="color: #336699;" tabindex="0">Học sinh - sinh viên</a></span></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="http://hus.vnu.edu.vn/tai-lieu-bieu-mau/bieu-mau/dao-tao.html" tabindex="0">Đào tạo</a></span></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_daotao.php" tabindex="0">Đào tạo</a></span></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="http://hus.vnu.edu.vn/khoa-hoc-cong-nghe/van-ban-lien-quan/tai-lieu-bieu-mau-58768.html" style="color: #336699;" tabindex="0">Khoa học công nghệ</a></span></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_khcn.php" style="color: #336699;" tabindex="0">Khoa học công nghệ</a></span></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;">|_</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="http://hus.vnu.edu.vn/hop-tac-quoc-te/van-ban-lien-quan/tai-lieu-bieu-mau-58853.html" style="color: #336699;" tabindex="0">Hợp tác quốc tế</a></span></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="color: #336699;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_htqt.php" style="color: #336699;" tabindex="0">Hợp tác quốc tế</a></span></td>
                     </tr>
                     <tr>
                         <td style="padding: 0px; width: 20px; height: 15px;">&nbsp;</td>
                         <td valign="top" style="padding: 0px; width: 20px; height: 15px;"><span style="background-color: #ffffff;">|_</span>&nbsp;</td>
-                        <td style="padding: 0px; width: 528px; height: 15px;"><a href="http://hus.vnu.edu.vn/tai-lieu-bieu-mau/bieu-mau/ke-hoach-tai-chinh.html" style="background-color: #ffffff;" tabindex="0">Kế hoạch - Tài chính</a><span style="background-color: #ffffff;"><a href="http://hus.vnu.edu.vn/tai-lieu-bieu-mau/bieu-mau/ke-hoach-tai-chinh.html">&nbsp;&nbsp;</a></span></td>
+                        <td style="padding: 0px; width: 528px; height: 15px;"><span style="background-color: #ffffff;"><a href="/php-intership-team/frontend/Tailieubieumau/Bieumau/b_kehoachtc.php" style="background-color: #ffffff;" tabindex="0">Kế hoạch - Tài chính</a></span></td>
                     </tr>
                 </tbody>
             </table>
