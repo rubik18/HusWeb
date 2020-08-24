@@ -289,8 +289,57 @@
 																         <li><a  href=" ">5</a></li>
 																         <li><a  class="inactive" href="">Tiếp</a></li>
 																    </ul>
-																    
+																    <li><a class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+									                                <li><a href="de-tai-du-an-CNKH.php">1</a></li>
+									                                <?php for ($x = 2; $x <= 3 && $x<=$count; $x++) {
+								                                      if( $x==$page ){ ?>
+								                                      	<li><a class="active" href="de-tai-du-an-CNKH.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+									                                <?php } elseif($x!=$page){ ?>
+									                                <li><a  href="de-tai-du-an-CNKH.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+									                                <?php }} ?>
+									                                <?php } ?>
+									                                <!-- ////// -->
+									                                <?php
+										                            $list = ceil($count/10);
+										                            for($j=2 ; $j<=$list ; $j++){
+										                                $k = ($j-1)*10+1;
+										                                if($page>=$k && $page<$k+10 && $page<$count){ ?>
+										                                    <li><a class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo $page-1;?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+										                                <?php for ($x = $k; $x <$k+10 && $x<=$count; $x++) {
+										                                        if( $x==$page ){
+										                                ?>
+										                                <li><a class="active" href="de-tai-du-an-CNKH.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+
+										                                <?php   }else if($x!=$page){ ?>
+										                                <li><a href="de-tai-du-an-CNKH.php?page=<?php echo $x ?>"><?php echo $x; ?></a></li>
+										                            <?php }} ?>
+									                                <li><a  class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo $page+1;?>" style="padding-top: 10px !important"><i class="fa fa-angle-double-right"></i></a></li>
+									                                <?php }} ?>
+									                                <?php  if($page == $count && $count>2){?>
+								                                    <li><a class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
+								                                    <li><a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="de-tai-du-an-CNKH.php?page=<?php echo $page-2 ?>"><?php echo $page-2 ?></a></li>
+								                                    <li>
+								                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1"  href="de-tai-du-an-CNKH.php?page=<?php echo $page-1 ?>"><?php echo $page-1 ?></a></li>
+								                                    <li>
+								                                    <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnPg1" class="active"  href="de-tai-du-an-CNKH.php?page=<?php echo $page ?>"><?php echo $page ?></a></li>
+								                                   <?php }?>
 																</div>
+																<?php
+									                                    for ($i = 1; $i <= $total_page; $i++){
+									                                    	if ($i == $current_page){
+									                                ?>
+															        <li><a class="active"  href="de-tai-du-an-CNKH.php?page=1">1</a></li>
+															    	<?php }  else{?>
+
+															        <li><a  href="de-tai-du-an-CNKH.php?page=<?php echo $i ?>"><?php echo $i; ?></a></li>
+															    	<?php } }?>
+															    	<?php if ($current_page < $total_page && $total_page > 1){ ?>
+															        <li><a  class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo ($current_page+1) ?>">Tiếp</a></li>
+															         
+															     	<?php } 
+									            //                     	
+									                                ?>
 															</td>
 														</tr>
 													</tbody>
