@@ -26,8 +26,18 @@ move_uploaded_file($file_tmp,$path);
   }
 $x = "SELECT * FROM `user` WHERE `user_name` = '$username'";
 $r = mysqli_query($conn,$x);
+
 if (mysqli_num_rows($r) > 0) {
-	header("Location:register.php?exited= Existed acc");
+  header("Location:register.php?exited= Existed acc");
+}
+elseif ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
+  header("Location:register.php?Empty=true");
+}
+elseif ( $password != $repassword) {
+  header("Location:register.php?Invalid=true");
+}
+elseif (strlen($_POST["password"]) < 8) {
+  header("Location:register.php?MinValue=fail");
 }
 else{
 	if ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
@@ -49,6 +59,7 @@ else{
 	  	}
 	  }
 	}
+
 }
 
 
