@@ -2,11 +2,14 @@
 //connect
 require '../db/connect.php';
 // kiểm tra điền đầy đủ thông tin
+unset($_SESSION['register']);
 $username = $_POST["user_name"];
 $fullname = $_POST["full_name"];
 $password = md5($_POST["password"]);
 $repassword =md5($_POST["repassword"]);
 $lever = $_POST["type"];
+//session
+$_SESSION['register'] = $_POST;
 //lấy tên của file:
 // var_dump($_FILES['fileupload']);die();
 $file_name=$_FILES['fileupload']["name"];
@@ -15,7 +18,7 @@ $file_tmp =$_FILES['fileupload']['tmp_name'];
 //tạo đường dẫn lưu file trên host:
 $path ="upload/".$file_name;
 $link ="/php-intership-team/admin/SourceFile/login/upload/".$file_name;
-if ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
+if ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($_POST["password"]) || empty($_POST['repassword']) ) {
   header("Location:register.php?Empty=true");
   return fail;
 }
