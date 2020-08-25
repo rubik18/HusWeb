@@ -108,25 +108,22 @@ if (!isset($_SESSION['admin'])) {
         <?php      
           }
         ?>
-             <div class="form-group">
-                  <label for="exampleInputFile">Avatar</label>
-                  <div>
-                    Chọn file để upload:
-                    <input type="file" name="fileupload" id="fileupload" accept="image/*">
-                    <img src="<?php echo $row['avatar'] ?>" style ="width: 100px; height: 100px" >
-                    <br>URL :
-                    <input type="text" name = "URL" class="form-control" value="<?php echo $row['avatar'] ?>" style="border-right: 1.5px solid #dee2e6 !important;">
-                  </div>
-                </div>
-          
-
-        
+     <div class="form-group">
+          <label for="exampleInputFile">Avatar</label>
+          <div>
+            Chọn file để upload:
+            <input type="file" name="fileupload" id="fileupload" accept="image/*">
+            <img src="<?php echo $row['avatar'] ?>" style ="width: 100px; height: 100px" >
+            <br>URL :
+            <input type="text" name = "URL" class="form-control" value="<?php echo $row['avatar'] ?>" style="border-right: 1.5px solid #dee2e6 !important;">
+          </div>
+        </div>     
         <div><label>Level</label></div>
         <div class="input-group mb-3">
           <select class="form-control " name = "level" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
             <option selected="selected" value="<?php echo $row['level'] ?>"><?php echo $row['level'] ?></option>
-            <option  value ="1">1</option>
-            <option  value ="2">2</option>
+            <option  value ="Admin">Admin</option>
+            <option  value ="Editor">Editor</option>
           </select>
         </div>
         <div class="row">

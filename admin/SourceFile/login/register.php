@@ -150,11 +150,11 @@ if (!isset($_SESSION['admin'])) {
           
 
         
-        <div><label>Lever</label></div>
+        <div><label>Level</label></div>
         <div class="input-group mb-3">
           <select class="form-control " name = "type" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
-            <option selected="selected" value ="1">1</option>
-            <option selected="selected" value ="2">2</option>
+            <option selected="selected" value ="Admin">Admin</option>
+            <option selected="selected" value ="Editor">Editor</option>
           </select>
         </div>
         <div class="row">

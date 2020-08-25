@@ -1,13 +1,14 @@
 <?php 
 //connect
 require '../db/connect.php';
+ $conn->set_charset("utf8");
 // kiểm tra điền đầy đủ thông tin
 unset($_SESSION['register']);
 $username = $_POST["user_name"];
 $fullname = $_POST["full_name"];
 $password = md5($_POST["password"]);
 $repassword =md5($_POST["repassword"]);
-$lever = $_POST["type"];
+$level = $_POST["type"];
 //session
 $_SESSION['register'] = $_POST;
 //lấy tên của file:
@@ -48,12 +49,12 @@ elseif (strlen($_POST["password"]) < 8) {
 else{
   	if(!empty($_POST)) {
     var_dump($_POST);
-		  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password` ,`lever`) VALUES ( '$username', '$fullname','$avatar','$password','$lever')";
+		  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password` ,`level`) VALUES ( '$username', '$fullname','$avatar','$password','$level')";
 		    $kq = mysqli_query($conn,$sql);
 		     if (!$kq) {
     			die('error'.' '. mysqli_error($conn));
   			}
-			header("Location:../home.php");
+			header("Location:\php-intership-team\admin\SourceFile\contacts/contacts-table.php");
   	}
 }
 ?>

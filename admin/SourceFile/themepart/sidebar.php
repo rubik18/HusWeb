@@ -139,9 +139,9 @@
               </p>
             </a>
           </li> -->
-          <li class="nav-header">SETTING</li>
+          <li class="nav-header">CÀI ĐẶT</li>
           <?php 
-            if (@$_SESSION['admin']['level'] == 1){
+            if (@$_SESSION['admin']['level'] == 'Admin'){
             ?>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/register.php" class="nav-link">
@@ -153,13 +153,13 @@
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
-              <p>Change Password</p>
+              <p>Đổi mật khẩu</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/logout.php" class="nav-link">
               <i class="fas fa-sign-out-alt nav-icon"></i>
-              <p>Logout</p>
+              <p>Đăng xuất</p>
             </a>
           </li>
         </ul>

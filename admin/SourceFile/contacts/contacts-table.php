@@ -99,7 +99,7 @@ if (!isset($_SESSION['admin'])) {
                 <div class="card-footer">
                   <div class="text-right">
                      <?php 
-                     if (@$_SESSION['admin']['level'] == 1){
+                     if (@$_SESSION['admin']['level'] == 'Admin'){
                       ?>
                     <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
