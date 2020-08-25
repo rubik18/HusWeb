@@ -48,7 +48,7 @@ elseif (strlen($_POST["password"]) < 8) {
 else{
   	if(!empty($_POST)) {
     var_dump($_POST);
-		  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password`) VALUES ( '$username', '$fullname','$avatar','$password')";
+		  $sql = "INSERT INTO `user` ( `user_name`, `full_name`,`avatar`,`password` ,`lever`) VALUES ( '$username', '$fullname','$avatar','$password','$lever')";
 		    $kq = mysqli_query($conn,$sql);
 		     if (!$kq) {
     			die('error'.' '. mysqli_error($conn));
