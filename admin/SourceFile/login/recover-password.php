@@ -4,7 +4,7 @@
   require'../db/connect.php';
 // Chuỗi kết nối
   $name = $_SESSION['user'];
-   $a =  "SELECT * FROM user WHERE user_name = '$name'";
+   $a =  "SELECT * FROM user WHERE user_name = '$name'";       
   $b = mysqli_query($conn,$a);
   $c = mysqli_fetch_assoc($b);
   $id = (int) $c['id'];
@@ -12,7 +12,6 @@
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql);
   $row = mysqli_fetch_assoc($result);
-  
   if (!$result) {
     die('error'. mysqli_error($conn));
   }
