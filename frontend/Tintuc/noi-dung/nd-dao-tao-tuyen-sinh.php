@@ -41,8 +41,8 @@
         
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/tictuc_tham.css">
         <link rel="stylesheet" type="text/css" href="/php-intership-team/css/canbo_tham.css">
-        <div class="main-content-wrapper" >
-            <div class="container" id="In4">
+        <div class="main-content-wrapper" id="In4" >
+            <div class="container" >
                  <!--------start thanh muc luc------------------->
                 <div class="breadcrumb" style="height: 45px !important; overflow: hidden!important; ">
                     <div class="row" >
@@ -128,7 +128,7 @@
                                     <span class="at-label" style="font-size: 10.5px; line-height: 20px; height: 20px; color: rgb(255, 255, 255);">LinkedIn&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 </a>
                                 
-                                <a href="javascript:void(0)" onclick="In_Content('In')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-print" style="background-color: rgb(115, 138, 141); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
+                                <a href="javascript:void(0)" onclick="In_Content('In4')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-print" style="background-color: rgb(115, 138, 141); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
                                     <span class="at4-visually-hidden "></span>
 
                                     <span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px;">
