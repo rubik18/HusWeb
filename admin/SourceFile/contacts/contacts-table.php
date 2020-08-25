@@ -96,10 +96,8 @@ if (!isset($_SESSION['admin'])) {
                     </div>
                   </div>
                 </div>
-
                 <div class="card-footer">
-                  <div class="text-right">
-
+                  <div class="text-right">                  
                     <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
                       </i>

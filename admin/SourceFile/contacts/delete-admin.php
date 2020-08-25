@@ -4,7 +4,7 @@
 	  session_start();
 // var_dump($_SESSION['user']);die();
 
-if (!isset($_SESSION['admin'])) {
+if (!isset($_SESSION['admin']) and $_SESSION['admin']['level'] == 1 ) {
  header("Location: /php-intership-team/admin/SourceFile/login/login.php");die();
 }
 	$conn->set_charset("utf8");
