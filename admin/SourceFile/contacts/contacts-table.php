@@ -99,22 +99,23 @@ if (!isset($_SESSION['admin'])) {
 
                 <div class="card-footer">
                   <div class="text-right">
-
+                     <?php 
+                     if (@$_SESSION['admin']['level'] == 1){
+                      ?>
                     <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
                       </i>
                         Edit
                     </a>
-                                       
-                    <a class="btn btn-danger btn-sm" href="delete-admin.php?id=<?php echo $row['id']?>" onclick =" return confirm('Do you want to delete?')">
+                      <a class="btn btn-danger btn-sm" href="delete-admin.php?id=<?php echo $row['id']?>" onclick =" return confirm('Do you want to delete?')">
                       <i class="fas fa-trash">
                       </i>
                       Delete
                     </a>
+              <?php } ?>
                   </div>
                 </div>
-              </div>
-             
+              </div>   
             </div>
              <?php 
                   $i++;
