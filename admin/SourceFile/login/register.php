@@ -155,7 +155,6 @@ if (!isset($_SESSION['admin'])) {
           <select class="form-control " name = "type" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
             <option selected="selected" value ="1">1</option>
             <option selected="selected" value ="2">2</option>
-            <option selected="selected" value ="3">3</option>
           </select>
         </div>
         <div class="row">

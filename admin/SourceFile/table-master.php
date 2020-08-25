@@ -85,7 +85,7 @@ if (!isset($_SESSION['admin'])) {
                     <th>Type</th>
                     <th>Avatar</th>
                     <th>Description</th>
-                    <th>Action</th>
+                    <th>Action</th>    
                   </tr>
                   </thead>
                   <tbody>

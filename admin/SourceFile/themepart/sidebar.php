@@ -123,7 +123,6 @@
               </li>
             </ul>
           </li>
-          
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/form-test.php?click=a" class="nav-link">
               <i class="nav-icon fas fa-plus-circle"></i>
@@ -141,12 +140,16 @@
             </a>
           </li> -->
           <li class="nav-header">SETTING</li>
+          <?php 
+            if (@$_SESSION['admin']['level'] == 1){
+            ?>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/register.php" class="nav-link">
               <i class="fas fa-user-circle nav-icon"></i>
               <p>Tạo admin</p>
             </a>
           </li>
+          <?php } ?>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
