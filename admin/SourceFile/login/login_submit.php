@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
   	header("Location:login.php?Empty= Please fill in the blanks");
   }
   else{
-  	$sql = "SELECT * FROM user WHERE user_name = '$username' AND password = '$password'";
+  	$sql = "SELECT * FROM user WHERE user_name = '$username' AND password = '$password' AND deleted_at is null";
   	$result = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($result);
   	if (mysqli_num_rows($result) > 0) {
