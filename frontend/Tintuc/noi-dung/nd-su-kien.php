@@ -114,7 +114,7 @@
                         <!--  -->
                          <div class='social'>
                             <div class="at-share-btn-elements">
-                                <a href="javascript:void(0)" onclick="Share_Content('http://www.facebook.com/sharer.php?u=nd-thong-bao.php?id=<?php echo $id ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-facebook"  style="background-color: rgb(59, 89, 152); border-radius: 6px;padding: 5px;margin-bottom: 5px;">
+                                <a href="javascript:void(0)" onclick="Share_Content('http://www.facebook.com/sharer.php?u=nd-su-kien.php?id=<?php echo $id ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-facebook"  style="background-color: rgb(59, 89, 152); border-radius: 6px;padding: 5px;margin-bottom: 5px;">
                                     <span class="at4-visually-hidden"></span>
                                     <span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-facebook-1" class="at-icon at-icon-facebook" style="fill: rgb(255, 255, 255); width: 20px; height: 20px;">
@@ -124,7 +124,7 @@
                                     </span>
                                     <span class="at-label" style="font-size: 10.5px; line-height: 20px; height: 20px; color: rgb(255, 255, 255);">Facebook&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 </a>
-                                <a href="javascript:void(0)" onclick="Share_Content('https://twitter.com/intent/tweet?text=<?php echo $row['title'] ?>&url=nd-thong-bao.php?id=<?php echo $id ?>&via=TWITTER-HANDLER')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-twitter" style="background-color: rgb(29, 161, 242); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
+                                <a href="javascript:void(0)" onclick="Share_Content('https://twitter.com/intent/tweet?text=<?php echo $row['title'] ?>&url=nd-su-kien.php?id=<?php echo $id ?>&via=TWITTER-HANDLER')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-twitter" style="background-color: rgb(29, 161, 242); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
                                     <span class="at4-visually-hidden"></span>
                                     <span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-twitter-2" class="at-icon at-icon-twitter" style="fill: rgb(255, 255, 255); width: 20px; height: 20px;"><title id="at-svg-twitter-2">Twitter</title>
@@ -133,7 +133,7 @@
                                     </span>
                                     <span class="at-label" style="font-size: 10.5px; line-height: 20px; height: 20px; color: rgb(255, 255, 255);">Twitter&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 </a>
-                                <a href="javascript:void(0)" onclick="Share_Content('http://pinterest.com/pin/create/button/?url=nd-thong-bao.php?id=<?php echo $id ?>&description=<?php echo $row['title'] ?>&media=<?php echo $row['avatar'] ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-email" style="background-color: rgb(132, 132, 132); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
+                                <a href="javascript:void(0)" onclick="Share_Content('http://pinterest.com/pin/create/button/?url=nd-su-kien.php?id=<?php echo $id ?>&description=<?php echo $row['title'] ?>&media=<?php echo $row['avatar'] ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-email" style="background-color: rgb(132, 132, 132); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
                                     <!-- <span class="at4-visually-hidden"></span>
                                     <span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-email-3" class="at-icon at-icon-email" style="fill: rgb(255, 255, 255); width: 20px; height: 20px;">
@@ -151,7 +151,7 @@
                                     <span class='st_email_large' displayText='Email'></span>
                                     <span class="at-label" style="font-size: 10.5px; line-height: 20px; height: 20px;padding-top: 5px;padding-bottom: 23px;padding-right: 5px;float: right; color: rgb(255, 255, 255);">Email&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 </a> -->
-                                <a href="javascript:void(0)" onclick="Share_Content('http://www.linkedin.com/shareArticle?mini=true&url=nd-thong-bao.php?id=<?php echo $id ?>&title=<?php echo $row['title'] ?>&source=nd-thong-bao.php?id=<?php echo $id ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-linkedin" style="background-color: rgb(0, 119, 181); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
+                                <a href="javascript:void(0)" onclick="Share_Content('http://www.linkedin.com/shareArticle?mini=true&url=nd-su-kien.php?id=<?php echo $id ?>&title=<?php echo $row['title'] ?>&source=nd-su-kien.php?id=<?php echo $id ?>')" role="button" tabindex="0" class="hvr-float transition" class="at-icon-wrapper at-share-btn at-svc-linkedin" style="background-color: rgb(0, 119, 181); border-radius: 6px;padding: 5px;margin-bottom: 5px; ">
                                     <span class="at4-visually-hidden"></span>
                                     <span class="at-icon-wrapper" style="line-height: 20px; height: 20px; width: 20px;">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-linkedin-4" class="at-icon at-icon-linkedin" style="fill: rgb(255, 255, 255); width: 20px; height: 20px;">

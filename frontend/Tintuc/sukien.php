@@ -5,10 +5,10 @@
     }else {
         $page = 1;
     }
-    $ipage = ($page-1) * 3;
+    $ipage = ($page-1) * 6;
   require'connectSQL.php';
 // Chuỗi kết nối
-  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='2' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 3";
+  $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`id`='2' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage, 6";
   $conn->set_charset("utf8");
   $result = mysqli_query($conn, $sql); 
   if (!$result) {
@@ -127,7 +127,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                          $count = ceil($row['COUNT(*)'] /3) ;
+                                          $count = ceil($row['COUNT(*)'] /6) ;
                                         }
                                     }
                                     /////First/// 
@@ -240,7 +240,7 @@ $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = catego
                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
                         <li class="active"><a href="">Sự kiện</a></li>
                         <li class=""><a href="thongbao.php">Thông báo</a></li>
-                        <li class=""><a href="sukien.php">Tin tức chung</a></li>
+                        <li class=""><a href="tintucchung.php">Tin tức chung</a></li>
                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
                         <li class=""><a href="daotaots.php">Đào tạo - Tuyển sinh</a></li>
                         <li class=""><a href="hoatdongkh.php">Hoạt động khoa học</a></li>

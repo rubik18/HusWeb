@@ -221,7 +221,7 @@
                                     <div class="jquery-accordion-menu-header">Tin tức </div>
                                     <ul>
                                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
-                                        <li class=""><a href="daotaots.php">Sự kiện</a></li>
+                                        <li class=""><a href="sukien.php">Sự kiện</a></li>
                                         <li class=""><a href="thongbao.php">Thông báo</a></li>
                                         <li class=""><a href="daotaotschung.php">Tin tức chung</a></li>
                                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>
