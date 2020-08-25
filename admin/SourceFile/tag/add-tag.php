@@ -6,7 +6,7 @@ $conn->set_charset("utf8");
 $tag = $_POST['tag'];
 $sql1 = "SELECT * FROM tag WHERE tag.deleted_at is NULL";
 $result = mysqli_query($conn, $sql1); 
-if ( isset($_POST['submit'])|| empty($tag){
+if ( isset($_POST['submit']) || empty($tag)){
 	header("Location:form-tag.php?Empty= Please fill in the blanks");
 }
 else{

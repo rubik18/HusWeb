@@ -1,10 +1,19 @@
+
 <title>Sứ mạng - Tầm nhìn</title>
 <!-- start header -->
+
 <?php include "../header.html" ?>
 <!-- end header -->
 
-<link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title></title>
+     <link rel="stylesheet" type="text/css" href="/php-intership-team/css/style-nhung.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ </head>
+ <body>
+    <div class="main-content-wrapper">
     <div class="container">
         <!-- thanh gioi thieu -->
         <div class="breakcrum mb-30">
@@ -15,7 +24,7 @@
                         &nbsp;
                         <img alt="*" src="\php-intership-team\img\img-nhung/breadcrumb.gif">
                         &nbsp;
-                        <a href="/php-intership-team/frontend/gioi-thieu/su-mang-tam-nhin.php" class="item">Sứ mạng - Tầm Nhìn</a>
+                        <a href="/php-intership-team/frontend/gioi-thieu/lich-su-phat-trien.php" class="item">Sứ mạng - Tầm nhìn</a>
                     </ol>
                 </div>
             </div>
@@ -24,14 +33,13 @@
         <!-- start nội dung-->
         <div class="world-latest-articles">
             <div class="row">
-                <!-- start nội dung-sứ mang_tầm nhìn -->
+                <!-- start nội dung-lịch sử phát triển -->
                 <div class="col-12 col-lg-8">
                     <div class="single-blog-content mb-50">
-                        <div id="dnn_ContentPane">
-                            <div class="DnnModule">
-                                <a ></a>
-                                <div >
-                                    <!-- Start_Module_10672 -->
+                        <div class="">
+                            <div class=" ">
+                                <a name="10666"></a>
+                                <!-- Start_Module_10672 -->
                                     <div>
                                         <div class="post-meta">
                                             <h1>Sứ mạng và Tầm nhìn</h1>
@@ -53,28 +61,26 @@
                                             <p style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><strong>”Sáng tạo, Tiên phong, Trách nhiệm xã hội”</strong></span></span></p>
                                         </div>
                                     </div>
-                                    <!-- End_Module_10672 -->
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- end nội dung - sứ mạng_tầm nhìn -->
+                <!-- end nội dung -lịch sử phát triển-->
                 <!-- start thanh bên phải -->
                 <div class="col-12 col-lg-4" >
                     <div class="bordershadown borderorange mb-15">
                         <div class="dnn_RightTopPane">
                             <div class="DnnModule ">
-                                <a ></a>
+                                <a name="11038"></a>
                                 <div class="dnn_ctr11038_ContentPane">
                                     <!-- start 11038 -->
                                     <div class="dnn_ctr11038_ModuleContent">
-                                        
+                                       
                                         <div class="content">
                                             <div class="jquery-accordion-menu">
                                                 <div class="jquery-accordion-menu-header" style="font-weight: bold;">Giới thiệu </div>
                                                 <ul class="right-me">
-                                                    <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/lich-su-phat-trien.php">Lịch sử phát triển</a></li>
+                                                    <li class=" li-me"><a href="/php-intership-team/frontend/gioi-thieu/lich-su-phat-trien.php">Lịch sử phát triển</a></li>
                                                      <li class="active li-me"><a href="/php-intership-team/frontend/gioi-thieu/su-mang-tam-nhin.php">Sứ mạng - Tầm nhìn</a></li>
                                                     <li class="li-me"><a href="/php-intership-team/frontend/gioi-thieu/chien-luoc-phat-trien.php">Chiến lược phát triển</a></li>
                                                     <script type="text/javascript" language="JavaScript" src="/php-intership-team/js/dropdown-nhung.js"></script>
@@ -132,9 +138,12 @@
             </div>
         </div>
         <!-- end nội dung -->
-
     </div>
 </div>
+ </body>
+ </html>
+
 <!--start footer -->
-<?php include "../footer.html" ?>
+ <?php include "../footer.html" ?>
 <!-- end footer -->
+

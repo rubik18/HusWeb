@@ -1,13 +1,11 @@
 <?php 
-  
-  if (!isset($_SESSION['user'])) {
+  $conn->set_charset("utf8");
+  if (!isset($_SESSION['admin'])) {
   header("Location:login/login.php");
 }
-  $name = $_SESSION['user'];
-  $conn->set_charset("utf8");
-  $s =  "SELECT * FROM user WHERE user_name = '$name'";
-  $r = mysqli_query($conn,$s);
-  $old = mysqli_fetch_assoc($r);
+  $name = $_SESSION['admin']['user_name'];
+  // $r = mysqli_query($conn,$s);
+  // $old = mysqli_fetch_assoc($r);
    // var_dump($row);die(); 
  ?>
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -25,10 +23,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo $old['avatar'] ?>" class="img-circle elevation-2" alt="User Image" style ="width:33.6px; height:33.6px " >
+          <img src="<?php echo $_SESSION['admin']['avatar'] ?>" class="img-circle elevation-2" alt="User Image" style ="width:33.6px; height:33.6px " >
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $old['user_name'] ?></a>
+          <a href="#" class="d-block"><?php echo $name ?></a>
         </div>
       </div>
 
@@ -125,7 +123,6 @@
               </li>
             </ul>
           </li>
-          
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/form-test.php?click=a" class="nav-link">
               <i class="nav-icon fas fa-plus-circle"></i>
@@ -143,14 +140,18 @@
             </a>
           </li> -->
           <li class="nav-header">SETTING</li>
+          <?php 
+            if (@$_SESSION['admin']['level'] == 1){
+            ?>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/register.php" class="nav-link">
               <i class="fas fa-user-circle nav-icon"></i>
               <p>Tạo admin</p>
             </a>
           </li>
+          <?php } ?>
           <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/recover-password.php" class="nav-link">
+            <a href="/php-intership-team/admin/SourceFile/login/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
               <p>Change Password</p>
             </a>

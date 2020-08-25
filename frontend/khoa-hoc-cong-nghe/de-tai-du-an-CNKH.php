@@ -5,15 +5,36 @@
  //  $query = mysqli_query($connect, $sql) or die ("erorr!!"); 
   	$query_type= mysqli_query($connect, "SELECT `name_type` from `type_topic_project`") or die("chịu! không thấy!"); 
  ?>
-
-<?php 
+ <?php
 
 
 if(!isset($_GET['search'])){
 	
 	if(empty($topic) && empty($type) && empty($date_from) && empty($date_to)){
-		$query = mysqli_query($connect,"SELECT * from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3)" );
-		$number= mysqli_num_rows($query); 
+	$sqllist = "SELECT COUNT(*) from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3,4,5)";
+    $query2=mysqli_query($connect, $sqllist) or die("connected error!!");
+    // var_dump($resultlist);
+    $row_page=mysqli_fetch_assoc($query2);
+    // var_dump($row_page);
+    $total_record=$row_page['COUNT(*)'];
+    // var_dump($total_record); die;
+    $current_page=isset($_GET['page']) ? $_GET['page'] : 1;
+     // var_dump($current_page);
+   
+    $limit = 10;
+    // var_dump($limit);
+    $total_page=ceil($total_record/$limit);
+    // var_dump($total_page);
+    if($current_page > $total_page){
+    	$current_page = $total_page;
+    }else if($current_page < 1){
+    	$current_page =1;
+    }
+    $start = ($current_page - 1) * $limit;
+		$query = mysqli_query($connect,"SELECT * from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3,4,5)  LIMIT $start, $limit; " );
+		$query1 = mysqli_query($connect,"SELECT * from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3,4,5) " );
+		$number= mysqli_num_rows($query1); 
+
 		// var_dump($query);
 		// if (mysqli_num_rows($query)>0) {
   //   //         while ($row = mysqli_fetch_assoc($query)) {
@@ -31,6 +52,7 @@ if(!isset($_GET['search'])){
 		$type = $_GET['topic_type'];
         $date_from = $_GET['date_from'];
         $date_to = $_GET['date_to'];
+        $limit=$_GET['page_size'];
         }
 	}
     
@@ -41,13 +63,40 @@ if(!isset($_GET['search'])){
         $date_from = $_GET['date_from'];
         $date_to = $_GET['date_to'];
         if ($topic !="" || $type !="" || $date_from !="" || $date_to !="") {
-        	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' " or die("Không tìm thấy");
+        	$sqllist = "SELECT COUNT(*) from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31'";
+            $query2=mysqli_query($connect, $sqllist) or die("connected error!!");
+    // var_dump($resultlist);
+		    $row_page=mysqli_fetch_assoc($query2);
+		    // var_dump($row_page);
+		    $total_record=$row_page['COUNT(*)'];
+		    // var_dump($total_record); die;
+		    $current_page=isset($_GET['page']) ? $_GET['page'] : 1;
+		     // var_dump($current_page);
+		   	if(isset($_GET['page_size'])){
+		   		$limit = $_GET['page_size'];
+		   	} else{
+		    $limit = 10;}
+		    // var_dump($limit);
+		    $total_page=ceil($total_record/$limit);
+		    // var_dump($total_page);
+		    if($current_page > $total_page){
+		    	$current_page = $total_page;
+		    }else if($current_page < 1){
+		    	$current_page =1;
+		    }
+    		$start = ($current_page - 1) * $limit;
+
+           	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31'" or die("Không tìm thấy");
+        	$select1="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' " or die("Không tìm thấy");
         	
         	// var_dump($select);die;
         	$query = mysqli_query($connect,$select) or die("k truy vấn được!");
-        	$number= mysqli_num_rows($query);
+        	$query1 = mysqli_query($connect,$select1) or die("k truy vấn được!");
+        	$number= mysqli_num_rows($query1);
         	// var_dump($project); 
-            
+           
+
+
 		// if (mysqli_num_rows($query) > 0){ 
   //          // while ($row = mysqli_fetch_assoc($query)) {
 
@@ -61,6 +110,7 @@ if(!isset($_GET['search'])){
         }
 	}
 ?> 
+
 
 
  
@@ -104,9 +154,9 @@ if(!isset($_GET['search'])){
                                 	<div class="post-content">
                                 		<div>
 											<div class="docralam">
-												<div class="box box-info">
-													<div class="form-horizontal">
-														<form action="de-tai-du-an-CNKH.php" method="get">
+												<form action="de-tai-du-an-CNKH.php" method="get">
+													<div class="box box-info">
+														<div class="form-horizontal">
 															<div class="row">
 																<div class="col-md-3">
 																	<label class="col-md-12">Năm công bố</label>
@@ -165,7 +215,7 @@ if(!isset($_GET['search'])){
 								                                </div>
 								                                <div class="col-md-4">
 								                                	<label>Tên đề tài</label>
-								                                		<input  type="text" name="topic_name" class="form-control" placeholder="Tên đề tài" value="<?php if(isset($_GET['topic_name'])) {echo($_GET['topic_name']);} ?>" />
+								                                		<input type="text" name="topic_name" class="form-control" placeholder="Tên đề tài" value="<?php if(isset($_GET['topic_name'])) {echo($_GET['topic_name']);} ?>" />
 								                                </div>
 								                                <div class="col-md-3">
 								                                	<label>Cấp độ</label>
@@ -189,91 +239,102 @@ if(!isset($_GET['search'])){
 
 								                                </div>
 															</div>
-														</form>
+														</div>
 													</div>
-												</div>
-												</div>
-												<table width="100%" style="padding: 10px 0px 5px 0px;">
-													<tbody>
-														<tr>
-															<td valign="bottom">
-																<table style="background-color: #d2d2d2; height: 20px; line-height: 20px;" width="100%">
-																	<tbody>
-																		<tr>
-																			<td valign="middle">Tổng số có: 
-														                        <span style="color: maroon ;font-weight:bold;"><?php echo $number; ?></span> Bản ghi
-											                                </td>
-															                <td align="right">Hiển thị
-														                        <select name="dnn$ctr11036$Main$ctl00$ddlPageSize" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr11036$Main$ctl00$ddlPageSize\',\'\')', 0)" >
-																					<option value="10">10</option>
-																					<option value="20">20</option>
-																					<option value="30">30</option>
-																				</select> số lượng / trang
-											                                </td>
-																		</tr>
-																	</tbody>
-																</table>
-															</td>
-														</tr>
-														<tr>
-															<td>
-																<table class="table table-bordered table-striped" cellspacing="0" rules="all" style="width:100%;border-collapse:collapse;">
-																	<tbody>
-																		<tr align="center" style="color:White;background-color:#007DC5;font-size:11px;font-weight:bold;">
-																			<td>Mã số đề tài</td><td>Tên đề tài</td><td>Chủ nhiệm đề tài</td><td>Tên đơn vị</td><td>Loại đề tài</td><td>Ngày Phê duyệt</td><td>Ngày nghiệm thu</td><td>Kết quả</td>
-																		</tr>
-																	
-																	<?php 
-																	if (mysqli_num_rows($query)>0) {
-																	while ($row = mysqli_fetch_assoc($query)) {
-															            // var_dump($row);die;   
-															    	?>
-																	
-																		<tr class="TRgrid">
-																			<td style="width:70px;"><?php echo $row['id_project']; 
-																			?></td>
-																			<td style="width:300px;"><?php echo $row['name'];  ?></td>
-																			<td style="width:150px;"> <?php echo $row['lead_researcher'];  ?></td>
-																			<td style="width:100px;"><?php echo $row['workplace'];  ?></td>
-																			<td style="width:120px;"><?php echo $row['name_type'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row['approval_date'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row['acceptance_date'];  ?></td>
-																			<td align="center" style="width:100px;"><?php echo $row['result'];  ?></td>
-																		</tr>
-																	<?php 
-																	}
-																	} 
-																	 else {
-														                echo "Không tìm thấy kết quả!";
-														            	}	
-																    ?>
-																    	
-																           
-																    
+													
+													<table width="100%" style="padding: 10px 0px 5px 0px;">
+														<tbody>
+															<tr>
+																<td valign="bottom">
+																	<form action="de-tai-du-an-CNKH.php" method="get">
+																	<table style="background-color: #d2d2d2; height: 20px; line-height: 20px;" width="100%">
+																		<tbody>
+																			<tr>
+																				<td valign="middle">Tổng số có: 
+															                        <span style="color: maroon ;font-weight:bold;"><?php echo $number; ?></span> Bản ghi
+												                                </td>
+																                <td align="right">Hiển thị
+															                        <select name="page_size">
+																						<option <?php if (isset($_GET['page_size']) && $_GET['page_size'] == '10') echo "selected=\"selected\" "; ?> value="10">10</option>
+																						<option <?php if (isset($_GET['page_size']) && $_GET['page_size'] == '20') echo "selected=\"selected\" "; ?> value="20">20</option>
+																						<option <?php if (isset($_GET['page_size']) && $_GET['page_size'] == '30') echo "selected=\"selected\" "; ?> value="30">30</option>
+																					</select> số lượng / trang
+												                                </td>
+																			</tr>
+																		</tbody>
+																	</table>
+																	</form>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<table class="table table-bordered table-striped" cellspacing="0" rules="all" style="width:100%;border-collapse:collapse;">
+																		<tbody>
+																			<tr align="center" style="color:White;background-color:#007DC5;font-size:11px;font-weight:bold;">
+																				<td>Mã số đề tài</td><td>Tên đề tài</td><td>Chủ nhiệm đề tài</td><td>Tên đơn vị</td><td>Loại đề tài</td><td>Ngày Phê duyệt</td><td>Ngày nghiệm thu</td><td>Kết quả</td>
+																			</tr>
 																		
-																	</tbody>
-																</table>
-															</td>
-														</tr>
-														<tr>
-															<td>                        
-																<div class="list-page">
-
+																		<?php 
+																		if (mysqli_num_rows($query)>0) {
+																		while ($row = mysqli_fetch_assoc($query)) {
+																            // var_dump($row);die;   
+																    	?>
+																		
+																			<tr class="TRgrid">
+																				<td style="width:70px;"><?php echo $row['id_project']; 
+																				?></td>
+																				<td style="width:300px;"><?php echo $row['name'];  ?></td>
+																				<td style="width:150px;"> <?php echo $row['lead_researcher'];  ?></td>
+																				<td style="width:100px;"><?php echo $row['workplace'];  ?></td>
+																				<td style="width:120px;"><?php echo $row['name_type'];  ?></td>
+																				<td align="center" style="width:100px;"><?php echo $row['approval_date'];  ?></td>
+																				<td align="center" style="width:100px;"><?php echo $row['acceptance_date'];  ?></td>
+																				<td align="center" style="width:100px;"><?php echo $row['result'];  ?></td>
+																			</tr>
+																		<?php 
+																		}
+																		} 
+																		 else {
+															                echo "Không tìm thấy kết quả!";
+															            	}	
+																	    ?>
+																	   
+																			
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td>                        
+																	<div class="list-page">
 																    <ul class="pagination pagination-split">
-																         <li></li>
-																         <li><a class="active"  href="">1</a></li>
-																         <li><a  href=" ">2</a></li>
-																         <li><a  href="">3</a></li>
-																         <li><a  href=" ">4</a></li>
-																         <li><a  href=" ">5</a></li>
-																         <li><a  class="inactive" href="">Tiếp</a></li>
+																    	
+																     	<?php
+										                                    for ($i = 1; $i <= $total_page; $i++){
+										                                    	if ($i == $current_page){
+										                                ?>
+																        <li><a class="active"  href="de-tai-du-an-CNKH.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+																    	<?php }  else{?>
+																    	
+																        <li><a  href="de-tai-du-an-CNKH.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+
+																    	<?php } }?>
+																    	<?php if ($current_page < $total_page && $total_page > 1){ ?>
+																        <li><a  class="inactive" href="de-tai-du-an-CNKH.php?page=<?php echo ($current_page+1) ?>">Tiếp</a></li>
+																         
+																     	<?php } 
+										                            	
+										                                ?>
+										                               
+
 																    </ul>
-																    
-																</div>
-															</td>
-														</tr>
-													</tbody>
-												</table>
+																	    
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
 											</div>
                                 		</div>
                                 	</div>

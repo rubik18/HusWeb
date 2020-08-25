@@ -4,7 +4,7 @@
 // Chuỗi kết nối
    session_start();
 // var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['admin'])) {
  header("Location: /php-intership-team/admin/SourceFile/login/login.php");
 }
   $sql = "SELECT * FROM `user` WHERE user.deleted_at is NULL";
@@ -80,10 +80,10 @@ if (!isset($_SESSION['user'])) {
               <!--  -->           
             <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
              
-              <div class="card bg-light">
+              <div class="card bg-light" style="width: 300px; height: 189px;">
                 <div class="card-body pt-0"> <!-- thẻ trắng -->
-                  <div class="row">
-                    <div class="col-7">
+                  <div class="row" style="margin-top: 10px!important;">
+                    <div class="col-8">
                       <h2 class="lead"><b><?php echo $row['full_name'] ?></b></h2>
  
                       <ul class="ml-4 mb-0 fa-ul text-muted">
@@ -91,30 +91,30 @@ if (!isset($_SESSION['user'])) {
                         <li class=""><span class="fa-li"><i class="fas fa-arrow-up"></i></span><?php echo $row['level'] ?></li>
                       </ul>
                     </div>
-                    <div class="col-5 text-center">
-                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 100px; height : 100px;">
+                    <div class="col-4 text-center">
+                      <img src="<?php echo $row['avatar'] ?>" alt="" class="img-circle" style ="width : 70px; height : 70px;">
                     </div>
                   </div>
                 </div>
-
                 <div class="card-footer">
                   <div class="text-right">
-
+                     <?php 
+                     if (@$_SESSION['admin']['level'] == 1){
+                      ?>
                     <a class="btn btn-secondary btn-sm" href="updateFile-admin.php?id=<?php echo $row['id']?>">
                       <i class="fas fa-pencil-alt">
                       </i>
                         Edit
                     </a>
-                                       
-                    <a class="btn btn-danger btn-sm" href="delete-admin.php?id=<?php echo $row['id']?>" onclick =" return confirm('Do you want to delete?')">
+                      <a class="btn btn-danger btn-sm" href="delete-admin.php?id=<?php echo $row['id']?>" onclick =" return confirm('Do you want to delete?')">
                       <i class="fas fa-trash">
                       </i>
                       Delete
                     </a>
+              <?php } ?>
                   </div>
                 </div>
-              </div>
-             
+              </div>   
             </div>
              <?php 
                   $i++;

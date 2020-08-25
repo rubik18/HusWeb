@@ -5,7 +5,7 @@
 // Chuỗi kết nối
   session_start();
 // var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['admin'])) {
   header("Location:/php-intership-team/admin/SourceFile/login/login.php");
 }
  ?>
@@ -46,6 +46,7 @@ if (!isset($_SESSION['user'])) {
       <p class="login-box-msg" style="text-align: center; font-size: 15px;">Register a new admin</p>
 
       <form action="register_submit.php" method="post" enctype="multipart/form-data">
+        <!-- fullname -->
         <div class="input-group mb-3">
           <input type="text" class="form-control" name = "full_name" placeholder="Full name" value="">
           <div class="input-group-append">
@@ -54,6 +55,16 @@ if (!isset($_SESSION['user'])) {
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true && empty($_SESSION['register']['full_name'])) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger">Please fill in the blanks </div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- username -->
         <div class="input-group mb-3">
           <input type="text" class="form-control" name = "user_name"placeholder="Username">
           <div class="input-group-append">
@@ -62,6 +73,16 @@ if (!isset($_SESSION['user'])) {
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true && empty($_SESSION['register']['user_name'])) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger">Please fill in the blanks </div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- password -->
         <div class="input-group mb-3">
           <input type="password" class="form-control" name = "password"placeholder="Password">
           <div class="input-group-append">
@@ -70,6 +91,16 @@ if (!isset($_SESSION['user'])) {
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true && empty($_SESSION['register']['password'])) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger">Please fill in the blanks </div>
+        </div>
+        <?php      
+          }
+        ?>
+        <!-- repassword -->
         <div class="input-group mb-3">
           <input type="password" class="form-control" name = "repassword"placeholder="Retype password">
           <div class="input-group-append">
@@ -78,6 +109,15 @@ if (!isset($_SESSION['user'])) {
             </div>
           </div>
         </div>
+        <?php 
+          if (@$_GET['Empty'] == true && empty($_SESSION['register']['repassword'])) {
+        ?>
+        <div class="input-group mb-3">
+          <div class= "alert-light text-danger">Please fill in the blanks </div>
+        </div>
+        <?php      
+          }
+        ?>
         <?php 
           if (@$_GET['MinValue'] == true) {
         ?>
@@ -88,25 +128,7 @@ if (!isset($_SESSION['user'])) {
           }
         ?>
         <!-- empty password -->
-        <?php 
-          if (@$_GET['Empty'] == true) {
-        ?>
-        <div class="input-group mb-3">
-          <div class= "alert-light text-danger">Please fill in the blanks </div>
-        </div>
-        <?php      
-          }
-        ?>
         <!-- incorrect password or username -->
-        <?php 
-          if (@$_GET['Invalid'] == true) {
-        ?>
-        <div class="input-group mb-3">
-          <div class= "alert-light text-danger">Please enter correct repassword</div>
-        </div>
-        <?php      
-          }
-        ?>
         <?php 
           if (@$_GET['exited'] == true) {
         ?>
@@ -133,7 +155,6 @@ if (!isset($_SESSION['user'])) {
           <select class="form-control " name = "type" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
             <option selected="selected" value ="1">1</option>
             <option selected="selected" value ="2">2</option>
-            <option selected="selected" value ="3">3</option>
           </select>
         </div>
         <div class="row">

@@ -3,7 +3,7 @@
   require'db/connect.php';
   session_start();
 // var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['admin'])) {
   header("Location:login/login.php");
 }
 // Chuỗi kết nối
@@ -85,7 +85,7 @@ if (!isset($_SESSION['user'])) {
                     <th>Type</th>
                     <th>Avatar</th>
                     <th>Description</th>
-                    <th>Action</th>
+                    <th>Action</th>    
                   </tr>
                   </thead>
                   <tbody>

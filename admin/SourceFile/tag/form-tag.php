@@ -5,7 +5,7 @@
 // Chuỗi kết nối
   session_start();
 // var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['admin'])) {
   header("Location:/php-intership-team/admin/SourceFile/login/login.php");
 }
  ?>

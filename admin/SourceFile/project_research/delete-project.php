@@ -2,7 +2,7 @@
 // Kết nối
 	require'../db/connect.php';
 	$conn->set_charset("utf8");
-	if (!isset($_SESSION['user'])) {
+	if (!isset($_SESSION['admin'])) {
 	header("Location:login/login.php");die();
 	}
 // Tạo mã SQLs

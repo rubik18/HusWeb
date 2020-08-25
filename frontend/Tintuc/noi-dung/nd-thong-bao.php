@@ -21,6 +21,13 @@
                 die('error'. mysqli_error($conn));
                 }
 
+    $sqltag = "SELECT `news_tag`.news_id, `news_tag`.tags_id, `tag`.* FROM `news_tag`, `tag` WHERE `news_tag`.news_id= $id AND `news_tag`.tags_id=`tag`.id";
+    $conn->set_charset("utf8");
+    $resultag = mysqli_query($conn, $sqltag); 
+    if (!$resultag) {
+        die('error'. mysqli_error($conn));
+    }  
+
  ?>
 
   <title>
@@ -160,6 +167,17 @@
                         
                         <ul class="post-tags">
                             <li><strong>Tags:</strong></li>
+                            <?php 
+                                                    if(mysqli_num_rows($resultag)>0){
+                                                        $m = 0 ;
+                                                        while($rowa = mysqli_fetch_assoc($resultag)){
+                                                            $m++;
+                                                            
+                                                            
+                                                    ?>  
+                                                    <a class="tag-small-item pull-left"  href="/php-intership-team/frontend/Tintuc/tag.php?tag=<?php echo $rowa['tag'] ?>"><span class="trending-span"></span><i class="fa fa-tag red-color"></i> <?php echo  $rowa['tag'] ; ?>
+                                                       </a>  
+                                                       <?php  }} ?>   
                             
                         </ul>
                     </div>
