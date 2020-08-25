@@ -62,6 +62,7 @@ if(!isset($_GET['search'])){
 		$type = $_GET['topic_type'];
         $date_from = $_GET['date_from'];
         $date_to = $_GET['date_to'];
+        $limit = $_GET['page_size'];
         if ($topic !="" || $type !="" || $date_from !="" || $date_to !="") {
         	$sqllist = "SELECT COUNT(*) from `topic_project`, `type_topic_project` WHERE topic_project.id_type= type_topic_project.id and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31'";
             $query2=mysqli_query($connect, $sqllist) or die("connected error!!");
@@ -74,8 +75,10 @@ if(!isset($_GET['search'])){
 		     // var_dump($current_page);
 		   	if(isset($_GET['page_size'])){
 		   		$limit = $_GET['page_size'];
-		   	} else{
-		    $limit = 10;}
+		   	} else {
+		   		$limit = $_GET['$limit'];
+		   		
+		   	}
 		    // var_dump($limit);
 		    $total_page=ceil($total_record/$limit);
 		    // var_dump($total_page);
@@ -86,7 +89,7 @@ if(!isset($_GET['search'])){
 		    }
     		$start = ($current_page - 1) * $limit;
 
-           	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31'" or die("Không tìm thấy");
+           	$select="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' LIMIT $start, $limit; " or die("Không tìm thấy");
         	$select1="SELECT * FROM `topic_project`, `type_topic_project` WHERE type_topic_project.id= topic_project.id_type and topic_project.id_type in (1,2,3,4,5)  and `name` LIKE '%$topic%' AND `name_type` LIKE'%$type%' AND `approval_date` between '$date_from-01-01' and '$date_to-12-31' " or die("Không tìm thấy");
         	
         	// var_dump($select);die;
@@ -316,7 +319,7 @@ if(!isset($_GET['search'])){
 																        <li><a class="active"  href="de-tai-du-an-CNKH.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 																    	<?php }  else{?>
 																    	
-																        <li><a  href="de-tai-du-an-CNKH.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+																        <li><a  href="de-tai-du-an-CNKH.php?page=<?php echo $i; ?>&date_from=<?php echo $date_from; ?>&date_to=<?php echo $date_to; ?>&topic_name=<?php echo $topic; ?>&topic_type=<?php echo $type; ?>&search=<?php echo $_GET['search']; ?>&page_size=<?php echo $limit; ?>"><?php echo $i; ?></a></li>
 
 																    	<?php } }?>
 																    	<?php if ($current_page < $total_page && $total_page > 1){ ?>
