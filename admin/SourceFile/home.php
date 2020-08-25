@@ -4,8 +4,8 @@ require'db/connect.php';
 $conn->set_charset("utf8");
 //chuỗi kết nối
 session_start();
-// var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+// var_dump(empty($_SESSION['admin']));die();
+if (empty($_SESSION['admin'])) {
   header("Location:login/login.php");
 }
  ?>

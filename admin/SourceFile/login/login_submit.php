@@ -13,8 +13,12 @@ if (isset($_POST['login'])) {
   else{
   	$sql = "SELECT * FROM user WHERE user_name = '$username' AND password = '$password'";
   	$result = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_array($result);
   	if (mysqli_num_rows($result) > 0) {
-  		$_SESSION['user'] = $username;
+  		$_SESSION['admin'] = $row;
+      // echo "<pre>";
+      // var_dump($_SESSION);die();
+      // echo "</pre>";
   		// var_dump($_SESSION['user']);die();
   		header("Location:../home.php");
   	}

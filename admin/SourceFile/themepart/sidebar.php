@@ -1,13 +1,11 @@
 <?php 
-  
-  if (!isset($_SESSION['user'])) {
+  $conn->set_charset("utf8");
+  if (!isset($_SESSION['admin'])) {
   header("Location:login/login.php");
 }
-  $name = $_SESSION['user'];
-  $conn->set_charset("utf8");
-  $s =  "SELECT * FROM user WHERE user_name = '$name'";
-  $r = mysqli_query($conn,$s);
-  $old = mysqli_fetch_assoc($r);
+  $name = $_SESSION['admin']['user_name'];
+  // $r = mysqli_query($conn,$s);
+  // $old = mysqli_fetch_assoc($r);
    // var_dump($row);die(); 
  ?>
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -25,10 +23,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo $old['avatar'] ?>" class="img-circle elevation-2" alt="User Image" style ="width:33.6px; height:33.6px " >
+          <img src="<?php echo $_SESSION['admin']['avatar'] ?>" class="img-circle elevation-2" alt="User Image" style ="width:33.6px; height:33.6px " >
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $old['user_name'] ?></a>
+          <a href="#" class="d-block"><?php echo $name ?></a>
         </div>
       </div>
 
