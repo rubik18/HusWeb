@@ -5,7 +5,7 @@
 // Chuỗi kết nối
   session_start();
 // var_dump($_SESSION['user']);die();
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['admin'])) {
   header("Location:/php-intership-team/admin/SourceFile/login/login.php");
 }
  ?>
@@ -98,15 +98,6 @@ if (!isset($_SESSION['user'])) {
           }
         ?>
         <!-- incorrect password or username -->
-        <?php 
-          if (@$_GET['Invalid'] == true) {
-        ?>
-        <div class="input-group mb-3">
-          <div class= "alert-light text-danger">Please enter correct repassword</div>
-        </div>
-        <?php      
-          }
-        ?>
         <?php 
           if (@$_GET['exited'] == true) {
         ?>

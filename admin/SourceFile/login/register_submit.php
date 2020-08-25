@@ -15,6 +15,10 @@ $file_tmp =$_FILES['fileupload']['tmp_name'];
 //tạo đường dẫn lưu file trên host:
 $path ="upload/".$file_name;
 $link ="/php-intership-team/admin/SourceFile/login/upload/".$file_name;
+if ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
+  header("Location:register.php?Empty=true");
+  return fail;
+}
 //upload nội dung file từ đường dẫn tạm vào đường dẫn vừa tạo:
 move_uploaded_file($file_tmp,$path);
   if (isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"]!=null) {
@@ -27,10 +31,7 @@ $x = "SELECT * FROM `user` WHERE `user_name` = '$username'";
 $r = mysqli_query($conn,$x);
 
 if (mysqli_num_rows($r) > 0) {
-  header("Location:register.php?exited= Existed acc");
-}
-elseif ( isset($_POST['submit']) || empty($username) || empty($fullname) || empty($password) || empty($repassword) ) {
-  header("Location:register.php?Empty=true");
+  header("Location:register.php?exited= Existed a");
 }
 elseif ( $password != $repassword) {
   header("Location:register.php?Invalid=true");
