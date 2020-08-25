@@ -144,9 +144,9 @@ if (!isset($_SESSION['admin'])) {
                   <label for="exampleInputFile">Avatar<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <div>
                     Chọn file để upload:
-                    <input type="file" name="fileupload" id="fileupload" accept="image/*"><br>
+                    <input type="file" name="fileupload" id="fileupload" accept="image/*" value="<?php if (isset($_SESSION['avatar'])) {echo $_SESSION['avatar'];} ?>" ><br>
                     URL:
-                    <input type="text" name = "URL" class="form-control" placeholder="Enter ...">
+                    <input type="text" name = "URL" class="form-control" placeholder="Enter ..." value="<?php if (isset($_SESSION['avatar'])) {echo $_SESSION['avatar'];} ?>">
                   </div>
                 </div>
                 <?php 

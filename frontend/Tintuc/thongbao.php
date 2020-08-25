@@ -170,7 +170,7 @@
                                      <!-- //////////////// -->
                                 
                                 <!-- /////Last/////// -->
-                            <?php    if($page == $count && $count>2){?>
+                            <?php    if($page == $count && $count>1){?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="thongbao.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
                                      <li>

@@ -30,7 +30,7 @@
                     </div>
                 
                     <div class="carousel-item"><a href="">
-                        <img class="d-block w-100" src="/php-intership-team/img/main/slider-chao-mung.jpg" alt="Second slide"></a>
+                        <img class="d-block w-100" src="/php-intership-team/img/main/dang-ky-nhap-hoc-web-tuyen-sinh.jpg" alt="Second slide"></a>
                     </div>
                 
                     <div class="carousel-item"><a href="">
@@ -100,110 +100,110 @@
             <div class="world-latest-articles">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <div>                          
-                            <div class="row title">
-                                <div class="block-title uppercase">
-                                    <h5><a>Tin tức</a></h5>
-                                </div>  
-                            </div>
-                                <?php if(mysqli_num_rows($news) > 0){
-                                    $i = 0;
-                                    while($row = mysqli_fetch_assoc($news)){ 
-                                    $id = $row['id'];     
-                                ?>
-                                <div class="single-blog-post post-style-4 d-flex align-items-center">
-                                    <div class="post-thumbnail">
-                                        <a href="<?php 
-                                                switch ($row['id_category']) {
-                                                    case '1':
-                                                        echo $link[6] ."?id=" . $id;
-                                                        break;
-                                                    case '2':
-                                                        echo $link[1] ."?id=" . $id;
-                                                        break;
-                                                    case '3':
-                                                        echo $link[2] ."?id=" . $id;
-                                                        break;
-                                                    case '5':
-                                                        echo $link[3] ."?id=" . $id;
-                                                        break;
-                                                    case '6':
-                                                        echo $link[4] ."?id=" . $id;
-                                                        break;
-                                                    case '7':
-                                                        echo $link[5] ."?id=" . $id;
-                                                        break; 
-                                                    case '8':
-                                                        echo $link[6] ."?id=" . $id;
-                                                        break;
-                                                }
-                                                ?>">
-                                        <img src="<?php echo $row['avatar'];?>" style="width: 210; height: 139" alt="<?php 
-                                                $string = $row['title'];
-                                                $arr = explode(' ' ,$string);
-                                                for($x = 0; $x < 15 && $x < count($arr); $x ++){
-                                                    echo $arr[$x] ." ";
-                                                }?>..." >
-                                        </a>
-                                    </div>
-                                    <div class="post-content">
-                                        <a href="<?php 
-                                                switch ($row['id_category']) {
-                                                    case '1':
-                                                        echo $link[6] ."?id=" . $id;
-                                                        break;
-                                                    case '2':
-                                                        echo $link[1] ."?id=" . $id;
-                                                        break;
-                                                    case '3':
-                                                        echo $link[2] ."?id=" . $id;
-                                                        break;
-                                                    case '5':
-                                                        echo $link[3] ."?id=" . $id;
-                                                        break;
-                                                    case '6':
-                                                        echo $link[4] ."?id=" . $id;
-                                                        break;
-                                                    case '7':
-                                                        echo $link[5] ."?id=" . $id;
-                                                        break; 
-                                                    case '8':
-                                                        echo $link[6] ."?id=" . $id;
-                                                        break;
-                                                }
-                                                ?>" class="headline">
-                                            <h5><?php 
-                                                $string = $row['title'];
-                                                $arr = explode(' ' ,$string);
-                                                for($x = 0; $x < 15 && $x < count($arr); $x ++){
-                                                    echo $arr[$x] ." ";
-                                                }
-                                            ?>...</h5>
-                                        </a>
-                                        <p>
-                                        <?php 
-                                            $string = $row['description'];
-                                            $arr = explode(' ' ,$string);
-                                            for($x = 0; $x < 28 && $x< count($arr); $x++){
-                                                echo $arr[$x] ." ";
-                                            }
-                                        ?>...</p>
-                                        <div class="post-meta">
-                                            <p><a href="" class="post-date" style="color: grey">
-                                                <?php 
-                                                    $time = strtotime($row['created_at']);
-                                                    echo date("d/m/Y", $time);
-                                                ?>
-                                                </a> 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php
-                               $i ++; }}
-                            ?>
+                        <div class="row title">
+                            <div class="block-title uppercase">
+                                <h5><a>Tin tức</a></h5>
+                            </div>  
                         </div>
+
+                        <?php if(mysqli_num_rows($news) > 0){
+                            $i = 0;
+                            while($row = mysqli_fetch_assoc($news)){ 
+                            $id = $row['id'];     
+                        ?>
+                        <div class="single-blog-post post-style-4 d-flex align-items-center">
+                            <div class="post-thumbnail">
+                                <a href="<?php 
+                                        switch ($row['id_category']) {
+                                            case '1':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                            case '2':
+                                                echo $link[1] ."?id=" . $id;
+                                                break;
+                                            case '3':
+                                                echo $link[2] ."?id=" . $id;
+                                                break;
+                                            case '5':
+                                                echo $link[3] ."?id=" . $id;
+                                                break;
+                                            case '6':
+                                                echo $link[4] ."?id=" . $id;
+                                                break;
+                                            case '7':
+                                                echo $link[5] ."?id=" . $id;
+                                                break; 
+                                            case '8':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                        }
+                                        ?>">
+                                <img src="<?php echo $row['avatar'];?>" style="width: 210; height: 139" alt="<?php 
+                                        $string = $row['title'];
+                                        $arr = explode(' ' ,$string);
+                                        for($x = 0; $x < 15 && $x < count($arr); $x ++){
+                                            echo $arr[$x] ." ";
+                                        }?>..." >
+                                </a>
+                            </div>
+                            <div class="post-content">
+                                <a href="<?php 
+                                        switch ($row['id_category']) {
+                                            case '1':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                            case '2':
+                                                echo $link[1] ."?id=" . $id;
+                                                break;
+                                            case '3':
+                                                echo $link[2] ."?id=" . $id;
+                                                break;
+                                            case '5':
+                                                echo $link[3] ."?id=" . $id;
+                                                break;
+                                            case '6':
+                                                echo $link[4] ."?id=" . $id;
+                                                break;
+                                            case '7':
+                                                echo $link[5] ."?id=" . $id;
+                                                break; 
+                                            case '8':
+                                                echo $link[6] ."?id=" . $id;
+                                                break;
+                                        }
+                                        ?>" class="headline">
+                                    <h5><?php 
+                                        $string = $row['title'];
+                                        $arr = explode(' ' ,$string);
+                                        for($x = 0; $x < 15 && $x < count($arr); $x ++){
+                                            echo $arr[$x] ." ";
+                                        }
+                                    ?>...</h5>
+                                </a>
+                                <p>
+                                <?php 
+                                    $string = $row['description'];
+                                    $arr = explode(' ' ,$string);
+                                    for($x = 0; $x < 28 && $x< count($arr); $x++){
+                                        echo $arr[$x] ." ";
+                                    }
+                                ?>...</p>
+                                <div class="post-meta">
+                                    <p><a href="" class="post-date" style="color: grey">
+                                        <?php 
+                                            $time = strtotime($row['created_at']);
+                                            echo date("d/m/Y", $time);
+                                        ?>
+                                        </a> 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                           $i ++; }}
+                        ?>
                     </div>
+                        
                     <div class="col-12 col-lg-4">
                         <div>
                             <div class="titlethongbao">
@@ -290,7 +290,7 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-6 pdr-10">
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[0]?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[0]?>" style="width: 565; height: 400;">
                                             </a> 
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[0]?>"><?php echo $arr_title[0]?></a></h4>
@@ -306,7 +306,7 @@
                                         <div class="col-12 col-lg-12 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[1]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[1]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[1]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[1]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[1]?>"><?php echo $arr_title[1]?></a></h4>
@@ -320,7 +320,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[2]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[2]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[2]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[2]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[2]?>"><?php echo $arr_title[2]?></a></h4>
@@ -340,7 +340,7 @@
                                         <div class="col-12 col-lg-12 mrb-20 pd-0">
                                             <div class="row">
                                                 <div class="col-12 col-lg-6 pdr-10">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[3]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[3]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[3]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[3]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[3]?>"><?php echo $arr_title[3]?></a></h4>
@@ -354,7 +354,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-lg-6 pdr-0">
-                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[4]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[4]?>" style="width: 265; height: 192;">
+                                                    <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[4]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[4]?>" style="width: 265; height: 192;">
                                                     </a> 
                                                     <div class="caption2">
                                                         <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[4]?>"><?php echo $arr_title[4]?></a></h4>
@@ -370,7 +370,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-lg-12 pd-0">
-                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[5]?>"><img id="dnn_View_ltr1img" src="/php-intership-team/admin/SourceFile/<?php echo $arr_avatar[5]?>" style="width: 565; height: 400;">
+                                            <a href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id=<?php echo $arr[5]?>"><img id="dnn_View_ltr1img" src="<?php echo $arr_avatar[5]?>" style="width: 565; height: 400;">
                                             </a>  
                                             <div class="caption">
                                                 <h4><a style="text-decoration: none" href="/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php?id= <?php echo $arr[5]?>"><?php echo $arr_title[5]?></a></h4>

@@ -179,7 +179,7 @@
                                      <!-- //////////////// -->
                                 
                                 <!-- /////Last/////// -->
-                            <?php    if($page == $count && $count>2){?>
+                            <?php    if($page == $count && $count>1){?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="daotaots.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
                                      <li>
@@ -221,7 +221,7 @@
                                     <div class="jquery-accordion-menu-header">Tin tức </div>
                                     <ul>
                                         <li class=""><a href="tinmoinhat.php">Tin mới nhất</a></li>
-                                        <li class=""><a href="daotaots.php">Sự kiện</a></li>
+                                        <li class=""><a href="sukien.php">Sự kiện</a></li>
                                         <li class=""><a href="thongbao.php">Thông báo</a></li>
                                         <li class=""><a href="daotaotschung.php">Tin tức chung</a></li>
                                         <li class=""><a href="dangvadoan.php">Đảng và các Đoàn thể</a></li>

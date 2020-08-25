@@ -5,10 +5,10 @@
     }else {
         $page = 1;
     }
-    $ipage = ($page-1) * 1;
+    $ipage = ($page-1) * 6;
   require'connectSQL.php';
 // Chuỗi kết nối
-      $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3','2') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,1 ";
+      $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.id NOT IN ('3','2') AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,6 ";
       $conn->set_charset("utf8");
       $result = mysqli_query($conn, $sql); 
       if (!$result) {
@@ -212,7 +212,7 @@
                                     $count = 0;
                                     if(mysqli_num_rows($resultlist)>0 ){
                                         while($row = mysqli_fetch_assoc($resultlist) ){  
-                                          $count = ceil($row['COUNT(*)'] /1) ;
+                                          $count = ceil($row['COUNT(*)'] /6) ;
                                         }
                                     }
                                     /////First/// 
@@ -287,7 +287,7 @@
                                      <!-- //////////////// -->
                                 
                                 <!-- /////Last/////// -->
-                            <?php    if($page == $count && $count>2){?>
+                            <?php    if($page == $count && $count>1){?>
                                     <li>
                                     <a id="dnn_ctr10929_newsviewer_ctl00_vbPaging_btnNext" class="inactive" href="tintuc.php?page=<?php echo $page-1 ?>" style="padding-top: 10px!important"><i class="fa fa-angle-double-left"></i></a></li>
                                      <li>
