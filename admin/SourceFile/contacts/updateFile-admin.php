@@ -80,22 +80,6 @@ if (!isset($_SESSION['admin'])) {
             </div>
           </div>
         </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" name = "password" value="<?php echo $row['password'] ?>">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" name = "repassword" value="<?php echo $row['password'] ?>">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
-        </div>
         <?php 
           if (@$_GET['Empty'] == true) {
         ?>
@@ -137,12 +121,13 @@ if (!isset($_SESSION['admin'])) {
           
 
         
-        <div><label>Lever</label></div>
+        <div><label>Level</label></div>
         <div class="input-group mb-3">
-          <select class="form-control " name = "type" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
-            <option selected="selected" value ="1">1</option>
-            <option selected="selected" value ="2">2</option>
-            <option selected="selected" value ="3">3</option>
+          <select class="form-control " name = "level" style="width: 100%; border-right: 1.5px solid #dee2e6 !important;">
+            <option selected="selected" value="<?php echo $row['level'] ?>"><?php echo $row['level'] ?></option>
+            <option  value ="1">1</option>
+            <option  value ="2">2</option>
+            <option  value ="3">3</option>
           </select>
         </div>
         <div class="row">
