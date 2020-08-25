@@ -156,7 +156,7 @@
                                                     $id = $row['id'];
                                     ?>
 
-                                <div id="list_news" style="width: 100%; margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-top: 10px; ">
+                                <div id="list_news" style=" width: 100%; margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-top: 10px; ">
                                     <div class="list-news">
                                         <div class="list-article">
                                             <ul class="list-item">
