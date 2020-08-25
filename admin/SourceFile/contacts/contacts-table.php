@@ -80,7 +80,7 @@ if (!isset($_SESSION['admin'])) {
               <!--  -->           
             <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
              
-              <div class="card bg-light">
+              <div class="card bg-light" style="width: 300px; height: 189px;">
                 <div class="card-body pt-0"> <!-- thẻ trắng -->
                   <div class="row" style="margin-top: 10px!important;">
                     <div class="col-8">
