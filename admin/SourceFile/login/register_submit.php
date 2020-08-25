@@ -24,14 +24,17 @@ move_uploaded_file($file_tmp,$path);
   if (isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"]!=null) {
   	$avatar = $link;
   }
-  else{
+  elseif(isset($_FILES['fileupload'])&&$_FILES['fileupload']["name"] = null ){
   	$avatar = $_POST['URL'];
   }
-$x = "SELECT * FROM `user` WHERE `user_name` = '$username'";
+  else{
+    $avatar = "/php-intership-team/admin/SourceFile/login/upload/admin.jpg";
+  }
+$x = "SELECT * FROM `user` WHERE `user_name` = '$username' AND deleted_at is null";
 $r = mysqli_query($conn,$x);
 
 if (mysqli_num_rows($r) > 0) {
-  header("Location:register.php?exited= Existed a");
+  header("Location:register.php?exited= Existed admin");
 }
 elseif ( $password != $repassword) {
   header("Location:register.php?Invalid=true");
