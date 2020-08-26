@@ -78,7 +78,7 @@ if (empty($_SESSION['admin'])) {
               <div class="inner">
                 <h3><?php echo $row[0];  ?></h3>
 
-                <p>Tin tức</p>
+                <p>News</p>
               </div>
               <div class="icon">
                 <i class="fas fa-newspaper"></i>
@@ -100,7 +100,7 @@ if (empty($_SESSION['admin'])) {
               <div class="inner">
                 <h3><?php echo $row[0]; ?></h3>
 
-                <p>Sự kiện</p>
+                <p>Events</p>
               </div>
               <div class="icon">
                 <i class="fas fa-glass-cheers"></i>
@@ -122,7 +122,7 @@ if (empty($_SESSION['admin'])) {
               <div class="inner">
                 <h3><?php echo $row[0]; ?></h3>
 
-                <p>Thông báo</p>
+                <p>Notifications</p>
               </div>
               <div class="icon">
                 <i class="far fa-flag"></i>
@@ -139,7 +139,7 @@ if (empty($_SESSION['admin'])) {
               <div class="inner">
                 <h3>5</h3>
 
-                <p>Contact</p>
+                <p>Admin</p>
               </div>
               <div class="icon">
                 <i class="fas fa-user-plus"></i>

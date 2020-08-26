@@ -195,10 +195,10 @@ if (!isset($_SESSION['admin'])) {
                   </div>
                  <!-- mô tả -->
                   <div class="form-group">
-                    <label>Mô tả</label>
+                    <label>Description</label>
                     <textarea class="form-control" rows="3" name = "description" placeholder="Enter ..." ><?php if (isset($_SESSION['description'])) {echo $_SESSION['description'];} ?></textarea>
                   </div>
-                  <label for="exampleInputFile">Nội dung<div class= "text-danger" style="display: inline-block;">*</div></label>
+                  <label for="exampleInputFile">Content<div class= "text-danger" style="display: inline-block;">*</div></label>
                   <textarea class="textarea" name="content" placeholder="Place some text here"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"><?php if (isset($_SESSION['description'])) {echo $_SESSION['description'];} ?></textarea>
                   <?php 

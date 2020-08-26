@@ -40,7 +40,7 @@
             <a href="/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
-                Tin tức
+                News
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -48,32 +48,32 @@
               <li class="nav-item">
                 <a href="/php-intership-team/admin/SourceFile/table-master.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>DataBase</p>
+                  <p>Content Table</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/php-intership-team/admin/SourceFile/table-tintuc.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Tin tức</p>
+                  <p>News</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/php-intership-team/admin/SourceFile/table-sukien.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Sự kiện</p>
+                  <p>Events</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/php-intership-team/admin/SourceFile/table-thongbao.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Thông báo</p>
+                  <p>Notifications</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
                   <i class="nav-icon fas fa-plus-circle"></i>
                   <p>
-                    Thêm bài viết
+                    Add Content
                   </p>
                 </a>
               </li>
@@ -99,7 +99,7 @@
                   <a href="/php-intership-team/admin/SourceFile/tag/form-tag.php" class="nav-link">
                   <i class="nav-icon fas fa-plus-circle"></i>
                   <p>
-                  Thêm Tag
+                  Add Tag
                   </p>
                   </a>
               </li>
@@ -110,7 +110,7 @@
             <a href="/php-intership-team/admin/SourceFile/project_research/table-project.php" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
-                Đề tài dự án
+                Topic & Project
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -125,7 +125,7 @@
                   <a href="/php-intership-team/admin/SourceFile/project_research/form-project.php" class="nav-link">
                   <i class="nav-icon fas fa-plus-circle"></i>
                   <p>
-                  Thêm đề tài
+                  Add project
                   </p>
                   </a>
               </li>
@@ -146,20 +146,20 @@
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/register.php" class="nav-link">
               <i class="fas fa-user-circle nav-icon"></i>
-              <p>Tạo admin</p>
+              <p>Create admin</p>
             </a>
           </li>
           <?php } ?>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/recover-password.php" class="nav-link">
               <i class="fas fa-cog nav-icon"></i>
-              <p>Đổi mật khẩu</p>
+              <p>Change password</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="/php-intership-team/admin/SourceFile/login/logout.php" class="nav-link">
               <i class="fas fa-sign-out-alt nav-icon"></i>
-              <p>Đăng xuất</p>
+              <p>Logout</p>
             </a>
           </li>
         </ul>
