@@ -4,10 +4,10 @@
 	  session_start();
 // var_dump($_SESSION['user']);die();
 
-if (!isset($_SESSION['admin']) and $_SESSION['admin']['level'] == 1 ) {
+if (!isset($_SESSION['admin'])) {
  header("Location: /php-intership-team/admin/SourceFile/login/login.php");die();
 }
-elseif ($_SESSION['admin']['level'] == 1) {
+elseif ($_SESSION['admin']['level'] == 'Editor') {
   header("Location: /php-intership-team/admin/SourceFile/home.php");die();
 }
 	$conn->set_charset("utf8");
