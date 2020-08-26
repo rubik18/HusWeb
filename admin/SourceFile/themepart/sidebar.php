@@ -124,7 +124,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/form-test.php?click=a" class="nav-link">
+            <a href="/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
               <i class="nav-icon fas fa-plus-circle"></i>
               <p>
                 Thêm bài viết
