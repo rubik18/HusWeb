@@ -7,6 +7,9 @@
 if (!isset($_SESSION['admin'])) {
  header("Location: /php-intership-team/admin/SourceFile/login/login.php");die();
 }
+elseif ($_SESSION['admin']['level'] == 1) {
+  header("Location: /php-intership-team/admin/SourceFile/home.php");die();
+}
 	$conn->set_charset("utf8");
 // Tạo mã SQL
 	$id = (int)$_GET['id'];
