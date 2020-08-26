@@ -69,6 +69,14 @@
                   <p>Thông báo</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
+                  <i class="nav-icon fas fa-plus-circle"></i>
+                  <p>
+                    Thêm bài viết
+                  </p>
+                </a>
+              </li>
             </ul>
           </li>
           <!-- tag -->
@@ -122,14 +130,6 @@
                   </a>
               </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a href="/php-intership-team/admin/SourceFile/form-test.php" class="nav-link">
-              <i class="nav-icon fas fa-plus-circle"></i>
-              <p>
-                Thêm bài viết
-              </p>
-            </a>
           </li>
           <!-- <li class="nav-item">
             <a href="/DAPM/php-intership-team/admin/SourceFile/updateFile.php" class="nav-link">

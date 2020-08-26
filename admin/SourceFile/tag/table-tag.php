@@ -99,8 +99,8 @@ if (!isset($_SESSION['admin'])) {
                               </i>
                               Edit
                           </a>
-                          <a class="btn btn-danger btn-sm" href="delete-tag.php?id= <?php echo $row['id']?>">
-                              <i class="fas fa-trash" onclick = "return confirm('Bạn chắc chưa')">
+                          <a class="btn btn-danger btn-sm" href="delete-tag.php?id= <?php echo $row['id']?>" onclick = "return confirm('Bạn đã chắc chưa')">
+                              <i class="fas fa-trash">
                               </i>
                               Delete
                           </a>

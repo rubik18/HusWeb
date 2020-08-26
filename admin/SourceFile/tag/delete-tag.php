@@ -1,9 +1,10 @@
 <?php 
 // Kết nối
+	session_start();
 	require'../db/connect.php';
 	$conn->set_charset("utf8");
-	if (!isset($_SESSION['admin'])) {
-	header("Location:login/login.php");die();
+	if (empty($_SESSION['admin'])) {
+	header("Location:/php-intership-team/admin/SourceFile/login/login.php");die();
 	}
 // Tạo mã SQL
 	$id = (int)$_GET['id'];
