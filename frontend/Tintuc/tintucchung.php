@@ -5,7 +5,7 @@
     }else {
         $page = 1;
     }
-    $ipage = ($page-1) * 4;
+    $ipage = ($page-1) * 6;
   require'connectSQL.php';
 // Chuỗi kết nối
   $sql = "SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Tin tức chung' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT $ipage,6 ";
@@ -15,7 +15,7 @@
     die('error'. mysqli_error($conn));
   }
 
-  $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Tin tức chung' AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 10";
+  $sqlist = "SELECT COUNT(*) FROM `new`, `category` WHERE new.id_category = category.id AND category.`name`='Tin tức chung' AND new.deleted_at is NULL ORDER BY new.created_at DESC ";
         $conn->set_charset("utf8");
         $resultlist = mysqli_query($conn, $sqlist);
         if (!$resultlist) {
