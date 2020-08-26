@@ -7,7 +7,7 @@
     <?php 
         require 'connectSQL.php';
         $conn->set_charset("utf8");
-        $news = mysqli_query($conn,"SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category NOT IN(3) AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 3;");
+        $news = mysqli_query($conn,"SELECT `new`.*,`category`.`name` FROM `new`, `category` WHERE new.id_category = category.id AND new.id_category NOT IN(2,3) AND new.deleted_at is NULL ORDER BY new.created_at DESC LIMIT 3;");
         $link = array("/php-intership-team/frontend/Tintuc/noi-dung/nd-hoat-dong-khoa-hoc.php",
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-su-kien.php",
                 "/php-intership-team/frontend/Tintuc/noi-dung/nd-thong-bao-chung.php" ,
@@ -138,7 +138,7 @@
                                                 break;
                                         }
                                         ?>">
-                                <img src="<?php echo $row['avatar'];?>" style="width: 210; height: 139" alt="<?php 
+                                    <img src="<?php echo $row['avatar'];?>" style="width: 210; height: 139" alt="<?php 
                                         $string = $row['title'];
                                         $arr = explode(' ' ,$string);
                                         for($x = 0; $x < 15 && $x < count($arr); $x ++){
@@ -180,16 +180,20 @@
                                         }
                                     ?>...</h5>
                                 </a>
+
                                 <p>
-                                <?php 
-                                    $string = $row['description'];
-                                    $arr = explode(' ' ,$string);
-                                    for($x = 0; $x < 28 && $x< count($arr); $x++){
-                                        echo $arr[$x] ." ";
-                                    }
-                                ?>...</p>
+                                    <?php 
+                                        $string = $row['description'];
+                                        $arr = explode(' ' ,$string);
+                                        for($x = 0; $x < 28 && $x< count($arr); $x++){
+                                            echo $arr[$x] ." ";
+                                        }
+                                    ?>...
+                                </p>
+
                                 <div class="post-meta">
-                                    <p><a href="" class="post-date" style="color: grey">
+                                    <p>
+                                        <a class="post-date" style="color: grey">
                                         <?php 
                                             $time = strtotime($row['created_at']);
                                             echo date("d/m/Y", $time);
@@ -201,9 +205,9 @@
                         </div>
                         <?php
                            $i ++; }}
-                        ?>
+                        ?>                 
                     </div>
-                        
+
                     <div class="col-12 col-lg-4">
                         <div>
                             <div class="titlethongbao">
@@ -246,6 +250,7 @@
                                $i ++; }}
                             ?>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
